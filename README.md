@@ -80,3 +80,9 @@ Three.js 的 WebGL 渲染器占据主要包体；生产构建的 JS 约 851 kB�
 ```powershell
 python scripts/analyze_video.py
 ```
+
+## 工程记忆与版本管理
+
+工程记忆采用用户指定的 standard 模式，入口为 [wiki_memory/README.md](wiki_memory/README.md)，维护协议为 [wiki_memory/AGENTS.md](wiki_memory/AGENTS.md)。五份当前状态页记录项目概览、架构、约束、待办和已知问题；历史按六类日志归档。普通开发按项目内协议维护，无需重新调用个人 Skill。
+
+源码远程为 [DewMysimple/mySign](https://github.com/DewMysimple/mySign)，默认交付分支为 `main`。按照用户持续要求，每次完整对话产生的项目修改，都应完成适当验证、提交并推送；具体收尾与远程核对规则见根目录 [AGENTS.md](AGENTS.md)。
