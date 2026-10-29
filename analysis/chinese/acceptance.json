@@ -1,0 +1,481 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-10-29T18:34:45.364Z",
+  "version": "1.1.0",
+  "conclusion": "DESKTOP_PASSED_MOBILE_DEFERRED",
+  "scope": "本轮经用户调整后的桌面功能交付；不代表手机端验收或已部署公网服务。",
+  "sourceRevision": "cc47a1b29e385261197a5899a2d3c8b3690b2ad3",
+  "uncommittedProductChanges": false,
+  "sourceFiles": [
+    {
+      "file": "src/animation/SignatureController.js",
+      "sha256": "38173d403922836df28f6681fa1acb5f97acb697c28d688598bd4a3dfca71c26"
+    },
+    {
+      "file": "src/App.jsx",
+      "sha256": "0b5c2c708d92b62896e0b09adce43ebb9110e39b4e2bc7e763e1653db1a28e70"
+    },
+    {
+      "file": "src/components/SignatureInput.jsx",
+      "sha256": "efb21be0c56064618c5e9642708ecdff40a8ca8e19f47d2c4371b23b2828ebc1"
+    },
+    {
+      "file": "src/handwriting/generated/manifest.json",
+      "sha256": "12cd2478eca9b88904c87e7752e7c9f2a45bf200e20177e0f3e8be598d3865a0"
+    },
+    {
+      "file": "src/handwriting/GlyphCache.js",
+      "sha256": "0d4abad2e5f9839ab38da7a300e6f30de590ea3a7ca9b8b7e4b0b5fe62527ef0"
+    },
+    {
+      "file": "src/handwriting/GlyphLoader.js",
+      "sha256": "3b0b3d08a37e7155b280a9519639736ab0bcd0297ae375a3f5254827f5d3c124"
+    },
+    {
+      "file": "src/handwriting/glyphs.js",
+      "sha256": "67f923ed009f13c554db047ffd54a25cf438bc1210ae0be97081e43e7fd3f89b"
+    },
+    {
+      "file": "src/handwriting/inkRenderer.js",
+      "sha256": "7120f54d02ec3775e17d33896b607d9e14fbf62fcdff7ed13a7b2037c30846fe"
+    },
+    {
+      "file": "src/handwriting/signature.js",
+      "sha256": "07812dd35c49fae74b0e0989a54820af9bb2c3b724eea3eeaacc2087fd1d1e8e"
+    },
+    {
+      "file": "src/handwriting/symbols.js",
+      "sha256": "774b92a696af32d8b41850dac969eadf21e47659644f00f299ab538bb7edb568"
+    },
+    {
+      "file": "src/handwriting/writingPlan.js",
+      "sha256": "2c7b204758821acfbb00f843b5a774700197c500c47222667e77c3988d1316db"
+    },
+    {
+      "file": "src/main.jsx",
+      "sha256": "1d98bca1d5bc2c088f8f02e4f9898101ce3d1a2ccf0039afe522df217d5f1c8f"
+    },
+    {
+      "file": "src/scene/InkParticles.js",
+      "sha256": "f72d4ff6af8ef5d00b83c77a93872ad99c65bf1e2b332f530dfc135e7b06fdb9"
+    },
+    {
+      "file": "src/scene/PencilScene.js",
+      "sha256": "ab0c1b43b2c7467aa9376635e813cf2193988f69de6cdbf1bc86dfd28ded0359"
+    },
+    {
+      "file": "src/scene/softPaperShadow.js",
+      "sha256": "cff1d838f054e1edbced13b606468b562e2c5748ffec6242c36e52a779ea592f"
+    },
+    {
+      "file": "src/styles.css",
+      "sha256": "60fe07538da0e7474c4ca901be113a77290b8af8f53a985d8fba2425ce84dba5"
+    },
+    {
+      "file": "index.html",
+      "sha256": "6bfd8895d955b381ba715bf48c81affd79fff8597b9332b2790f1eaadc325789"
+    },
+    {
+      "file": "package.json",
+      "sha256": "163c0824646cfa2354a3f18f5d3edab48a4989a183cb735f0e84332c10501079"
+    },
+    {
+      "file": "package-lock.json",
+      "sha256": "93005553df881de0c20db3773e88589ef1548aeccf36e3f594286155034a6b51"
+    },
+    {
+      "file": "vite.config.js",
+      "sha256": "4ab750567955ed3f0f02215b282e434d724d1cce4262087c078478f9bc35767b"
+    }
+  ],
+  "evidenceFiles": [
+    {
+      "file": "unit-tests.tap",
+      "sha256": "d3ee17f3e7d1b5416796959237f08f6fdbb43bbee7856c79020b3e10f41f5f7f"
+    },
+    {
+      "file": "pipeline-tests.json",
+      "sha256": "05405391b627a3d65aaa8bdca956bb1f9eb338cb288f0902e58019c561b082ef"
+    },
+    {
+      "file": "target-crosscheck.json",
+      "sha256": "8b351ce91543240b07273d4c460d33464268cc4127d18bac65eb35812dea8216"
+    },
+    {
+      "file": "../../data/glyphs/targets.json",
+      "sha256": "79865f4f2fab607ef7939594b0e52b2b182a1a4a44986b93f2897ba6a7d3c5cc"
+    },
+    {
+      "file": "glyph-quality.json",
+      "sha256": "ff199b4fb16be1e8790f51930aa40c37cf32bd60203bc06bb30e8dff3fd38884"
+    },
+    {
+      "file": "../../public/glyphs/qualification.json",
+      "sha256": "f1a698a079a44484bd012b1733a174d2c6c1a7c14e5b0e90636d1e43f0e23625"
+    },
+    {
+      "file": "masks/coverage.json",
+      "sha256": "b1c0747b8dd86173cf63c168fe93160cda8f87f11fcc4e69d53d53fa46d8b871"
+    },
+    {
+      "file": "atlas-review.json",
+      "sha256": "30782624c4a8ad1e5394d951f0c43311860b8964ce5f1996164b49f31700e18d"
+    },
+    {
+      "file": "data-source-selection.md",
+      "sha256": "0d189463c5b8486d97a4921901b3b50b6d7a5b5d67cbb8c4767b18a979b47b20"
+    },
+    {
+      "file": "source-comparison.json",
+      "sha256": "8be6de2b82ac6825d56dd30ed785233d5d45afb2126ebc2bc5ccf73718a800a3"
+    },
+    {
+      "file": "source-animation-comparison.json",
+      "sha256": "f9e1da1028693ce47f97daf6be1b73673a6b4b54e2b5bacd5cfc233db461006e"
+    },
+    {
+      "file": "../../public/glyphs/provenance.json",
+      "sha256": "a7f2f31acf7e122125ded5776b90be81e4f503f04987227688d46d5eea68d69e"
+    },
+    {
+      "file": "../../public/glyphs/ARPHICPL.TXT",
+      "sha256": "5590533436c70f10f2f524ee61456238c290175c6662fbe1c700b5f038a6d328"
+    },
+    {
+      "file": "browser/chromium-results.json",
+      "sha256": "008c2b714ffea0b6a4e97f6b3d5970337a49c643f0776e96a6e810878fd2c65c"
+    },
+    {
+      "file": "browser/desktop-browsers.json",
+      "sha256": "2c63b3c7ed51a193566e8f6d4c36ba11e4601b1b55661bfbe3e3693c05858a9d"
+    },
+    {
+      "file": "browser/faults-enhanced-results.json",
+      "sha256": "280912841d4e0b831ba1a5e0aba13e840c3d939214d32453c64b6424d43b15a8"
+    },
+    {
+      "file": "browser/faults.json",
+      "sha256": "5e4fe6eac2299a43eb9c763d669dd3ca1b65ca63dfccc906f71bb9b88e6ed778"
+    },
+    {
+      "file": "browser/unmount.json",
+      "sha256": "551f6646e6f17c7da8f0f147266bb64edaec707fe28900ec3da2bcb161102d8c"
+    },
+    {
+      "file": "browser/resize-motion.json",
+      "sha256": "4aa85878cce62bc8d23911b7b8557a7ed1674d3a488d8e402c4c38392d6c1338"
+    },
+    {
+      "file": "browser/motion-during-erase.json",
+      "sha256": "e609c140e4e9d849cff4e59fb45316fc81cf02490056fbdce91541098247d4a3"
+    },
+    {
+      "file": "browser/cache-cycles.json",
+      "sha256": "3c4755a27d31ecaa89f6512af8f18c071bdf4e37a9afe4be0b9711fd94551011"
+    },
+    {
+      "file": "performance/calibration.json",
+      "sha256": "da33f07f035117f441a61fc77aff662728d572fefcbbf0ed77de47ac09ae2d3a"
+    },
+    {
+      "file": "performance/budgets.json",
+      "sha256": "4d0e931bb3940cf069f99d46745be0c48b157154038231a8bf252f7e69367628"
+    },
+    {
+      "file": "performance/budget-verification.json",
+      "sha256": "255d21b3957bde27b37b82d438402871a6bd2c70ab8277bf530a38ca82716961"
+    },
+    {
+      "file": "performance/stroke-budget-420.png",
+      "sha256": "fbd5905aff21de1e45f79f6bee138923024eaf3a288a0a4b91c7110911c04f09"
+    },
+    {
+      "file": "browser/adaptive-quality.json",
+      "sha256": "89f321052697ef54cd89bb59f9e3746008f203bafe4bf69e886a0a3ea585450e"
+    },
+    {
+      "file": "visual/english-ink-diff.json",
+      "sha256": "830931b788a4466ec2ff9e944fe74cdbae84ec179844c143a4da6b663cfada83"
+    },
+    {
+      "file": "visual/english-ink-diff.png",
+      "sha256": "27745158ad3e01ff789320cb3c66ed3916c4a5c75be6b20e85b7622d248cbcb8"
+    },
+    {
+      "file": "build-output.txt",
+      "sha256": "74ca71178dc0f87b2b18ee07308d07788bcde3dff9bb9c4b70d47d7d266e1e4d"
+    },
+    {
+      "file": "production/production.json",
+      "sha256": "a6c074ea6cf6e2f609819c728625fddb3bea3ac8c32a21e89141d41c839acfb9"
+    },
+    {
+      "file": "implementation.md",
+      "sha256": "71dbaa681cf827f19bc36c0803e333e0cc7f11d5fc04f1077cbb25dead1fcdf6"
+    }
+  ],
+  "environment": {
+    "os": "win32",
+    "node": "v24.16.0",
+    "browserVersions": {
+      "Chrome": "156.0.8078.48",
+      "edge": "156.0.4314.50",
+      "firefox": "157.0",
+      "webkit": "27.2"
+    },
+    "python": "Python 3.14.2",
+    "testWindowUtc": [
+      "2026-10-29T18:08:28.813Z",
+      "2026-10-29T18:20:04.656Z"
+    ],
+    "rendering": "headless desktop, SwiftShader permitted; no mobile claims"
+  },
+  "glyphs": {
+    "target": 3500,
+    "rawCoverage": {
+      "hwd": 3500,
+      "mmh": 3500
+    },
+    "geometryPassed": 3500,
+    "qualified": 3500,
+    "unsupportedTargets": 0,
+    "strokes": 33959,
+    "shards": 110,
+    "datasetGeometrySHA256": "1b4ab49b9417b9d6b5a0b3fc467e8920aedc54fba8b53c5e1424005e47319070",
+    "latin": 52,
+    "digitsAndPunctuation": 46
+  },
+  "tests": {
+    "node": 15,
+    "pipeline": 7,
+    "chromium": 14,
+    "desktopKeyRegressions": 3,
+    "enhancedFaultAndUnmount": 2,
+    "productionCases": 3,
+    "sourcePrototypeRuns": 80
+  },
+  "metrics": {
+    "normalScenarioCount": 7,
+    "normalMaxP95FrameMs": 27.799999999999272,
+    "normalMaxSyncErrorCssPx": 0.0008302891900035311,
+    "normalMaxLoadMs": 45.6000000089407,
+    "normalMaxPlanMs": 4.5,
+    "normalMaxHeapBytes": 19190796,
+    "baselineHeapBytes": 13612192,
+    "finalHeapBytes": 17394868,
+    "boundaryP95FrameMs": 27.69999999999709,
+    "boundarySyncErrorCssPx": 0.000028593404420619808,
+    "boundaryEraseMs": 1305.5,
+    "completeContourCoverage": 1,
+    "englishDifferentInkPixels": 0
+  },
+  "gates": [
+    {
+      "id": "model",
+      "label": "英文原几何、注册表、混排布局、加载与缓存模型",
+      "status": "passed",
+      "evidence": [
+        "unit-tests.tap"
+      ]
+    },
+    {
+      "id": "pipeline",
+      "label": "离线转换、自动修复、推导隔离及双源候选择优",
+      "status": "passed",
+      "evidence": [
+        "pipeline-tests.json"
+      ]
+    },
+    {
+      "id": "targets",
+      "label": "3500 一级字与第二份清单逐项、顺序交叉核对",
+      "status": "passed",
+      "evidence": [
+        "target-crosscheck.json",
+        "../../data/glyphs/targets.json"
+      ]
+    },
+    {
+      "id": "qualified-glyphs",
+      "label": "全部正式字形、配对轮廓中线及逐字质量",
+      "status": "passed",
+      "evidence": [
+        "glyph-quality.json",
+        "../../public/glyphs/qualification.json"
+      ]
+    },
+    {
+      "id": "svg-contours",
+      "label": "全部 33959 笔六阶段显现、完成轮廓像素一致",
+      "status": "passed",
+      "evidence": [
+        "masks/coverage.json"
+      ]
+    },
+    {
+      "id": "atlas",
+      "label": "35 页完整图集由 Codex 逐页目视复核",
+      "status": "passed",
+      "evidence": [
+        "atlas-review.json",
+        "atlas/"
+      ]
+    },
+    {
+      "id": "source-comparison",
+      "label": "两来源固定版本、许可、42 字比较与风险复核",
+      "status": "passed",
+      "evidence": [
+        "data-source-selection.md",
+        "source-comparison.json",
+        "source-animation-comparison.json",
+        "../../public/glyphs/provenance.json",
+        "../../public/glyphs/ARPHICPL.TXT"
+      ]
+    },
+    {
+      "id": "chromium",
+      "label": "桌面 Chromium 完整交互、同步、清除及原英文回归",
+      "status": "passed",
+      "evidence": [
+        "browser/chromium-results.json"
+      ]
+    },
+    {
+      "id": "desktop-browsers",
+      "label": "Edge、Firefox、WebKit 关键功能及输入回归",
+      "status": "passed",
+      "evidence": [
+        "browser/desktop-browsers.json"
+      ]
+    },
+    {
+      "id": "faults-unmount",
+      "label": "七类故障、阴影与笔尖复位、异步取消及卸载重用",
+      "status": "passed",
+      "evidence": [
+        "browser/faults-enhanced-results.json",
+        "browser/faults.json",
+        "browser/unmount.json"
+      ]
+    },
+    {
+      "id": "responsive-motion",
+      "label": "缩放首帧同步、冻结换行与实时动态偏好",
+      "status": "passed",
+      "evidence": [
+        "browser/resize-motion.json",
+        "browser/motion-during-erase.json",
+        "browser/chromium-results.json"
+      ]
+    },
+    {
+      "id": "cache-lifecycle",
+      "label": "重复书写后释放活动引用并回到双层 LRU 预算",
+      "status": "passed",
+      "evidence": [
+        "browser/cache-cycles.json",
+        "performance/calibration.json"
+      ]
+    },
+    {
+      "id": "calibrated-performance",
+      "label": "七组正常速度原型、帧时/同步/内存及时间预算",
+      "status": "passed",
+      "evidence": [
+        "performance/calibration.json",
+        "performance/budgets.json"
+      ]
+    },
+    {
+      "id": "boundary-performance",
+      "label": "独立正常速度 420 笔边界与 421 笔拒绝",
+      "status": "passed",
+      "evidence": [
+        "performance/budget-verification.json",
+        "performance/stroke-budget-420.png"
+      ]
+    },
+    {
+      "id": "adaptive",
+      "label": "受控 CPU 压力触发降级，保留核心路径与同步",
+      "status": "passed",
+      "evidence": [
+        "browser/adaptive-quality.json"
+      ]
+    },
+    {
+      "id": "english-visual",
+      "label": "原英文签名区域蓝色墨迹无视觉回归",
+      "status": "passed",
+      "evidence": [
+        "visual/english-ink-diff.json",
+        "visual/english-ink-diff.png"
+      ]
+    },
+    {
+      "id": "production",
+      "label": "生产构建及三个桌面 DPR 场景，无开发入口或外部请求",
+      "status": "passed",
+      "evidence": [
+        "build-output.txt",
+        "production/production.json"
+      ]
+    },
+    {
+      "id": "mobile-real-devices",
+      "label": "iOS Safari / Android Chrome 真机专项",
+      "status": "deferred-by-user",
+      "evidence": [
+        "implementation.md"
+      ],
+      "reason": "用户于 2026-10-30 明确：先不考虑手机端吧。未执行，不计作通过。"
+    }
+  ],
+  "review": {
+    "reviewer": "Codex",
+    "scope": "35 页全字库图集、盼修复、数字标点及桌面关键帧目视检查；不冒充人类书法专家认证。",
+    "strokes": "原配对笔顺优先；独立依据复核盼修复；两数据源共同祖先不计作独立笔顺认证。"
+  },
+  "resolvedFailures": [
+    {
+      "issue": "盼第七笔原中线离开轮廓",
+      "evidence": [
+        "glyph-quality-before-repair.json",
+        "repair-pan.png",
+        "../../data/glyphs/repairs.json"
+      ]
+    },
+    {
+      "issue": "几何遮罩未涵盖抗锯齿边缘",
+      "evidence": [
+        "masks-before-edge-padding/coverage.json",
+        "mask-failures-before-edge-padding.zip",
+        "masks-after-padding-before-completion/coverage.json"
+      ]
+    },
+    {
+      "issue": "遮罩移除时跨合成器 alpha 面积不单调；改以独立完整轮廓逐像素验证完成状态，保留同遮罩阶段单调门禁",
+      "evidence": [
+        "masks/strict-alpha-area-diagnostic.json.gz",
+        "masks/coverage.json"
+      ]
+    },
+    {
+      "issue": "同时 resize / 动态偏好时首帧映射竞争",
+      "evidence": [
+        "bugs/resize-motion/trace.zip",
+        "bugs/resize-motion/test-failed-1.png",
+        "browser/resize-motion.json"
+      ]
+    }
+  ],
+  "limitations": [
+    "手机专项按用户要求暂缓，桌面 WebKit 不能当 iOS Safari 真机。",
+    "仅正式一级 3500 字及符号注册表；曦、麟、Emoji、重音字母等范围外字符会拒绝。",
+    "固定字形风格，不能生成每人独有书法；柔影使用实时贴图近似。",
+    "性能数字来自本机桌面 Headless / SwiftShader 允许环境，不保证其他 GPU 的帧率。",
+    "JS 约 944 kB / gzip 277 kB，保留 Vite 大 chunk 提示；没有公网部署。",
+    "glyph-quality.json 的 NOT_RELEASED 是几何阶段快照；当前字库结论见 qualification.json，应用结论见本报告。"
+  ]
+}
