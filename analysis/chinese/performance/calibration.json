@@ -1,0 +1,672 @@
+{
+  "date": "2026-10-29T17:25:40.844Z",
+  "environment": {
+    "browser": "156.0.8078.48",
+    "os": "win32",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "deviceScaleFactor": 2,
+    "rendering": "headless desktop, SwiftShader permitted; no mobile claims"
+  },
+  "baselineHeap": {
+    "usedSize": 13612192,
+    "totalSize": 14131200,
+    "embedderHeapUsedSize": 548296,
+    "backingStorageSize": 11306047
+  },
+  "results": [
+    {
+      "text": "王明 Amy，2026！",
+      "strokeCount": 23,
+      "lines": [
+        "王明 Amy，2026！"
+      ],
+      "sampleCount": 1044,
+      "p95FrameMs": 27.69999999999891,
+      "maxErrorPx": 0.0006742139668827473,
+      "metrics": {
+        "loadMs": 14.800000011920929,
+        "planMs": 2.5,
+        "estimatedSeconds": 11.80250351687683,
+        "started": 540.1000000089407,
+        "actualSeconds": 11.80829999999702
+      },
+      "quality": "full",
+      "cache": {
+        "raw": {
+          "entries": 2,
+          "bytes": 1381472,
+          "budgetBytes": 2097152,
+          "pinned": 2,
+          "hits": 0,
+          "misses": 2
+        },
+        "parsed": {
+          "entries": 2,
+          "bytes": 42752,
+          "budgetBytes": 2097152,
+          "pinned": 2,
+          "hits": 0,
+          "misses": 2
+        }
+      },
+      "clearedCache": {
+        "raw": {
+          "entries": 2,
+          "bytes": 1381472,
+          "budgetBytes": 2097152,
+          "pinned": 0,
+          "hits": 0,
+          "misses": 2
+        },
+        "parsed": {
+          "entries": 2,
+          "bytes": 42752,
+          "budgetBytes": 2097152,
+          "pinned": 0,
+          "hits": 0,
+          "misses": 2
+        }
+      },
+      "resources": {
+        "geometries": 8,
+        "textures": 4
+      },
+      "activeHeap": {
+        "usedSize": 16288008,
+        "totalSize": 17084416,
+        "embedderHeapUsedSize": 782304,
+        "backingStorageSize": 11307200
+      },
+      "afterHeap": {
+        "usedSize": 16274084,
+        "totalSize": 17346560,
+        "embedderHeapUsedSize": 1079552,
+        "backingStorageSize": 11312299
+      }
+    },
+    {
+      "text": "永盼",
+      "strokeCount": 14,
+      "lines": [
+        "永盼"
+      ],
+      "sampleCount": 518,
+      "p95FrameMs": 27.799999999999272,
+      "maxErrorPx": 0.00009913626952478389,
+      "metrics": {
+        "loadMs": 26.80000001192093,
+        "planMs": 0.7999999970197678,
+        "estimatedSeconds": 6.568124000000004,
+        "started": 14276.90000000596,
+        "actualSeconds": 6.59020000000298,
+        "eraseStarted": 12610,
+        "eraseMs": 1397.9000000059605
+      },
+      "quality": "full",
+      "cache": {
+        "raw": {
+          "entries": 2,
+          "bytes": 1618364,
+          "budgetBytes": 2097152,
+          "pinned": 2,
+          "hits": 0,
+          "misses": 4
+        },
+        "parsed": {
+          "entries": 4,
+          "bytes": 94624,
+          "budgetBytes": 2097152,
+          "pinned": 2,
+          "hits": 0,
+          "misses": 4
+        }
+      },
+      "clearedCache": {
+        "raw": {
+          "entries": 2,
+          "bytes": 1618364,
+          "budgetBytes": 2097152,
+          "pinned": 0,
+          "hits": 0,
+          "misses": 4
+        },
+        "parsed": {
+          "entries": 4,
+          "bytes": 94624,
+          "budgetBytes": 2097152,
+          "pinned": 0,
+          "hits": 0,
+          "misses": 4
+        }
+      },
+      "resources": {
+        "geometries": 8,
+        "textures": 4
+      },
+      "activeHeap": {
+        "usedSize": 16593244,
+        "totalSize": 17870848,
+        "embedderHeapUsedSize": 1467376,
+        "backingStorageSize": 11312300
+      },
+      "afterHeap": {
+        "usedSize": 16723496,
+        "totalSize": 17608704,
+        "embedderHeapUsedSize": 1247224,
+        "backingStorageSize": 11318317
+      }
+    },
+    {
+      "text": "国圆回风飞女",
+      "strokeCount": 34,
+      "lines": [
+        "国圆回风飞女"
+      ],
+      "sampleCount": 1301,
+      "p95FrameMs": 27.700000000000728,
+      "maxErrorPx": 0.000743477594040074,
+      "metrics": {
+        "loadMs": 18,
+        "planMs": 1.9000000059604645,
+        "estimatedSeconds": 15.819568799999997,
+        "started": 22769.10000000894,
+        "actualSeconds": 15.811199999988078,
+        "eraseStarted": 21132.20000000298,
+        "eraseMs": 1309.0999999940395
+      },
+      "quality": "full",
+      "cache": {
+        "raw": {
+          "entries": 5,
+          "bytes": 3676656,
+          "budgetBytes": 2097152,
+          "pinned": 5,
+          "hits": 1,
+          "misses": 9
+        },
+        "parsed": {
+          "entries": 10,
+          "bytes": 222320,
+          "budgetBytes": 2097152,
+          "pinned": 6,
+          "hits": 0,
+          "misses": 10
+        }
+      },
+      "clearedCache": {
+        "raw": {
+          "entries": 3,
+          "bytes": 1710660,
+          "budgetBytes": 2097152,
+          "pinned": 0,
+          "hits": 1,
+          "misses": 9
+        },
+        "parsed": {
+          "entries": 10,
+          "bytes": 222320,
+          "budgetBytes": 2097152,
+          "pinned": 0,
+          "hits": 0,
+          "misses": 10
+        }
+      },
+      "resources": {
+        "geometries": 8,
+        "textures": 4
+      },
+      "activeHeap": {
+        "usedSize": 17479468,
+        "totalSize": 18919424,
+        "embedderHeapUsedSize": 1508120,
+        "backingStorageSize": 11318313
+      },
+      "afterHeap": {
+        "usedSize": 16778476,
+        "totalSize": 17870848,
+        "embedderHeapUsedSize": 801288,
+        "backingStorageSize": 11333367
+      }
+    },
+    {
+      "text": "我心书水火",
+      "strokeCount": 23,
+      "lines": [
+        "我心书水火"
+      ],
+      "sampleCount": 1019,
+      "p95FrameMs": 27.69999999999709,
+      "maxErrorPx": 0.0008302891900035311,
+      "metrics": {
+        "loadMs": 29.80000001192093,
+        "planMs": 1.3999999910593033,
+        "estimatedSeconds": 11.279917599999997,
+        "started": 40282.5,
+        "actualSeconds": 11.27579999999702,
+        "eraseStarted": 38894.40000000596,
+        "eraseMs": 1304.7999999970198
+      },
+      "quality": "full",
+      "cache": {
+        "raw": {
+          "entries": 3,
+          "bytes": 1838964,
+          "budgetBytes": 2097152,
+          "pinned": 3,
+          "hits": 3,
+          "misses": 12
+        },
+        "parsed": {
+          "entries": 15,
+          "bytes": 310848,
+          "budgetBytes": 2097152,
+          "pinned": 5,
+          "hits": 0,
+          "misses": 15
+        }
+      },
+      "clearedCache": {
+        "raw": {
+          "entries": 3,
+          "bytes": 1838964,
+          "budgetBytes": 2097152,
+          "pinned": 0,
+          "hits": 3,
+          "misses": 12
+        },
+        "parsed": {
+          "entries": 15,
+          "bytes": 310848,
+          "budgetBytes": 2097152,
+          "pinned": 0,
+          "hits": 0,
+          "misses": 15
+        }
+      },
+      "resources": {
+        "geometries": 8,
+        "textures": 4
+      },
+      "activeHeap": {
+        "usedSize": 16981528,
+        "totalSize": 18132992,
+        "embedderHeapUsedSize": 1470216,
+        "backingStorageSize": 11333366
+      },
+      "afterHeap": {
+        "usedSize": 16864756,
+        "totalSize": 17608704,
+        "embedderHeapUsedSize": 824048,
+        "backingStorageSize": 11343733
+      }
+    },
+    {
+      "text": "张李陈赵黄明德爱谢",
+      "strokeCount": 86,
+      "lines": [
+        "张李陈赵黄明德爱谢"
+      ],
+      "sampleCount": 3042,
+      "p95FrameMs": 27.69999999999709,
+      "maxErrorPx": 0.00048498573335936776,
+      "metrics": {
+        "loadMs": 45.6000000089407,
+        "planMs": 3.7000000029802322,
+        "estimatedSeconds": 33.91194080000006,
+        "started": 53321.10000000894,
+        "actualSeconds": 33.90559999999404,
+        "eraseStarted": 51882.40000000596,
+        "eraseMs": 1321
+      },
+      "quality": "full",
+      "cache": {
+        "raw": {
+          "entries": 7,
+          "bytes": 7653744,
+          "budgetBytes": 2097152,
+          "pinned": 7,
+          "hits": 4,
+          "misses": 19
+        },
+        "parsed": {
+          "entries": 23,
+          "bytes": 573224,
+          "budgetBytes": 2097152,
+          "pinned": 9,
+          "hits": 1,
+          "misses": 23
+        }
+      },
+      "clearedCache": {
+        "raw": {
+          "entries": 1,
+          "bytes": 1266976,
+          "budgetBytes": 2097152,
+          "pinned": 0,
+          "hits": 4,
+          "misses": 19
+        },
+        "parsed": {
+          "entries": 23,
+          "bytes": 573224,
+          "budgetBytes": 2097152,
+          "pinned": 0,
+          "hits": 1,
+          "misses": 23
+        }
+      },
+      "resources": {
+        "geometries": 8,
+        "textures": 4
+      },
+      "activeHeap": {
+        "usedSize": 19190796,
+        "totalSize": 20492288,
+        "embedderHeapUsedSize": 1908920,
+        "backingStorageSize": 11366219
+      },
+      "afterHeap": {
+        "usedSize": 16962240,
+        "totalSize": 18395136,
+        "embedderHeapUsedSize": 809816,
+        "backingStorageSize": 11374981
+      }
+    },
+    {
+      "text": "赢警藏戴齿凹凸卵",
+      "strokeCount": 95,
+      "lines": [
+        "赢警藏戴齿凹凸卵"
+      ],
+      "sampleCount": 2831,
+      "p95FrameMs": 27.70000000001164,
+      "maxErrorPx": 0.0005534370742472727,
+      "metrics": {
+        "loadMs": 43,
+        "planMs": 3.300000011920929,
+        "estimatedSeconds": 33.73808240000004,
+        "started": 88916.10000000894,
+        "actualSeconds": 33.74429999999702,
+        "eraseStarted": 87493.90000000596,
+        "eraseMs": 1321.7999999970198
+      },
+      "quality": "full",
+      "cache": {
+        "raw": {
+          "entries": 6,
+          "bytes": 6307784,
+          "budgetBytes": 2097152,
+          "pinned": 6,
+          "hits": 6,
+          "misses": 25
+        },
+        "parsed": {
+          "entries": 31,
+          "bytes": 892420,
+          "budgetBytes": 2097152,
+          "pinned": 8,
+          "hits": 1,
+          "misses": 31
+        }
+      },
+      "clearedCache": {
+        "raw": {
+          "entries": 3,
+          "bytes": 2009588,
+          "budgetBytes": 2097152,
+          "pinned": 0,
+          "hits": 6,
+          "misses": 25
+        },
+        "parsed": {
+          "entries": 31,
+          "bytes": 892420,
+          "budgetBytes": 2097152,
+          "pinned": 0,
+          "hits": 1,
+          "misses": 31
+        }
+      },
+      "resources": {
+        "geometries": 8,
+        "textures": 4
+      },
+      "activeHeap": {
+        "usedSize": 18936556,
+        "totalSize": 19968000,
+        "embedderHeapUsedSize": 2055800,
+        "backingStorageSize": 11388957
+      },
+      "afterHeap": {
+        "usedSize": 17337936,
+        "totalSize": 18657280,
+        "embedderHeapUsedSize": 861488,
+        "backingStorageSize": 11413807
+      }
+    },
+    {
+      "text": "王王王王王王王王王王王王王王王王王王王王王王王王王王王王王王王王王王王王王王王王王王",
+      "strokeCount": 168,
+      "lines": [
+        "王王王王王王王王王王王王王王王王王王王王王王王王王",
+        "王王王王王王王王王王王王王王王王王"
+      ],
+      "sampleCount": 7060,
+      "p95FrameMs": 27.70000000001164,
+      "maxErrorPx": 0.00010893707103695296,
+      "metrics": {
+        "loadMs": 0.5999999940395355,
+        "planMs": 4.5,
+        "estimatedSeconds": 84.3128271999998,
+        "started": 124544.60000000894,
+        "actualSeconds": 84.30429999999701,
+        "eraseStarted": 122899.79999999702,
+        "eraseMs": 1318
+      },
+      "quality": "full",
+      "cache": {
+        "raw": {
+          "entries": 3,
+          "bytes": 2009588,
+          "budgetBytes": 2097152,
+          "pinned": 0,
+          "hits": 6,
+          "misses": 25
+        },
+        "parsed": {
+          "entries": 31,
+          "bytes": 892420,
+          "budgetBytes": 2097152,
+          "pinned": 1,
+          "hits": 2,
+          "misses": 31
+        }
+      },
+      "clearedCache": {
+        "raw": {
+          "entries": 3,
+          "bytes": 2009588,
+          "budgetBytes": 2097152,
+          "pinned": 0,
+          "hits": 6,
+          "misses": 25
+        },
+        "parsed": {
+          "entries": 31,
+          "bytes": 892420,
+          "budgetBytes": 2097152,
+          "pinned": 0,
+          "hits": 2,
+          "misses": 31
+        }
+      },
+      "resources": {
+        "geometries": 8,
+        "textures": 4
+      },
+      "activeHeap": {
+        "usedSize": 18081440,
+        "totalSize": 18919424,
+        "embedderHeapUsedSize": 2190152,
+        "backingStorageSize": 11413841
+      },
+      "afterHeap": {
+        "usedSize": 17498184,
+        "totalSize": 18395136,
+        "embedderHeapUsedSize": 904000,
+        "backingStorageSize": 11413841
+      }
+    }
+  ],
+  "finalHeap": {
+    "usedSize": 17394868,
+    "totalSize": 18395136,
+    "embedderHeapUsedSize": 865840,
+    "backingStorageSize": 11416630
+  },
+  "final": {
+    "state": "idle",
+    "phase": "home",
+    "strokeIndex": 0,
+    "strokeProgress": 0,
+    "name": "",
+    "strokeCount": 0,
+    "lines": [],
+    "engines": [],
+    "inkPoint": null,
+    "tip": {
+      "x": 986.4000000000001,
+      "y": 454.5
+    },
+    "layout": null,
+    "duration": 0.2,
+    "active": false,
+    "particles": 0,
+    "eraseProgress": 1,
+    "renderCount": 21801,
+    "reducedMotion": true,
+    "quality": "full",
+    "metrics": {
+      "loadMs": 0.5,
+      "planMs": 0.7999999970197678,
+      "estimatedSeconds": 5.6508776,
+      "started": 218691.20000000298,
+      "frameIntervals": [
+        19.099999994039536,
+        5.200000002980232,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.9000000059604645,
+        5.4000000059604645,
+        5.399999991059303,
+        5.5,
+        5.700000002980232,
+        5.799999997019768,
+        5.600000008940697,
+        5.399999991059303,
+        5.5,
+        5.5,
+        5.700000002980232,
+        6,
+        5.299999997019768,
+        5.5,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.899999991059303,
+        5.4000000059604645,
+        5.4000000059604645,
+        5.899999991059303,
+        5.299999997019768,
+        5.5,
+        6.200000002980232,
+        4.9000000059604645,
+        5.5,
+        5.5999999940395355,
+        5.600000008940697,
+        5.399999991059303,
+        5.700000002980232,
+        5.5999999940395355,
+        5.600000008940697,
+        5.399999991059303,
+        5.600000008940697,
+        5.5,
+        5.5999999940395355,
+        5.700000002980232,
+        5.5,
+        5.4000000059604645,
+        5.5,
+        5.699999988079071,
+        5.9000000059604645,
+        5.299999997019768,
+        5.4000000059604645,
+        5.5,
+        5.5999999940395355,
+        5.600000008940697,
+        5.699999988079071,
+        5.5,
+        5.5,
+        5.600000008940697,
+        5.5,
+        5.5,
+        5.700000002980232,
+        5.399999991059303,
+        5.600000008940697,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.700000002980232,
+        6.299999997019768,
+        4.800000011920929,
+        5.399999991059303,
+        5.5,
+        5.700000002980232,
+        5.5999999940395355,
+        5.600000008940697,
+        16.299999997019768,
+        0.09999999403953552
+      ],
+      "actualSeconds": 0.4575,
+      "eraseStarted": 219199.40000000596,
+      "eraseMs": 210.20000000298023
+    },
+    "cache": {
+      "raw": {
+        "entries": 2,
+        "bytes": 1517368,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 6,
+        "misses": 26
+      },
+      "parsed": {
+        "entries": 32,
+        "bytes": 915308,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 25,
+        "misses": 32
+      }
+    },
+    "projectedTip": {
+      "x": 986.4000000000001,
+      "y": 454.5
+    },
+    "calls": 14,
+    "triangles": 4262,
+    "geometries": 8,
+    "textures": 4,
+    "pixelRatio": 1.25
+  },
+  "errors": [],
+  "externalRequests": []
+}

@@ -8,3 +8,6 @@ playwright-report/
 __pycache__/
 analysis/chinese/source-cache/
 analysis/chinese/tmp/
+analysis/chinese/masks-before-edge-padding/*.png
+analysis/chinese/masks-after-padding-before-completion/failure-*.png
+analysis/chinese/masks/failure-*.png

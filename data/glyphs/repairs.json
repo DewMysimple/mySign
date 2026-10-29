@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "notice": "Shakespread median corrections, 2026-10-30. Arphic Public License. No warranty. Outlines and stroke order unchanged.",
+  "repairs": {
+    "盼": {
+      "stroke": 6,
+      "originalMedian": [[538,804],[971,424]],
+      "median": [[538,804],[587,774],[614,742],[652,665],[702,580],[761,510],[833,460],[900,434],[971,424]],
+      "kind": "reviewed-outline-corridor",
+      "reviewer": "Codex visual review; not a human expert certification",
+      "reviewDate": "2026-10-30",
+      "reason": "Upstream straight chord leaves the curved seventh right-falling stroke. Original endpoints and direction retained; intermediate points follow its interior corridor.",
+      "order": "251113453",
+      "independentOrderSource": "https://jw.beijing.gov.cn/language/bzgf/202105/P020210512414220837538.pdf",
+      "orderSourceTitle": "GF 0023-2020 通用规范汉字笔顺规范，序号1480，盼，第七笔为捺",
+      "evidence": "analysis/chinese/repair-pan.png",
+      "before": {"interiorRatio":0.389,"maxOutsideSourceUnits":37},
+      "after": {"interiorRatio":1,"maxOutsideSourceUnits":0,"maskCoverage":1}
+    }
+  }
+}

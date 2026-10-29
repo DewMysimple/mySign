@@ -1,0 +1,13 @@
+{
+  "threshold": 787.125,
+  "early": {
+    "left": 1942,
+    "right": 0,
+    "progress": 0.085385
+  },
+  "later": {
+    "left": 10488,
+    "right": 3724,
+    "progress": 0.478462
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/lqfeng/ChineseCharacters",
+  "revision": "6f6538e0ecc780c3e73d1c12ca3c7ba91fee82e1",
+  "path": "通用规范汉字表(2013)一级字表(3500字).txt",
+  "rawSha256": "4aac5efd4e149898e00829b16394e7c74aa2d78b7382ed2a069cbf69bf188858",
+  "parser": "strict sequential serial / Han / pinyin TSV",
+  "characters": 3500,
+  "unique": 3500,
+  "orderedEqual": true,
+  "missing": [],
+  "extra": [],
+  "pass": true
+}

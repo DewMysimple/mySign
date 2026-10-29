@@ -1,0 +1,239 @@
+{
+  "date": "2026-10-29T18:20:04.656Z",
+  "browser": "156.0.8078.48",
+  "pass": true,
+  "scope": "desktop only per user instruction; no mobile certification",
+  "cases": [
+    {
+      "config": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1,
+        "reduced": false
+      },
+      "httpStatus": 200,
+      "fullStrokeCount": 39,
+      "canvasPixelRatio": 1,
+      "debugApiIncluded": false,
+      "errors": [],
+      "localRequests": [
+        {
+          "url": "http://127.0.0.1:4173/",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-DjQWA5_e.js",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-DWdg1IiM.css",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/favicon.svg",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-002.json",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-033.json",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-003.json",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-005.json",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-092.json",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-015.json",
+          "method": "GET"
+        }
+      ],
+      "licenceAvailable": true,
+      "provenance": {
+        "versions": {
+          "mmh": "bddc96d41bef78427ed0e034e9f7e31d71fd1b92",
+          "hwd": "npm:2.0.1",
+          "target": "d9b599a9c9cc0dd2d58cad829e285bc780cd4451"
+        },
+        "targetSHA256": "be6a1aa43b1cf5234b42c8187ca6d568c54ff5cda9c44600ce653a4b20d8dc9d",
+        "sourceSHA256": "a28c478b5178e98f67f510b2d52fde08a69dc664654ef43498253b9b764d46ee",
+        "notice": "Coordinate normalization, metrics, source selection and mask coverage derived by Shakespread on 2026-10-30. Geometry remains paired with its original median and stroke order. No warranty.",
+        "urls": {
+          "hwd": "https://github.com/chanind/hanzi-writer-data",
+          "mmh": "https://github.com/skishore/makemeahanzi",
+          "target": "https://github.com/shengdoushi/common-standard-chinese-characters-table"
+        },
+        "license": "ARPHICPL.TXT",
+        "workingCopySHA256": "775d5da25a614d5fbd5557154e5357db2dd5cf8ae01999471658df1ec0acd28a",
+        "sourceGitBlob": "ef25a9208f7c4daf942d6f12be0a0f85075d140a",
+        "hwdNpmGitHead": "ad1a9905cada18d07630acc27d438b070d753ec0",
+        "hwdNpmIntegrity": "sha512-nbQwM+MaryGoq7pBMIZLCd3lFq03nXuJuwku1+6UbjL58uU+9OULVcMkoNvNuJSoIV7f1bbPRfD4D/LQa5S7qg=="
+      },
+      "pass": true
+    },
+    {
+      "config": {
+        "width": 1280,
+        "height": 800,
+        "dpr": 2,
+        "reduced": true
+      },
+      "httpStatus": 200,
+      "fullStrokeCount": 39,
+      "canvasPixelRatio": 1.25,
+      "debugApiIncluded": false,
+      "errors": [],
+      "localRequests": [
+        {
+          "url": "http://127.0.0.1:4173/",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-DjQWA5_e.js",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-DWdg1IiM.css",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/favicon.svg",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-002.json",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-033.json",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-003.json",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-005.json",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-092.json",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-015.json",
+          "method": "GET"
+        }
+      ],
+      "licenceAvailable": true,
+      "provenance": {
+        "versions": {
+          "mmh": "bddc96d41bef78427ed0e034e9f7e31d71fd1b92",
+          "hwd": "npm:2.0.1",
+          "target": "d9b599a9c9cc0dd2d58cad829e285bc780cd4451"
+        },
+        "targetSHA256": "be6a1aa43b1cf5234b42c8187ca6d568c54ff5cda9c44600ce653a4b20d8dc9d",
+        "sourceSHA256": "a28c478b5178e98f67f510b2d52fde08a69dc664654ef43498253b9b764d46ee",
+        "notice": "Coordinate normalization, metrics, source selection and mask coverage derived by Shakespread on 2026-10-30. Geometry remains paired with its original median and stroke order. No warranty.",
+        "urls": {
+          "hwd": "https://github.com/chanind/hanzi-writer-data",
+          "mmh": "https://github.com/skishore/makemeahanzi",
+          "target": "https://github.com/shengdoushi/common-standard-chinese-characters-table"
+        },
+        "license": "ARPHICPL.TXT",
+        "workingCopySHA256": "775d5da25a614d5fbd5557154e5357db2dd5cf8ae01999471658df1ec0acd28a",
+        "sourceGitBlob": "ef25a9208f7c4daf942d6f12be0a0f85075d140a",
+        "hwdNpmGitHead": "ad1a9905cada18d07630acc27d438b070d753ec0",
+        "hwdNpmIntegrity": "sha512-nbQwM+MaryGoq7pBMIZLCd3lFq03nXuJuwku1+6UbjL58uU+9OULVcMkoNvNuJSoIV7f1bbPRfD4D/LQa5S7qg=="
+      },
+      "pass": true
+    },
+    {
+      "config": {
+        "width": 1024,
+        "height": 768,
+        "dpr": 3,
+        "reduced": true
+      },
+      "httpStatus": 200,
+      "fullStrokeCount": 39,
+      "canvasPixelRatio": 1.25,
+      "debugApiIncluded": false,
+      "errors": [],
+      "localRequests": [
+        {
+          "url": "http://127.0.0.1:4173/",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-DjQWA5_e.js",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-DWdg1IiM.css",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/favicon.svg",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-002.json",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-033.json",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-003.json",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-005.json",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-092.json",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-015.json",
+          "method": "GET"
+        }
+      ],
+      "licenceAvailable": true,
+      "provenance": {
+        "versions": {
+          "mmh": "bddc96d41bef78427ed0e034e9f7e31d71fd1b92",
+          "hwd": "npm:2.0.1",
+          "target": "d9b599a9c9cc0dd2d58cad829e285bc780cd4451"
+        },
+        "targetSHA256": "be6a1aa43b1cf5234b42c8187ca6d568c54ff5cda9c44600ce653a4b20d8dc9d",
+        "sourceSHA256": "a28c478b5178e98f67f510b2d52fde08a69dc664654ef43498253b9b764d46ee",
+        "notice": "Coordinate normalization, metrics, source selection and mask coverage derived by Shakespread on 2026-10-30. Geometry remains paired with its original median and stroke order. No warranty.",
+        "urls": {
+          "hwd": "https://github.com/chanind/hanzi-writer-data",
+          "mmh": "https://github.com/skishore/makemeahanzi",
+          "target": "https://github.com/shengdoushi/common-standard-chinese-characters-table"
+        },
+        "license": "ARPHICPL.TXT",
+        "workingCopySHA256": "775d5da25a614d5fbd5557154e5357db2dd5cf8ae01999471658df1ec0acd28a",
+        "sourceGitBlob": "ef25a9208f7c4daf942d6f12be0a0f85075d140a",
+        "hwdNpmGitHead": "ad1a9905cada18d07630acc27d438b070d753ec0",
+        "hwdNpmIntegrity": "sha512-nbQwM+MaryGoq7pBMIZLCd3lFq03nXuJuwku1+6UbjL58uU+9OULVcMkoNvNuJSoIV7f1bbPRfD4D/LQa5S7qg=="
+      },
+      "pass": true
+    }
+  ]
+}

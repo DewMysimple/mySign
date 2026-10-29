@@ -19,7 +19,7 @@ export class PencilScene {
 
     this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, powerPreference: 'low-power' });
     this.renderer.setClearColor(0x000000, 0);
-    this.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    this.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, this.pixelRatioLimit || 2));
     this.renderer.outputColorSpace = THREE.SRGBColorSpace;
     this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
     this.renderer.toneMappingExposure = 1.15;
@@ -106,7 +106,7 @@ export class PencilScene {
     this.camera.top = height / 2;
     this.camera.bottom = -height / 2;
     this.camera.updateProjectionMatrix();
-    this.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    this.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, this.pixelRatioLimit || 2));
     this.renderer.setSize(width, height, false);
     const scale = THREE.MathUtils.clamp(Math.min(width / 1440, height / 900), 0.42, 1.65);
     this.pencil.scale.setScalar(scale);
@@ -119,6 +119,7 @@ export class PencilScene {
 
   setTip({ x, y, lift = 0, tilt = 0 }) {
     this.pencil.position.set(x - this.width / 2, this.height / 2 - y, 0.8 + lift);
+    this.floor.material.opacity = (this.quality === 'reduced' ? .28 : .42) / (1 + lift * .013);
     this.paperUniforms?.paperTip.value.set(this.pencil.position.x, this.pencil.position.y);
     // The full range is a few degrees: it responds to the stroke without spinning.
     this.direction.set(0.76 + tilt * 0.016, 0.55 - tilt * 0.023, 0.61).normalize();
@@ -133,14 +134,26 @@ export class PencilScene {
     if (!this.disposed) this.renderer.render(this.scene, this.camera);
   }
 
+  setQuality(quality) {
+    if (quality === this.quality || this.disposed) return;
+    this.quality = quality;
+    this.pixelRatioLimit = quality === 'full' ? 2 : quality === 'reduced' ? 1.25 : 1;
+    this.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, this.pixelRatioLimit));
+  }
+
   inspect() {
     this.scene.updateMatrixWorld(true);
     this.projected.set(0, 0, 0).applyMatrix4(this.pencil.matrixWorld).project(this.camera);
+    const rayScale=(this.floor.position.z-this.pencil.position.z)/(this.key.target.position.z-this.key.position.z);
+    const shadowX=this.pencil.position.x+(this.key.target.position.x-this.key.position.x)*rayScale;
+    const shadowY=this.pencil.position.y+(this.key.target.position.y-this.key.position.y)*rayScale;
     return {
       projectedTip: {
         x: (this.projected.x + 1) * this.width / 2,
         y: (1 - this.projected.y) * this.height / 2,
       },
+      projectedShadowTip: {x:shadowX+this.width/2,y:this.height/2-shadowY},
+      shadowOpacity: this.floor.material.opacity,
       calls: this.renderer.info.render.calls,
       triangles: this.renderer.info.render.triangles,
       geometries: this.renderer.info.memory.geometries,

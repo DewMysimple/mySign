@@ -1,0 +1,18 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Isolated source prototype comparison</title></head><body style="margin:0"><main class="signature-page"><svg class="signature-ink"><g stroke-linecap="round" stroke-linejoin="round"></g></svg><canvas class="particle-canvas"></canvas><div class="pencil-scene"></div></main><script type="module">
+import '/src/styles.css';
+import {SignatureController} from '/src/animation/SignatureController.js';
+import {buildWritingPlan} from '/src/handwriting/writingPlan.js';
+const svg=document.querySelector('svg');
+const controller=new SignatureController({host:document.querySelector('.pencil-scene'),svg,inkGroup:svg.querySelector('g'),particleCanvas:document.querySelector('canvas'),onState:()=>{},onReset:()=>{},onError:message=>{if(message)window.prototypeError=message;}});
+window.prototypeAudit={
+  inspect:()=>controller.inspect(),
+  run:(candidate)=>{
+    controller.timeline?.pause();controller.timeline?.kill();controller.clearInk();controller.setState('idle');
+    const model=buildWritingPlan(candidate.character,new Map([[candidate.character,candidate.glyph]]),innerWidth,innerHeight);
+    controller.model=model;controller.mountPaths(model);controller.cursor={phase:'approach',index:0,p:0};controller.metrics={frameIntervals:[],started:performance.now()};controller.lastFrameTime=null;
+    controller.setState('writing');controller.resize(innerWidth,innerHeight);
+    controller.playActions(model.actions.filter(a=>a.type!=='settle').map(a=>({...a,index:a.index||0})));controller.timeline.timeScale(12);
+    return {normalDuration:controller.timeline.duration(),strokeCount:controller.paths.length};
+  },
+};
+</script></body></html>

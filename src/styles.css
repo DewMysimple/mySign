@@ -11,7 +11,7 @@
 * { box-sizing: border-box; }
 html, body, #root { width: 100%; height: 100%; margin: 0; }
 body { overflow: hidden; }
-button, input { font: inherit; }
+button, input, textarea { font: inherit; }
 button { -webkit-tap-highlight-color: transparent; }
 
 .signature-page {
@@ -44,16 +44,21 @@ button { -webkit-tap-highlight-color: transparent; }
   top: 76.5%;
   transform: translate(-50%, -50%);
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   gap: clamp(10px, 0.95vw, 16px);
 }
 
 .name-input {
   width: clamp(260px, 32.5vw, 490px);
   height: var(--control-height);
-  padding: 0 clamp(24px, 2.25vw, 36px);
+  min-height: var(--control-height);
+  max-height: min(164px, 24vh);
+  padding: calc((var(--control-height) - 24px) / 2) clamp(24px, 2.25vw, 36px);
+  line-height: 24px;
+  resize: none;
+  overflow-y: auto;
   border: 1px solid rgb(255 255 255 / 70%);
-  border-radius: 999px;
+  border-radius: calc(var(--control-height) / 2);
   outline: none;
   background: #fff;
   color: #5d5f5b;
@@ -109,7 +114,9 @@ button { -webkit-tap-highlight-color: transparent; }
 }
 .scene-error {
   position: absolute;
-  top: 83%;
+  top: calc(76.5% + min(82px, 12vh) + 10px);
+  max-height: calc(23.5vh - min(82px, 12vh) - 18px);
+  overflow-y: auto;
   left: 50%;
   transform: translateX(-50%);
   width: min(86%, 480px);
@@ -120,12 +127,14 @@ button { -webkit-tap-highlight-color: transparent; }
 
 @media (max-width: 600px) {
   .signature-form { --control-height: 56px; gap: 10px; width: calc(100% - 48px); top: 76.5%; }
-  .name-input { min-width: 0; width: 100%; flex: 1; padding: 0 23px; font-size: 16px; }
+  .name-input { min-width: 0; width: 100%; flex: 1; padding-left: 23px; padding-right: 23px; font-size: 16px; }
   .action-button svg { width: 21px; height: 21px; }
 }
 @media (max-height: 460px) {
   .signature-form { --control-height: 48px; top: 80%; }
   .name-input { font-size: 15px; }
+  .name-input { max-height: min(96px, 20vh); }
+  .scene-error { top: calc(80% + min(48px, 10vh) + 8px); max-height: calc(20vh - min(48px, 10vh) - 12px); }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }

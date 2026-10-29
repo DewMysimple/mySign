@@ -1,14 +1,20 @@
 {
   "name": "shakespread",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "test": "node --test tests/handwriting.test.js",
-    "test:e2e": "playwright test"
+    "test": "node --test tests/*.test.js",
+    "test:e2e": "playwright test",
+    "glyphs:build": "python scripts/build_glyphs.py",
+    "test:chinese": "playwright test tests/browser/chinese.spec.js",
+    "test:desktop": "playwright test --config playwright.desktop.config.js",
+    "test:pipeline": "python scripts/verify_glyph_pipeline.py",
+    "test:production": "node scripts/verify-chinese-production.mjs",
+    "test:masks": "node scripts/verify-glyph-masks.mjs"
   },
   "dependencies": {
     "gsap": "3.15.0",

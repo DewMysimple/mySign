@@ -1,0 +1,254 @@
+{
+  "status": "completed",
+  "date": "2026-10-30",
+  "scope": "Full atlas page review, not human expert certification of all stroke-order conventions",
+  "reviewedGlyphs": 3500,
+  "pages": [
+    {
+      "page": 1,
+      "file": "atlas/atlas-01.png",
+      "sha256": "5cfacc08c7fecedb7f23e0ba79ae43663d384f232a207a166c5e2eca05700f38",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 2,
+      "file": "atlas/atlas-02.png",
+      "sha256": "5ad88f59f1dbe93400612c5decb6226443f2016a18fe7e6a9aa93e2a2603f111",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 3,
+      "file": "atlas/atlas-03.png",
+      "sha256": "d6463f9c5e80380e6ffecd2deedf04ced59c37b9e61d38c7a9c28ee5de3c2f71",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 4,
+      "file": "atlas/atlas-04.png",
+      "sha256": "7d557404bd70b4a4f82d1e855b496764696795aaef26779517aba5615ae3cac0",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 5,
+      "file": "atlas/atlas-05.png",
+      "sha256": "7e668454e7e046af90966e65a7387239d6d7de4cfaf1af894768b568feee15a5",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 6,
+      "file": "atlas/atlas-06.png",
+      "sha256": "2dc302722eefeb3fcd67ceee721bd0b0f6ad14295ca6da45e1ce632821cec7da",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 7,
+      "file": "atlas/atlas-07.png",
+      "sha256": "d13d3d0b310283aa48fd2e99434a011fbe32848a9a1235e139f595df50803f23",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 8,
+      "file": "atlas/atlas-08.png",
+      "sha256": "841925f277495f1e8db97498049ac0531146fad9ea68904cdd65b083c8765a0a",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 9,
+      "file": "atlas/atlas-09.png",
+      "sha256": "d8c9cc0f251be800f218c739d021909fab449ec604a0fde5c9c90c2edd39a20d",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 10,
+      "file": "atlas/atlas-10.png",
+      "sha256": "a9052024374a241ccc25ddffd617ecfa6f02ac65d95075d993f944ff027e45a6",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 11,
+      "file": "atlas/atlas-11.png",
+      "sha256": "f257368e62215fbcd9b38e80aa8e6da3b4d156b85731310dcc2a0902c24a7bb8",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 12,
+      "file": "atlas/atlas-12.png",
+      "sha256": "b3e605affb3d210ef806fb908863bcc11299ec7a260fb086a0addcf2604b1592",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 13,
+      "file": "atlas/atlas-13.png",
+      "sha256": "c33fff3e994487756eeb602f9ba78e7d2ddb66d56119b20b85f855809f32232d",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 14,
+      "file": "atlas/atlas-14.png",
+      "sha256": "5553ab593c1dde5a3db933f4e600d0f3ad2171c289eafa89488c06ed1d47e69b",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 15,
+      "file": "atlas/atlas-15.png",
+      "sha256": "ac6a447aff91eb506cdb0a136737ca57dd62d3ac5a1418743d630214634c83a9",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 16,
+      "file": "atlas/atlas-16.png",
+      "sha256": "c616003c935fd9807457f1bb04769105633ed72b8b63d4775d7970ff4d97bb30",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 17,
+      "file": "atlas/atlas-17.png",
+      "sha256": "cd0e71a5f01f2ecb1bea75489d8f8b43b55289706cf5c0fb5b46e6f84eac397f",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 18,
+      "file": "atlas/atlas-18.png",
+      "sha256": "f389b1b17c33b6197d43aa2e2efb2d5391bb9c412b8b71447e9cfc7b920e4d4e",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 19,
+      "file": "atlas/atlas-19.png",
+      "sha256": "046aa3d34c62d9a7d69611e370975d4cbec38b87618813b23aac553c7aecfb78",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 20,
+      "file": "atlas/atlas-20.png",
+      "sha256": "293e90c85f39e5f34787e114022805a0344929496e8966d078a8ebf23ecaf791",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 21,
+      "file": "atlas/atlas-21.png",
+      "sha256": "377a90cda1cf11f461daf35234f94b1256d493ce16b521213ad8239d8e3f0378",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 22,
+      "file": "atlas/atlas-22.png",
+      "sha256": "6ce68d466b0a25425c444118410cc5424c1b58c93fd91534328fe6f5e21c00d3",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 23,
+      "file": "atlas/atlas-23.png",
+      "sha256": "6e51e397221313c5adbff4968b900d1b9d6a92fa5f371d4c546806d8932e1bac",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 24,
+      "file": "atlas/atlas-24.png",
+      "sha256": "933cc7c9e14980e92e4778ab23e5468ba79b0ce1b76f97ee8ce7d290ee3f645a",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 25,
+      "file": "atlas/atlas-25.png",
+      "sha256": "c5fbcb3c68f2a2fa19eb608697982a0267474ddd37146916609aca7fc23b5e96",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 26,
+      "file": "atlas/atlas-26.png",
+      "sha256": "72fc1fec9aa71243ef783a604838857452d54e6ea34c7c3d0a9b7af768f95392",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 27,
+      "file": "atlas/atlas-27.png",
+      "sha256": "65b3fc99f5ed9d44d4ed97d58106d304731fdb12f59677522d54a35bdb6ba8f6",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 28,
+      "file": "atlas/atlas-28.png",
+      "sha256": "1db4e7365198b37c7298005457443dada451344d057fef03155c34819e5841e4",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 29,
+      "file": "atlas/atlas-29.png",
+      "sha256": "49d1468d2b0be9dedf8fb1e021a3a7405080a5416d0b74f12e7afb395dc50c6e",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 30,
+      "file": "atlas/atlas-30.png",
+      "sha256": "3a88a1062a065082b4b2c6cab2876f249a292404c70c4851f4dc21d0ab244429",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 31,
+      "file": "atlas/atlas-31.png",
+      "sha256": "492551efe6c60a4b2061541dd1694bdd331a52140a65ada94e3e61c2112b7714",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 32,
+      "file": "atlas/atlas-32.png",
+      "sha256": "c49ef0544dcffa2f5afd3d80588fbd7c0a96266231c46b50912827513231462d",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 33,
+      "file": "atlas/atlas-33.png",
+      "sha256": "6e3ac990b9e8cb84e40edbd52812ca70ded15d924283755c71614701912d071f",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 34,
+      "file": "atlas/atlas-34.png",
+      "sha256": "c83d4498a4fba2b0fa96c3b467d0e486ba2e37c616efd7cdff04549d4d0ecccd",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    },
+    {
+      "page": 35,
+      "file": "atlas/atlas-35.png",
+      "sha256": "06e93d83bbbf2061b696fec39a49d4a74ff667d1eff00fd4c759e002545837bb",
+      "reviewer": "Codex visual inspection",
+      "result": "no clipping or malformed contours observed; route overlay reviewed"
+    }
+  ],
+  "repairReview": "Atlas page 15, entry 1480: revised right-falling route lies within the complete stroke, preserving original endpoints and direction."
+}

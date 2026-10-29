@@ -1,0 +1,4730 @@
+{
+  "date": "2026-10-30",
+  "versions": {
+    "mmh": "bddc96d41bef78427ed0e034e9f7e31d71fd1b92",
+    "hwd": "npm:2.0.1",
+    "target": "d9b599a9c9cc0dd2d58cad829e285bc780cd4451"
+  },
+  "hwdNpmGitHead": "ad1a9905cada18d07630acc27d438b070d753ec0",
+  "hwdNpmIntegrity": "sha512-nbQwM+MaryGoq7pBMIZLCd3lFq03nXuJuwku1+6UbjL58uU+9OULVcMkoNvNuJSoIV7f1bbPRfD4D/LQa5S7qg==",
+  "commonAncestry": true,
+  "independentOrderCertification": false,
+  "target": 3500,
+  "rawCoverage": {
+    "hwd": 3500,
+    "mmh": 3500
+  },
+  "fullPrimaryGeometryQualified": 3500,
+  "riskComparedGlyphs": 137,
+  "prototypeCount": 42,
+  "representativePrimaryFailures": [],
+  "prototypes": [
+    {
+      "character": "一",
+      "withinFormalTarget": true,
+      "strokes": 1,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "一",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "4ad45d15a1e8a184ebf45d16d7457ddf8b694995385168f1ccc434195a802464",
+          "proposals": []
+        },
+        {
+          "character": "一",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "44d99ee2e5e76a8d9784486f75704e78bd539a7d6b8e6c62986b9beb9362b1ca",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "二",
+      "withinFormalTarget": true,
+      "strokes": 2,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "二",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "b4e76e286f0dd1d8ac3c77eb61e626110065d01a92d0429d0f5e59ff814c208e",
+          "proposals": []
+        },
+        {
+          "character": "二",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "d61303d3e874ab045e2bc1e94b12396b4b81eaf4ef4038f38fd625a30759aedd",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "三",
+      "withinFormalTarget": true,
+      "strokes": 3,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "三",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "9458dd63d2c471fa9a828281245233c17522ecdfe13e7544878764d99859c199",
+          "proposals": []
+        },
+        {
+          "character": "三",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "e954ba4a880186ab450230a161a8a0c366daee2da8bebc04ed513e46cb088642",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "十",
+      "withinFormalTarget": true,
+      "strokes": 2,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "十",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "8c0a69c409622dfb74f0b8aae9e85c5db833f30f277e1fa9f1db15b27d99e972",
+          "proposals": []
+        },
+        {
+          "character": "十",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "26f1170214a3258b7b05bb23cbb66eaad4e5d7854758ac868d091868889fd21d",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "永",
+      "withinFormalTarget": true,
+      "strokes": 5,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "永",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "3904c7ad73b23a29d608428b082e5e167a35d08064e928745ae3e470af2b063c",
+          "proposals": []
+        },
+        {
+          "character": "永",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "3b730382cc82f6ffc3e501f1a01b4048409c1fd7426bab9b7487ed956bd8055d",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "我",
+      "withinFormalTarget": true,
+      "strokes": 7,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "我",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "229d4fd0e62c374906e297780c65b150c638239dda511d2e47f7829d790cfd3d",
+          "proposals": []
+        },
+        {
+          "character": "我",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "b9cbe318a68dfba84a3c3d845f8ba4d2c7104de644e076fd6cf80fe51cd49d7b",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "心",
+      "withinFormalTarget": true,
+      "strokes": 4,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "心",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "f5416ac01599b548e828882e3466504384cff01a9eb7286294a924462df41960",
+          "proposals": []
+        },
+        {
+          "character": "心",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "7373fbaf5ed341fc45541c6e25b05bb4c2268cb5f8eb936071d661df9aaded66",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "书",
+      "withinFormalTarget": true,
+      "strokes": 4,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "书",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "5791708b5214d317240876392cba080ab7a3ccba41d4583a55781e90578deee7",
+          "proposals": []
+        },
+        {
+          "character": "书",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "ccd185dd92fdab1f083b332a0942e9b3495a2fc7a126d355dbf16796bfc1a5ba",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "中",
+      "withinFormalTarget": true,
+      "strokes": 4,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "中",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "ed010fab050e1c330750284249c47a59599624c456f43d2ec473b8519156a271",
+          "proposals": []
+        },
+        {
+          "character": "中",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "f6329014f39144f6c2520ae5032931d54c0409e8c1b9006a49f824ff9ffe4206",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "文",
+      "withinFormalTarget": true,
+      "strokes": 4,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "文",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "824f719e2e24c0750ebcdfbac860b72caf1f1c2b601b646cc66c576fa301dab4",
+          "proposals": []
+        },
+        {
+          "character": "文",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "3f9e15a54c1427602bf498d49d289d3b1e320169679572bd61358ed0503001fb",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "名",
+      "withinFormalTarget": true,
+      "strokes": 6,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "名",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "017ddad632b248b43dcd0221914e2a4c5c1030aebca0d1e1eac589bd5a855d18",
+          "proposals": []
+        },
+        {
+          "character": "名",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "59e0969208c0eab71bf9ce701da3dc375fa3ae3dc49fd8f8e5c4724b257aeead",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "签",
+      "withinFormalTarget": true,
+      "strokes": 13,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "签",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "abba5b0fac9abe06faaaae03f1113e7d4ccb460c468dbc45a776940f952d5800",
+          "proposals": []
+        },
+        {
+          "character": "签",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "849020b9ab6ddd586c83e06086cf563f3ce660e7236e419ba3f28240a6e66913",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "国",
+      "withinFormalTarget": true,
+      "strokes": 8,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "国",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "2c66b056862aa64f5a0ca2cf5f2684c54a08b5303b769767d085645ffb29b6be",
+          "proposals": []
+        },
+        {
+          "character": "国",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "7d3a7517ba29a9062b0126c233c0fd17aeec07b8518e40b296c194fd78130101",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "圆",
+      "withinFormalTarget": true,
+      "strokes": 10,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "圆",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "e2f92f60fa1259d649c5f0de3d191914536cafe78c915b69d5bac1387ddf47fc",
+          "proposals": []
+        },
+        {
+          "character": "圆",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "d51db12f1d782d6ef98e43bcd7ad8285e3510bdf28657c574851ca91545fe3c7",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "回",
+      "withinFormalTarget": true,
+      "strokes": 6,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "回",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "789f3d71f6f38959c282f578164df5010c2c606a9b69c7963effe64bb0845747",
+          "proposals": []
+        },
+        {
+          "character": "回",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "fa91f467a113640f2943186dbe780566cd67739f64316acece70710e5e9ea86f",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "风",
+      "withinFormalTarget": true,
+      "strokes": 4,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "风",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "71d29cc3c4e576efda434e050db8fbe23690aa7777c4fb2b4fdfd1a1069a07f7",
+          "proposals": []
+        },
+        {
+          "character": "风",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "be0f1ac6c508773b6a0c3d01f7086d5cc170c7bc244348abcb3c032e0b9a36eb",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "飞",
+      "withinFormalTarget": true,
+      "strokes": 3,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "飞",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "5028f004010e55f08388fa054fc191ce95617f3fd602c321c975d9571adcf27b",
+          "proposals": []
+        },
+        {
+          "character": "飞",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "878962f19f51e2055871964c681a1bf864fcb0bffceae749264226a3d8eb5c3f",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "女",
+      "withinFormalTarget": true,
+      "strokes": 3,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "女",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "06c3d405ccbad634ea770897666a6470c6c73789a58002f651dd149063af0867",
+          "proposals": []
+        },
+        {
+          "character": "女",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "f669693318ff628a43d9dbf7fb97c45f001c058921d656230164ff7e068f18a7",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "水",
+      "withinFormalTarget": true,
+      "strokes": 4,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "水",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "c7aafae8623e4ddaf24f9bca4b2d9d4c1d7072f8f9ed5b629b0e8a7f679a893e",
+          "proposals": []
+        },
+        {
+          "character": "水",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "2782d17faa12cd31cd859671d547b106a6aae2708886b55b0f1fb1ce1befa340",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "火",
+      "withinFormalTarget": true,
+      "strokes": 4,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "火",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "86e6e217a7aa6190a68eac2fbc32a9255d9b7872afb32df32d97d366d54312d1",
+          "proposals": []
+        },
+        {
+          "character": "火",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "bd111874d165bd75f3b1979dc357a59b6494060e26c8b4ba9b7b1c014594b7a4",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "山",
+      "withinFormalTarget": true,
+      "strokes": 3,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "山",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "99c487f1db313a36a5faa9272dd4b110c920ae8e85e83c770ee6bd744d600e64",
+          "proposals": []
+        },
+        {
+          "character": "山",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "cb48d409f3dc4b7f1e292441cf51f4a01136cf6a924dc1746c5cc1ac3d5e7835",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "木",
+      "withinFormalTarget": true,
+      "strokes": 4,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "木",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "238af060499a3b7e135926393cea71905e3ef4658368f5f25c019f239de79877",
+          "proposals": []
+        },
+        {
+          "character": "木",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "f7f8718c1a26a60005cd53523350f173088654ef8f2da9028fe6ea1bf500b7ae",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "王",
+      "withinFormalTarget": true,
+      "strokes": 4,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "王",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "ba039b30684c0839d594c5774ba499a3c40cb61bcf00d88a5a7db3297abff3fb",
+          "proposals": []
+        },
+        {
+          "character": "王",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "2386e606f8eb7c1a2b33d6b9739b0bd58c9b7063cec80185b7c766de3f0bdfcd",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "张",
+      "withinFormalTarget": true,
+      "strokes": 7,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "张",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "c7d2405dfe3623ff71ab918535e9b20d5209dc5bb66860790cc00662b886b3eb",
+          "proposals": []
+        },
+        {
+          "character": "张",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "81ac20fa243b77d9f336057806273d6ae7595cdef81a192480bed10dff1d3171",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "李",
+      "withinFormalTarget": true,
+      "strokes": 7,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "李",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "cbb5c046e02ba8fdc825bc8d50605f51a51a86aea1abc1d63e10a190323f1c9c",
+          "proposals": []
+        },
+        {
+          "character": "李",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "aa1621e5c6ab997c641cd7e0094435b320b0faf68130fa9bde54a178b3a05690",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "陈",
+      "withinFormalTarget": true,
+      "strokes": 7,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "陈",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "e29a304ef28bc34082844b963d5c408172c6f2ba5b5033213eb2414f58c76f95",
+          "proposals": []
+        },
+        {
+          "character": "陈",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "ca72f604c8cabaa9e477f8894e4766283678b35160c8e03164f2a7a27634b0be",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "赵",
+      "withinFormalTarget": true,
+      "strokes": 9,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "赵",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "602d14b6f2c596f6935ce47e2d95f90694297952451ac680c1c1f794939bbfa7",
+          "proposals": []
+        },
+        {
+          "character": "赵",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "09abd92badf33456d1fa3bf3e8f2013e7ee2a4be0ac8536d4224e21673ff04bc",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "黄",
+      "withinFormalTarget": true,
+      "strokes": 11,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "黄",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "674c5791bd9bca5d68707ce3b2a3e641d526740e9498671be197954370e3c4f3",
+          "proposals": []
+        },
+        {
+          "character": "黄",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "e687650f73c3226adb49cbd72c3490a57225cbadf5f6474efb2acf3ec7de5e4f",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "明",
+      "withinFormalTarget": true,
+      "strokes": 8,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "明",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "0720e4c89dfeeec2b1cd32050947a77ecfa7c95e1b5ee4dabc0f93a7e15b4f6e",
+          "proposals": []
+        },
+        {
+          "character": "明",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "439bf4e3f2e194cb22b1bd01984406f57ff02b7153964cbd1f0ce7d2967b3836",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "德",
+      "withinFormalTarget": true,
+      "strokes": 15,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "德",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "439b59660d843238a42fc8bd5985df1b57f20db979f445e1bc9568dc919224c4",
+          "proposals": []
+        },
+        {
+          "character": "德",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "2bff2dc2dabf9a081d279f8aad41243313a211e774cf64cfe984ed9a39159357",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "爱",
+      "withinFormalTarget": true,
+      "strokes": 10,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "爱",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "f774b423bf57a63a4485d2816a2364a74be12f7ab52e7ea6c24a84c54af651fd",
+          "proposals": []
+        },
+        {
+          "character": "爱",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "979ab4ecadac7d2338dbd2a0858e9dc0d6292194ae5bad031a9f8e416cb24491",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "谢",
+      "withinFormalTarget": true,
+      "strokes": 12,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "谢",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "f2dc6e73baf639d69e5ac27a556ae27a20ccf886188e9cc13e93882db7ee7eb3",
+          "proposals": []
+        },
+        {
+          "character": "谢",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "8483d7e403ea3a8078d48c1f5823a6c01b01a5e7bfa1c18ef533f6fe0fd12e32",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "赢",
+      "withinFormalTarget": true,
+      "strokes": 17,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "赢",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "b1066b4d115f8ea7ff020902675656822ef7c82ace3822b8ff72e9edfdb95d21",
+          "proposals": []
+        },
+        {
+          "character": "赢",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "b5966cf26755c56310f787f5255dd7e1cbfbdbf4944f36cc6fcb99289339e891",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "警",
+      "withinFormalTarget": true,
+      "strokes": 19,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "警",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "074d10229470ad606c9c95c1cd71f8b1f776e42baaf2f125e6ca618dab8f9c6d",
+          "proposals": []
+        },
+        {
+          "character": "警",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "3b7b9826437989414e56893707d1d2b46ae46d4f6549aaf21b84b0aae8ebc3cc",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "藏",
+      "withinFormalTarget": true,
+      "strokes": 17,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "藏",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "ce5da4bf213cdd6705665a651810b2b21259f295d1dd918c277df3ea225e1c0f",
+          "proposals": []
+        },
+        {
+          "character": "藏",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "84dc5defa5daf27f6fac3119d84e0eee042ed22d0ca48703a72429589ff6c4d0",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "戴",
+      "withinFormalTarget": true,
+      "strokes": 17,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "戴",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "84ae719f71e6db944079c59d095732a0bff5360f7e2218721ec5685022f09145",
+          "proposals": []
+        },
+        {
+          "character": "戴",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "5bfe2a3127fa83893cebff60a986df4b842430e57ddbeb0717cb213eed42cacb",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "曦",
+      "withinFormalTarget": false,
+      "strokes": 20,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "曦",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "446319b3c0e7d8f4f51df1245c19c866276417ff4e5abeac6fa2d063205aafbd",
+          "proposals": []
+        },
+        {
+          "character": "曦",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "722088abd2743ece96e393a4dff1a75aaf94fb172fe58a55820cb6e5373e3426",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "麟",
+      "withinFormalTarget": false,
+      "strokes": 23,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "麟",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "87747acf4b8ebc4c95b3f65bfc8eb4b3d6567c707dba8754cb6c3ca29a42bc88",
+          "proposals": []
+        },
+        {
+          "character": "麟",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "3727bfe8fac39da498559ab487b8c7a6a53ad265ef2e3f4767f86e6420cfec47",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "齿",
+      "withinFormalTarget": true,
+      "strokes": 8,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "齿",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "2fa69b11b2d1e9dc8326739bc760fbfc93c40c8e0a594d4fe6beb2c683be5f7f",
+          "proposals": []
+        },
+        {
+          "character": "齿",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "5e41e7b29fc7edb5df5d3adbac71af16028a2b4eb723046f5fa6c919826838e2",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "凹",
+      "withinFormalTarget": true,
+      "strokes": 5,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "凹",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "3fb2c590bf4b059a2f0210c99ba901bbca42019f117d4bd5ad1b987a3e78faca",
+          "proposals": []
+        },
+        {
+          "character": "凹",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "39c66ce101dbd8cdfe0be788afbe048a0c3e0dc48698b5ae5b7ad125d1fb275f",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "凸",
+      "withinFormalTarget": true,
+      "strokes": 5,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "凸",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "172be2e13e4ec5d5b4a8ce76dc0912fb7e3058282f18b7726c12401ec662f2dc",
+          "proposals": []
+        },
+        {
+          "character": "凸",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "456cd8327ec406980674915c06a708cc673547b9febf0213a02d8a308049aaca",
+          "proposals": []
+        }
+      ]
+    },
+    {
+      "character": "卵",
+      "withinFormalTarget": true,
+      "strokes": 7,
+      "sameOutline": true,
+      "sameMedians": true,
+      "candidates": [
+        {
+          "character": "卵",
+          "source": "hwd",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "aa14af708c58e68af57a8cfaa8eef0293c57452b2d8e0d76693ff8ee50f5f781",
+          "proposals": []
+        },
+        {
+          "character": "卵",
+          "source": "mmh",
+          "pass": true,
+          "issues": [],
+          "repairs": [],
+          "score": 100.0,
+          "metrics": [
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            },
+            {
+              "interiorRatio": 1.0,
+              "maxOutside": 0.0,
+              "maskCoverage": 1.0
+            }
+          ],
+          "sourceHash": "5bd724371b9f88199a532fe6f07041e826d29930a0d78a3790c61072678bf11b",
+          "proposals": []
+        }
+      ]
+    }
+  ],
+  "decision": "Primary HWD 2.0.1, paired MMH as controlled fallback. Shared ancestry acknowledged; repair order independently checked against GF0023-2020. Out-of-target prototype characters are not registered or counted as supported."
+}

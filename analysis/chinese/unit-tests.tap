@@ -1,0 +1,100 @@
+TAP version 13
+# Subtest: verified shard parsing, cache hits, concurrent leases, and capacity pressure preserve active glyphs
+ok 1 - verified shard parsing, cache hits, concurrent leases, and capacity pressure preserve active glyphs
+  ---
+  duration_ms: 16.3894
+  type: 'test'
+  ...
+# Subtest: failed HTTP and tampered local shards never enter either verified cache
+ok 2 - failed HTTP and tampered local shards never enter either verified cache
+  ---
+  duration_ms: 1.9424
+  type: 'test'
+  ...
+# Subtest: cancelling an in-flight request releases all pins without poisoning a retry
+ok 3 - cancelling an in-flight request releases all pins without poisoning a retry
+  ---
+  duration_ms: 2.2511
+  type: 'test'
+  ...
+# Subtest: all 52 English letters have finite, ordered, nonempty pen gestures
+ok 4 - all 52 English letters have finite, ordered, nonempty pen gestures
+  ---
+  duration_ms: 2.4461
+  type: 'test'
+  ...
+# Subtest: names are normalized; unsupported or empty content cannot start signing
+ok 5 - names are normalized; unsupported or empty content cannot start signing
+  ---
+  duration_ms: 0.2268
+  type: 'test'
+  ...
+# Subtest: spaces create a real pen lift and do not draw a line between words
+ok 6 - spaces create a real pen lift and do not draw a line between words
+  ---
+  duration_ms: 0.1285
+  type: 'test'
+  ...
+# Subtest: dots and crossbars remain separate gestures, after their main stroke
+ok 7 - dots and crossbars remain separate gestures, after their main stroke
+  ---
+  duration_ms: 0.1577
+  type: 'test'
+  ...
+# Subtest: short, long, all-capital and descending names fit and centre on every viewport
+ok 8 - short, long, all-capital and descending names fit and centre on every viewport
+  ---
+  duration_ms: 4.804
+  type: 'test'
+  ...
+# Subtest: registered text preserves spaces, punctuation and explicit line breaks; all errors use grapheme positions
+ok 9 - registered text preserves spaces, punctuation and explicit line breaks; all errors use grapheme positions
+  ---
+  duration_ms: 8.3873
+  type: 'test'
+  ...
+# Subtest: all digits and whitelisted punctuation have finite, explicitly ordered pen routes
+ok 10 - all digits and whitelisted punctuation have finite, explicitly ordered pen routes
+  ---
+  duration_ms: 0.7657
+  type: 'test'
+  ...
+# Subtest: canonical English geometry is byte-identical to frozen original engine
+ok 11 - canonical English geometry is byte-identical to frozen original engine
+  ---
+  duration_ms: 4.239
+  type: 'test'
+  ...
+# Subtest: mixed text uses paired outline/median routes, stable lines, and a single coordinate mapping
+ok 12 - mixed text uses paired outline/median routes, stable lines, and a single coordinate mapping
+  ---
+  duration_ms: 8.4061
+  type: 'test'
+  ...
+# Subtest: automatic line breaks respect opening/closing punctuation; oversize tasks reject without truncation
+ok 13 - automatic line breaks respect opening/closing punctuation; oversize tasks reject without truncation
+  ---
+  duration_ms: 10.426
+  type: 'test'
+  ...
+# Subtest: byte LRU keeps active entries pinned, evicts in access order, and releases back to budget
+ok 14 - byte LRU keeps active entries pinned, evicts in access order, and releases back to budget
+  ---
+  duration_ms: 0.2477
+  type: 'test'
+  ...
+# Subtest: long English wraps at the readable floor and leading/trailing blank lines retain real line-box space
+ok 15 - long English wraps at the readable floor and leading/trailing blank lines retain real line-box space
+  ---
+  duration_ms: 4.1811
+  type: 'test'
+  ...
+1..15
+# tests 15
+# suites 0
+# pass 15
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 93.9257

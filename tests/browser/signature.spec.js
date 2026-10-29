@@ -178,7 +178,8 @@ test('reduced motion, complete alphabet, a long name, repeated erase and input r
   const input = page.getByRole('textbox');
   const initial = await inspect(page);
   expect(initial.reducedMotion).toBe(true);
-  await input.fill('名字123');
+  // 中文及数字已成为合法输入；用仍未注册的 emoji 验证原拒绝/恢复行为。
+  await input.fill('名字🙂');
   await input.press('Enter');
   await waitForState(page, 'idle');
   expect(await input.evaluate((el) => el.validity.customError)).toBe(true);

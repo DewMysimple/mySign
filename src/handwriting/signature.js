@@ -2,6 +2,9 @@ import { GLYPHS } from './glyphs.js';
 
 export const INK_COLOR = '#3775be';
 export const STROKE_WIDTH = 4.5;
+// Geometric coverage alone clips antialiasing at the mask boundary. This padding
+// is outside the final silhouette (the outline itself is never widened).
+export const MASK_RASTER_PADDING = 2;
 
 export function normalizeName(value) {
   return value.trim().replace(/\s+/g, ' ');
@@ -44,7 +47,7 @@ function cubicExtrema(a, b, c, d) {
 }
 
 // Use the actual Bézier extrema, so long handles do not shrink or miscentre ink.
-function commandBounds(commands) {
+export function commandBounds(commands) {
   const xs = [], ys = [];
   let x = 0, y = 0;
   for (const { type, values: v } of commands) {

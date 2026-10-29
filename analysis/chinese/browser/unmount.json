@@ -1,0 +1,310 @@
+{
+  "old": {
+    "state": "preflighting",
+    "phase": "home",
+    "strokeIndex": 0,
+    "strokeProgress": 0,
+    "name": "",
+    "strokeCount": 0,
+    "lines": [],
+    "engines": [],
+    "inkPoint": null,
+    "tip": {
+      "x": 986.4000000000001,
+      "y": 454.5
+    },
+    "layout": null,
+    "duration": 0,
+    "active": false,
+    "disposed": true,
+    "loadAborted": true,
+    "hasGlyphLease": false,
+    "particles": 0,
+    "eraseProgress": 0,
+    "renderCount": 2,
+    "reducedMotion": false,
+    "quality": "full",
+    "metrics": {},
+    "cache": {
+      "raw": {
+        "entries": 0,
+        "bytes": 0,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 0,
+        "misses": 1
+      },
+      "parsed": {
+        "entries": 0,
+        "bytes": 0,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 0,
+        "misses": 1
+      }
+    },
+    "projectedTip": {
+      "x": 986.4000000000001,
+      "y": 454.5
+    },
+    "projectedShadowTip": {
+      "x": 987.7115384615386,
+      "y": 456.5269230769231
+    },
+    "shadowOpacity": 0.42,
+    "calls": 14,
+    "triangles": 4262,
+    "geometries": 1,
+    "textures": 1,
+    "pixelRatio": 1
+  },
+  "cancelled": {
+    "state": "writing",
+    "phase": "stroke",
+    "strokeIndex": 0,
+    "strokeProgress": 0.07077,
+    "moveKind": "stroke",
+    "name": "",
+    "strokeCount": 0,
+    "lines": [],
+    "engines": [],
+    "inkPoint": {
+      "x": 595.9321969985962,
+      "y": 340.4580124855042
+    },
+    "tip": {
+      "x": 595.9321969985962,
+      "y": 340.4580124855042
+    },
+    "layout": {
+      "scale": 1.65,
+      "x": 546.75,
+      "y": 447.6,
+      "width": 1440,
+      "height": 900
+    },
+    "duration": 0,
+    "active": false,
+    "disposed": true,
+    "loadAborted": true,
+    "hasGlyphLease": false,
+    "particles": 0,
+    "eraseProgress": 0,
+    "renderCount": 33,
+    "reducedMotion": false,
+    "quality": "full",
+    "metrics": {
+      "loadMs": 10.899999991059303,
+      "planMs": 1.4000000059604645,
+      "estimatedSeconds": 6.792824000000001,
+      "started": 734.5999999940395,
+      "frameIntervals": [
+        65.1000000089407,
+        4.799999997019768,
+        55.8999999910593,
+        75.80000001192093,
+        6.0999999940395355,
+        5.4000000059604645,
+        5.0999999940395355,
+        25.299999997019768,
+        8.799999997019768,
+        1,
+        4.600000008940697,
+        98.79999999701977,
+        6.200000002980232,
+        5.399999991059303,
+        11.800000011920929,
+        24.599999994039536,
+        24.900000005960464,
+        24.5,
+        25.799999997019768,
+        23,
+        24.700000002980232,
+        24.5,
+        22.5,
+        23.69999998807907,
+        23.700000002980232,
+        25.200000002980232,
+        4.5999999940395355,
+        22.30000001192093,
+        9.299999997019768,
+        7.5999999940395355
+      ]
+    },
+    "cache": {
+      "raw": {
+        "entries": 2,
+        "bytes": 1528248,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 0,
+        "misses": 3
+      },
+      "parsed": {
+        "entries": 2,
+        "bytes": 48548,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 0,
+        "misses": 3
+      }
+    },
+    "projectedTip": {
+      "x": 595.9321969985962,
+      "y": 340.4580124855042
+    },
+    "projectedShadowTip": {
+      "x": 597.2437354601346,
+      "y": 342.48493556242727
+    },
+    "shadowOpacity": 0.42,
+    "calls": 14,
+    "triangles": 4262,
+    "geometries": 1,
+    "textures": 1,
+    "pixelRatio": 1
+  },
+  "reused": {
+    "state": "written",
+    "phase": "written",
+    "strokeIndex": 12,
+    "strokeProgress": 1,
+    "moveKind": "stroke",
+    "name": "李华",
+    "strokeCount": 13,
+    "lines": [
+      "李华"
+    ],
+    "engines": [
+      "hanzi"
+    ],
+    "inkPoint": {
+      "x": 801.6943044662476,
+      "y": 454.6705833435059
+    },
+    "tip": {
+      "x": 801.6943044662476,
+      "y": 454.6705833435059
+    },
+    "layout": {
+      "scale": 1.65,
+      "x": 546.75,
+      "y": 447.6,
+      "width": 1440,
+      "height": 900
+    },
+    "duration": 0.4559999,
+    "active": false,
+    "disposed": false,
+    "loadAborted": false,
+    "hasGlyphLease": true,
+    "particles": 0,
+    "eraseProgress": 0,
+    "renderCount": 65,
+    "reducedMotion": true,
+    "quality": "full",
+    "metrics": {
+      "loadMs": 0.7000000029802322,
+      "planMs": 0.7999999970197678,
+      "estimatedSeconds": 6.792824000000001,
+      "started": 1535.5999999940395,
+      "frameIntervals": [
+        1.300000011920929,
+        6,
+        4.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.800000011920929,
+        17.19999998807907,
+        24.80000001192093,
+        7.899999991059303,
+        5.5,
+        5.600000008940697,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.799999997019768,
+        5.600000008940697,
+        27.399999991059303,
+        5.799999997019768,
+        5.5,
+        5.600000008940697,
+        5.399999991059303,
+        5.5,
+        5.600000008940697,
+        5.5999999940395355,
+        26.5,
+        7,
+        5.4000000059604645,
+        5.700000002980232,
+        5.399999991059303,
+        5.600000008940697,
+        5.699999988079071,
+        5.4000000059604645,
+        5.5,
+        5.700000002980232,
+        15.299999997019768,
+        6.9000000059604645,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.700000002980232,
+        5.399999991059303,
+        5.600000008940697,
+        23,
+        5,
+        5.5,
+        5.399999991059303,
+        5.5,
+        5.5,
+        6,
+        5.200000002980232,
+        5.600000008940697,
+        27.299999997019768,
+        6,
+        5.700000002980232,
+        5.5,
+        5.399999991059303,
+        5.5,
+        5.799999997019768,
+        5.4000000059604645,
+        0.29999999701976776
+      ],
+      "actualSeconds": 0.45709999999403955
+    },
+    "cache": {
+      "raw": {
+        "entries": 2,
+        "bytes": 1528248,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 0,
+        "misses": 3
+      },
+      "parsed": {
+        "entries": 2,
+        "bytes": 48548,
+        "budgetBytes": 2097152,
+        "pinned": 2,
+        "hits": 2,
+        "misses": 3
+      }
+    },
+    "projectedTip": {
+      "x": 801.6943044662476,
+      "y": 454.67058334350594
+    },
+    "projectedShadowTip": {
+      "x": 803.005842927786,
+      "y": 456.69750642042897
+    },
+    "shadowOpacity": 0.28,
+    "calls": 14,
+    "triangles": 4262,
+    "geometries": 8,
+    "textures": 4,
+    "pixelRatio": 1
+  },
+  "errors": []
+}

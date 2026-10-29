@@ -5,3 +5,9 @@
 *.jpg binary
 *.webp binary
 *.mp4 binary
+ARPHICPL.TXT -text -whitespace
+*.zip binary
+*.gz binary
+# Preserve verbatim captured diagnostics, including their incidental spaces.
+analysis/chinese/build-output.txt -whitespace
+analysis/chinese/bugs/resize-motion/error-context.md -whitespace

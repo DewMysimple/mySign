@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-30",
+  "reviewer": "Codex visual inspection",
+  "result": "Completed mixed contours legible without clipping, partial strokes and 3D pencil aligned, staggered particles visible, all 46 digits/punctuation visually checked, original English ink difference reviewed. No claim of human expert certification.",
+  "pages": [
+    {
+      "file": "production/desktop-dpr-1.png",
+      "sha256": "ac71407a1c16af84ad2518271c8c653c55b826df68951e60ff04c961554ea87f"
+    },
+    {
+      "file": "production/writing.png",
+      "sha256": "393f79438694995647b46b11b6584d80e356e07cbfa87c2f2dad00628d57b108"
+    },
+    {
+      "file": "production/desktop-dpr-3.png",
+      "sha256": "c22998a93e410f04ad61edf0d62af62480810462b80e9275e95ddfed5d62c94c"
+    },
+    {
+      "file": "browser/mixed-particles.png",
+      "sha256": "02f867bc4fe572630e5ee9ec158a28b08b12ec1c37860d233fbafced7394e38a"
+    },
+    {
+      "file": "visual/symbols.png",
+      "sha256": "cc94135920779185b082f5e5d16c6222bcdc5bc9dd4a1808e7aafed53c71d07a"
+    },
+    {
+      "file": "visual/english-ink-diff.png",
+      "sha256": "27745158ad3e01ff789320cb3c66ed3916c4a5c75be6b20e85b7622d248cbcb8"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "date": "2026-10-30",
+  "targetCount": 3500,
+  "qualifiedCount": 3500,
+  "temporarilyUnsupportedTargets": 0,
+  "datasetGeometrySHA256": "1b4ab49b9417b9d6b5a0b3fc467e8920aedc54fba8b53c5e1424005e47319070",
+  "scope": "glyph data qualification; complete application release gates are separate",
+  "reviewer": "Codex visual inspection; no claim of human expert certification",
+  "evidence": {
+    "geometry": "analysis/chinese/glyph-quality.json",
+    "svg": "analysis/chinese/masks/coverage.json",
+    "atlas": "analysis/chinese/atlas-review.json",
+    "animation": "analysis/chinese/performance/calibration.json"
+  }
+}

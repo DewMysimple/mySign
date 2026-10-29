@@ -2,11 +2,12 @@
   "config": {
     "argv": [
       "C:\\Program Files\\nodejs\\node.exe",
-      "E:\\Software Development\\Shakespread\\node_modules\\@playwright\\test\\cli.js",
-      "test"
+      "C:\\Users\\Administrator\\.codex\\worktrees\\63af\\Shakespread\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/browser/signature.spec.js"
     ],
-    "configFile": "E:\\Software Development\\Shakespread\\playwright.config.js",
-    "rootDir": "E:/Software Development/Shakespread/tests/browser",
+    "configFile": "C:\\Users\\Administrator\\.codex\\worktrees\\63af\\Shakespread\\playwright.config.js",
+    "rootDir": "C:/Users/Administrator/.codex/worktrees/63af/Shakespread/tests/browser",
     "failOnFlakyTests": false,
     "forbidOnly": false,
     "fullyParallel": false,
@@ -22,7 +23,7 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "E:/Software Development/Shakespread/test-results",
+        "outputDir": "C:/Users/Administrator/.codex/worktrees/63af/Shakespread/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -30,7 +31,7 @@
         },
         "id": "",
         "name": "",
-        "testDir": "E:/Software Development/Shakespread/tests/browser",
+        "testDir": "C:/Users/Administrator/.codex/worktrees/63af/Shakespread/tests/browser",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -42,15 +43,15 @@
       {
         "grep": {},
         "grepInvert": null,
-        "outputDir": "E:\\Software Development\\Shakespread\\test-results",
+        "outputDir": "C:\\Users\\Administrator\\.codex\\worktrees\\63af\\Shakespread\\test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
           "actualWorkers": 1
         },
         "name": "",
-        "testDir": "E:\\Software Development\\Shakespread\\tests\\browser",
-        "snapshotDir": "E:\\Software Development\\Shakespread\\tests\\browser",
+        "testDir": "C:\\Users\\Administrator\\.codex\\worktrees\\63af\\Shakespread\\tests\\browser",
+        "snapshotDir": "C:\\Users\\Administrator\\.codex\\worktrees\\63af\\Shakespread\\tests\\browser",
         "testIgnore": [],
         "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
         "timeout": 90000,
@@ -127,12 +128,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 16960,
+                  "duration": 16632,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-29T03:36:23.263Z",
+                  "startTime": "2026-10-29T16:42:41.567Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -161,12 +162,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 8509,
+                  "duration": 8880,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-29T03:36:40.344Z",
+                  "startTime": "2026-10-29T16:42:58.329Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -195,12 +196,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 7033,
+                  "duration": 7341,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-29T03:36:48.860Z",
+                  "startTime": "2026-10-29T16:43:07.215Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -218,8 +219,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-29T03:36:22.998Z",
-    "duration": 33060.927,
+    "startTime": "2026-10-29T16:42:41.253Z",
+    "duration": 33475.027,
     "expected": 3,
     "skipped": 0,
     "unexpected": 0,

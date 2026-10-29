@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "frozen": "2026-10-30",
+  "basis": "calibration.json: seven normal-motion desktop scenarios, 14–168 strokes, including an 84.3s long task; retain headroom and verify separately at the stroke-count boundary",
+  "scope": "Windows desktop, 1440x900, DPR2, local glyphs, current Chrome with SwiftShader permitted; not a universal device claim",
+  "p95FrameMs": 33.4,
+  "loadMs": 250,
+  "planMs": 40,
+  "syncErrorCssPx": 0.2,
+  "activeJsHeapBytes": 67108864,
+  "retainedHeapGrowthBytes": 8388608,
+  "erasureMs": 1600,
+  "durationErrorSeconds": 0.25,
+  "rawCacheBytes": 2097152,
+  "parsedCacheBytes": 2097152,
+  "activeLeasePolicy": "Active references stay pinned and may exceed retained-cache budgets; task stroke and time limits bound work. Release must restore both caches to budget.",
+  "maxStrokes": 420,
+  "maxSeconds": 95,
+  "maxLines": 8,
+  "minScale": 0.36,
+  "adaptive": {"trigger": "30 consecutive measured render intervals averaging over 30ms", "economyDprCap": 1, "particleBudget": 4200, "preserved": ["original stroke order", "complete contours", "shared progress and coordinates"]}
+}

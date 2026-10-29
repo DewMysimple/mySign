@@ -1,6 +1,6 @@
 # Shakespread 项目约定
 
-本项目是 React / Vite / Three.js / GSAP 的交互式签名网页。产品要求见 `prompt/prompt_01.txt`，运行与验证说明见根目录 `README.md`。修改前检查实际源码、分支和工作树，保全用户及其他任务的改动。
+本项目是 React / Vite / Three.js / GSAP 的交互式签名网页。产品要求见 `prompt/prompt_01.txt` 与中文扩展 `prompt/prompt_02.txt`，运行与验证说明见根目录 `README.md`。修改前检查实际源码、分支和工作树，保全用户及其他任务的改动。
 
 ## Git 交付规则
 

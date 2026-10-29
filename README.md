@@ -1,88 +1,99 @@
 # Shakespread
 
-一个可输入英文姓名、观看真实 3D 铅笔逐笔书写、再用橡皮擦让蓝色笔迹消散的极简网页。依据 `prompt/prompt_01.txt`、两张参考图和 `source/` 中的视频在当前目录新建；原目录没有应用代码、`package.json` 或现有页面。原始提示词和视频均未修改。
+可输入中英文、数字和常用标点，观看真实 3D 白色铅笔逐笔书写，再用橡皮擦清除的极简网页。React / Vite / Three.js / GSAP 实现，当前版本 **1.1.0**。中文采用完整笔画轮廓与对应中线；英文沿用原有原创单线与连笔机制。
 
-## 本地启动
+依据 `prompt/prompt_01.txt` 的视频效果，以及 `prompt/prompt_02.txt` 的中文扩展要求。用户于 2026-10-30 补充“先不考虑手机端吧”，本轮按桌面端验收；手机专项和 iOS / Android 真机不计作已验收。
 
-需要 Node.js 22.12+（本机使用 24.16.0）。在本目录执行：
+## 启动与操作
+
+需要 Node.js 22.12+，首次在工程根目录执行：
 
 ```powershell
-npm install
+npm ci
 npm run dev
 ```
 
-打开终端显示的地址，默认是 [http://127.0.0.1:5173/](http://127.0.0.1:5173/)。输入英文姓名后按 Enter 或点击圆形确认按钮。书写完成后点击橡皮擦，清除后可以继续输入。
+打开终端地址（默认 `http://127.0.0.1:5173/`），也可运行原有 `runStart.cmd`。桌面 Enter 提交、Shift+Enter 换行；输入法组合期间 Enter 留给输入法。圆形按钮可以提交，完成后变为橡皮擦。签名一直保留到清除，不增加重播按钮。
+
+预检时锁定输入并显示加载；失败列出全部问题字符及从 1 开始的位置，保留原文并恢复编辑。仅统一 CRLF / CR 为 LF，不折叠空格、替换标点、删字或自动简繁转换。输入区可增长到高度上限后内部滚动，签名区独立排版。
+
+## 支持范围
+
+- **2013《通用规范汉字表》一级 3500 字**，完整清单为 [targets.json](data/glyphs/targets.json)，实际注册表为 [manifest.json](public/glyphs/manifest.json)。这不是所有汉字：例如“曦、麟”不在首期一级集合，会明确拒绝。
+- 原创 `A–Z`、`a–z`，数字 `0–9`，ASCII 空格及手动换行。
+- 常用中英文逗号、句号、顿号、问号、感叹号、分号、冒号、单双引号、圆括号、书名号，以及代码白名单中的少量符号；精确范围见 [symbols.js](src/handwriting/symbols.js)。其他字符需完成路径、顺序、度量及动画验证后加入注册表。
+
+所有字符输出统一的笔画、抬笔、字间移动、换行、落笔和收笔计划。短英文姓名的原路径与原时序保持；长英文达到字号下限后也会换行。中文标点遵循行首 / 行尾禁则，空白行也占据真实行框。计划确定后缩放只更新坐标映射，保持原字符顺序与换行结果；大幅缩小窗口时字号可能继续缩小，重新提交才按新窗口重新排版。
+
+## 视觉与生命周期
+
+暖灰白全屏纸面、蓝色笔迹和实时 Three.js 铅笔，保留原视频的大面积留白。铅笔以石墨端为旋转参考点，真实几何、正交相机与实时投影由同一动作进度驱动。柔影是实时阴影贴图的面积光近似。
+
+中文每笔通过中线遮罩揭示完整轮廓，完成时释放该笔遮罩以保全轮廓边缘；不是普通字体整段淡入，也不是用一条细线代替最终汉字。完整轮廓、中线、SVG 与 3D 共用局部、排版和视口三层坐标。窗口 resize 与逐帧尺寸检查保证 SVG viewBox 和相机在同一帧更新。
+
+清除从完整笔画区域采样 Canvas 粒子，每笔依次启动，铅笔同步归位；清理后恢复输入。低动态偏好跟随系统并实时监听：当前动作安全完成，后续动作改用低动态参数，立即停止非核心粒子。清除中切换偏好不会恢复已经淡出的墨迹。
+
+组件卸载会使异步任务失效，取消加载和 GSAP，释放临时墨迹、遮罩、粒子、事件与 WebGL 资源。已验证字形缓存可复用。故障时取消动作、清理不完整墨迹、复位铅笔，保留原文并允许再次书写。空闲与完成状态不持续渲染。
+
+## 数据来源、许可与可复验管线
+
+主来源 **Hanzi Writer Data 2.0.1**，备用 **Make Me a Hanzi `bddc96d…`**。二者有共同来源，不能当作独立笔顺认证。[选型与质量说明](analysis/chinese/data-source-selection.md)、[42 字同组比较及 137 字风险比较](analysis/chinese/source-comparison.json) 保留选择依据。
+
+本地 110 个分片随构建发布，按需读取，运行时不联系外部字库 API、不下载字体、不上传输入。每字保存来源、版本、许可、原配对哈希、轮廓、中线、笔顺、度量、评分、修复和审查状态。原坐标统一归一化，轮廓不与另一来源的中线拼接。
+
+中文字形数据使用 **Arphic Public License**，完整原文在 [ARPHICPL.TXT](public/glyphs/ARPHICPL.TXT)，修改说明与来源在 [provenance.json](public/glyphs/provenance.json)。修改后的字形数据依原许可提供。原创英文 / 数字 / 标点与应用代码是独立部分，不误标为该字体许可。
 
 ```powershell
-npm run build       # 生成 dist/
-npm run preview     # 预览生产构建，默认端口 4173
-npm test            # 字母覆盖、输入边界、笔画顺序和布局测试
-npm run test:e2e    # 实际 Chrome / Chromium 中的交互验收
+python -m pip install -r scripts/glyph-requirements.txt
+node scripts/fetch-glyph-sources.mjs    # 固定来源版本并校验 npm 包，构建时使用
+npm run glyphs:build                   # 全量转换、硬检查、隔离和 35 页图集
+python scripts/compare_glyph_sources.py
+python scripts/verify_glyph_pipeline.py # 生成、修复、隔离及候选择优的故障夹具检查
+node scripts/verify-source-prototypes.mjs # 两来源通过真实协调层播放，诊断速率不当性能基准
+node scripts/verify-glyph-masks.mjs     # 先启动 dev；用产品实际渲染函数验证全部笔画
 ```
 
-端到端测试优先使用本机已安装的 Chrome。其他环境可以设置 `CHROME_PATH`，或先运行 `npx playwright install chromium`。
+转换首先生成候选数据，不自动宣称正式通过。完成图集审查、代表性动画检查后，`node scripts/qualify-glyphs.mjs` 会核对证据及几何指纹，才能标为合格分片。重建或修改字形后必须重新完成受影响的门禁，不把旧报告当新证据。
 
-## 已完成的效果
+缺失或不合格中线会尝试有界的栅格骨架推导，但只生成隔离候选，不能以“位于轮廓内”代替真实笔顺依据。候选必须经过独立复核、动画和同步验证，再作为有版本的修复记录进入下一轮检查。确定性的重复相邻点可自动去重并复验。
 
-- 暖灰白全屏背景，大面积留白，仅保留签名、白色铅笔和胶囊输入框。
-- Three.js 实时几何铅笔：笔杆、笔尾、削尖部分和细小石墨端；正交相机、细腻白色材质、真实投影及随距离扩大的柔影采样。
-- 原创单线字形覆盖 `A–Z`、`a–z` 和空格；独立处理点、横画、抬笔、字宽、连笔、基线和实际 Bézier 边界。
-- 单一 GSAP Timeline 同步 SVG 的 `stroke-dashoffset`、路径采样点、3D 笔尖和阴影。书写时不是逐字出现，也不描普通字体外轮廓。
-- React 管理 `idle → writing → written → erasing → idle`；同步状态锁阻止重复提交；按钮含加载和橡皮擦状态。
-- Canvas 根据实际 SVG 笔画采样生成蓝色细粒，清除时轻微扩散并消失；铅笔同步归位，再清空输入并恢复焦点。
-- 写到一半调整窗口也会重新映射当前路径和正交相机；兼容窄屏、长姓名和 `prefers-reduced-motion`。
-- 场景按组件生命周期建立并复用，StrictMode 清理后重建时不会叠加画布；空闲和完成状态不持续渲染；卸载时清理 Timeline、ResizeObserver、媒体查询监听、材质、几何体、阴影贴图和 WebGL 上下文。
+初检曾隔离“盼”的第七笔：两源原中线均离开轮廓。原失败报告、修复前后叠图和独立笔顺依据保存在 [修复记录](data/glyphs/repairs.json)。修复复验后实际 3500 字 / 33,959 笔通过；完整图集由 Codex 目视检查，不冒充人类书法专家认证。
 
-## 文件分工
+## 验证与预算
 
-| 文件 | 职责 |
+```powershell
+npm test
+npm run test:e2e                       # Chromium 完整行为 / 同步 / 故障与卸载回归
+npx playwright install firefox webkit  # 首次需要；Edge 使用本机安装
+npm run test:desktop                   # Edge、Firefox、WebKit 关键回归
+npm run build
+npm run preview                       # 另开终端，默认 4173
+node scripts/verify-chinese-production.mjs
+python scripts/verify-visual-regression.py
+node scripts/verify-chinese-acceptance.mjs # 聚合既有证据并校验数据 / 渲染器指纹，不代替重新测试
+```
+
+端到端优先使用本机 Chrome；可设 `CHROME_PATH` 或安装 Playwright Chromium。生产包不暴露开发诊断 / 故障注入入口。生产预览验证真实构建的混排、完整显现、清除、无效输入恢复、DPR 及本地数据许可。
+
+[性能预算](analysis/chinese/performance/budgets.json) 来自本机原型测量，另有独立的 420 笔边界检查。当前预检上限为 420 笔、正常动作预计 95 秒、8 行，字号缩放下限 0.36；不按固定字符数截断。超限保留原文并提示分段或扩大窗口。
+
+两层 LRU 各有 2 MiB 的保守计费预算。活动任务持有的内容可暂超预算且受保护，释放后必须回到预算以内。持续慢帧只降低场景 DPR 和粒子规模，不改变笔顺、完整轮廓或笔尖同步。测试中的数学投影误差与抗锯齿视觉、所有设备的实际帧率是不同指标。
+
+本轮 [桌面验收报告](analysis/chinese/acceptance.md) 和 [JSON 报告](analysis/chinese/acceptance.json) 汇总 17 项桌面门禁全部通过、手机端按用户要求暂缓的结果。机器报告、截图、失败及修复证据集中在 [analysis/chinese/](analysis/chinese/)，不能用历史英文报告或单项通过替代本轮完整验收。原英文 557 帧视频分析在 [视频逐帧分析](analysis/视频逐帧分析.md)，原英文基线冻结在 [baseline/](analysis/chinese/baseline/)；`analysis/app/` 仍保留早期迭代记录。
+
+构建 JS 约 944 kB / gzip 277 kB，Three.js 占主要部分；Vite 仍会提示超过 500 kB 的 chunk。整个字库是独立本地分片，不全部并入 JS。没有配置公网部署、账户或签名持久化，GitHub 用于源码管理。
+
+## 工程入口与记忆
+
+| 模块 | 职责 |
 | --- | --- |
-| `src/App.jsx` | React 状态、场景生命周期、姓名校验及提交 |
-| `src/components/SignatureInput.jsx` | 输入、确认、加载与橡皮擦按钮；无额外视觉 UI |
-| `src/handwriting/glyphs.js` | 52 个原创单线字母及真实的笔画顺序 |
-| `src/handwriting/signature.js` | 字母排版、连笔、Bézier 极值、居中及坐标映射 |
-| `src/animation/SignatureController.js` | 统一的时间线和书写、抬笔、清除、归位流程 |
-| `src/scene/PencilScene.js` | 3D 几何、灯光、相机、投影、资源回收 |
-| `src/scene/softPaperShadow.js` | 在真实阴影贴图上做面积光近似，靠近笔尖清晰、远处柔和 |
-| `src/scene/InkParticles.js` | 单 Canvas 的路径采样与粒子消散 |
-| `src/styles.css` | 极简布局、响应式及低动态样式 |
-| `scripts/analyze_video.py` | 解码全部 557 帧并生成连续图组、关键帧和逐帧数据 |
-| `tests/`、`playwright.config.js` | 模型边界和真实浏览器验收 |
-| `analysis/视频逐帧分析.md` | 对视频动作、时序、构图和实现选择的具体分析 |
-| `analysis/verification/` | 截图、同步误差采样、响应式与测试原始结果 |
+| `App.jsx` / `SignatureInput.jsx` | React 生命周期、textarea、IME、状态与无障碍播报 |
+| `handwriting/glyphs.js` / `signature.js` | 原英文单线、连笔、真实 Bézier 边界与映射 |
+| `handwriting/symbols.js` / `writingPlan.js` | 数字标点、注册表预检、布局和统一动作计划 |
+| `handwriting/GlyphLoader.js` / `GlyphCache.js` | 本地分片完整性、解析、双层 LRU、取消及任务保护 |
+| `handwriting/inkRenderer.js` | 完整轮廓、动态遮罩；只消费协调层给定的进度 |
+| `animation/SignatureController.js` | 唯一 GSAP 时钟、3D / 墨迹同步、动态切换、恢复与清除 |
+| `scene/` | 程序化铅笔、柔影、完整墨迹粒子及资源释放 |
+| `scripts/build_glyphs.py` 等 | 离线转换、候选比较、图集、合格门禁和验收工具 |
 
-构建配置为 `package.json`、`package-lock.json`、`vite.config.js`、`index.html`；页面入口为 `src/main.jsx`，图标为 `public/favicon.svg`。没有覆盖其他页面。
-
-## 依赖与原因
-
-运行依赖只有 React / React DOM（界面与状态）、Three.js（实时 3D、灯光、投影）和 GSAP（统一动画时间线）。Vite / React 插件用于本地开发及构建；Playwright 只作为开发依赖用于实际浏览器验收。没有新增字体、3D 模型、图标或粒子库。
-
-Three.js 的 WebGL 渲染器占据主要包体；生产构建的 JS 约 851 kB、gzip 约 238 kB，Vite 会提示单个 chunk 超过 500 kB。此提示不影响构建和运行。场景限制设备像素比至 2，并且不在静止时持续渲染。
-
-## 笔迹实现的边界
-
-本实现是**真正的单线笔画路径方案**，没有使用字体遮罩降级。所有字母来自本项目原创 SVG 中心线路径，能够按照落笔顺序追踪并与笔尖对齐。字体轮廓资源并不能直接表达笔顺，因此没有从普通字体提取外轮廓，也不依赖外部字体文件。
-
-字形是固定的一套英文手写风格，并不生成每个用户独有的书法，也不保证与视频中未知字形逐像素相同。目前支持 ASCII 英文字母和空格；中文、重音字符、数字、连字符及其他符号会通过输入校验提示。超长输入会按宽度缩小，仍可完整书写，但可读性会随长度降低。
-
-柔影是实时方向光阴影贴图上的面积光近似，并非离线路径追踪。数学采样误差、实际显示像素的抗锯齿效果和不同设备帧率是三个不同指标，验收数据只代表本机测试环境。
-
-## 验证结果
-
-5 项模型测试和 3 项真实浏览器测试通过，生产构建通过。浏览器验收包括空输入、Enter/按钮、Shakespeare 全程、重复提交、完整停留、粒子清除、归位、再次输入 Amy、书写/清除中缩放、长姓名、全部大小写字母、点横画、连续六次清除重写、无效输入恢复、低动态设置和资源数量稳定性。
-
-逐帧同步测试独立读取**实际 SVG dash 端点**并转换到屏幕坐标，再与 3D 笔尖投影比较；桌面采样 1337 帧，最大数学投影误差约 **0.0011 CSS px**。响应式采样 262 帧，最大误差约 **0.00064 CSS px**。控制台没有应用错误、WebGL 着色器错误或警告。原始结果保存在 `analysis/verification/synchronization.json`、`responsive.json` 和 `playwright-results.json`。
-
-另外启动了实际生产构建预览，在设备像素比 2 下检查桌面/手机尺寸、完整书写、清除及生产包不暴露调试接口，全部通过。结果为 `analysis/verification/production-smoke.json`，截图为 `production-desktop.png`、`production-mobile.png`。需要复验时先运行 `npm run build` 和 `npm run preview`，再在另一终端运行 `node scripts/verify-production.mjs`；该脚本还生成了用于人工核对全部字形的 `glyph-atlas.svg` / `glyph-atlas.png`。
-
-视频分析工具另需 Python、OpenCV、NumPy、Pillow；这些是分析脚本的可选依赖，网页运行不需要 Python：
-
-```powershell
-python scripts/analyze_video.py
-```
-
-## 工程记忆与版本管理
-
-工程记忆采用用户指定的 standard 模式，入口为 [wiki_memory/README.md](wiki_memory/README.md)，维护协议为 [wiki_memory/AGENTS.md](wiki_memory/AGENTS.md)。五份当前状态页记录项目概览、架构、约束、待办和已知问题；历史按六类日志归档。普通开发按项目内协议维护，无需重新调用个人 Skill。
-
-源码远程为 [DewMysimple/mySign](https://github.com/DewMysimple/mySign)，默认交付分支为 `main`。按照用户持续要求，每次完整对话产生的项目修改，都应完成适当验证、提交并推送；具体收尾与远程核对规则见根目录 [AGENTS.md](AGENTS.md)。
+工程记忆为用户指定的 standard 模式，入口 [wiki_memory/README.md](wiki_memory/README.md)，协议 [wiki_memory/AGENTS.md](wiki_memory/AGENTS.md)。按照根目录 [AGENTS.md](AGENTS.md) 的持续授权，每次完整对话产生的项目修改都提交并推送至 [mySign](https://github.com/DewMysimple/mySign)，核对真实远程引用；功能开发先在独立分支，门禁通过后才合并主分支。
