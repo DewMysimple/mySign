@@ -1,0 +1,11 @@
+{
+  "source": "🖊️ 可交互的签名当你输入名字，签名的一刻，也可以看到笔抒写的一笔一画。#vibecoding[话题]# #ai[话题]# #创意[话题]# #灵感[话题]# #设计[话题]# #手写[话题]# #.mp4",
+  "width": 2504,
+  "height": 1616,
+  "fps": 30.0,
+  "decoded_frames": 557,
+  "duration_seconds": 18.566666666666666,
+  "peak_blue_pixels": 129599,
+  "first_blue_frame": 89,
+  "note": "Zero-based frames. All frames decoded and indexed; blue segmentation is a visual measurement, not stroke reconstruction."
+}

@@ -1,0 +1,3320 @@
+{
+  "errors": [],
+  "messages": [],
+  "strokeSampleCount": 83,
+  "maxTipErrorPx": 2.2737367544323206e-13,
+  "last": {
+    "state": "written",
+    "phase": "written",
+    "strokeIndex": 14,
+    "strokeProgress": 1,
+    "name": "Shakespeare",
+    "strokeCount": 15,
+    "inkPoint": {
+      "x": 1114.9064536945536,
+      "y": 448.85727067286746
+    },
+    "tip": {
+      "x": 1114.9064536945536,
+      "y": 448.85727067286746
+    },
+    "layout": {
+      "scale": 1.8693044629644053,
+      "x": 334.4400654256562,
+      "y": 463.1948360464211,
+      "width": 1440,
+      "height": 900
+    },
+    "duration": 8.56925,
+    "active": false,
+    "particles": 0,
+    "renderCount": 1543,
+    "reducedMotion": false,
+    "projectedTip": {
+      "x": 1114.9064536945536,
+      "y": 448.85727067286746
+    },
+    "calls": 14,
+    "triangles": 4262,
+    "geometries": 8,
+    "textures": 4,
+    "pixelRatio": 1
+  },
+  "samples": [
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 0,
+      "strokeProgress": 0.00104,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 413.1658117593064,
+        "y": 361.993781212121
+      },
+      "tip": {
+        "x": 413.1658117593064,
+        "y": 361.993781212121
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 120,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 413.16581175930634,
+        "y": 361.993781212121
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 0,
+      "strokeProgress": 0.090155,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 427.01092553541696,
+        "y": 337.0655454161272
+      },
+      "tip": {
+        "x": 427.01092553541696,
+        "y": 337.0655454161272
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 135,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 427.01092553541696,
+        "y": 337.06554541612724
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 0,
+      "strokeProgress": 0.193599,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 402.9011664783874,
+        "y": 324.96841928158346
+      },
+      "tip": {
+        "x": 402.9011664783874,
+        "y": 324.96841928158346
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 151,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 402.9011664783873,
+        "y": 324.96841928158346
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 0,
+      "strokeProgress": 0.306975,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 370.7243415219862,
+        "y": 342.07469721922706
+      },
+      "tip": {
+        "x": 370.7243415219862,
+        "y": 342.07469721922706
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 166,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 370.7243415219862,
+        "y": 342.07469721922706
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 0,
+      "strokeProgress": 0.431323,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 342.5314545882845,
+        "y": 370.5297634024627
+      },
+      "tip": {
+        "x": 342.5314545882845,
+        "y": 370.5297634024627
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 181,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 342.5314545882845,
+        "y": 370.5297634024627
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 0,
+      "strokeProgress": 0.569968,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 347.6099742203359,
+        "y": 409.96195180836344
+      },
+      "tip": {
+        "x": 347.6099742203359,
+        "y": 409.96195180836344
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 197,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 347.60997422033586,
+        "y": 409.96195180836344
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 0,
+      "strokeProgress": 0.709869,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 385.36349468051446,
+        "y": 434.6433432060793
+      },
+      "tip": {
+        "x": 385.36349468051446,
+        "y": 434.6433432060793
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 214,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 385.36349468051446,
+        "y": 434.6433432060793
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 0,
+      "strokeProgress": 0.827336,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 378.8437263256423,
+        "y": 463.3542874079459
+      },
+      "tip": {
+        "x": 378.8437263256423,
+        "y": 463.3542874079459
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 230,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 378.8437263256423,
+        "y": 463.3542874079459
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 0,
+      "strokeProgress": 0.923866,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 348.2658368237006,
+        "y": 465.85892595495704
+      },
+      "tip": {
+        "x": 348.2658368237006,
+        "y": 465.85892595495704
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 245,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 348.26583682370057,
+        "y": 465.8589259549571
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "lift",
+      "strokeIndex": 1,
+      "strokeProgress": 0.035857,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": null,
+      "tip": {
+        "x": 332.71975574421685,
+        "y": 452.16641857864965
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 260,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 332.7197557442168,
+        "y": 452.16641857864965
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 1,
+      "strokeProgress": 0.003356,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 437.87036052947195,
+        "y": 455.8239874579433
+      },
+      "tip": {
+        "x": 437.87036052947195,
+        "y": 455.8239874579433
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 275,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 437.87036052947195,
+        "y": 455.8239874579433
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 1,
+      "strokeProgress": 0.066721,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 450.021267388578,
+        "y": 429.95538184133795
+      },
+      "tip": {
+        "x": 450.021267388578,
+        "y": 429.95538184133795
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 290,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 450.021267388578,
+        "y": 429.95538184133795
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 1,
+      "strokeProgress": 0.13804,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 464.0726190479812,
+        "y": 401.01764399485944
+      },
+      "tip": {
+        "x": 464.0726190479812,
+        "y": 401.01764399485944
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 306,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 464.0726190479812,
+        "y": 401.01764399485944
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 1,
+      "strokeProgress": 0.221382,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 479.85146434173953,
+        "y": 366.90104770727254
+      },
+      "tip": {
+        "x": 479.85146434173953,
+        "y": 366.90104770727254
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 323,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 479.8514643417396,
+        "y": 366.90104770727254
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 1,
+      "strokeProgress": 0.303898,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 489.2674694701568,
+        "y": 331.4285382382901
+      },
+      "tip": {
+        "x": 489.2674694701568,
+        "y": 331.4285382382901
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 338,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 489.26746947015675,
+        "y": 331.4285382382901
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 1,
+      "strokeProgress": 0.385412,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 469.64519204030444,
+        "y": 356.10690259840624
+      },
+      "tip": {
+        "x": 469.64519204030444,
+        "y": 356.10690259840624
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 352,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 469.6451920403044,
+        "y": 356.1069025984062
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 1,
+      "strokeProgress": 0.490733,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 455.6012778372415,
+        "y": 401.46037587578013
+      },
+      "tip": {
+        "x": 455.6012778372415,
+        "y": 401.46037587578013
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 369,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 455.6012778372415,
+        "y": 401.46037587578013
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 1,
+      "strokeProgress": 0.595426,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 446.21194914618667,
+        "y": 447.7199709313116
+      },
+      "tip": {
+        "x": 446.21194914618667,
+        "y": 447.7199709313116
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 386,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 446.21194914618667,
+        "y": 447.7199709313116
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 1,
+      "strokeProgress": 0.679017,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 452.95974007190614,
+        "y": 442.9461757583553
+      },
+      "tip": {
+        "x": 452.95974007190614,
+        "y": 442.9461757583553
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 400,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 452.95974007190614,
+        "y": 442.9461757583553
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 1,
+      "strokeProgress": 0.767733,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 475.3948806036539,
+        "y": 409.91326606228154
+      },
+      "tip": {
+        "x": 475.3948806036539,
+        "y": 409.91326606228154
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 416,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 475.3948806036539,
+        "y": 409.91326606228154
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 1,
+      "strokeProgress": 0.842819,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 492.1496085915594,
+        "y": 419.72401614693877
+      },
+      "tip": {
+        "x": 492.1496085915594,
+        "y": 419.72401614693877
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 431,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 492.14960859155934,
+        "y": 419.72401614693877
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 1,
+      "strokeProgress": 0.920462,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 485.6488296386376,
+        "y": 454.0982939126438
+      },
+      "tip": {
+        "x": 485.6488296386376,
+        "y": 454.0982939126438
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 448,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 485.6488296386376,
+        "y": 454.0982939126438
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 1,
+      "strokeProgress": 0.995499,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 509.6731256906447,
+        "y": 456.75552396212
+      },
+      "tip": {
+        "x": 509.6731256906447,
+        "y": 456.75552396212
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 466,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 509.6731256906447,
+        "y": 456.75552396212
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 2,
+      "strokeProgress": 0.014493,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 564.0209794741608,
+        "y": 401.47585690906374
+      },
+      "tip": {
+        "x": 564.0209794741608,
+        "y": 401.47585690906374
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 480,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 564.0209794741608,
+        "y": 401.47585690906374
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 2,
+      "strokeProgress": 0.136625,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 538.6459614854521,
+        "y": 408.24139290678977
+      },
+      "tip": {
+        "x": 538.6459614854521,
+        "y": 408.24139290678977
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 496,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 538.6459614854521,
+        "y": 408.24139290678977
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 2,
+      "strokeProgress": 0.280266,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 522.820993979221,
+        "y": 441.12339283437854
+      },
+      "tip": {
+        "x": 522.820993979221,
+        "y": 441.12339283437854
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 512,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 522.820993979221,
+        "y": 441.12339283437854
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 2,
+      "strokeProgress": 0.447219,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 547.9478590622323,
+        "y": 448.5766912062635
+      },
+      "tip": {
+        "x": 547.9478590622323,
+        "y": 448.5766912062635
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 528,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 547.9478590622323,
+        "y": 448.5766912062635
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 2,
+      "strokeProgress": 0.630517,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 569.6719630800199,
+        "y": 407.85572193251824
+      },
+      "tip": {
+        "x": 569.6719630800199,
+        "y": 407.85572193251824
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 545,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 569.6719630800199,
+        "y": 407.85572193251824
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 2,
+      "strokeProgress": 0.779845,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 556.843556003376,
+        "y": 431.71685031819857
+      },
+      "tip": {
+        "x": 556.843556003376,
+        "y": 431.71685031819857
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 560,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 556.843556003376,
+        "y": 431.71685031819857
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 2,
+      "strokeProgress": 0.913596,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 564.4068001958753,
+        "y": 462.54737473143274
+      },
+      "tip": {
+        "x": 564.4068001958753,
+        "y": 462.54737473143274
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 576,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 564.4068001958753,
+        "y": 462.54737473143274
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 3,
+      "strokeProgress": 0.857979,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 589.5175496016775,
+        "y": 456.98111848514003
+      },
+      "tip": {
+        "x": 589.5175496016775,
+        "y": 456.98111848514003
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 591,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 589.5175496016775,
+        "y": 456.9811184851401
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 4,
+      "strokeProgress": 0.109989,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 602.8585635685217,
+        "y": 427.46746356012443
+      },
+      "tip": {
+        "x": 602.8585635685217,
+        "y": 427.46746356012443
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 606,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 602.8585635685217,
+        "y": 427.46746356012443
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 4,
+      "strokeProgress": 0.243081,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 618.0128051463071,
+        "y": 392.85542429164803
+      },
+      "tip": {
+        "x": 618.0128051463071,
+        "y": 392.85542429164803
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 623,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 618.0128051463071,
+        "y": 392.85542429164803
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 4,
+      "strokeProgress": 0.370007,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 631.4741875340758,
+        "y": 359.4352534460737
+      },
+      "tip": {
+        "x": 631.4741875340758,
+        "y": 359.4352534460737
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 637,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 631.4741875340758,
+        "y": 359.4352534460737
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 4,
+      "strokeProgress": 0.535669,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 628.330860348596,
+        "y": 333.43552477893286
+      },
+      "tip": {
+        "x": 628.330860348596,
+        "y": 333.43552477893286
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 654,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 628.330860348596,
+        "y": 333.43552477893286
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 4,
+      "strokeProgress": 0.679008,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 613.6640253055875,
+        "y": 371.32997808420026
+      },
+      "tip": {
+        "x": 613.6640253055875,
+        "y": 371.32997808420026
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 669,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 613.6640253055875,
+        "y": 371.32997808420026
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 4,
+      "strokeProgress": 0.815997,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 603.4561556980927,
+        "y": 408.84932117534953
+      },
+      "tip": {
+        "x": 603.4561556980927,
+        "y": 408.84932117534953
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 685,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 603.4561556980927,
+        "y": 408.84932117534953
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 4,
+      "strokeProgress": 0.940033,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 596.2914964141239,
+        "y": 443.3160448119651
+      },
+      "tip": {
+        "x": 596.2914964141239,
+        "y": 443.3160448119651
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 702,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 596.2914964141239,
+        "y": 443.3160448119651
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "lift",
+      "strokeIndex": 5,
+      "strokeProgress": 0.748162,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": null,
+      "tip": {
+        "x": 630.5950678494161,
+        "y": 413.7436098641534
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 719,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 630.5950678494161,
+        "y": 413.7436098641534
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 5,
+      "strokeProgress": 0.180578,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 625.3924161885905,
+        "y": 413.98833610034916
+      },
+      "tip": {
+        "x": 625.3924161885905,
+        "y": 413.98833610034916
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 735,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 625.3924161885905,
+        "y": 413.98833610034916
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 5,
+      "strokeProgress": 0.468852,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 609.8804351000856,
+        "y": 425.6001129447509
+      },
+      "tip": {
+        "x": 609.8804351000856,
+        "y": 425.6001129447509
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 750,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 609.8804351000856,
+        "y": 425.6001129447509
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 5,
+      "strokeProgress": 0.771534,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 634.8534311199032,
+        "y": 455.9192023195204
+      },
+      "tip": {
+        "x": 634.8534311199032,
+        "y": 455.9192023195204
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 765,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 634.8534311199032,
+        "y": 455.9192023195204
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "lift",
+      "strokeIndex": 6,
+      "strokeProgress": 0.163787,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": null,
+      "tip": {
+        "x": 659.3594373887115,
+        "y": 451.2162813654877
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 781,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 659.3594373887115,
+        "y": 451.2162813654877
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 6,
+      "strokeProgress": 0.123623,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 687.5708917896643,
+        "y": 434.8373303223607
+      },
+      "tip": {
+        "x": 687.5708917896643,
+        "y": 434.8373303223607
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 798,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 687.5708917896643,
+        "y": 434.8373303223607
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 6,
+      "strokeProgress": 0.296825,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 711.2973330465281,
+        "y": 408.02863744430726
+      },
+      "tip": {
+        "x": 711.2973330465281,
+        "y": 408.02863744430726
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 814,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 711.2973330465281,
+        "y": 408.02863744430726
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 6,
+      "strokeProgress": 0.487169,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 682.40523251604,
+        "y": 408.3756414895229
+      },
+      "tip": {
+        "x": 682.40523251604,
+        "y": 408.3756414895229
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 829,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 682.40523251604,
+        "y": 408.3756414895229
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 6,
+      "strokeProgress": 0.668534,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 668.4165394653254,
+        "y": 443.57783899664537
+      },
+      "tip": {
+        "x": 668.4165394653254,
+        "y": 443.57783899664537
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 843,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 668.4165394653254,
+        "y": 443.57783899664537
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 6,
+      "strokeProgress": 0.848318,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 691.7153020247147,
+        "y": 465.94457725847576
+      },
+      "tip": {
+        "x": 691.7153020247147,
+        "y": 465.94457725847576
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 859,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 691.7153020247147,
+        "y": 465.94457725847576
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "lift",
+      "strokeIndex": 7,
+      "strokeProgress": 0.01026,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": null,
+      "tip": {
+        "x": 720.2485050825899,
+        "y": 450.2729562488458
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 876,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 720.2485050825899,
+        "y": 450.2729562488458
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 7,
+      "strokeProgress": 0.06423,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 776.4393533314023,
+        "y": 396.689030143143
+      },
+      "tip": {
+        "x": 776.4393533314023,
+        "y": 396.689030143143
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 893,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 776.4393533314025,
+        "y": 396.689030143143
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 7,
+      "strokeProgress": 0.223456,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 745.5597476895348,
+        "y": 408.08942777537254
+      },
+      "tip": {
+        "x": 745.5597476895348,
+        "y": 408.08942777537254
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 910,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 745.5597476895348,
+        "y": 408.08942777537254
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 7,
+      "strokeProgress": 0.406878,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 745.5189308150459,
+        "y": 440.813044823983
+      },
+      "tip": {
+        "x": 745.5189308150459,
+        "y": 440.813044823983
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 926,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 745.5189308150459,
+        "y": 440.813044823983
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 7,
+      "strokeProgress": 0.618445,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 753.669356124406,
+        "y": 470.2401247800757
+      },
+      "tip": {
+        "x": 753.669356124406,
+        "y": 470.2401247800757
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 943,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 753.669356124406,
+        "y": 470.2401247800757
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 7,
+      "strokeProgress": 0.807143,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 740.216673349998,
+        "y": 466.3530305680739
+      },
+      "tip": {
+        "x": 740.216673349998,
+        "y": 466.3530305680739
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 960,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 740.216673349998,
+        "y": 466.3530305680739
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 7,
+      "strokeProgress": 0.962549,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 772.7234489701788,
+        "y": 455.6514396296083
+      },
+      "tip": {
+        "x": 772.7234489701788,
+        "y": 455.6514396296083
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 977,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 772.7234489701788,
+        "y": 455.6514396296084
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 8,
+      "strokeProgress": 0.021133,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 797.142550590486,
+        "y": 409.22889885485324
+      },
+      "tip": {
+        "x": 797.142550590486,
+        "y": 409.22889885485324
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 994,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 797.142550590486,
+        "y": 409.22889885485324
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 8,
+      "strokeProgress": 0.101784,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 790.6644762022695,
+        "y": 441.5220133970623
+      },
+      "tip": {
+        "x": 790.6644762022695,
+        "y": 441.5220133970623
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1011,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 790.6644762022696,
+        "y": 441.5220133970623
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 8,
+      "strokeProgress": 0.183765,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 782.137143709474,
+        "y": 473.905118130386
+      },
+      "tip": {
+        "x": 782.137143709474,
+        "y": 473.905118130386
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1027,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 782.137143709474,
+        "y": 473.90511813038603
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 8,
+      "strokeProgress": 0.283352,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 772.6723636995921,
+        "y": 505.26483279324106
+      },
+      "tip": {
+        "x": 772.6723636995921,
+        "y": 505.26483279324106
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1044,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 772.6723636995921,
+        "y": 505.2648327932411
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 8,
+      "strokeProgress": 0.39256,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 787.0988041806215,
+        "y": 463.06260855278316
+      },
+      "tip": {
+        "x": 787.0988041806215,
+        "y": 463.06260855278316
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1061,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 787.0988041806215,
+        "y": 463.0626085527832
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 8,
+      "strokeProgress": 0.509178,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 806.553164810952,
+        "y": 419.6173531824726
+      },
+      "tip": {
+        "x": 806.553164810952,
+        "y": 419.6173531824726
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1078,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 806.553164810952,
+        "y": 419.6173531824726
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 8,
+      "strokeProgress": 0.624039,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 841.0418264479808,
+        "y": 405.4023275677684
+      },
+      "tip": {
+        "x": 841.0418264479808,
+        "y": 405.4023275677684
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1095,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 841.0418264479808,
+        "y": 405.4023275677684
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 8,
+      "strokeProgress": 0.732977,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 833.5280416966859,
+        "y": 447.4288048552932
+      },
+      "tip": {
+        "x": 833.5280416966859,
+        "y": 447.4288048552932
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1112,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 833.5280416966859,
+        "y": 447.4288048552932
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 8,
+      "strokeProgress": 0.829739,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 800.1468265788078,
+        "y": 459.75755997827207
+      },
+      "tip": {
+        "x": 800.1468265788078,
+        "y": 459.75755997827207
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1129,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 800.1468265788078,
+        "y": 459.757559978272
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 8,
+      "strokeProgress": 0.916422,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 826.2702252414518,
+        "y": 460.905116528326
+      },
+      "tip": {
+        "x": 826.2702252414518,
+        "y": 460.905116528326
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1146,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 826.2702252414518,
+        "y": 460.905116528326
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 8,
+      "strokeProgress": 0.990276,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 853.9934685394599,
+        "y": 449.7368523907983
+      },
+      "tip": {
+        "x": 853.9934685394599,
+        "y": 449.7368523907983
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1162,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 853.9934685394599,
+        "y": 449.7368523907983
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 10,
+      "strokeProgress": 0.10632,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 882.3712079954144,
+        "y": 434.92826267447145
+      },
+      "tip": {
+        "x": 882.3712079954144,
+        "y": 434.92826267447145
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1179,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 882.3712079954144,
+        "y": 434.92826267447145
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 10,
+      "strokeProgress": 0.287195,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 908.5937822503699,
+        "y": 408.25332635183815
+      },
+      "tip": {
+        "x": 908.5937822503699,
+        "y": 408.25332635183815
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1196,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 908.59378225037,
+        "y": 408.25332635183815
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 10,
+      "strokeProgress": 0.506354,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 877.7685705844983,
+        "y": 409.90584286760253
+      },
+      "tip": {
+        "x": 877.7685705844983,
+        "y": 409.90584286760253
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1213,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 877.7685705844983,
+        "y": 409.90584286760253
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 10,
+      "strokeProgress": 0.722055,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 867.8828433812505,
+        "y": 452.9615494845227
+      },
+      "tip": {
+        "x": 867.8828433812505,
+        "y": 452.9615494845227
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1230,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 867.8828433812504,
+        "y": 452.9615494845227
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 10,
+      "strokeProgress": 0.892518,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 898.4158621314939,
+        "y": 461.58680131782836
+      },
+      "tip": {
+        "x": 898.4158621314939,
+        "y": 461.58680131782836
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1246,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 898.415862131494,
+        "y": 461.58680131782836
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "lift",
+      "strokeIndex": 11,
+      "strokeProgress": 0.502667,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": null,
+      "tip": {
+        "x": 945.4627692519875,
+        "y": 427.5222491261227
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1263,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 945.4627692519875,
+        "y": 427.5222491261227
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 11,
+      "strokeProgress": 0.08645,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 956.101486589931,
+        "y": 400.9356109193668
+      },
+      "tip": {
+        "x": 956.101486589931,
+        "y": 400.9356109193668
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1280,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 956.101486589931,
+        "y": 400.9356109193668
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 11,
+      "strokeProgress": 0.227839,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 934.3418425123159,
+        "y": 429.5335005091603
+      },
+      "tip": {
+        "x": 934.3418425123159,
+        "y": 429.5335005091603
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1297,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 934.3418425123159,
+        "y": 429.5335005091603
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 11,
+      "strokeProgress": 0.398626,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 945.8531709111398,
+        "y": 457.6365536843443
+      },
+      "tip": {
+        "x": 945.8531709111398,
+        "y": 457.6365536843443
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1314,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 945.8531709111398,
+        "y": 457.6365536843442
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 11,
+      "strokeProgress": 0.581784,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 974.9781073231463,
+        "y": 421.47055266447387
+      },
+      "tip": {
+        "x": 974.9781073231463,
+        "y": 421.47055266447387
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1331,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 974.9781073231464,
+        "y": 421.47055266447387
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 11,
+      "strokeProgress": 0.755153,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 966.200111872274,
+        "y": 426.896801012403
+      },
+      "tip": {
+        "x": 966.200111872274,
+        "y": 426.896801012403
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1348,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 966.200111872274,
+        "y": 426.896801012403
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 11,
+      "strokeProgress": 0.892414,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 968.0346178817956,
+        "y": 461.0007752841094
+      },
+      "tip": {
+        "x": 968.0346178817956,
+        "y": 461.0007752841094
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1364,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 968.0346178817956,
+        "y": 461.0007752841094
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 12,
+      "strokeProgress": 0.733061,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 996.229237607339,
+        "y": 457.6524652415268
+      },
+      "tip": {
+        "x": 996.229237607339,
+        "y": 457.6524652415268
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1381,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 996.2292376073391,
+        "y": 457.6524652415268
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 13,
+      "strokeProgress": 0.216186,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 1008.9847533333495,
+        "y": 426.239473914699
+      },
+      "tip": {
+        "x": 1008.9847533333495,
+        "y": 426.239473914699
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1398,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 1008.9847533333497,
+        "y": 426.239473914699
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 13,
+      "strokeProgress": 0.518701,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 1013.476320926474,
+        "y": 412.3815424705426
+      },
+      "tip": {
+        "x": 1013.476320926474,
+        "y": 412.3815424705426
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1415,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 1013.476320926474,
+        "y": 412.3815424705426
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 13,
+      "strokeProgress": 0.797915,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 1027.245612580565,
+        "y": 413.2470042524851
+      },
+      "tip": {
+        "x": 1027.245612580565,
+        "y": 413.2470042524851
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1431,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 1027.245612580565,
+        "y": 413.2470042524851
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "lift",
+      "strokeIndex": 14,
+      "strokeProgress": 0.305363,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": null,
+      "tip": {
+        "x": 1056.4891680442988,
+        "y": 418.8014255361943
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1448,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 1056.4891680442988,
+        "y": 418.8014255361943
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 14,
+      "strokeProgress": 0.126815,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 1084.1017217742328,
+        "y": 432.56459911687233
+      },
+      "tip": {
+        "x": 1084.1017217742328,
+        "y": 432.56459911687233
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1465,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 1084.101721774233,
+        "y": 432.56459911687233
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 14,
+      "strokeProgress": 0.289695,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 1106.4737615857932,
+        "y": 407.58320654399563
+      },
+      "tip": {
+        "x": 1106.4737615857932,
+        "y": 407.58320654399563
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1480,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 1106.4737615857932,
+        "y": 407.58320654399563
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 14,
+      "strokeProgress": 0.49571,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 1077.103296413759,
+        "y": 408.0589969556868
+      },
+      "tip": {
+        "x": 1077.103296413759,
+        "y": 408.0589969556868
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1496,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 1077.103296413759,
+        "y": 408.0589969556868
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 14,
+      "strokeProgress": 0.713376,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 1065.4313817092939,
+        "y": 451.0112690917056
+      },
+      "tip": {
+        "x": 1065.4313817092939,
+        "y": 451.0112690917056
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1513,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 1065.4313817092939,
+        "y": 451.0112690917056
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "writing",
+      "phase": "stroke",
+      "strokeIndex": 14,
+      "strokeProgress": 0.89654,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 1097.0129177944154,
+        "y": 461.15784408470694
+      },
+      "tip": {
+        "x": 1097.0129177944154,
+        "y": 461.15784408470694
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": true,
+      "particles": 0,
+      "renderCount": 1530,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 1097.0129177944154,
+        "y": 461.157844084707
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "written",
+      "phase": "written",
+      "strokeIndex": 14,
+      "strokeProgress": 1,
+      "name": "Shakespeare",
+      "strokeCount": 15,
+      "inkPoint": {
+        "x": 1114.9064536945536,
+        "y": 448.85727067286746
+      },
+      "tip": {
+        "x": 1114.9064536945536,
+        "y": 448.85727067286746
+      },
+      "layout": {
+        "scale": 1.8693044629644053,
+        "x": 334.4400654256562,
+        "y": 463.1948360464211,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 8.56925,
+      "active": false,
+      "particles": 0,
+      "renderCount": 1543,
+      "reducedMotion": false,
+      "projectedTip": {
+        "x": 1114.9064536945536,
+        "y": 448.85727067286746
+      },
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    }
+  ]
+}

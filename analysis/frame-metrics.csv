@@ -1,0 +1,558 @@
+frame,time_seconds,blue_pixels,ink_left,ink_top,ink_right,ink_bottom,frame_change_mean,visual_phase,visible_prefix_target,observation
+0,0.0,0,,,,,0.0,idle,,"Blank paper, stationary pencil and input caret."
+1,0.03333,0,,,,,0.00916,idle,,"Blank paper, stationary pencil and input caret."
+2,0.06667,0,,,,,0.00198,idle,,"Blank paper, stationary pencil and input caret."
+3,0.1,0,,,,,0.00016,idle,,"Blank paper, stationary pencil and input caret."
+4,0.13333,0,,,,,0.00012,idle,,"Blank paper, stationary pencil and input caret."
+5,0.16667,0,,,,,5e-05,idle,,"Blank paper, stationary pencil and input caret."
+6,0.2,0,,,,,0.01182,idle,,"Blank paper, stationary pencil and input caret."
+7,0.23333,0,,,,,0.01031,idle,,"Blank paper, stationary pencil and input caret."
+8,0.26667,0,,,,,0.00829,idle,,"Blank paper, stationary pencil and input caret."
+9,0.3,0,,,,,0.01149,idle,,"Blank paper, stationary pencil and input caret."
+10,0.33333,0,,,,,0.0001,idle,,"Blank paper, stationary pencil and input caret."
+11,0.36667,0,,,,,7e-05,idle,,"Blank paper, stationary pencil and input caret."
+12,0.4,0,,,,,0.00332,idle,,"Blank paper, stationary pencil and input caret."
+13,0.43333,0,,,,,0.00267,idle,,"Blank paper, stationary pencil and input caret."
+14,0.46667,0,,,,,4e-05,idle,,"Blank paper, stationary pencil and input caret."
+15,0.5,0,,,,,4e-05,idle,,"Blank paper, stationary pencil and input caret."
+16,0.53333,0,,,,,4e-05,idle,,"Blank paper, stationary pencil and input caret."
+17,0.56667,0,,,,,4e-05,idle,,"Blank paper, stationary pencil and input caret."
+18,0.6,0,,,,,4e-05,idle,,"Blank paper, stationary pencil and input caret."
+19,0.63333,0,,,,,4e-05,idle,,"Blank paper, stationary pencil and input caret."
+20,0.66667,0,,,,,4e-05,idle,,"Blank paper, stationary pencil and input caret."
+21,0.7,0,,,,,4e-05,idle,,"Blank paper, stationary pencil and input caret."
+22,0.73333,0,,,,,4e-05,idle,,"Blank paper, stationary pencil and input caret."
+23,0.76667,0,,,,,4e-05,idle,,"Blank paper, stationary pencil and input caret."
+24,0.8,0,,,,,4e-05,idle,,"Blank paper, stationary pencil and input caret."
+25,0.83333,0,,,,,4e-05,idle,,"Blank paper, stationary pencil and input caret."
+26,0.86667,0,,,,,4e-05,idle,,"Blank paper, stationary pencil and input caret."
+27,0.9,0,,,,,0.00331,idle,,"Blank paper, stationary pencil and input caret."
+28,0.93333,0,,,,,7e-05,idle,,"Blank paper, stationary pencil and input caret."
+29,0.96667,0,,,,,4e-05,idle,,"Blank paper, stationary pencil and input caret."
+30,1.0,0,,,,,4e-05,idle,,"Blank paper, stationary pencil and input caret."
+31,1.03333,0,,,,,0.01966,idle,,"Blank paper, stationary pencil and input caret."
+32,1.06667,0,,,,,0.0023,idle,,"Blank paper, stationary pencil and input caret."
+33,1.1,0,,,,,0.00032,idle,,"Blank paper, stationary pencil and input caret."
+34,1.13333,0,,,,,0.0001,idle,,"Blank paper, stationary pencil and input caret."
+35,1.16667,0,,,,,0.0001,idle,,"Blank paper, stationary pencil and input caret."
+36,1.2,0,,,,,6e-05,idle,,"Blank paper, stationary pencil and input caret."
+37,1.23333,0,,,,,1e-05,idle,,"Blank paper, stationary pencil and input caret."
+38,1.26667,0,,,,,0.62996,ready,,Name is present; dark confirmation control is visible.
+39,1.3,0,,,,,0.1005,ready,,Name is present; dark confirmation control is visible.
+40,1.33333,0,,,,,0.05702,ready,,Name is present; dark confirmation control is visible.
+41,1.36667,0,,,,,0.04089,ready,,Name is present; dark confirmation control is visible.
+42,1.4,0,,,,,0.03753,ready,,Name is present; dark confirmation control is visible.
+43,1.43333,0,,,,,0.0374,ready,,Name is present; dark confirmation control is visible.
+44,1.46667,0,,,,,0.03371,ready,,Name is present; dark confirmation control is visible.
+45,1.5,0,,,,,0.03325,ready,,Name is present; dark confirmation control is visible.
+46,1.53333,0,,,,,0.03304,ready,,Name is present; dark confirmation control is visible.
+47,1.56667,0,,,,,0.03252,ready,,Name is present; dark confirmation control is visible.
+48,1.6,0,,,,,0.02019,ready,,Name is present; dark confirmation control is visible.
+49,1.63333,0,,,,,0.02932,ready,,Name is present; dark confirmation control is visible.
+50,1.66667,0,,,,,0.00543,ready,,Name is present; dark confirmation control is visible.
+51,1.7,0,,,,,0.01799,ready,,Name is present; dark confirmation control is visible.
+52,1.73333,0,,,,,0.03269,ready,,Name is present; dark confirmation control is visible.
+53,1.76667,0,,,,,0.03655,ready,,Name is present; dark confirmation control is visible.
+54,1.8,0,,,,,0.03317,ready,,Name is present; dark confirmation control is visible.
+55,1.83333,0,,,,,0.03319,ready,,Name is present; dark confirmation control is visible.
+56,1.86667,0,,,,,0.03315,ready,,Name is present; dark confirmation control is visible.
+57,1.9,0,,,,,0.03312,ready,,Name is present; dark confirmation control is visible.
+58,1.93333,0,,,,,0.03199,ready,,Name is present; dark confirmation control is visible.
+59,1.96667,0,,,,,0.0322,ready,,Name is present; dark confirmation control is visible.
+60,2.0,0,,,,,0.02754,ready,,Name is present; dark confirmation control is visible.
+61,2.03333,0,,,,,0.05722,ready,,Name is present; dark confirmation control is visible.
+62,2.06667,0,,,,,0.06299,ready,,Name is present; dark confirmation control is visible.
+63,2.1,0,,,,,0.04868,ready,,Name is present; dark confirmation control is visible.
+64,2.13333,0,,,,,0.02941,ready,,Name is present; dark confirmation control is visible.
+65,2.16667,0,,,,,0.01863,ready,,Name is present; dark confirmation control is visible.
+66,2.2,0,,,,,0.006,ready,,Name is present; dark confirmation control is visible.
+67,2.23333,0,,,,,0.00399,ready,,Name is present; dark confirmation control is visible.
+68,2.26667,0,,,,,0.00023,ready,,Name is present; dark confirmation control is visible.
+69,2.3,0,,,,,0.00342,ready,,Name is present; dark confirmation control is visible.
+70,2.33333,0,,,,,0.00781,ready,,Name is present; dark confirmation control is visible.
+71,2.36667,0,,,,,0.01305,ready,,Name is present; dark confirmation control is visible.
+72,2.4,0,,,,,0.00865,ready,,Name is present; dark confirmation control is visible.
+73,2.43333,0,,,,,0.08594,approaching,,Submission/loading transition; pencil moves to the first stroke.
+74,2.46667,0,,,,,0.80405,approaching,,Submission/loading transition; pencil moves to the first stroke.
+75,2.5,0,,,,,1.15034,approaching,,Submission/loading transition; pencil moves to the first stroke.
+76,2.53333,0,,,,,1.84327,approaching,,Submission/loading transition; pencil moves to the first stroke.
+77,2.56667,0,,,,,2.76969,approaching,,Submission/loading transition; pencil moves to the first stroke.
+78,2.6,0,,,,,3.93895,approaching,,Submission/loading transition; pencil moves to the first stroke.
+79,2.63333,0,,,,,4.89561,approaching,,Submission/loading transition; pencil moves to the first stroke.
+80,2.66667,0,,,,,0.01652,approaching,,Submission/loading transition; pencil moves to the first stroke.
+81,2.7,0,,,,,5.51851,approaching,,Submission/loading transition; pencil moves to the first stroke.
+82,2.73333,0,,,,,2.63473,approaching,,Submission/loading transition; pencil moves to the first stroke.
+83,2.76667,0,,,,,4.59457,approaching,,Submission/loading transition; pencil moves to the first stroke.
+84,2.8,0,,,,,0.90555,approaching,,Submission/loading transition; pencil moves to the first stroke.
+85,2.83333,0,,,,,1.02091,approaching,,Submission/loading transition; pencil moves to the first stroke.
+86,2.86667,0,,,,,0.84319,approaching,,Submission/loading transition; pencil moves to the first stroke.
+87,2.9,0,,,,,0.00818,approaching,,Submission/loading transition; pencil moves to the first stroke.
+88,2.93333,0,,,,,0.00224,approaching,,Submission/loading transition; pencil moves to the first stroke.
+89,2.96667,431,652,620,681,648,0.32822,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+90,3.0,697,652,610,687,648,0.84105,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+91,3.03333,1090,652,592,695,648,1.14958,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+92,3.06667,1475,652,578,701,648,1.55892,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+93,3.1,1971,652,562,701,648,1.83408,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+94,3.13333,2324,638,562,701,648,0.96128,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+95,3.16667,2374,614,570,701,648,1.00529,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+96,3.2,2227,592,574,701,648,0.96443,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+97,3.23333,2113,568,580,700,649,1.08661,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+98,3.26667,1785,546,594,700,649,1.36893,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+99,3.3,1148,526,618,693,659,2.11744,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+100,3.33333,565,510,610,671,686,2.38626,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+101,3.36667,1138,510,594,581,699,1.49791,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+102,3.4,4152,510,568,632,727,3.22291,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+103,3.43333,6606,510,560,688,755,3.25926,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+104,3.46667,8191,510,560,700,767,1.91229,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+105,3.5,9320,510,560,700,787,2.39248,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+106,3.53333,9805,510,560,700,816,2.87978,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+107,3.56667,9924,510,560,700,838,1.83419,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+108,3.6,9748,510,560,700,843,1.06221,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+109,3.63333,9810,510,560,700,845,1.01004,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+110,3.66667,10374,510,560,700,845,1.19467,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+111,3.7,10309,508,560,700,845,1.06206,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+112,3.73333,10154,504,560,699,845,0.96865,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+113,3.76667,10074,500,560,697,845,0.52471,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+114,3.8,10033,500,560,696,845,0.27297,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+115,3.83333,10058,498,560,695,845,0.22247,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+116,3.86667,9892,498,560,677,845,3.43458,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+117,3.9,11734,498,560,689,844,7.71069,writing,S,Current last letter is being drawn; pencil/shadow follow its strokes.
+118,3.93333,13181,498,560,700,844,5.87466,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+119,3.96667,13180,498,560,700,844,1.30518,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+120,4.0,13338,498,560,751,844,0.19019,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+121,4.03333,13477,498,560,757,844,0.56306,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+122,4.06667,13553,498,560,751,844,1.15053,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+123,4.1,13761,498,560,753,844,1.33381,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+124,4.13333,14119,498,560,757,844,1.69673,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+125,4.16667,14265,498,560,757,844,1.01392,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+126,4.2,14936,498,560,757,844,2.37668,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+127,4.23333,15970,498,560,757,844,3.5706,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+128,4.26667,16746,498,560,757,844,2.97217,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+129,4.3,17979,498,560,757,844,3.15549,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+130,4.33333,18108,498,560,757,844,2.09197,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+131,4.36667,18569,498,560,757,844,1.37637,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+132,4.4,19129,498,560,757,844,1.16178,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+133,4.43333,19841,498,560,757,844,1.7823,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+134,4.46667,20384,498,560,777,844,0.99207,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+135,4.5,21058,498,560,803,844,1.11288,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+136,4.53333,21431,498,560,803,844,2.43322,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+137,4.56667,21846,498,560,807,844,2.03381,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+138,4.6,22242,498,560,806,844,1.57678,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+139,4.63333,22731,498,560,815,844,0.87674,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+140,4.66667,22801,498,560,817,844,0.20318,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+141,4.7,22900,498,560,819,844,0.28817,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+142,4.73333,22942,498,560,821,844,0.11183,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+143,4.76667,22999,498,560,824,844,4.34816,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+144,4.8,22999,498,560,824,844,5.7538,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+145,4.83333,22999,498,560,824,844,1.38832,writing,Sh,Current last letter is being drawn; pencil/shadow follow its strokes.
+146,4.86667,23374,498,560,969,844,0.20498,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+147,4.9,23545,498,560,971,844,0.79994,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+148,4.93333,23815,498,560,971,844,1.04528,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+149,4.96667,24107,498,560,971,844,1.0357,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+150,5.0,24063,498,560,971,844,0.78501,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+151,5.03333,23755,498,560,970,844,1.4505,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+152,5.06667,23362,498,560,896,844,2.05489,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+153,5.1,23543,498,560,914,844,1.16289,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+154,5.13333,25882,498,560,935,844,3.91293,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+155,5.16667,27522,498,560,956,844,1.33425,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+156,5.2,28574,498,560,961,844,1.78038,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+157,5.23333,29515,498,560,965,844,1.51576,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+158,5.26667,30184,498,560,967,844,1.39858,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+159,5.3,30352,498,560,971,844,2.30714,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+160,5.33333,30974,498,560,973,844,2.15355,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+161,5.36667,31320,498,560,981,844,1.5119,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+162,5.4,31552,498,560,991,844,0.80878,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+163,5.43333,31672,498,560,997,844,0.38063,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+164,5.46667,31809,498,560,1001,844,0.20067,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+165,5.5,31916,498,560,1001,844,3.25446,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+166,5.53333,31915,498,560,1001,844,7.7254,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+167,5.56667,31915,498,560,1001,844,4.08994,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+168,5.6,31914,498,560,1001,844,0.01604,writing,Sha,Current last letter is being drawn; pencil/shadow follow its strokes.
+169,5.63333,32229,498,560,1117,844,0.36433,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+170,5.66667,32333,498,560,1113,844,0.89208,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+171,5.7,32675,498,560,1114,844,2.01014,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+172,5.73333,33199,498,560,1117,844,1.92871,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+173,5.76667,33921,498,560,1117,844,2.37212,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+174,5.8,34814,498,560,1117,844,2.70706,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+175,5.83333,36176,498,560,1117,844,2.60065,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+176,5.86667,36184,498,560,1117,844,1.67963,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+177,5.9,36790,498,560,1117,844,1.68573,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+178,5.93333,37345,498,560,1117,844,1.39416,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+179,5.96667,37630,498,560,1117,844,0.58247,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+180,6.0,37729,498,560,1117,844,0.21712,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+181,6.03333,38395,498,560,1117,844,4.78785,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+182,6.06667,38428,498,560,1117,844,4.79126,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+183,6.1,38427,498,560,1117,844,0.97115,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+184,6.13333,38719,498,560,1131,844,0.18513,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+185,6.16667,38722,498,560,1117,844,0.53992,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+186,6.2,38718,498,560,1117,844,0.74636,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+187,6.23333,38524,498,560,1117,844,0.81278,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+188,6.26667,37697,498,560,1117,844,0.97151,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+189,6.3,38466,498,560,1117,844,0.79711,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+190,6.33333,40337,498,560,1131,844,3.07351,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+191,6.36667,41191,498,560,1136,844,2.20901,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+192,6.4,41770,498,560,1136,844,1.89271,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+193,6.43333,41946,498,560,1136,844,0.44737,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+194,6.46667,42179,498,560,1137,844,0.4642,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+195,6.5,42339,498,560,1141,844,0.1867,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+196,6.53333,42440,498,560,1143,844,4.65132,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+197,6.56667,42441,498,560,1143,844,4.61039,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+198,6.6,42442,498,560,1143,844,0.01881,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+199,6.63333,42924,498,560,1187,844,0.46422,writing,Shak,Current last letter is being drawn; pencil/shadow follow its strokes.
+200,6.66667,43275,498,560,1197,844,0.3735,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+201,6.7,43679,498,560,1209,844,0.85099,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+202,6.73333,44161,498,560,1235,844,0.94555,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+203,6.76667,44843,498,560,1259,844,1.33213,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+204,6.8,45495,498,560,1265,844,2.3151,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+205,6.83333,45757,498,560,1265,844,1.23095,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+206,6.86667,45495,498,560,1265,844,1.09284,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+207,6.9,44330,498,560,1263,844,2.03274,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+208,6.93333,43739,498,560,1225,844,2.29344,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+209,6.96667,44772,498,560,1237,844,1.40113,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+210,7.0,46558,498,560,1255,844,2.47256,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+211,7.03333,48431,498,560,1265,844,1.22269,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+212,7.06667,48773,498,560,1265,844,0.65082,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+213,7.1,49052,498,560,1265,844,0.75347,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+214,7.13333,49088,498,560,1265,844,0.1582,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+215,7.16667,49170,498,560,1267,844,0.15833,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+216,7.2,49252,498,560,1267,844,3.76557,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+217,7.23333,49253,498,560,1267,844,4.87396,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+218,7.26667,49253,498,560,1267,844,1.22885,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+219,7.3,49628,498,560,1395,844,0.09993,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+220,7.33333,49948,498,560,1401,844,0.8281,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+221,7.36667,50193,498,560,1405,844,0.59174,writing,Shake,Current last letter is being drawn; pencil/shadow follow its strokes.
+222,7.4,50574,498,560,1405,844,1.38663,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+223,7.43333,50603,498,560,1405,844,1.08984,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+224,7.46667,50345,498,560,1405,844,0.97957,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+225,7.5,49799,498,560,1401,844,1.56614,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+226,7.53333,50851,498,560,1364,844,2.46657,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+227,7.56667,52943,498,560,1397,844,2.20057,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+228,7.6,54395,498,560,1405,844,2.10117,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+229,7.63333,54662,498,560,1405,844,1.10399,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+230,7.66667,54135,498,560,1405,844,0.82739,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+231,7.7,53828,498,560,1401,844,0.41368,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+232,7.73333,53529,498,560,1395,844,0.54562,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+233,7.76667,53549,498,560,1391,844,0.28206,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+234,7.8,53689,498,560,1373,844,2.80328,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+235,7.83333,56213,498,560,1405,844,4.40776,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+236,7.86667,56213,498,560,1405,844,3.93704,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+237,7.9,56212,498,560,1405,844,0.00984,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+238,7.93333,56680,498,560,1473,844,0.71458,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+239,7.96667,57127,498,560,1473,844,1.41668,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+240,8.0,57482,498,560,1475,844,1.3057,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+241,8.03333,57882,498,560,1475,844,1.94242,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+242,8.06667,59133,498,560,1477,844,2.19633,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+243,8.1,59341,498,560,1477,844,0.81925,writing,Shakes,Current last letter is being drawn; pencil/shadow follow its strokes.
+244,8.13333,60162,498,560,1477,844,2.31916,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+245,8.16667,61018,498,560,1477,873,2.0884,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+246,8.2,61685,498,560,1477,902,2.26384,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+247,8.23333,61873,498,560,1477,911,0.59868,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+248,8.26667,61792,498,560,1477,911,0.14542,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+249,8.3,61496,498,560,1477,911,2.80366,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+250,8.33333,60755,498,560,1473,911,6.61953,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+251,8.36667,61252,498,560,1475,911,3.21125,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+252,8.4,61253,498,560,1475,911,0.00978,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+253,8.43333,61347,498,560,1475,911,0.1372,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+254,8.46667,61700,498,560,1475,911,0.61672,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+255,8.5,62518,498,560,1491,911,0.81124,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+256,8.53333,63503,498,560,1529,911,1.83706,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+257,8.56667,63847,498,560,1529,911,2.13698,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+258,8.6,63718,498,560,1527,911,1.06277,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+259,8.63333,63404,498,560,1517,911,0.8559,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+260,8.66667,62850,498,560,1502,911,0.69955,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+261,8.7,62200,498,560,1509,911,0.44359,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+262,8.73333,61928,498,560,1512,911,0.16417,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+263,8.76667,63011,498,560,1531,911,2.55004,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+264,8.8,65989,498,560,1533,911,2.90488,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+265,8.83333,65988,498,560,1533,911,2.40787,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+266,8.86667,65989,498,560,1533,911,0.82243,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+267,8.9,66470,498,560,1587,911,0.3652,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+268,8.93333,66825,498,560,1597,911,0.29612,writing,Shakesp,Current last letter is being drawn; pencil/shadow follow its strokes.
+269,8.96667,67226,498,560,1609,911,0.62753,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+270,9.0,67708,498,560,1635,911,0.72115,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+271,9.03333,68386,498,560,1659,911,1.03906,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+272,9.06667,69036,498,560,1665,911,1.70726,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+273,9.1,69293,498,560,1665,911,0.942,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+274,9.13333,69044,498,560,1665,911,0.87178,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+275,9.16667,67690,498,560,1661,911,1.67422,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+276,9.2,66887,498,560,1653,911,0.68586,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+277,9.23333,69182,498,560,1643,911,2.85371,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+278,9.26667,71244,498,560,1662,911,1.33361,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+279,9.3,72171,498,560,1665,911,0.67211,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+280,9.33333,72476,498,560,1665,911,0.47706,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+281,9.36667,72598,498,560,1665,911,0.31484,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+282,9.4,72635,498,560,1665,911,0.11937,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+283,9.43333,72722,498,560,1667,911,0.11936,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+284,9.46667,72804,498,560,1667,911,2.43424,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+285,9.5,72802,498,560,1667,911,3.24431,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+286,9.53333,72804,498,560,1667,911,0.71285,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+287,9.56667,73172,498,560,1801,911,0.12268,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+288,9.6,73331,498,560,1803,911,0.46091,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+289,9.63333,73605,498,560,1803,911,0.60753,writing,Shakespe,Current last letter is being drawn; pencil/shadow follow its strokes.
+290,9.66667,73912,498,560,1803,911,0.6132,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+291,9.7,73913,498,560,1803,911,0.24856,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+292,9.73333,73695,498,560,1803,911,0.77335,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+293,9.76667,73366,498,560,1803,911,0.85751,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+294,9.8,73713,498,560,1754,911,2.19601,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+295,9.83333,75666,498,560,1768,911,1.66549,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+296,9.86667,77322,498,560,1789,911,0.82189,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+297,9.9,78381,498,560,1795,911,1.09562,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+298,9.93333,79307,498,560,1799,911,0.91473,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+299,9.96667,79998,498,560,1799,911,0.81668,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+300,10.0,80138,498,560,1803,911,1.30317,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+301,10.03333,80771,498,560,1805,911,1.18164,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+302,10.06667,81140,498,560,1815,911,0.70728,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+303,10.1,81289,498,560,1821,911,0.37004,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+304,10.13333,81481,498,560,1829,911,0.26864,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+305,10.16667,81510,498,560,1831,911,0.12814,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+306,10.2,81709,498,560,1834,911,1.479,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+307,10.23333,81710,498,560,1834,911,2.80007,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+308,10.26667,81709,498,560,1834,911,1.47988,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+309,10.3,81708,498,560,1834,911,0.00491,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+310,10.33333,82042,498,560,1903,911,0.33902,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+311,10.36667,82103,498,560,1899,911,0.49677,writing,Shakespea,Current last letter is being drawn; pencil/shadow follow its strokes.
+312,10.4,82417,498,560,1907,911,0.84426,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+313,10.43333,83592,498,560,1910,911,1.2771,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+314,10.46667,84146,498,560,1910,911,1.33721,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+315,10.5,84417,498,560,1910,911,1.03112,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+316,10.53333,85152,498,560,1910,911,0.83519,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+317,10.56667,85722,498,560,1921,911,0.54114,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+318,10.6,86296,498,560,1943,911,0.53207,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+319,10.63333,86741,498,560,1963,911,0.34808,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+320,10.66667,86863,498,560,1967,911,0.11453,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+321,10.7,87092,498,560,1977,911,0.27575,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+322,10.73333,87313,498,560,1979,911,0.12533,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+323,10.76667,87419,498,560,1984,911,0.97127,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+324,10.8,87418,498,560,1984,911,1.60592,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+325,10.83333,87417,498,560,1984,911,0.00409,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+326,10.86667,87885,498,560,2017,911,0.21014,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+327,10.9,88253,498,560,2027,911,0.16776,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+328,10.93333,88657,498,560,2041,911,0.33109,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+329,10.96667,89136,498,560,2065,911,0.37213,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+330,11.0,89803,498,560,2091,911,0.56124,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+331,11.03333,90465,498,560,2095,911,0.83596,writing,Shakespear,Current last letter is being drawn; pencil/shadow follow its strokes.
+332,11.06667,90716,498,560,2095,911,0.48361,writing,Shakespeare,Current last letter is being drawn; pencil/shadow follow its strokes.
+333,11.1,90472,498,560,2095,911,0.49444,writing,Shakespeare,Current last letter is being drawn; pencil/shadow follow its strokes.
+334,11.13333,89987,498,560,2095,911,0.42995,writing,Shakespeare,Current last letter is being drawn; pencil/shadow follow its strokes.
+335,11.16667,88298,498,560,2083,911,0.86677,writing,Shakespeare,Current last letter is being drawn; pencil/shadow follow its strokes.
+336,11.2,89750,498,560,2068,911,1.10268,writing,Shakespeare,Current last letter is being drawn; pencil/shadow follow its strokes.
+337,11.23333,92668,498,560,2093,911,1.15593,writing,Shakespeare,Current last letter is being drawn; pencil/shadow follow its strokes.
+338,11.26667,93595,498,560,2095,911,0.36354,writing,Shakespeare,Current last letter is being drawn; pencil/shadow follow its strokes.
+339,11.3,93898,498,560,2095,911,0.27444,writing,Shakespeare,Current last letter is being drawn; pencil/shadow follow its strokes.
+340,11.33333,94033,498,560,2095,911,0.17291,writing,Shakespeare,Current last letter is being drawn; pencil/shadow follow its strokes.
+341,11.36667,94077,498,560,2095,911,0.06418,writing,Shakespeare,Current last letter is being drawn; pencil/shadow follow its strokes.
+342,11.4,94165,498,560,2097,911,0.06451,writing,Shakespeare,Current last letter is being drawn; pencil/shadow follow its strokes.
+343,11.43333,94167,498,560,2097,911,0.01053,writing,Shakespeare,Current last letter is being drawn; pencil/shadow follow its strokes.
+344,11.46667,94189,498,560,2097,911,0.05117,writing,Shakespeare,Current last letter is being drawn; pencil/shadow follow its strokes.
+345,11.5,94239,498,560,2097,911,0.11974,written,Shakespeare,Complete signature holds; control settles to the eraser.
+346,11.53333,94238,498,560,2097,911,0.16793,written,Shakespeare,Complete signature holds; control settles to the eraser.
+347,11.56667,94237,498,560,2097,911,0.08727,written,Shakespeare,Complete signature holds; control settles to the eraser.
+348,11.6,94237,498,560,2097,911,0.02371,written,Shakespeare,Complete signature holds; control settles to the eraser.
+349,11.63333,94237,498,560,2097,911,0.0262,written,Shakespeare,Complete signature holds; control settles to the eraser.
+350,11.66667,94237,498,560,2097,911,0.05485,written,Shakespeare,Complete signature holds; control settles to the eraser.
+351,11.7,94237,498,560,2097,911,0.13099,written,Shakespeare,Complete signature holds; control settles to the eraser.
+352,11.73333,94237,498,560,2097,911,0.12954,written,Shakespeare,Complete signature holds; control settles to the eraser.
+353,11.76667,94237,498,560,2097,911,0.08318,written,Shakespeare,Complete signature holds; control settles to the eraser.
+354,11.8,94237,498,560,2097,911,0.04328,written,Shakespeare,Complete signature holds; control settles to the eraser.
+355,11.83333,94237,498,560,2097,911,0.01337,written,Shakespeare,Complete signature holds; control settles to the eraser.
+356,11.86667,94237,498,560,2097,911,0.00037,written,Shakespeare,Complete signature holds; control settles to the eraser.
+357,11.9,94237,498,560,2097,911,4e-05,written,Shakespeare,Complete signature holds; control settles to the eraser.
+358,11.93333,94237,498,560,2097,911,2e-05,written,Shakespeare,Complete signature holds; control settles to the eraser.
+359,11.96667,94237,498,560,2097,911,2e-05,written,Shakespeare,Complete signature holds; control settles to the eraser.
+360,12.0,94237,498,560,2097,911,0.03228,written,Shakespeare,Complete signature holds; control settles to the eraser.
+361,12.03333,94237,498,560,2097,911,0.00272,written,Shakespeare,Complete signature holds; control settles to the eraser.
+362,12.06667,94237,498,560,2097,911,0.00043,written,Shakespeare,Complete signature holds; control settles to the eraser.
+363,12.1,94237,498,560,2097,911,5e-05,written,Shakespeare,Complete signature holds; control settles to the eraser.
+364,12.13333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+365,12.16667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+366,12.2,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+367,12.23333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+368,12.26667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+369,12.3,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+370,12.33333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+371,12.36667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+372,12.4,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+373,12.43333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+374,12.46667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+375,12.5,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+376,12.53333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+377,12.56667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+378,12.6,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+379,12.63333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+380,12.66667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+381,12.7,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+382,12.73333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+383,12.76667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+384,12.8,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+385,12.83333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+386,12.86667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+387,12.9,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+388,12.93333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+389,12.96667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+390,13.0,94237,498,560,2097,911,0.0165,written,Shakespeare,Complete signature holds; control settles to the eraser.
+391,13.03333,94237,498,560,2097,911,0.03301,written,Shakespeare,Complete signature holds; control settles to the eraser.
+392,13.06667,94237,498,560,2097,911,0.03307,written,Shakespeare,Complete signature holds; control settles to the eraser.
+393,13.1,94237,498,560,2097,911,0.03311,written,Shakespeare,Complete signature holds; control settles to the eraser.
+394,13.13333,94237,498,560,2097,911,0.03311,written,Shakespeare,Complete signature holds; control settles to the eraser.
+395,13.16667,94237,498,560,2097,911,0.03312,written,Shakespeare,Complete signature holds; control settles to the eraser.
+396,13.2,94237,498,560,2097,911,0.0329,written,Shakespeare,Complete signature holds; control settles to the eraser.
+397,13.23333,94237,498,560,2097,911,0.03191,written,Shakespeare,Complete signature holds; control settles to the eraser.
+398,13.26667,94237,498,560,2097,911,0.02833,written,Shakespeare,Complete signature holds; control settles to the eraser.
+399,13.3,94237,498,560,2097,911,0.02049,written,Shakespeare,Complete signature holds; control settles to the eraser.
+400,13.33333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+401,13.36667,94237,498,560,2097,911,0.00541,written,Shakespeare,Complete signature holds; control settles to the eraser.
+402,13.4,94237,498,560,2097,911,0.02118,written,Shakespeare,Complete signature holds; control settles to the eraser.
+403,13.43333,94237,498,560,2097,911,0.01315,written,Shakespeare,Complete signature holds; control settles to the eraser.
+404,13.46667,94237,498,560,2097,911,0.00542,written,Shakespeare,Complete signature holds; control settles to the eraser.
+405,13.5,94237,498,560,2097,911,0.01582,written,Shakespeare,Complete signature holds; control settles to the eraser.
+406,13.53333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+407,13.56667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+408,13.6,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+409,13.63333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+410,13.66667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+411,13.7,94237,498,560,2097,911,0.00542,written,Shakespeare,Complete signature holds; control settles to the eraser.
+412,13.73333,94237,498,560,2097,911,0.02072,written,Shakespeare,Complete signature holds; control settles to the eraser.
+413,13.76667,94237,498,560,2097,911,0.03176,written,Shakespeare,Complete signature holds; control settles to the eraser.
+414,13.8,94237,498,560,2097,911,0.03174,written,Shakespeare,Complete signature holds; control settles to the eraser.
+415,13.83333,94237,498,560,2097,911,0.03227,written,Shakespeare,Complete signature holds; control settles to the eraser.
+416,13.86667,94237,498,560,2097,911,0.03251,written,Shakespeare,Complete signature holds; control settles to the eraser.
+417,13.9,94237,498,560,2097,911,0.02762,written,Shakespeare,Complete signature holds; control settles to the eraser.
+418,13.93333,94237,498,560,2097,911,0.04488,written,Shakespeare,Complete signature holds; control settles to the eraser.
+419,13.96667,94237,498,560,2097,911,0.05008,written,Shakespeare,Complete signature holds; control settles to the eraser.
+420,14.0,94237,498,560,2097,911,0.03592,written,Shakespeare,Complete signature holds; control settles to the eraser.
+421,14.03333,94237,498,560,2097,911,0.03138,written,Shakespeare,Complete signature holds; control settles to the eraser.
+422,14.06667,94237,498,560,2097,911,0.02576,written,Shakespeare,Complete signature holds; control settles to the eraser.
+423,14.1,94237,498,560,2097,911,0.0201,written,Shakespeare,Complete signature holds; control settles to the eraser.
+424,14.13333,94237,498,560,2097,911,0.0002,written,Shakespeare,Complete signature holds; control settles to the eraser.
+425,14.16667,94237,498,560,2097,911,8e-05,written,Shakespeare,Complete signature holds; control settles to the eraser.
+426,14.2,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+427,14.23333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+428,14.26667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+429,14.3,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+430,14.33333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+431,14.36667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+432,14.4,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+433,14.43333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+434,14.46667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+435,14.5,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+436,14.53333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+437,14.56667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+438,14.6,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+439,14.63333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+440,14.66667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+441,14.7,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+442,14.73333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+443,14.76667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+444,14.8,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+445,14.83333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+446,14.86667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+447,14.9,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+448,14.93333,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+449,14.96667,94237,498,560,2097,911,0.0,written,Shakespeare,Complete signature holds; control settles to the eraser.
+450,15.0,94243,498,560,2097,911,0.02718,written,Shakespeare,Complete signature holds; control settles to the eraser.
+451,15.03333,94243,498,560,2097,911,0.00352,written,Shakespeare,Complete signature holds; control settles to the eraser.
+452,15.06667,94243,498,560,2097,911,0.00573,written,Shakespeare,Complete signature holds; control settles to the eraser.
+453,15.1,94243,498,560,2097,911,0.00436,written,Shakespeare,Complete signature holds; control settles to the eraser.
+454,15.13333,94243,498,560,2097,911,0.00302,written,Shakespeare,Complete signature holds; control settles to the eraser.
+455,15.16667,94243,498,560,2097,911,0.00135,written,Shakespeare,Complete signature holds; control settles to the eraser.
+456,15.2,94243,498,560,2097,911,0.04585,erase_trigger,Shakespeare,Eraser is clicked; transition to clearing.
+457,15.23333,94833,498,560,2097,911,0.35656,erase_trigger,Shakespeare,Eraser is clicked; transition to clearing.
+458,15.26667,97353,498,554,2102,911,0.35098,erase_trigger,Shakespeare,Eraser is clicked; transition to clearing.
+459,15.3,102556,498,551,2107,911,0.49846,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+460,15.33333,105727,498,549,2110,911,0.51099,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+461,15.36667,116632,498,538,2119,911,1.25454,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+462,15.4,122334,499,532,2125,911,1.62913,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+463,15.43333,127010,500,526,2121,910,1.93579,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+464,15.46667,129599,500,520,2121,910,2.08393,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+465,15.5,87479,512,522,2123,909,2.19586,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+466,15.53333,71896,514,516,2137,903,2.26253,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+467,15.56667,61082,516,511,2129,903,2.30743,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+468,15.6,52663,518,506,2136,902,2.28233,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+469,15.63333,47204,520,500,2142,901,2.21806,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+470,15.66667,42362,522,496,2149,901,2.13901,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+471,15.7,37180,523,490,2156,900,2.04543,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+472,15.73333,31355,524,486,2174,899,2.00097,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+473,15.76667,24587,526,482,2180,899,1.91139,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+474,15.8,21502,534,479,2192,898,1.36052,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+475,15.83333,13996,542,480,2194,896,1.66999,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+476,15.86667,7413,544,488,2193,854,1.48538,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+477,15.9,3966,548,482,2187,845,1.30261,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+478,15.93333,1471,563,504,2174,796,1.25546,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+479,15.96667,571,578,478,2182,798,0.88093,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+480,16.0,155,652,498,2163,780,0.73373,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+481,16.03333,41,614,512,1758,760,0.61121,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+482,16.06667,7,762,508,1320,707,0.53686,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+483,16.1,0,,,,,0.48315,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+484,16.13333,0,,,,,0.43625,erasing,Shakespeare,"Ink breaks into blue particles, expands, fades; pencil returns."
+485,16.16667,0,,,,,0.41632,resetting,,Remaining motion ends; name and input state reset.
+486,16.2,0,,,,,0.41457,resetting,,Remaining motion ends; name and input state reset.
+487,16.23333,0,,,,,0.26392,resetting,,Remaining motion ends; name and input state reset.
+488,16.26667,0,,,,,0.39245,resetting,,Remaining motion ends; name and input state reset.
+489,16.3,0,,,,,0.35687,resetting,,Remaining motion ends; name and input state reset.
+490,16.33333,0,,,,,0.19846,resetting,,Remaining motion ends; name and input state reset.
+491,16.36667,0,,,,,0.03274,resetting,,Remaining motion ends; name and input state reset.
+492,16.4,0,,,,,0.02052,resetting,,Remaining motion ends; name and input state reset.
+493,16.43333,0,,,,,0.00597,idle,,Blank paper and stationary pencil restored.
+494,16.46667,0,,,,,0.08436,idle,,Blank paper and stationary pencil restored.
+495,16.5,0,,,,,2e-05,idle,,Blank paper and stationary pencil restored.
+496,16.53333,0,,,,,4e-05,idle,,Blank paper and stationary pencil restored.
+497,16.56667,0,,,,,1e-05,idle,,Blank paper and stationary pencil restored.
+498,16.6,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+499,16.63333,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+500,16.66667,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+501,16.7,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+502,16.73333,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+503,16.76667,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+504,16.8,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+505,16.83333,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+506,16.86667,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+507,16.9,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+508,16.93333,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+509,16.96667,0,,,,,0.00332,idle,,Blank paper and stationary pencil restored.
+510,17.0,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+511,17.03333,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+512,17.06667,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+513,17.1,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+514,17.13333,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+515,17.16667,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+516,17.2,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+517,17.23333,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+518,17.26667,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+519,17.3,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+520,17.33333,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+521,17.36667,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+522,17.4,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+523,17.43333,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+524,17.46667,0,,,,,0.00332,idle,,Blank paper and stationary pencil restored.
+525,17.5,0,,,,,3e-05,idle,,Blank paper and stationary pencil restored.
+526,17.53333,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+527,17.56667,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+528,17.6,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+529,17.63333,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+530,17.66667,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+531,17.7,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+532,17.73333,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+533,17.76667,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+534,17.8,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+535,17.83333,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+536,17.86667,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+537,17.9,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+538,17.93333,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+539,17.96667,0,,,,,0.0033,idle,,Blank paper and stationary pencil restored.
+540,18.0,0,,,,,0.04604,idle,,Blank paper and stationary pencil restored.
+541,18.03333,0,,,,,0.00405,idle,,Blank paper and stationary pencil restored.
+542,18.06667,0,,,,,0.00017,idle,,Blank paper and stationary pencil restored.
+543,18.1,0,,,,,5e-05,idle,,Blank paper and stationary pencil restored.
+544,18.13333,0,,,,,2e-05,idle,,Blank paper and stationary pencil restored.
+545,18.16667,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+546,18.2,0,,,,,1e-05,idle,,Blank paper and stationary pencil restored.
+547,18.23333,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+548,18.26667,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+549,18.3,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+550,18.33333,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+551,18.36667,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+552,18.4,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+553,18.43333,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+554,18.46667,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+555,18.5,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
+556,18.53333,0,,,,,0.0,idle,,Blank paper and stationary pencil restored.
