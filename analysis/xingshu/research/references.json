@@ -1,0 +1,23 @@
+{
+  "scope": "Visual research only. Font outlines are not used in prototype data or runtime.",
+  "repository": "https://github.com/google/fonts",
+  "revision": "35e5529ffaf259a96693b048d9d97cdaa76b6837",
+  "license": "SIL Open Font License 1.1",
+  "files": [
+    {
+      "file": "LongCang-Regular.ttf",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/longcang/LongCang-Regular.ttf?ref=35e5529ffaf259a96693b048d9d97cdaa76b6837",
+      "sha256": "e5bf2c3f24ef2327c6f136d8f73e2f9dfdf44896fdbeb35a9515f44777bb91bc"
+    },
+    {
+      "file": "OFL.txt",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/longcang/OFL.txt?ref=35e5529ffaf259a96693b048d9d97cdaa76b6837",
+      "sha256": "603546b7219a94bb59bf8294458194a5010119486354092b66a09a3fd61aeacc"
+    },
+    {
+      "file": "METADATA.pb",
+      "url": "https://api.github.com/repos/google/fonts/contents/ofl/longcang/METADATA.pb?ref=35e5529ffaf259a96693b048d9d97cdaa76b6837",
+      "sha256": "c7d6c01a886b37dcef3c1e89796424f34240647fedac0d37108309c02fa8f3a3"
+    }
+  ]
+}
