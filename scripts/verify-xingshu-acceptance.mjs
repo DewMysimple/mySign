@@ -74,6 +74,7 @@ const evidenceNames=[
   'browser/prototype-motion-resize.json','browser/resize-motion.json','browser/adaptive-quality.json',
   'performance/calibration.json','production/production.json','english/english-ink-diff.json','visual/capture.json',
   'visual/comparison.json','visual/video-audit.json','build-output.txt','engineering-audit.md','visual-spec.md','visual-review.md','review.html',
+  'review-page-smoke.json',
 ];
 const evidenceFiles=await fingerprint(evidenceNames.map(p=>`${OUT}/${p}`));
 const visualNames=[
@@ -102,7 +103,11 @@ const report={schema:1,generatedAt:new Date().toISOString(),version:production.v
     particleCount:particles.particleCheck.count,particlesOutside:particles.particleCheck.outside,
     englishDifferentInkPixels:english.differentInkPixels},
   functionalGates:gates,sourceFiles,evidenceFiles,visualFiles,
-  changedFiles:git('diff','--name-only',baseline,'HEAD').split('\n'),
+  changedFiles:[...new Set([
+    ...git('diff','--name-only','-z',baseline).split('\0'),
+    ...git('ls-files','--others','--exclude-standard','-z').split('\0'),
+    `${OUT}/acceptance.json`,`${OUT}/acceptance.md`,
+  ].filter(Boolean))].sort(),
   limitations:[
     'Only 你 and 好 use the experimental running-script data. The other 3498 characters retain the original standard style.',
     'User aesthetic approval is pending. Codex review is not human calligraphy expert certification.',

@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-10-30T05:54:58.941Z",
+  "browser": "156.0.8078.48",
+  "images": 14,
+  "exports": [
+    {
+      "file": "baseline/nihao",
+      "namespace": "http://www.w3.org/2000/svg",
+      "outlines": 13
+    },
+    {
+      "file": "visual/nihao",
+      "namespace": "http://www.w3.org/2000/svg",
+      "outlines": 16
+    },
+    {
+      "file": "visual/ni",
+      "namespace": "http://www.w3.org/2000/svg",
+      "outlines": 9
+    },
+    {
+      "file": "visual/hao",
+      "namespace": "http://www.w3.org/2000/svg",
+      "outlines": 7
+    }
+  ],
+  "previewStatus": 200,
+  "errors": [],
+  "pass": true
+}

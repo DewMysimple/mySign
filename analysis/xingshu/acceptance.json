@@ -1,0 +1,765 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-10-30T05:54:59.607Z",
+  "version": "1.2.0-prototype.0",
+  "conclusion": "PROTOTYPE_FUNCTIONAL_PASSED_USER_VISUAL_REVIEW_PENDING",
+  "scope": "Two experimental hard-pen running-script glyphs and desktop single-line signature. Not a full-library style release.",
+  "branch": "feature/chinese-xingshu-prototype",
+  "sourceRevision": "8073018f482df9ff58fa665315b8b4acf79c665c",
+  "uncommittedProductChanges": false,
+  "stableMainBaseline": "b110742bb492233b061f899f0708faf965181b52",
+  "protectedPaths": [
+    "public/glyphs",
+    "data/glyphs",
+    "src/handwriting/generated/manifest.json",
+    "src/handwriting/glyphs.js",
+    "src/handwriting/signature.js",
+    "src/handwriting/inkRenderer.js",
+    "src/scene"
+  ],
+  "qualifiedLibrary": {
+    "target": 3500,
+    "unchanged": true,
+    "strokes": 33959,
+    "shards": 110
+  },
+  "prototypes": {
+    "characters": [
+      "你",
+      "好"
+    ],
+    "logicalStrokes": 13,
+    "visualActions": 9,
+    "connections": 3,
+    "inkSegments": 16,
+    "status": "experimental-not-qualified-library"
+  },
+  "userVisualApproval": "pending; do not merge main or expand the library before user review",
+  "visualReview": {
+    "reviewer": "Codex",
+    "method": "Actual image inspection and decoded recording evidence, documented in visual-review.md",
+    "humanCalligraphyExpertCertification": false
+  },
+  "environment": {
+    "browser": "156.0.8078.48",
+    "node": "v24.16.0",
+    "os": "win32",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "dpr": 2
+    },
+    "rendering": "Desktop headless, SwiftShader allowed; normal speed, no time scaling",
+    "desktopBrowsers": [
+      {
+        "name": "edge",
+        "version": "156.0.4314.50"
+      },
+      {
+        "name": "firefox",
+        "version": "157.0"
+      },
+      {
+        "name": "webkit",
+        "version": "27.2"
+      }
+    ]
+  },
+  "tests": {
+    "node": 19,
+    "chromium": 20,
+    "otherDesktop": 3,
+    "productionCases": 3,
+    "normalPerformanceCases": 9
+  },
+  "limits": {
+    "scope": "desktop-single-line",
+    "calibrationEvidence": "analysis/xingshu/performance/calibration.json",
+    "maxCharacters": 32,
+    "minScale": 0.5,
+    "maxStrokes": 140,
+    "maxSeconds": 40,
+    "rawBytes": 2097152,
+    "parsedBytes": 2097152
+  },
+  "metrics": {
+    "normalNihaoSeconds": 5.173799999982118,
+    "maxP95FrameMs": 5.899999976158142,
+    "maxSyncErrorCssPx": 0.0010309890243637206,
+    "maxLoadMs": 10.199999988079071,
+    "maxPlanMs": 5.200000017881393,
+    "maxPeakHeap": 35949656,
+    "maxEraseMs": 1403.7000000178814,
+    "completedContourAlphaDifference": 0,
+    "centerlineInsideRatio": 1,
+    "groupContactGapCssPx": 0,
+    "particleCount": 1577,
+    "particlesOutside": 0,
+    "englishDifferentInkPixels": 0
+  },
+  "functionalGates": [
+    {
+      "id": "scope",
+      "label": "工程审计、冻结原效果和独立分支",
+      "status": "passed",
+      "evidence": [
+        "engineering-audit.md",
+        "baseline/capture.json"
+      ]
+    },
+    {
+      "id": "protected",
+      "label": "3500 字合格库、英文几何、渲染器与 3D / 粒子源码保持原样",
+      "status": "passed",
+      "evidence": [
+        "quality/masks.json"
+      ]
+    },
+    {
+      "id": "models",
+      "label": "19 项模型、字形映射、输入预算、缓存与逐段节奏",
+      "status": "passed",
+      "evidence": [
+        "unit-tests.tap"
+      ]
+    },
+    {
+      "id": "contours",
+      "label": "两字 16 段 ×22 进度完整轮廓与中线匹配",
+      "status": "passed",
+      "evidence": [
+        "quality/masks.json"
+      ]
+    },
+    {
+      "id": "contacts",
+      "label": "13 个原逻辑笔画、9 动作组、3 牵丝、7 个接触边界",
+      "status": "passed",
+      "evidence": [
+        "browser/connections-shadow.json"
+      ]
+    },
+    {
+      "id": "synchrony",
+      "label": "实际 SVG 揭示端点与 3D 笔尖同步、接触和抬笔阴影",
+      "status": "passed",
+      "evidence": [
+        "browser/connections-shadow.json"
+      ]
+    },
+    {
+      "id": "particles",
+      "label": "实际完整轮廓区域采样、清除归位、再次书写",
+      "status": "passed",
+      "evidence": [
+        "browser/prototype-particles.json"
+      ]
+    },
+    {
+      "id": "chromium",
+      "label": "Chromium 20 项完整交互、IME、单行、原英文和资源回归",
+      "status": "passed",
+      "evidence": [
+        "browser/chromium-results.json"
+      ]
+    },
+    {
+      "id": "desktop",
+      "label": "Edge、Firefox、WebKit 关键回归各通过",
+      "status": "passed",
+      "evidence": [
+        "browser/desktop-browsers.json"
+      ]
+    },
+    {
+      "id": "recovery",
+      "label": "七类故障、真实牵丝中断和组件卸载恢复",
+      "status": "passed",
+      "evidence": [
+        "browser/faults.json",
+        "browser/thread-fault.json",
+        "browser/unmount.json"
+      ]
+    },
+    {
+      "id": "performance",
+      "label": "九组正常速度校准及 13 项预算",
+      "status": "passed",
+      "evidence": [
+        "performance/calibration.json"
+      ]
+    },
+    {
+      "id": "single-line",
+      "label": "32 字符 / 140 段 / 40 秒 / 0.5 scale 和实际宽度拒绝",
+      "status": "passed",
+      "evidence": [
+        "performance/calibration.json",
+        "browser/chromium-results.json"
+      ]
+    },
+    {
+      "id": "english",
+      "label": "原英文签名蓝色墨迹差异 0",
+      "status": "passed",
+      "evidence": [
+        "english/english-ink-diff.json"
+      ]
+    },
+    {
+      "id": "production",
+      "label": "生产构建、三个桌面 DPR、原型源码许可、本地加载与无调试入口",
+      "status": "passed",
+      "evidence": [
+        "build-output.txt",
+        "production/production.json"
+      ]
+    },
+    {
+      "id": "visual-artifacts",
+      "label": "新旧完整场景、逐段轮廓、7 关键帧和可解码实时录制",
+      "status": "passed",
+      "evidence": [
+        "visual/capture.json",
+        "visual/video-audit.json",
+        "visual-review.md",
+        "review.html"
+      ]
+    }
+  ],
+  "sourceFiles": [
+    {
+      "file": "src/App.jsx",
+      "sha256": "85c33a1d57c5e1eefa8386b1aab9d254556b7af3be66731d43c242b5c6bcc0b7"
+    },
+    {
+      "file": "src/animation/SignatureController.js",
+      "sha256": "d969bdf59577fd9477abef147dfd5b524ccabc6aec3033ee0ad7b383b29692a5"
+    },
+    {
+      "file": "src/components/SignatureInput.jsx",
+      "sha256": "a9a531605285ff2bc652de2be19e33c67e67417176375ec69aac987b2ff84700"
+    },
+    {
+      "file": "src/handwriting/GlyphCache.js",
+      "sha256": "0d4abad2e5f9839ab38da7a300e6f30de590ea3a7ca9b8b7e4b0b5fe62527ef0"
+    },
+    {
+      "file": "src/handwriting/GlyphLoader.js",
+      "sha256": "3750094a9dfd20419e9cbba6541503a68831e28ade851936e6eb658121149800"
+    },
+    {
+      "file": "src/handwriting/generated/manifest.json",
+      "sha256": "12cd2478eca9b88904c87e7752e7c9f2a45bf200e20177e0f3e8be598d3865a0"
+    },
+    {
+      "file": "src/handwriting/glyphs.js",
+      "sha256": "67f923ed009f13c554db047ffd54a25cf438bc1210ae0be97081e43e7fd3f89b"
+    },
+    {
+      "file": "src/handwriting/inkRenderer.js",
+      "sha256": "7120f54d02ec3775e17d33896b607d9e14fbf62fcdff7ed13a7b2037c30846fe"
+    },
+    {
+      "file": "src/handwriting/motionRhythm.js",
+      "sha256": "4f75f4a22da624542383ea2ab4b50858f03a312f6c2608a629abb992be1904c0"
+    },
+    {
+      "file": "src/handwriting/signature.js",
+      "sha256": "07812dd35c49fae74b0e0989a54820af9bb2c3b724eea3eeaacc2087fd1d1e8e"
+    },
+    {
+      "file": "src/handwriting/signatureLimits.json",
+      "sha256": "a6433c35a77b7aa400b23396a6c739f3593c0bc74789b822509c653721a738fe"
+    },
+    {
+      "file": "src/handwriting/symbols.js",
+      "sha256": "774b92a696af32d8b41850dac969eadf21e47659644f00f299ab538bb7edb568"
+    },
+    {
+      "file": "src/handwriting/writingPlan.js",
+      "sha256": "fdac744c0de0efe029d2f943759d0746280a866e1762e857648ed8962d2650e2"
+    },
+    {
+      "file": "src/handwriting/xingshuRegistry.js",
+      "sha256": "740da8b73519fa2ed1b62b9ec03ecb45cb0ce93f1571a2445d54b6718180e74e"
+    },
+    {
+      "file": "src/main.jsx",
+      "sha256": "1d98bca1d5bc2c088f8f02e4f9898101ce3d1a2ccf0039afe522df217d5f1c8f"
+    },
+    {
+      "file": "src/scene/InkParticles.js",
+      "sha256": "f72d4ff6af8ef5d00b83c77a93872ad99c65bf1e2b332f530dfc135e7b06fdb9"
+    },
+    {
+      "file": "src/scene/PencilScene.js",
+      "sha256": "ab0c1b43b2c7467aa9376635e813cf2193988f69de6cdbf1bc86dfd28ded0359"
+    },
+    {
+      "file": "src/scene/softPaperShadow.js",
+      "sha256": "cff1d838f054e1edbced13b606468b562e2c5748ffec6242c36e52a779ea592f"
+    },
+    {
+      "file": "src/styles.css",
+      "sha256": "6f8fa055facd948bb892e2aec3b544af6b9960857f9163325c172d5aa5a59d52"
+    },
+    {
+      "file": "data/xingshu/README.md",
+      "sha256": "b9c74228baf92390f899fde610a23aae23dbb660fff778b3a800e90f3126adfe"
+    },
+    {
+      "file": "data/xingshu/v0.1.0/artwork.json",
+      "sha256": "ace0fcd0319a6c63f1b63ab11ad6e0636493aa46b86e9e81605660fdb94edf76"
+    },
+    {
+      "file": "data/xingshu/v0.1.0/hao.json",
+      "sha256": "b2cedba671ae62dcdc252c4b2eab5d7d1a34e6a3e80ac3b9e9cec6bdbbccb235"
+    },
+    {
+      "file": "data/xingshu/v0.1.0/manifest.json",
+      "sha256": "c8c7d9ed88456f05854b256f072948a99dc90cb32c0366dc2e49ada7317abd38"
+    },
+    {
+      "file": "data/xingshu/v0.1.0/ni.json",
+      "sha256": "bbfab2be6acc27af25a85523f8734ac54a54409b8ce336be279dbbb86b9b4fe2"
+    },
+    {
+      "file": "data/xingshu/v0.1.0/stroke-studies.json",
+      "sha256": "2ba3a6860dc3bdc42ed5571cdcce6e9dacf1e98739d973d5ae3c29edff6d5b4a"
+    },
+    {
+      "file": "public/experiments/xingshu-v0.1.0/ARPHICPL.TXT",
+      "sha256": "5590533436c70f10f2f524ee61456238c290175c6662fbe1c700b5f038a6d328"
+    },
+    {
+      "file": "public/experiments/xingshu-v0.1.0/artwork.json",
+      "sha256": "ace0fcd0319a6c63f1b63ab11ad6e0636493aa46b86e9e81605660fdb94edf76"
+    },
+    {
+      "file": "public/experiments/xingshu-v0.1.0/hao.json",
+      "sha256": "b2cedba671ae62dcdc252c4b2eab5d7d1a34e6a3e80ac3b9e9cec6bdbbccb235"
+    },
+    {
+      "file": "public/experiments/xingshu-v0.1.0/manifest.json",
+      "sha256": "c8c7d9ed88456f05854b256f072948a99dc90cb32c0366dc2e49ada7317abd38"
+    },
+    {
+      "file": "public/experiments/xingshu-v0.1.0/ni.json",
+      "sha256": "bbfab2be6acc27af25a85523f8734ac54a54409b8ce336be279dbbb86b9b4fe2"
+    },
+    {
+      "file": "public/experiments/xingshu-v0.1.0/provenance.json",
+      "sha256": "f997332beade21f865adeeed30f79c20f28f766db229bd1259500c30a69069bb"
+    },
+    {
+      "file": "package.json",
+      "sha256": "bbe357eb20365808cdfec6c9e5a01899b8e53e85ae1a7157f67a5105c6ec96eb"
+    },
+    {
+      "file": "package-lock.json",
+      "sha256": "e54c17b45ff984d2ced3fd0d69dc44d51ea80a66a4cdb80711607e96ccf0c35c"
+    },
+    {
+      "file": "index.html",
+      "sha256": "6bfd8895d955b381ba715bf48c81affd79fff8597b9332b2790f1eaadc325789"
+    },
+    {
+      "file": "vite.config.js",
+      "sha256": "4ab750567955ed3f0f02215b282e434d724d1cce4262087c078478f9bc35767b"
+    }
+  ],
+  "evidenceFiles": [
+    {
+      "file": "analysis/xingshu/unit-tests.tap",
+      "sha256": "f03f2b623dc562c5423da5318110475e79c13a63de632217052ae3840ff020e4"
+    },
+    {
+      "file": "analysis/xingshu/quality/masks.json",
+      "sha256": "1d5b7b9b5dcf66e6f4ffe5e5027499bbb24b70298a3c81065b6127021650d3e1"
+    },
+    {
+      "file": "analysis/xingshu/artwork/geometry.json",
+      "sha256": "ef6b31d7c3dcaf2d94f07d8cfcb7939ab605cdb6152b3245b3bae127a2c76396"
+    },
+    {
+      "file": "analysis/xingshu/browser/chromium-results.json",
+      "sha256": "8385782c1577e61811fbfb773ff4cbf66ac0dc9067a3c7561717b5ef0fd03fd0"
+    },
+    {
+      "file": "analysis/xingshu/browser/desktop-browsers.json",
+      "sha256": "6896e9503ecb42e46f1fdbe48fe1336846b726d7d12d9ea984e48e05237c3cde"
+    },
+    {
+      "file": "analysis/xingshu/browser/connections-shadow.json",
+      "sha256": "28c3b8f31eef107518176864d1385e92af2b9ec3a08df33daa7afbaf9862e262"
+    },
+    {
+      "file": "analysis/xingshu/browser/prototype-particles.json",
+      "sha256": "26d0289b4584761dd35e5ba8df5f1e79c1a908ab401b85e64483028d2a78a804"
+    },
+    {
+      "file": "analysis/xingshu/browser/faults.json",
+      "sha256": "1fb49dbc13890ace005c4fabcf4267b657a8280b76f2554509ceab84c8e66cc2"
+    },
+    {
+      "file": "analysis/xingshu/browser/thread-fault.json",
+      "sha256": "c864cc9ad62ae5eb9c222fc0d7faac20ff2ad24d1d429c86822e515be64e2bb2"
+    },
+    {
+      "file": "analysis/xingshu/browser/unmount.json",
+      "sha256": "3b33d35684905bd55fb4aa29545065448aa3407bcf7b8f6ec2d4cba4f4e9a56c"
+    },
+    {
+      "file": "analysis/xingshu/browser/prototype-motion-resize.json",
+      "sha256": "660bc76816b40235fbd55334b5e86b87b4dfb26c77bbbf4f98d6751371600ef4"
+    },
+    {
+      "file": "analysis/xingshu/browser/resize-motion.json",
+      "sha256": "921056154013dc888b10a283834a95a16ac3d2bc6f2be829e0e0d3d2449e135a"
+    },
+    {
+      "file": "analysis/xingshu/browser/adaptive-quality.json",
+      "sha256": "29df0b4744692b68941fa53ca9f3f2231d15018ff45dce44fb92f913e305aa15"
+    },
+    {
+      "file": "analysis/xingshu/performance/calibration.json",
+      "sha256": "500c1626bead1745f407b099e3c2c7e68c57aff53f4f9dbf6a4505cc027b3a03"
+    },
+    {
+      "file": "analysis/xingshu/production/production.json",
+      "sha256": "52bf5412314ffece54523484d42106420532bf9638e017efe89513c6b05b1b49"
+    },
+    {
+      "file": "analysis/xingshu/english/english-ink-diff.json",
+      "sha256": "6ed455a4ff66600549f695c7f70008173034422f3275bcb6dcf00c65b5afc9cf"
+    },
+    {
+      "file": "analysis/xingshu/visual/capture.json",
+      "sha256": "ae363fdebce45ef2f9451f4b2405d01427efc202f3de6ec6319716b22cecb9b5"
+    },
+    {
+      "file": "analysis/xingshu/visual/comparison.json",
+      "sha256": "a8a0c368ec0f633260bfc20326d751c57818ffe505c2512d9c89d5fc56f22b05"
+    },
+    {
+      "file": "analysis/xingshu/visual/video-audit.json",
+      "sha256": "54e42124f69f1ecb79ac9abf2d63283a9bc90e790423173c4d382821d3098d49"
+    },
+    {
+      "file": "analysis/xingshu/build-output.txt",
+      "sha256": "784442a0cf265dabc1ae8062e04cf19c2064b00b2447e1f418d5554cddb78e0c"
+    },
+    {
+      "file": "analysis/xingshu/engineering-audit.md",
+      "sha256": "f2c1972be194144d44d0a1eda84362a34ea5fe4d4c4e56a0066663cba44913d8"
+    },
+    {
+      "file": "analysis/xingshu/visual-spec.md",
+      "sha256": "3581e91fbb552b6bc6952ca937085369dd32c382c237a9bd4dfeb83cc33f0e38"
+    },
+    {
+      "file": "analysis/xingshu/visual-review.md",
+      "sha256": "43b613767ad1099a1bf2f012c64611d3700ed49ad30d212d1047a0a153ce6476"
+    },
+    {
+      "file": "analysis/xingshu/review.html",
+      "sha256": "ceca54ec9df9c3e379cadb14b7de1e0be046ab42b7680d07bab142d6fdf18fcd"
+    },
+    {
+      "file": "analysis/xingshu/review-page-smoke.json",
+      "sha256": "4701ca7d95abbfe920594a6e03006033c7fd36ce61c4e50d7e8f48504afd17eb"
+    }
+  ],
+  "visualFiles": [
+    {
+      "file": "analysis/xingshu/visual/comparison.png",
+      "sha256": "4bc44c583a5a9178e86ae7151fdc9a454a3c0c8d9b3495d8299342aac4814cea"
+    },
+    {
+      "file": "analysis/xingshu/artwork/nihao.png",
+      "sha256": "d789b628f7bb458983eeec956a9c9d1965826bddad865d18c0b0765e31af52e7"
+    },
+    {
+      "file": "analysis/xingshu/artwork/overlay.png",
+      "sha256": "84574747b8a53b80996b25551a7fa10f3dc90824394b9c8573bbee4b6d9730ca"
+    },
+    {
+      "file": "analysis/xingshu/artwork/strokes.png",
+      "sha256": "dfa5a02a5b337928c1ba534f2d1fa2aa8c09e5125c709b3bbb7a28552f3a0051"
+    },
+    {
+      "file": "analysis/xingshu/artwork/basic-strokes.png",
+      "sha256": "6932b5e3913d1c80b8cef4b40b92479c07abd58c082ccdf9061b7a43f7f42d4b"
+    },
+    {
+      "file": "analysis/xingshu/visual/keyframe-1.png",
+      "sha256": "582ab16ffccf9f492ac4ff1afdb8522ad9bf5a05197d5fa8ab7aabd1fd0f07f8"
+    },
+    {
+      "file": "analysis/xingshu/visual/keyframe-2.png",
+      "sha256": "32a9c9b16d5f7c1dc5b260c15b01718f241d29d3e97482681d4b9033547b85ca"
+    },
+    {
+      "file": "analysis/xingshu/visual/keyframe-3.png",
+      "sha256": "60332483f366718bebee0e1aab7df48b840dfddcbeffb430d3d16cd98ce595c8"
+    },
+    {
+      "file": "analysis/xingshu/visual/keyframe-4.png",
+      "sha256": "75f9d3405de05797ae2101c79d23eb27533f9b99edfe301fb25dbdf5bdd7d17a"
+    },
+    {
+      "file": "analysis/xingshu/visual/keyframe-5.png",
+      "sha256": "cd54d4a80de24af6226fbcec9e4af8d0e10925d75e1ea04b8a1b9910b5873eb2"
+    },
+    {
+      "file": "analysis/xingshu/visual/keyframe-6.png",
+      "sha256": "b1ec2b54904ab7f18ec539e0e00f09bfc21df63331332a543c022b4b18a1369a"
+    },
+    {
+      "file": "analysis/xingshu/visual/keyframe-7.png",
+      "sha256": "5ce54d411a1b770725f056beb21ff60c668575eb103536fbbb80897a147c21ea"
+    },
+    {
+      "file": "analysis/xingshu/visual/nihao-full.png",
+      "sha256": "e38aa3f95331f084862f73207afacdf62503f0c08478ecd146361bfd92f49caa"
+    },
+    {
+      "file": "analysis/xingshu/visual/nihao-ink-only.png",
+      "sha256": "1347de0388a9ab7227779b3ef20a91c1cd9c8e9011fe0a9cb41fd3c3bcb40c9f"
+    },
+    {
+      "file": "analysis/xingshu/visual/ni-full.png",
+      "sha256": "bc6063db4bc997f0cfb245ef75a061a78db8be6483e981e7170e062128f185bf"
+    },
+    {
+      "file": "analysis/xingshu/visual/hao-full.png",
+      "sha256": "140cbc13ffc506991bef985a5e098e1383e465f6d6035d8eeba6b6c62cb00167"
+    },
+    {
+      "file": "analysis/xingshu/visual/nihao-particles.png",
+      "sha256": "c28c8390775b686c9af78c85cf441cd2dcac89724f02e7a33868e46f7805a1e9"
+    },
+    {
+      "file": "analysis/xingshu/performance/near-duration-floor.png",
+      "sha256": "5180dc3470c2737e7beed230f33ca5e30e04b9502ee47f582d293cedcbb6c077"
+    },
+    {
+      "file": "analysis/xingshu/production/desktop-dpr-1.png",
+      "sha256": "934594bb820c06b3c2a41c010196b928352ae77179cffb056864da31cd520120"
+    },
+    {
+      "file": "analysis/xingshu/production/desktop-dpr-3.png",
+      "sha256": "8e4303f3cce2a53a2f3e5d20d90e60f3663867f60230a817e4e2da0d32fc3b1b"
+    },
+    {
+      "file": "analysis/xingshu/english/english-ink-diff.png",
+      "sha256": "27745158ad3e01ff789320cb3c66ed3916c4a5c75be6b20e85b7622d248cbcb8"
+    },
+    {
+      "file": "analysis/xingshu/baseline/nihao-full.png",
+      "sha256": "33f9e98745c4d4815e25aff3c3e0c6db078cedeeb503d1b743e9806961a0a0f1"
+    },
+    {
+      "file": "analysis/xingshu/baseline/nihao-standard.webm",
+      "sha256": "d8788e003af7785f8dc529096d5be6ddad1d19ca2d8df99c0832ef846594124b"
+    },
+    {
+      "file": "analysis/xingshu/visual/nihao-prototype-live.webm",
+      "sha256": "fb9dec9475e7393caede700d7f4be4de43ec02ab98960071f333ee085d1f81e0"
+    }
+  ],
+  "changedFiles": [
+    ".gitattributes",
+    ".gitignore",
+    "AGENTS.md",
+    "README.md",
+    "analysis/xingshu/acceptance.json",
+    "analysis/xingshu/acceptance.md",
+    "analysis/xingshu/artwork/basic-strokes.png",
+    "analysis/xingshu/artwork/basic-strokes.svg",
+    "analysis/xingshu/artwork/geometry.json",
+    "analysis/xingshu/artwork/nihao.png",
+    "analysis/xingshu/artwork/nihao.svg",
+    "analysis/xingshu/artwork/overlay.png",
+    "analysis/xingshu/artwork/overlay.svg",
+    "analysis/xingshu/artwork/strokes.png",
+    "analysis/xingshu/artwork/strokes.svg",
+    "analysis/xingshu/baseline/capture.json",
+    "analysis/xingshu/baseline/frame-1.png",
+    "analysis/xingshu/baseline/frame-2.png",
+    "analysis/xingshu/baseline/frame-3.png",
+    "analysis/xingshu/baseline/frame-4.png",
+    "analysis/xingshu/baseline/frame-5.png",
+    "analysis/xingshu/baseline/nihao-full.png",
+    "analysis/xingshu/baseline/nihao-ink-only.png",
+    "analysis/xingshu/baseline/nihao-standalone.svg",
+    "analysis/xingshu/baseline/nihao-standard.webm",
+    "analysis/xingshu/baseline/nihao.svg",
+    "analysis/xingshu/browser/adaptive-quality.json",
+    "analysis/xingshu/browser/cache-cycles.json",
+    "analysis/xingshu/browser/chromium-results.json",
+    "analysis/xingshu/browser/connections-shadow.json",
+    "analysis/xingshu/browser/desktop-browsers.json",
+    "analysis/xingshu/browser/edge-result.json",
+    "analysis/xingshu/browser/edge-written.png",
+    "analysis/xingshu/browser/fault-erase.json",
+    "analysis/xingshu/browser/fault-lift.json",
+    "analysis/xingshu/browser/fault-loading.json",
+    "analysis/xingshu/browser/fault-particle-draw.json",
+    "analysis/xingshu/browser/fault-particles.json",
+    "analysis/xingshu/browser/fault-preflight.json",
+    "analysis/xingshu/browser/fault-stroke.json",
+    "analysis/xingshu/browser/faults.json",
+    "analysis/xingshu/browser/firefox-result.json",
+    "analysis/xingshu/browser/firefox-written.png",
+    "analysis/xingshu/browser/hao-test.json",
+    "analysis/xingshu/browser/mixed-particles.png",
+    "analysis/xingshu/browser/mixed-writing.png",
+    "analysis/xingshu/browser/mixed-written.png",
+    "analysis/xingshu/browser/motion-during-erase.json",
+    "analysis/xingshu/browser/ni-test.json",
+    "analysis/xingshu/browser/particle-order.json",
+    "analysis/xingshu/browser/prototype-motion-resize.json",
+    "analysis/xingshu/browser/prototype-particles.json",
+    "analysis/xingshu/browser/prototype-particles.png",
+    "analysis/xingshu/browser/resize-motion.json",
+    "analysis/xingshu/browser/single-line-resize.png",
+    "analysis/xingshu/browser/single-line-spaces.png",
+    "analysis/xingshu/browser/synchronization.json",
+    "analysis/xingshu/browser/thread-fault.json",
+    "analysis/xingshu/browser/unmount.json",
+    "analysis/xingshu/browser/webkit-result.json",
+    "analysis/xingshu/browser/webkit-written.png",
+    "analysis/xingshu/build-output.txt",
+    "analysis/xingshu/engineering-audit.md",
+    "analysis/xingshu/english/desktop-amy.png",
+    "analysis/xingshu/english/desktop-initial.png",
+    "analysis/xingshu/english/desktop-particles.png",
+    "analysis/xingshu/english/desktop-writing.png",
+    "analysis/xingshu/english/desktop-written.png",
+    "analysis/xingshu/english/english-ink-diff.json",
+    "analysis/xingshu/english/english-ink-diff.png",
+    "analysis/xingshu/english/long-name.png",
+    "analysis/xingshu/english/mobile-initial.png",
+    "analysis/xingshu/english/mobile-written.png",
+    "analysis/xingshu/english/responsive.json",
+    "analysis/xingshu/english/synchronization.json",
+    "analysis/xingshu/performance/140-segment-boundary.png",
+    "analysis/xingshu/performance/32-character-boundary.png",
+    "analysis/xingshu/performance/calibration.json",
+    "analysis/xingshu/performance/english.png",
+    "analysis/xingshu/performance/hao.png",
+    "analysis/xingshu/performance/mixed.png",
+    "analysis/xingshu/performance/near-duration-floor.png",
+    "analysis/xingshu/performance/ni.png",
+    "analysis/xingshu/performance/nihao.png",
+    "analysis/xingshu/performance/readability-floor.png",
+    "analysis/xingshu/production/desktop-dpr-1.png",
+    "analysis/xingshu/production/desktop-dpr-2.png",
+    "analysis/xingshu/production/desktop-dpr-3.png",
+    "analysis/xingshu/production/particles.png",
+    "analysis/xingshu/production/production.json",
+    "analysis/xingshu/production/writing.png",
+    "analysis/xingshu/quality/masks-complete.png",
+    "analysis/xingshu/quality/masks-partial.png",
+    "analysis/xingshu/quality/masks-reference.png",
+    "analysis/xingshu/quality/masks.json",
+    "analysis/xingshu/research/METADATA.pb",
+    "analysis/xingshu/research/OFL.txt",
+    "analysis/xingshu/research/longcang-reference.png",
+    "analysis/xingshu/research/references.json",
+    "analysis/xingshu/review-page-smoke.json",
+    "analysis/xingshu/review.html",
+    "analysis/xingshu/unit-tests.tap",
+    "analysis/xingshu/visual-review.md",
+    "analysis/xingshu/visual-spec.md",
+    "analysis/xingshu/visual/capture.json",
+    "analysis/xingshu/visual/comparison.json",
+    "analysis/xingshu/visual/comparison.png",
+    "analysis/xingshu/visual/hao-full.png",
+    "analysis/xingshu/visual/hao-ink-only.png",
+    "analysis/xingshu/visual/hao-standalone.svg",
+    "analysis/xingshu/visual/hao.svg",
+    "analysis/xingshu/visual/keyframe-1.png",
+    "analysis/xingshu/visual/keyframe-2.png",
+    "analysis/xingshu/visual/keyframe-3.png",
+    "analysis/xingshu/visual/keyframe-4.png",
+    "analysis/xingshu/visual/keyframe-5.png",
+    "analysis/xingshu/visual/keyframe-6.png",
+    "analysis/xingshu/visual/keyframe-7.png",
+    "analysis/xingshu/visual/ni-full.png",
+    "analysis/xingshu/visual/ni-ink-only.png",
+    "analysis/xingshu/visual/ni-standalone.svg",
+    "analysis/xingshu/visual/ni.svg",
+    "analysis/xingshu/visual/nihao-full.png",
+    "analysis/xingshu/visual/nihao-ink-only.png",
+    "analysis/xingshu/visual/nihao-particles.png",
+    "analysis/xingshu/visual/nihao-prototype-live.webm",
+    "analysis/xingshu/visual/nihao-standalone.svg",
+    "analysis/xingshu/visual/nihao.svg",
+    "analysis/xingshu/visual/prototype-video-frame.png",
+    "analysis/xingshu/visual/standard-video-frame.png",
+    "analysis/xingshu/visual/video-audit.json",
+    "data/xingshu/README.md",
+    "data/xingshu/v0.1.0/artwork.json",
+    "data/xingshu/v0.1.0/hao.json",
+    "data/xingshu/v0.1.0/manifest.json",
+    "data/xingshu/v0.1.0/ni.json",
+    "data/xingshu/v0.1.0/stroke-studies.json",
+    "package-lock.json",
+    "package.json",
+    "playwright.config.js",
+    "playwright.desktop.config.js",
+    "prompt/prompt_03.txt",
+    "public/experiments/xingshu-v0.1.0/ARPHICPL.TXT",
+    "public/experiments/xingshu-v0.1.0/artwork.json",
+    "public/experiments/xingshu-v0.1.0/hao.json",
+    "public/experiments/xingshu-v0.1.0/manifest.json",
+    "public/experiments/xingshu-v0.1.0/ni.json",
+    "public/experiments/xingshu-v0.1.0/provenance.json",
+    "scripts/build-xingshu.mjs",
+    "scripts/calibrate-xingshu.mjs",
+    "scripts/capture-xingshu-baseline.mjs",
+    "scripts/capture-xingshu-prototype.mjs",
+    "scripts/render-xingshu-artwork.mjs",
+    "scripts/render-xingshu-review.mjs",
+    "scripts/research-xingshu.py",
+    "scripts/verify-visual-regression.py",
+    "scripts/verify-xingshu-acceptance.mjs",
+    "scripts/verify-xingshu-masks.mjs",
+    "scripts/verify-xingshu-production.mjs",
+    "src/App.jsx",
+    "src/animation/SignatureController.js",
+    "src/components/SignatureInput.jsx",
+    "src/handwriting/GlyphLoader.js",
+    "src/handwriting/motionRhythm.js",
+    "src/handwriting/signatureLimits.json",
+    "src/handwriting/writingPlan.js",
+    "src/handwriting/xingshuRegistry.js",
+    "src/styles.css",
+    "tests/browser/chinese.spec.js",
+    "tests/browser/desktop.spec.js",
+    "tests/browser/particles-stagger.spec.js",
+    "tests/browser/resize-motion.spec.js",
+    "tests/browser/signature.spec.js",
+    "tests/browser/xingshu.spec.js",
+    "tests/writing-plan.test.js",
+    "tests/xingshu.test.js",
+    "wiki_memory/当前状态/已知问题.md",
+    "wiki_memory/当前状态/当前待办.md",
+    "wiki_memory/当前状态/当前约束.md",
+    "wiki_memory/当前状态/系统架构.md",
+    "wiki_memory/当前状态/项目概览.md",
+    "wiki_memory/日志/MOC_工作日志.md",
+    "wiki_memory/日志/功能添加/2026-10-30-硬笔行书两字原型.md"
+  ],
+  "limitations": [
+    "Only 你 and 好 use the experimental running-script data. The other 3498 characters retain the original standard style.",
+    "User aesthetic approval is pending. Codex review is not human calligraphy expert certification.",
+    "The na pen-form study derives from the descending dot-tail in 女; it is not an extra logical stroke or a certified independent standard na.",
+    "No mobile optimization, physical mobile-device certification, public hosting or persistence is included.",
+    "Performance comes from this Windows desktop headless browser. SwiftShader is allowed; these are not all-device frame-rate guarantees.",
+    "Mathematical pen projection error is distinct from antialiasing quality. Large chunk warning remains (JS 1131.62 kB, gzip 358.62 kB)."
+  ]
+}
