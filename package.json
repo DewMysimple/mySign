@@ -1,7 +1,7 @@
 {
   "name": "shakespread",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.2.0-prototype.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
@@ -13,7 +13,10 @@
     "test:chinese": "playwright test tests/browser/chinese.spec.js",
     "test:desktop": "playwright test --config playwright.desktop.config.js",
     "test:pipeline": "python scripts/verify_glyph_pipeline.py",
-    "test:production": "node scripts/verify-chinese-production.mjs",
+    "test:production": "node scripts/verify-xingshu-production.mjs",
+    "glyphs:xingshu": "node scripts/build-xingshu.mjs",
+    "test:xingshu": "playwright test tests/browser/xingshu.spec.js",
+    "test:xingshu:masks": "node scripts/verify-xingshu-masks.mjs",
     "test:masks": "node scripts/verify-glyph-masks.mjs"
   },
   "dependencies": {

@@ -1,0 +1,3212 @@
+{
+  "initial": {
+    "state": "idle",
+    "phase": "home",
+    "strokeIndex": 0,
+    "strokeProgress": 0,
+    "name": "",
+    "strokeCount": 0,
+    "logicalStrokeCount": 0,
+    "logicalStrokes": [],
+    "visualActions": [],
+    "prototypeCharacters": [],
+    "currentSegment": null,
+    "lines": [],
+    "engines": [],
+    "inkPoint": null,
+    "tip": {
+      "x": 986.4000000000001,
+      "y": 454.5
+    },
+    "layout": null,
+    "duration": 0,
+    "active": false,
+    "disposed": false,
+    "loadAborted": false,
+    "hasGlyphLease": false,
+    "particles": 0,
+    "eraseProgress": 0,
+    "renderCount": 2,
+    "reducedMotion": false,
+    "quality": "full",
+    "metrics": {},
+    "cache": {
+      "raw": {
+        "entries": 0,
+        "bytes": 0,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 0,
+        "misses": 0
+      },
+      "parsed": {
+        "entries": 0,
+        "bytes": 0,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 0,
+        "misses": 0
+      }
+    },
+    "projectedTip": {
+      "x": 986.4000000000001,
+      "y": 454.5
+    },
+    "projectedShadowTip": {
+      "x": 987.7115384615386,
+      "y": 456.5269230769231
+    },
+    "shadowOpacity": 0.42,
+    "calls": 14,
+    "triangles": 4262,
+    "geometries": 8,
+    "textures": 4,
+    "pixelRatio": 1
+  },
+  "cycles": [
+    {
+      "state": "written",
+      "phase": "written",
+      "strokeIndex": 11,
+      "strokeProgress": 1,
+      "moveKind": "stroke",
+      "name": "王明",
+      "strokeCount": 12,
+      "logicalStrokeCount": 12,
+      "logicalStrokes": [
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "5459a972173b25968839be83b874433b61c5aad806b1e0f8183acbe796f338d8",
+          "id": "0:1",
+          "character": "王",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "2cf7313742a6592c2dad2f3a20718ff95f40db1d529f162c975eb4a62e2c6271",
+          "id": "0:2",
+          "character": "王",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "f4dc2ec424cfd83650ef2516bfd516ec6a9733f2c1b4de05897d3e97e18ada7b",
+          "id": "0:3",
+          "character": "王",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "a6120030bf6866f77fa799987b9c19c7edbe50dcde96348269da0cdef8cb3d1c",
+          "id": "0:4",
+          "character": "王",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "7817ba4935d64679619ed5b5044138cde0d0b729ae337583f68fd11d4e734aba",
+          "id": "1:1",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "943fd06524a27ca031faa7d54d5db3a36e6dd1cbef9865a0f71233d2d73167e4",
+          "id": "1:2",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "aa803bcbb81779f7ee0374a79816b9746c9a455eee2380e984d7417494f2d78c",
+          "id": "1:3",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "88ffef6d272167d81e7011e1411e2c252d53d46a5c3ee9d067e0b23fac363528",
+          "id": "1:4",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 5,
+          "sourceStrokeHash": "3b458a24d1e2d09de1b02646a7406f3cc4035fe7384354bfaedecfb4e11c9db7",
+          "id": "1:5",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 6,
+          "sourceStrokeHash": "aef8df4df423b3c8c43fd40901cf7c5a0520385841129c62c005f41dbe091e74",
+          "id": "1:6",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 7,
+          "sourceStrokeHash": "9a0b669ceffd420642bc54d7004f6702f3bcb1ad797b026f84db2c83346b6612",
+          "id": "1:7",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 8,
+          "sourceStrokeHash": "2411a75fe76237afcf165e77efbdcc6e3e96ba7513ca0247806e39d711bf5456",
+          "id": "1:8",
+          "character": "明",
+          "characterPosition": 2
+        }
+      ],
+      "visualActions": [
+        {
+          "id": "0:standard-1",
+          "character": "王",
+          "segmentIndices": [
+            0
+          ],
+          "logicalStrokeIds": [
+            "0:1"
+          ]
+        },
+        {
+          "id": "0:standard-2",
+          "character": "王",
+          "segmentIndices": [
+            1
+          ],
+          "logicalStrokeIds": [
+            "0:2"
+          ]
+        },
+        {
+          "id": "0:standard-3",
+          "character": "王",
+          "segmentIndices": [
+            2
+          ],
+          "logicalStrokeIds": [
+            "0:3"
+          ]
+        },
+        {
+          "id": "0:standard-4",
+          "character": "王",
+          "segmentIndices": [
+            3
+          ],
+          "logicalStrokeIds": [
+            "0:4"
+          ]
+        },
+        {
+          "id": "1:standard-1",
+          "character": "明",
+          "segmentIndices": [
+            4
+          ],
+          "logicalStrokeIds": [
+            "1:1"
+          ]
+        },
+        {
+          "id": "1:standard-2",
+          "character": "明",
+          "segmentIndices": [
+            5
+          ],
+          "logicalStrokeIds": [
+            "1:2"
+          ]
+        },
+        {
+          "id": "1:standard-3",
+          "character": "明",
+          "segmentIndices": [
+            6
+          ],
+          "logicalStrokeIds": [
+            "1:3"
+          ]
+        },
+        {
+          "id": "1:standard-4",
+          "character": "明",
+          "segmentIndices": [
+            7
+          ],
+          "logicalStrokeIds": [
+            "1:4"
+          ]
+        },
+        {
+          "id": "1:standard-5",
+          "character": "明",
+          "segmentIndices": [
+            8
+          ],
+          "logicalStrokeIds": [
+            "1:5"
+          ]
+        },
+        {
+          "id": "1:standard-6",
+          "character": "明",
+          "segmentIndices": [
+            9
+          ],
+          "logicalStrokeIds": [
+            "1:6"
+          ]
+        },
+        {
+          "id": "1:standard-7",
+          "character": "明",
+          "segmentIndices": [
+            10
+          ],
+          "logicalStrokeIds": [
+            "1:7"
+          ]
+        },
+        {
+          "id": "1:standard-8",
+          "character": "明",
+          "segmentIndices": [
+            11
+          ],
+          "logicalStrokeIds": [
+            "1:8"
+          ]
+        }
+      ],
+      "prototypeCharacters": [],
+      "currentSegment": {
+        "logicalStrokeIds": [
+          8
+        ],
+        "visualActionId": "standard-8"
+      },
+      "lines": [
+        "王明"
+      ],
+      "engines": [
+        "hanzi"
+      ],
+      "inkPoint": {
+        "x": 840.5273815155028,
+        "y": 383.449817276001
+      },
+      "tip": {
+        "x": 840.5273815155028,
+        "y": 383.449817276001
+      },
+      "layout": {
+        "scale": 1.65,
+        "x": 546.75,
+        "y": 447.6,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 0.453,
+      "active": false,
+      "disposed": false,
+      "loadAborted": false,
+      "hasGlyphLease": true,
+      "particles": 0,
+      "eraseProgress": 0,
+      "renderCount": 86,
+      "reducedMotion": true,
+      "quality": "full",
+      "metrics": {
+        "loadMs": 14.200000017881393,
+        "planMs": 1.5999999940395355,
+        "estimatedSeconds": 5.6508776,
+        "started": 379.90000000596046,
+        "frameIntervals": [
+          3.399999976158142,
+          6.9000000059604645,
+          2.5,
+          5.5999999940395355,
+          5.5,
+          5.600000023841858,
+          5.5,
+          5.5,
+          5.5999999940395355,
+          5.699999988079071,
+          5.5,
+          5.5999999940395355,
+          5.5,
+          5.5,
+          5.5,
+          5.5,
+          5.600000023841858,
+          5.899999976158142,
+          5.300000011920929,
+          5.4000000059604645,
+          5.799999982118607,
+          5.600000023841858,
+          5.5,
+          5.5,
+          5.5999999940395355,
+          5.4000000059604645,
+          5.799999982118607,
+          5.700000017881393,
+          5.699999988079071,
+          5.5999999940395355,
+          5.5,
+          5.5,
+          5.9000000059604645,
+          5.300000011920929,
+          6.299999982118607,
+          4.5,
+          5.5999999940395355,
+          5.4000000059604645,
+          5.700000017881393,
+          5.799999982118607,
+          5.200000017881393,
+          5.699999988079071,
+          5.4000000059604645,
+          5.5,
+          5.5999999940395355,
+          5.5,
+          5.5999999940395355,
+          5.5,
+          5.5999999940395355,
+          5.5,
+          5.600000023841858,
+          5.699999988079071,
+          5.5,
+          5.5,
+          5.5999999940395355,
+          5.5999999940395355,
+          5.5,
+          5.4000000059604645,
+          5.5,
+          5.700000017881393,
+          5.5,
+          5.5999999940395355,
+          5.5999999940395355,
+          5.5,
+          5.5,
+          5.800000011920929,
+          5.5,
+          5.5999999940395355,
+          5.5,
+          5.299999982118607,
+          5.700000017881393,
+          5.5999999940395355,
+          5.699999988079071,
+          5.5,
+          5.4000000059604645,
+          5.4000000059604645,
+          5.5999999940395355,
+          5.700000017881393,
+          5.5999999940395355,
+          5.5,
+          5.5999999940395355,
+          0.09999999403953552
+        ],
+        "actualSeconds": 0.447
+      },
+      "cache": {
+        "raw": {
+          "entries": 2,
+          "bytes": 1425680,
+          "budgetBytes": 2097152,
+          "pinned": 2,
+          "hits": 0,
+          "misses": 2
+        },
+        "parsed": {
+          "entries": 2,
+          "bytes": 44112,
+          "budgetBytes": 2097152,
+          "pinned": 2,
+          "hits": 0,
+          "misses": 2
+        }
+      },
+      "projectedTip": {
+        "x": 840.5273815155027,
+        "y": 383.449817276001
+      },
+      "projectedShadowTip": {
+        "x": 841.8389199770413,
+        "y": 385.4767403529241
+      },
+      "shadowOpacity": 0.28,
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "written",
+      "phase": "written",
+      "strokeIndex": 24,
+      "strokeProgress": 1,
+      "moveKind": "stroke",
+      "name": "李华 0123456789",
+      "strokeCount": 25,
+      "logicalStrokeCount": 13,
+      "logicalStrokes": [
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "b96c69fafaca89a1121f5dfe2b376fe45929ecf3bca50a927e59de11aaecf1df",
+          "id": "0:1",
+          "character": "李",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "00ec604d941f2b417777bef98483fcb498f58edf807f3e78788e8598f679305d",
+          "id": "0:2",
+          "character": "李",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "d491b4f3824c04acb1f46da6afe20fd4b004c19043b54a0243f310d7dbd37113",
+          "id": "0:3",
+          "character": "李",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "5cb6543d42febe3c9b362e8dbbb907a3fca30e9a12647ed523c303ba51518a88",
+          "id": "0:4",
+          "character": "李",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 5,
+          "sourceStrokeHash": "12e2110438232ec7fca35008486282ab82ce2af377a1efd870701f2952449aea",
+          "id": "0:5",
+          "character": "李",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 6,
+          "sourceStrokeHash": "3ce3dddf053fb63a17477123eb91003daa9898a65d3768e4c93ce25e21c67265",
+          "id": "0:6",
+          "character": "李",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 7,
+          "sourceStrokeHash": "f5952ea892ef970053137b33716787dfb301999e7fc8276b23b159421ba56ac8",
+          "id": "0:7",
+          "character": "李",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "f72ad2f9e64226eccf0cdf4649fcb3c41da3ca98f4666cb03fc3194c2e5db1ee",
+          "id": "1:1",
+          "character": "华",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "9a2a76e5351e6d199181dca3deeada3d57b4ecd9bbc3c87f9cb142dba5c552f2",
+          "id": "1:2",
+          "character": "华",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "ff0a881f34dde6d49576c6dbb532dc431adea54c7e2ef8a2905f91e52a54de79",
+          "id": "1:3",
+          "character": "华",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "20a0ac1d956472a2a4b538d432f1631218a44bbe12b019ec8801e8f9af1e9aa7",
+          "id": "1:4",
+          "character": "华",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 5,
+          "sourceStrokeHash": "fb69c4db5b418e882e4af3ad85b2588d80b03eb35ff9395fb8ba23a360d383c1",
+          "id": "1:5",
+          "character": "华",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 6,
+          "sourceStrokeHash": "79e45819635d7c4dc408e734dbc37b11b13c4385706b73d92b817194646b888d",
+          "id": "1:6",
+          "character": "华",
+          "characterPosition": 2
+        }
+      ],
+      "visualActions": [
+        {
+          "id": "0:standard-1",
+          "character": "李",
+          "segmentIndices": [
+            0
+          ],
+          "logicalStrokeIds": [
+            "0:1"
+          ]
+        },
+        {
+          "id": "0:standard-2",
+          "character": "李",
+          "segmentIndices": [
+            1
+          ],
+          "logicalStrokeIds": [
+            "0:2"
+          ]
+        },
+        {
+          "id": "0:standard-3",
+          "character": "李",
+          "segmentIndices": [
+            2
+          ],
+          "logicalStrokeIds": [
+            "0:3"
+          ]
+        },
+        {
+          "id": "0:standard-4",
+          "character": "李",
+          "segmentIndices": [
+            3
+          ],
+          "logicalStrokeIds": [
+            "0:4"
+          ]
+        },
+        {
+          "id": "0:standard-5",
+          "character": "李",
+          "segmentIndices": [
+            4
+          ],
+          "logicalStrokeIds": [
+            "0:5"
+          ]
+        },
+        {
+          "id": "0:standard-6",
+          "character": "李",
+          "segmentIndices": [
+            5
+          ],
+          "logicalStrokeIds": [
+            "0:6"
+          ]
+        },
+        {
+          "id": "0:standard-7",
+          "character": "李",
+          "segmentIndices": [
+            6
+          ],
+          "logicalStrokeIds": [
+            "0:7"
+          ]
+        },
+        {
+          "id": "1:standard-1",
+          "character": "华",
+          "segmentIndices": [
+            7
+          ],
+          "logicalStrokeIds": [
+            "1:1"
+          ]
+        },
+        {
+          "id": "1:standard-2",
+          "character": "华",
+          "segmentIndices": [
+            8
+          ],
+          "logicalStrokeIds": [
+            "1:2"
+          ]
+        },
+        {
+          "id": "1:standard-3",
+          "character": "华",
+          "segmentIndices": [
+            9
+          ],
+          "logicalStrokeIds": [
+            "1:3"
+          ]
+        },
+        {
+          "id": "1:standard-4",
+          "character": "华",
+          "segmentIndices": [
+            10
+          ],
+          "logicalStrokeIds": [
+            "1:4"
+          ]
+        },
+        {
+          "id": "1:standard-5",
+          "character": "华",
+          "segmentIndices": [
+            11
+          ],
+          "logicalStrokeIds": [
+            "1:5"
+          ]
+        },
+        {
+          "id": "1:standard-6",
+          "character": "华",
+          "segmentIndices": [
+            12
+          ],
+          "logicalStrokeIds": [
+            "1:6"
+          ]
+        }
+      ],
+      "prototypeCharacters": [],
+      "currentSegment": {
+        "logicalStrokeIds": []
+      },
+      "lines": [
+        "李华 0123456789"
+      ],
+      "engines": [
+        "hanzi",
+        "symbol"
+      ],
+      "inkPoint": {
+        "x": 1124.7488372093023,
+        "y": 442.6116279069767
+      },
+      "tip": {
+        "x": 1124.7488372093023,
+        "y": 442.6116279069767
+      },
+      "layout": {
+        "scale": 1.3813953488372095,
+        "x": 250.32558139534876,
+        "y": 438.4674418604651,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 0.4919996,
+      "active": false,
+      "disposed": false,
+      "loadAborted": false,
+      "hasGlyphLease": true,
+      "particles": 0,
+      "eraseProgress": 0,
+      "renderCount": 214,
+      "reducedMotion": true,
+      "quality": "full",
+      "metrics": {
+        "loadMs": 9,
+        "planMs": 2.0999999940395355,
+        "estimatedSeconds": 14.127895346965767,
+        "started": 1535.5,
+        "frameIntervals": [
+          5.0999999940395355,
+          2.5,
+          5.5999999940395355,
+          5.5999999940395355,
+          5.600000023841858,
+          5.399999976158142,
+          5.600000023841858,
+          5.5999999940395355,
+          5.5,
+          5.699999988079071,
+          5.4000000059604645,
+          5.699999988079071,
+          5.4000000059604645,
+          5.5999999940395355,
+          5.700000017881393,
+          5.299999982118607,
+          5.600000023841858,
+          5.5999999940395355,
+          5.799999982118607,
+          5.600000023841858,
+          5.5999999940395355,
+          5.4000000059604645,
+          5.799999982118607,
+          5.4000000059604645,
+          5.5,
+          5.5999999940395355,
+          5.5,
+          5.5,
+          5.5999999940395355,
+          5.600000023841858,
+          5.5999999940395355,
+          5.5,
+          5.5,
+          5.5999999940395355,
+          5.5999999940395355,
+          5.5,
+          5.5,
+          5.5999999940395355,
+          5.5,
+          5.600000023841858,
+          5.799999982118607,
+          5.5999999940395355,
+          5.4000000059604645,
+          5.5,
+          5.700000017881393,
+          5.399999976158142,
+          5.5,
+          5.5,
+          5.5,
+          5.800000011920929,
+          5.4000000059604645,
+          5.699999988079071,
+          5.700000017881393,
+          5.399999976158142,
+          5.5,
+          5.700000017881393,
+          5.5,
+          5.4000000059604645,
+          5.799999982118607,
+          5.300000011920929,
+          5.5,
+          5.5,
+          5.5,
+          5.5999999940395355,
+          5.800000011920929,
+          5.5999999940395355,
+          5.5,
+          5.5999999940395355,
+          5.699999988079071,
+          5.4000000059604645,
+          5.700000017881393,
+          5.399999976158142,
+          5.5,
+          5.600000023841858,
+          5.299999982118607,
+          5.5999999940395355,
+          5.700000017881393,
+          5.699999988079071,
+          5.4000000059604645,
+          5.699999988079071,
+          5.600000023841858,
+          5.5999999940395355,
+          5.699999988079071,
+          5.5999999940395355,
+          5.4000000059604645,
+          5.4000000059604645,
+          5.5,
+          5.5,
+          5.800000011920929,
+          0.3999999761581421
+        ],
+        "actualSeconds": 0.4917000000178814,
+        "eraseStarted": 1203.0999999940395,
+        "eraseMs": 201.7000000178814
+      },
+      "cache": {
+        "raw": {
+          "entries": 2,
+          "bytes": 1528248,
+          "budgetBytes": 2097152,
+          "pinned": 2,
+          "hits": 0,
+          "misses": 4
+        },
+        "parsed": {
+          "entries": 4,
+          "bytes": 92660,
+          "budgetBytes": 2097152,
+          "pinned": 2,
+          "hits": 0,
+          "misses": 4
+        }
+      },
+      "projectedTip": {
+        "x": 1124.7488372093026,
+        "y": 442.6116279069767
+      },
+      "projectedShadowTip": {
+        "x": 1126.0603756708408,
+        "y": 444.6385509838998
+      },
+      "shadowOpacity": 0.28,
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "written",
+      "phase": "written",
+      "strokeIndex": 29,
+      "strokeProgress": 1,
+      "moveKind": "stroke",
+      "name": "中文，。！？；：“”‘’（）《》",
+      "strokeCount": 30,
+      "logicalStrokeCount": 8,
+      "logicalStrokes": [
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "ef63d0d4bdeb38a431f532c7a4a0f153bb9f60c4bca256f01c3aa1f58c84dd3a",
+          "id": "0:1",
+          "character": "中",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "20f4ff5679ccf209e99a35610513a3f5ef31c1cadaee8028f307203988d9d105",
+          "id": "0:2",
+          "character": "中",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "1e0ca19fa109ba9049da1c05be63c284929a58245f4d9a3e6a93a7db3a6ca3c4",
+          "id": "0:3",
+          "character": "中",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "221ac17dda0c32f88fe070bd90a4edb17b0ed3525dbb7fc0e2ea14ee095c735d",
+          "id": "0:4",
+          "character": "中",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "5d7c989b91b3cb3cf0ed2292abad61bce37fd13f8a0ec44eb7a891e5dcf8c891",
+          "id": "1:1",
+          "character": "文",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "60a3f021e71d49039f28e65a385493d1757fb4a1ab3e297b3519ff20b7a23294",
+          "id": "1:2",
+          "character": "文",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "f7a348dfde37b7c5f570d65b9802853f1a920948a5fee513107a0a795297ec4a",
+          "id": "1:3",
+          "character": "文",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "47111a0f37bb85b75f4392ef3cd18c00db9f65147cf20d090acbd387076bc526",
+          "id": "1:4",
+          "character": "文",
+          "characterPosition": 2
+        }
+      ],
+      "visualActions": [
+        {
+          "id": "0:standard-1",
+          "character": "中",
+          "segmentIndices": [
+            0
+          ],
+          "logicalStrokeIds": [
+            "0:1"
+          ]
+        },
+        {
+          "id": "0:standard-2",
+          "character": "中",
+          "segmentIndices": [
+            1
+          ],
+          "logicalStrokeIds": [
+            "0:2"
+          ]
+        },
+        {
+          "id": "0:standard-3",
+          "character": "中",
+          "segmentIndices": [
+            2
+          ],
+          "logicalStrokeIds": [
+            "0:3"
+          ]
+        },
+        {
+          "id": "0:standard-4",
+          "character": "中",
+          "segmentIndices": [
+            3
+          ],
+          "logicalStrokeIds": [
+            "0:4"
+          ]
+        },
+        {
+          "id": "1:standard-1",
+          "character": "文",
+          "segmentIndices": [
+            4
+          ],
+          "logicalStrokeIds": [
+            "1:1"
+          ]
+        },
+        {
+          "id": "1:standard-2",
+          "character": "文",
+          "segmentIndices": [
+            5
+          ],
+          "logicalStrokeIds": [
+            "1:2"
+          ]
+        },
+        {
+          "id": "1:standard-3",
+          "character": "文",
+          "segmentIndices": [
+            6
+          ],
+          "logicalStrokeIds": [
+            "1:3"
+          ]
+        },
+        {
+          "id": "1:standard-4",
+          "character": "文",
+          "segmentIndices": [
+            7
+          ],
+          "logicalStrokeIds": [
+            "1:4"
+          ]
+        }
+      ],
+      "prototypeCharacters": [],
+      "currentSegment": {
+        "logicalStrokeIds": []
+      },
+      "lines": [
+        "中文，。！？；：“”‘’（）《》"
+      ],
+      "engines": [
+        "hanzi",
+        "symbol"
+      ],
+      "inkPoint": {
+        "x": 1150.848,
+        "y": 427.404
+      },
+      "tip": {
+        "x": 1150.848,
+        "y": 427.404
+      },
+      "layout": {
+        "scale": 1.056,
+        "x": 249.024,
+        "y": 427.404,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 0.515729,
+      "active": false,
+      "disposed": false,
+      "loadAborted": false,
+      "hasGlyphLease": true,
+      "particles": 0,
+      "eraseProgress": 0,
+      "renderCount": 346,
+      "reducedMotion": true,
+      "quality": "full",
+      "metrics": {
+        "loadMs": 8,
+        "planMs": 1.699999988079071,
+        "estimatedSeconds": 10.087646826234762,
+        "started": 2594.5,
+        "frameIntervals": [
+          0.5999999940395355,
+          4,
+          5.199999988079071,
+          5.5999999940395355,
+          5.5,
+          5.700000017881393,
+          5.5,
+          5.5,
+          5.5999999940395355,
+          5.4000000059604645,
+          5.699999988079071,
+          5.5,
+          5.5999999940395355,
+          5.5,
+          5.700000017881393,
+          5.5,
+          5.699999988079071,
+          5.5,
+          5.5999999940395355,
+          5.600000023841858,
+          5.299999982118607,
+          5.5999999940395355,
+          5.800000011920929,
+          5.4000000059604645,
+          5.699999988079071,
+          5.300000011920929,
+          5.9000000059604645,
+          5.199999988079071,
+          5.800000011920929,
+          5.5,
+          5.5999999940395355,
+          5.4000000059604645,
+          5.699999988079071,
+          5.5,
+          5.5999999940395355,
+          5.5,
+          5.800000011920929,
+          5.299999982118607,
+          5.5,
+          5.600000023841858,
+          5.5,
+          5.5999999940395355,
+          5.699999988079071,
+          5.5999999940395355,
+          5.5,
+          5.600000023841858,
+          5.5999999940395355,
+          5.299999982118607,
+          5.600000023841858,
+          5.5,
+          5.699999988079071,
+          5.5,
+          5.5999999940395355,
+          5.5,
+          5.700000017881393,
+          5.5,
+          5.5,
+          5.5999999940395355,
+          5.299999982118607,
+          5.800000011920929,
+          5.800000011920929,
+          5.199999988079071,
+          5.5999999940395355,
+          5.5,
+          5.700000017881393,
+          5.5,
+          5.5,
+          5.5999999940395355,
+          5.5,
+          5.5,
+          5.5999999940395355,
+          5.699999988079071,
+          5.300000011920929,
+          5.9000000059604645,
+          5.299999982118607,
+          5.600000023841858,
+          5.5999999940395355,
+          5.5,
+          5.5,
+          5.4000000059604645,
+          5.5999999940395355,
+          5.699999988079071,
+          5.700000017881393,
+          5.399999976158142,
+          5.5,
+          5.700000017881393,
+          5.5,
+          5.299999982118607,
+          5.700000017881393,
+          5.5999999940395355,
+          5.699999988079071,
+          5.4000000059604645,
+          5.5
+        ],
+        "actualSeconds": 0.51,
+        "eraseStarted": 2362.7000000178814,
+        "eraseMs": 197.89999997615814
+      },
+      "cache": {
+        "raw": {
+          "entries": 3,
+          "bytes": 1800876,
+          "budgetBytes": 2097152,
+          "pinned": 2,
+          "hits": 0,
+          "misses": 6
+        },
+        "parsed": {
+          "entries": 6,
+          "bytes": 124972,
+          "budgetBytes": 2097152,
+          "pinned": 2,
+          "hits": 0,
+          "misses": 6
+        }
+      },
+      "projectedTip": {
+        "x": 1150.848,
+        "y": 427.404
+      },
+      "projectedShadowTip": {
+        "x": 1152.1595384615384,
+        "y": 429.4309230769231
+      },
+      "shadowOpacity": 0.28,
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "written",
+      "phase": "written",
+      "strokeIndex": 11,
+      "strokeProgress": 1,
+      "moveKind": "stroke",
+      "name": "王明",
+      "strokeCount": 12,
+      "logicalStrokeCount": 12,
+      "logicalStrokes": [
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "5459a972173b25968839be83b874433b61c5aad806b1e0f8183acbe796f338d8",
+          "id": "0:1",
+          "character": "王",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "2cf7313742a6592c2dad2f3a20718ff95f40db1d529f162c975eb4a62e2c6271",
+          "id": "0:2",
+          "character": "王",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "f4dc2ec424cfd83650ef2516bfd516ec6a9733f2c1b4de05897d3e97e18ada7b",
+          "id": "0:3",
+          "character": "王",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "a6120030bf6866f77fa799987b9c19c7edbe50dcde96348269da0cdef8cb3d1c",
+          "id": "0:4",
+          "character": "王",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "7817ba4935d64679619ed5b5044138cde0d0b729ae337583f68fd11d4e734aba",
+          "id": "1:1",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "943fd06524a27ca031faa7d54d5db3a36e6dd1cbef9865a0f71233d2d73167e4",
+          "id": "1:2",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "aa803bcbb81779f7ee0374a79816b9746c9a455eee2380e984d7417494f2d78c",
+          "id": "1:3",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "88ffef6d272167d81e7011e1411e2c252d53d46a5c3ee9d067e0b23fac363528",
+          "id": "1:4",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 5,
+          "sourceStrokeHash": "3b458a24d1e2d09de1b02646a7406f3cc4035fe7384354bfaedecfb4e11c9db7",
+          "id": "1:5",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 6,
+          "sourceStrokeHash": "aef8df4df423b3c8c43fd40901cf7c5a0520385841129c62c005f41dbe091e74",
+          "id": "1:6",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 7,
+          "sourceStrokeHash": "9a0b669ceffd420642bc54d7004f6702f3bcb1ad797b026f84db2c83346b6612",
+          "id": "1:7",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 8,
+          "sourceStrokeHash": "2411a75fe76237afcf165e77efbdcc6e3e96ba7513ca0247806e39d711bf5456",
+          "id": "1:8",
+          "character": "明",
+          "characterPosition": 2
+        }
+      ],
+      "visualActions": [
+        {
+          "id": "0:standard-1",
+          "character": "王",
+          "segmentIndices": [
+            0
+          ],
+          "logicalStrokeIds": [
+            "0:1"
+          ]
+        },
+        {
+          "id": "0:standard-2",
+          "character": "王",
+          "segmentIndices": [
+            1
+          ],
+          "logicalStrokeIds": [
+            "0:2"
+          ]
+        },
+        {
+          "id": "0:standard-3",
+          "character": "王",
+          "segmentIndices": [
+            2
+          ],
+          "logicalStrokeIds": [
+            "0:3"
+          ]
+        },
+        {
+          "id": "0:standard-4",
+          "character": "王",
+          "segmentIndices": [
+            3
+          ],
+          "logicalStrokeIds": [
+            "0:4"
+          ]
+        },
+        {
+          "id": "1:standard-1",
+          "character": "明",
+          "segmentIndices": [
+            4
+          ],
+          "logicalStrokeIds": [
+            "1:1"
+          ]
+        },
+        {
+          "id": "1:standard-2",
+          "character": "明",
+          "segmentIndices": [
+            5
+          ],
+          "logicalStrokeIds": [
+            "1:2"
+          ]
+        },
+        {
+          "id": "1:standard-3",
+          "character": "明",
+          "segmentIndices": [
+            6
+          ],
+          "logicalStrokeIds": [
+            "1:3"
+          ]
+        },
+        {
+          "id": "1:standard-4",
+          "character": "明",
+          "segmentIndices": [
+            7
+          ],
+          "logicalStrokeIds": [
+            "1:4"
+          ]
+        },
+        {
+          "id": "1:standard-5",
+          "character": "明",
+          "segmentIndices": [
+            8
+          ],
+          "logicalStrokeIds": [
+            "1:5"
+          ]
+        },
+        {
+          "id": "1:standard-6",
+          "character": "明",
+          "segmentIndices": [
+            9
+          ],
+          "logicalStrokeIds": [
+            "1:6"
+          ]
+        },
+        {
+          "id": "1:standard-7",
+          "character": "明",
+          "segmentIndices": [
+            10
+          ],
+          "logicalStrokeIds": [
+            "1:7"
+          ]
+        },
+        {
+          "id": "1:standard-8",
+          "character": "明",
+          "segmentIndices": [
+            11
+          ],
+          "logicalStrokeIds": [
+            "1:8"
+          ]
+        }
+      ],
+      "prototypeCharacters": [],
+      "currentSegment": {
+        "logicalStrokeIds": [
+          8
+        ],
+        "visualActionId": "standard-8"
+      },
+      "lines": [
+        "王明"
+      ],
+      "engines": [
+        "hanzi"
+      ],
+      "inkPoint": {
+        "x": 840.5273815155028,
+        "y": 383.449817276001
+      },
+      "tip": {
+        "x": 840.5273815155028,
+        "y": 383.449817276001
+      },
+      "layout": {
+        "scale": 1.65,
+        "x": 546.75,
+        "y": 447.6,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 0.453,
+      "active": false,
+      "disposed": false,
+      "loadAborted": false,
+      "hasGlyphLease": true,
+      "particles": 0,
+      "eraseProgress": 0,
+      "renderCount": 467,
+      "reducedMotion": true,
+      "quality": "full",
+      "metrics": {
+        "loadMs": 0.5,
+        "planMs": 0.9000000059604645,
+        "estimatedSeconds": 5.6508776,
+        "started": 3720.2000000178814,
+        "frameIntervals": [
+          1,
+          5.300000011920929,
+          5.5999999940395355,
+          5.5,
+          5.5,
+          5.5999999940395355,
+          6.300000011920929,
+          4.799999982118607,
+          5.5,
+          5.700000017881393,
+          5.299999982118607,
+          5.700000017881393,
+          5.5999999940395355,
+          5.5999999940395355,
+          5.5,
+          5.5999999940395355,
+          5.600000023841858,
+          5.5,
+          5.699999988079071,
+          5.5,
+          5.5999999940395355,
+          5.5,
+          5.5999999940395355,
+          5.600000023841858,
+          5.5,
+          5.5999999940395355,
+          5.5,
+          5.5999999940395355,
+          5.5,
+          5.5999999940395355,
+          5.5999999940395355,
+          5.4000000059604645,
+          5.800000011920929,
+          5.299999982118607,
+          5.600000023841858,
+          5.5,
+          5.5999999940395355,
+          5.699999988079071,
+          5.4000000059604645,
+          5.5,
+          5.5,
+          5.699999988079071,
+          5.700000017881393,
+          5.5,
+          5.4000000059604645,
+          5.699999988079071,
+          5.5999999940395355,
+          5.5,
+          5.4000000059604645,
+          5.699999988079071,
+          5.4000000059604645,
+          5.5999999940395355,
+          5.5,
+          5.700000017881393,
+          5.5999999940395355,
+          5.800000011920929,
+          5.299999982118607,
+          5.5,
+          5.5,
+          5.5,
+          5.700000017881393,
+          5.5999999940395355,
+          5.4000000059604645,
+          5.799999982118607,
+          5.5,
+          5.5,
+          5.5,
+          5.5,
+          5.5999999940395355,
+          5.5,
+          5.600000023841858,
+          5.5999999940395355,
+          5.5999999940395355,
+          5.699999988079071,
+          5.4000000059604645,
+          5.5,
+          5.5,
+          5.5999999940395355,
+          5.600000023841858,
+          5.5999999940395355,
+          5.5,
+          5.5
+        ],
+        "actualSeconds": 0.45109999999403955,
+        "eraseStarted": 3407.4000000059605,
+        "eraseMs": 203
+      },
+      "cache": {
+        "raw": {
+          "entries": 3,
+          "bytes": 1800876,
+          "budgetBytes": 2097152,
+          "pinned": 0,
+          "hits": 0,
+          "misses": 6
+        },
+        "parsed": {
+          "entries": 6,
+          "bytes": 124972,
+          "budgetBytes": 2097152,
+          "pinned": 2,
+          "hits": 2,
+          "misses": 6
+        }
+      },
+      "projectedTip": {
+        "x": 840.5273815155027,
+        "y": 383.449817276001
+      },
+      "projectedShadowTip": {
+        "x": 841.8389199770413,
+        "y": 385.4767403529241
+      },
+      "shadowOpacity": 0.28,
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "written",
+      "phase": "written",
+      "strokeIndex": 53,
+      "strokeProgress": 1,
+      "moveKind": "stroke",
+      "name": "永我心书圆回风飞女水火",
+      "strokeCount": 54,
+      "logicalStrokeCount": 54,
+      "logicalStrokes": [
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "5edb09f162173872be137b39cc4b9c8eea514e527929c05d256d4de734340b7c",
+          "id": "0:1",
+          "character": "永",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "7ee1f2a331aa8d9919e4f562f2d6a12c0557506b4bbf610ee892f9414c95218e",
+          "id": "0:2",
+          "character": "永",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "1ca9a03d3c374107065f286a067d9acd7e18dcf0e91e3be0a7fb5c4fbeef7c74",
+          "id": "0:3",
+          "character": "永",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "f1c43adffff4c8af6add491f78f53e03e2aee716154946bc6f96a8a0cf6448d4",
+          "id": "0:4",
+          "character": "永",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 5,
+          "sourceStrokeHash": "c5613f0cb650d96fd9fdff047d75728836fe5ba5f089bc8054625907d370b5d5",
+          "id": "0:5",
+          "character": "永",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "1b272c7471927058b0c97a07aff25fe9fbffb6868c37d86e5ecce1a77269c4f0",
+          "id": "1:1",
+          "character": "我",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "851a6b4ab2ef786585d10b8afb96b2c5d3870a9ef60f3fe48672786e2c49ccaf",
+          "id": "1:2",
+          "character": "我",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "a96ad3f9e7b4ce41d7732bf8c01d4bcf930fa5d2846bef0840575372ef2828d3",
+          "id": "1:3",
+          "character": "我",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "35cf3a4acf1ab9e9000c9a72f2e7a27b81ba404239a05b6c07e81215c6301fa3",
+          "id": "1:4",
+          "character": "我",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 5,
+          "sourceStrokeHash": "d1545cb79a2ad9ec8db66b1b66fa9f9bd22d7fef19b07199d38cb91dfeaa8fb5",
+          "id": "1:5",
+          "character": "我",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 6,
+          "sourceStrokeHash": "c0c40fdab2231ac01437df6ef38434a26ed0c0d61124524ec14c62b045457fbc",
+          "id": "1:6",
+          "character": "我",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 7,
+          "sourceStrokeHash": "fbba77326aaa1d40e0eebc630c02d587f68f815fbdb8ca7ef11d8b2c8f875f95",
+          "id": "1:7",
+          "character": "我",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "e51deadee83fec5a9fcbfd24f602fa85379e8455005ac521760036f0b258067f",
+          "id": "2:1",
+          "character": "心",
+          "characterPosition": 3
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "2429597f18b58ed75a1d4e69429b2211e17a768bf2a3a223d5468e8dab9e15aa",
+          "id": "2:2",
+          "character": "心",
+          "characterPosition": 3
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "c0e6a5c3a764cb1d858ec0a37361d17f48e889672f9bf86f3093d9512fa9ac1c",
+          "id": "2:3",
+          "character": "心",
+          "characterPosition": 3
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "58bd5b3d31286a80fe33f74cc62e636cdd3cb89334d620469b91bc184450c299",
+          "id": "2:4",
+          "character": "心",
+          "characterPosition": 3
+        },
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "21eee843122e6cfa9d45b7e7334517a726b237547733a6ceaabf3322c0db6ccd",
+          "id": "3:1",
+          "character": "书",
+          "characterPosition": 4
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "ef2094d90736a88b4524d5116e39c3b7b1babb5eef6f5fe9455e1839520e32c4",
+          "id": "3:2",
+          "character": "书",
+          "characterPosition": 4
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "4e8f136de303aa8539a569ea6402483767accd55269019d49b00a146a594c505",
+          "id": "3:3",
+          "character": "书",
+          "characterPosition": 4
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "c5d95bc886aa52f3ec052fc19b5ac40fb7862bdd9fbf6f6dea717b36d20e1548",
+          "id": "3:4",
+          "character": "书",
+          "characterPosition": 4
+        },
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "3b25aaddd6456ca2eefaa6245cd07ed0f5012299261b88697c506357b3b503f0",
+          "id": "4:1",
+          "character": "圆",
+          "characterPosition": 5
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "6eab9bcc8a5c8032c37208154d45dc68c2cb09fdd035346981692c77a7838558",
+          "id": "4:2",
+          "character": "圆",
+          "characterPosition": 5
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "d7c79c724e6287bf30c963847496bba3290044e5aa73656ac9a581bad6497e08",
+          "id": "4:3",
+          "character": "圆",
+          "characterPosition": 5
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "ac2f43a16af340172e2e0a325ba19eaddbd91d1b99d58133db8ebc537fb7fa2b",
+          "id": "4:4",
+          "character": "圆",
+          "characterPosition": 5
+        },
+        {
+          "originalNumber": 5,
+          "sourceStrokeHash": "d4b3e50f31cb0f17aa9014265bb032a1a3cc371b2e4627e15c2d7795534c9c93",
+          "id": "4:5",
+          "character": "圆",
+          "characterPosition": 5
+        },
+        {
+          "originalNumber": 6,
+          "sourceStrokeHash": "57afebbd325436465a06423a09b88b7b87bf807a824c66b27a3a24edd818cd86",
+          "id": "4:6",
+          "character": "圆",
+          "characterPosition": 5
+        },
+        {
+          "originalNumber": 7,
+          "sourceStrokeHash": "8a1cad70ac97d923f25854c72714a1e5c0bc508a4bd85254dcb9d62c7db5489a",
+          "id": "4:7",
+          "character": "圆",
+          "characterPosition": 5
+        },
+        {
+          "originalNumber": 8,
+          "sourceStrokeHash": "131a379f123cbbab013516d120201a20056cc2ca0a1e2f5f9ea326fdbce9e776",
+          "id": "4:8",
+          "character": "圆",
+          "characterPosition": 5
+        },
+        {
+          "originalNumber": 9,
+          "sourceStrokeHash": "d84dccee75990d8c8039628f8db9ff69359c7e110c69bf0c9e99a2bcada5e4ff",
+          "id": "4:9",
+          "character": "圆",
+          "characterPosition": 5
+        },
+        {
+          "originalNumber": 10,
+          "sourceStrokeHash": "89a45d4f2565e60396af86ddb76964b0f9fb4ca983952a56c0b84413efb88d75",
+          "id": "4:10",
+          "character": "圆",
+          "characterPosition": 5
+        },
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "3f4671d681dd2c2187341c05de99cace68557062555f9f2be4f3b650950c59a8",
+          "id": "5:1",
+          "character": "回",
+          "characterPosition": 6
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "35bdb476705e3a33cdb55bf74327825e41f8166fbb4fa43cff141ae2ca3fe4ab",
+          "id": "5:2",
+          "character": "回",
+          "characterPosition": 6
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "9dbca021f96b716673dfdf1fec3250b4e82163b95d48858aa969b2cdc89c9484",
+          "id": "5:3",
+          "character": "回",
+          "characterPosition": 6
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "ebe329a35815b3cd5f6d566f47b38757b3ad27fc789bc3ef341769a4f00b959a",
+          "id": "5:4",
+          "character": "回",
+          "characterPosition": 6
+        },
+        {
+          "originalNumber": 5,
+          "sourceStrokeHash": "91c9cd424a1a8223f5b9001e54de2c00b380437bab2a4b416cdadf3fadeda708",
+          "id": "5:5",
+          "character": "回",
+          "characterPosition": 6
+        },
+        {
+          "originalNumber": 6,
+          "sourceStrokeHash": "daa54de568f37c3719fc965743519c8bdae984d3da76c95094abf6ce1e1f86e3",
+          "id": "5:6",
+          "character": "回",
+          "characterPosition": 6
+        },
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "4fc887feff0ac40795c1e57d6033716d4f247500472a3184faceffe8696c30fb",
+          "id": "6:1",
+          "character": "风",
+          "characterPosition": 7
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "294a4dcc4840f43faafca4b4a4e915329d6153e85b8d8bf36427fa630281d3b1",
+          "id": "6:2",
+          "character": "风",
+          "characterPosition": 7
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "cf8e78e9ce2d24317df8a270114d5a080d81cc4b13179959ff4ac560aa4e5883",
+          "id": "6:3",
+          "character": "风",
+          "characterPosition": 7
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "6cd43a088ac30128a099b798d551ccc9f3bdc9ef9828ed31d6538d56931d2c38",
+          "id": "6:4",
+          "character": "风",
+          "characterPosition": 7
+        },
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "d5db05e798f9922bb1d8539bc9656be1295ff51604884b19e944c120ef8ccd5b",
+          "id": "7:1",
+          "character": "飞",
+          "characterPosition": 8
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "4e1772f7267fab5114f9c03a59fe0f3221cba8db11bbf15e3a3e408f3962e536",
+          "id": "7:2",
+          "character": "飞",
+          "characterPosition": 8
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "e656b03801a15bbfc6c686197350ce16e0f184cd79923b3648d54f559c2563dd",
+          "id": "7:3",
+          "character": "飞",
+          "characterPosition": 8
+        },
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "5e09ad89e0b947d8c9b4e075e1845c1f6f802079b49b4263c436df9893aa712d",
+          "id": "8:1",
+          "character": "女",
+          "characterPosition": 9
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "4006a6dd8fddda4208fd6487d560361c3182bc9503c8dd34006cc56a0ccaf1af",
+          "id": "8:2",
+          "character": "女",
+          "characterPosition": 9
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "85d2ca463da3dad41b419a889a2b827498028ccbc092751f17d3a8de4a2359da",
+          "id": "8:3",
+          "character": "女",
+          "characterPosition": 9
+        },
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "fd2fb648980d1bd85008daf68caffa06facbac3c1e97c7edced375c748c73ccc",
+          "id": "9:1",
+          "character": "水",
+          "characterPosition": 10
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "6a7cc4dde23e6a12faebad900db6de363d0fbe3056b08a9e0934d9b171d42ec3",
+          "id": "9:2",
+          "character": "水",
+          "characterPosition": 10
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "e28eb5ccee6ff725154882f6d368e3190bac0c52426574fdd650a253bab1b5b0",
+          "id": "9:3",
+          "character": "水",
+          "characterPosition": 10
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "6b98a496cd369a946307dc7d4c66bfcdedb015bfdb116520d0da18d6bf05e18e",
+          "id": "9:4",
+          "character": "水",
+          "characterPosition": 10
+        },
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "deeb8fa383c3a8c98c919edf356bf1bddce14455cdcf15792e35e548eeab0d41",
+          "id": "10:1",
+          "character": "火",
+          "characterPosition": 11
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "e7033f78e7edde4b5c7792c1e460b012825d8acea04e17029cb83fa0f8d66393",
+          "id": "10:2",
+          "character": "火",
+          "characterPosition": 11
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "41e1353e9b233c3cc89bcffaa60d29153dd26fd16ec9937ee346d977e6f60550",
+          "id": "10:3",
+          "character": "火",
+          "characterPosition": 11
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "7bd95b9399d7c817a9de87c0f6e1ba50793a688f12de08e8e85cd9a4e02eaa10",
+          "id": "10:4",
+          "character": "火",
+          "characterPosition": 11
+        }
+      ],
+      "visualActions": [
+        {
+          "id": "0:standard-1",
+          "character": "永",
+          "segmentIndices": [
+            0
+          ],
+          "logicalStrokeIds": [
+            "0:1"
+          ]
+        },
+        {
+          "id": "0:standard-2",
+          "character": "永",
+          "segmentIndices": [
+            1
+          ],
+          "logicalStrokeIds": [
+            "0:2"
+          ]
+        },
+        {
+          "id": "0:standard-3",
+          "character": "永",
+          "segmentIndices": [
+            2
+          ],
+          "logicalStrokeIds": [
+            "0:3"
+          ]
+        },
+        {
+          "id": "0:standard-4",
+          "character": "永",
+          "segmentIndices": [
+            3
+          ],
+          "logicalStrokeIds": [
+            "0:4"
+          ]
+        },
+        {
+          "id": "0:standard-5",
+          "character": "永",
+          "segmentIndices": [
+            4
+          ],
+          "logicalStrokeIds": [
+            "0:5"
+          ]
+        },
+        {
+          "id": "1:standard-1",
+          "character": "我",
+          "segmentIndices": [
+            5
+          ],
+          "logicalStrokeIds": [
+            "1:1"
+          ]
+        },
+        {
+          "id": "1:standard-2",
+          "character": "我",
+          "segmentIndices": [
+            6
+          ],
+          "logicalStrokeIds": [
+            "1:2"
+          ]
+        },
+        {
+          "id": "1:standard-3",
+          "character": "我",
+          "segmentIndices": [
+            7
+          ],
+          "logicalStrokeIds": [
+            "1:3"
+          ]
+        },
+        {
+          "id": "1:standard-4",
+          "character": "我",
+          "segmentIndices": [
+            8
+          ],
+          "logicalStrokeIds": [
+            "1:4"
+          ]
+        },
+        {
+          "id": "1:standard-5",
+          "character": "我",
+          "segmentIndices": [
+            9
+          ],
+          "logicalStrokeIds": [
+            "1:5"
+          ]
+        },
+        {
+          "id": "1:standard-6",
+          "character": "我",
+          "segmentIndices": [
+            10
+          ],
+          "logicalStrokeIds": [
+            "1:6"
+          ]
+        },
+        {
+          "id": "1:standard-7",
+          "character": "我",
+          "segmentIndices": [
+            11
+          ],
+          "logicalStrokeIds": [
+            "1:7"
+          ]
+        },
+        {
+          "id": "2:standard-1",
+          "character": "心",
+          "segmentIndices": [
+            12
+          ],
+          "logicalStrokeIds": [
+            "2:1"
+          ]
+        },
+        {
+          "id": "2:standard-2",
+          "character": "心",
+          "segmentIndices": [
+            13
+          ],
+          "logicalStrokeIds": [
+            "2:2"
+          ]
+        },
+        {
+          "id": "2:standard-3",
+          "character": "心",
+          "segmentIndices": [
+            14
+          ],
+          "logicalStrokeIds": [
+            "2:3"
+          ]
+        },
+        {
+          "id": "2:standard-4",
+          "character": "心",
+          "segmentIndices": [
+            15
+          ],
+          "logicalStrokeIds": [
+            "2:4"
+          ]
+        },
+        {
+          "id": "3:standard-1",
+          "character": "书",
+          "segmentIndices": [
+            16
+          ],
+          "logicalStrokeIds": [
+            "3:1"
+          ]
+        },
+        {
+          "id": "3:standard-2",
+          "character": "书",
+          "segmentIndices": [
+            17
+          ],
+          "logicalStrokeIds": [
+            "3:2"
+          ]
+        },
+        {
+          "id": "3:standard-3",
+          "character": "书",
+          "segmentIndices": [
+            18
+          ],
+          "logicalStrokeIds": [
+            "3:3"
+          ]
+        },
+        {
+          "id": "3:standard-4",
+          "character": "书",
+          "segmentIndices": [
+            19
+          ],
+          "logicalStrokeIds": [
+            "3:4"
+          ]
+        },
+        {
+          "id": "4:standard-1",
+          "character": "圆",
+          "segmentIndices": [
+            20
+          ],
+          "logicalStrokeIds": [
+            "4:1"
+          ]
+        },
+        {
+          "id": "4:standard-2",
+          "character": "圆",
+          "segmentIndices": [
+            21
+          ],
+          "logicalStrokeIds": [
+            "4:2"
+          ]
+        },
+        {
+          "id": "4:standard-3",
+          "character": "圆",
+          "segmentIndices": [
+            22
+          ],
+          "logicalStrokeIds": [
+            "4:3"
+          ]
+        },
+        {
+          "id": "4:standard-4",
+          "character": "圆",
+          "segmentIndices": [
+            23
+          ],
+          "logicalStrokeIds": [
+            "4:4"
+          ]
+        },
+        {
+          "id": "4:standard-5",
+          "character": "圆",
+          "segmentIndices": [
+            24
+          ],
+          "logicalStrokeIds": [
+            "4:5"
+          ]
+        },
+        {
+          "id": "4:standard-6",
+          "character": "圆",
+          "segmentIndices": [
+            25
+          ],
+          "logicalStrokeIds": [
+            "4:6"
+          ]
+        },
+        {
+          "id": "4:standard-7",
+          "character": "圆",
+          "segmentIndices": [
+            26
+          ],
+          "logicalStrokeIds": [
+            "4:7"
+          ]
+        },
+        {
+          "id": "4:standard-8",
+          "character": "圆",
+          "segmentIndices": [
+            27
+          ],
+          "logicalStrokeIds": [
+            "4:8"
+          ]
+        },
+        {
+          "id": "4:standard-9",
+          "character": "圆",
+          "segmentIndices": [
+            28
+          ],
+          "logicalStrokeIds": [
+            "4:9"
+          ]
+        },
+        {
+          "id": "4:standard-10",
+          "character": "圆",
+          "segmentIndices": [
+            29
+          ],
+          "logicalStrokeIds": [
+            "4:10"
+          ]
+        },
+        {
+          "id": "5:standard-1",
+          "character": "回",
+          "segmentIndices": [
+            30
+          ],
+          "logicalStrokeIds": [
+            "5:1"
+          ]
+        },
+        {
+          "id": "5:standard-2",
+          "character": "回",
+          "segmentIndices": [
+            31
+          ],
+          "logicalStrokeIds": [
+            "5:2"
+          ]
+        },
+        {
+          "id": "5:standard-3",
+          "character": "回",
+          "segmentIndices": [
+            32
+          ],
+          "logicalStrokeIds": [
+            "5:3"
+          ]
+        },
+        {
+          "id": "5:standard-4",
+          "character": "回",
+          "segmentIndices": [
+            33
+          ],
+          "logicalStrokeIds": [
+            "5:4"
+          ]
+        },
+        {
+          "id": "5:standard-5",
+          "character": "回",
+          "segmentIndices": [
+            34
+          ],
+          "logicalStrokeIds": [
+            "5:5"
+          ]
+        },
+        {
+          "id": "5:standard-6",
+          "character": "回",
+          "segmentIndices": [
+            35
+          ],
+          "logicalStrokeIds": [
+            "5:6"
+          ]
+        },
+        {
+          "id": "6:standard-1",
+          "character": "风",
+          "segmentIndices": [
+            36
+          ],
+          "logicalStrokeIds": [
+            "6:1"
+          ]
+        },
+        {
+          "id": "6:standard-2",
+          "character": "风",
+          "segmentIndices": [
+            37
+          ],
+          "logicalStrokeIds": [
+            "6:2"
+          ]
+        },
+        {
+          "id": "6:standard-3",
+          "character": "风",
+          "segmentIndices": [
+            38
+          ],
+          "logicalStrokeIds": [
+            "6:3"
+          ]
+        },
+        {
+          "id": "6:standard-4",
+          "character": "风",
+          "segmentIndices": [
+            39
+          ],
+          "logicalStrokeIds": [
+            "6:4"
+          ]
+        },
+        {
+          "id": "7:standard-1",
+          "character": "飞",
+          "segmentIndices": [
+            40
+          ],
+          "logicalStrokeIds": [
+            "7:1"
+          ]
+        },
+        {
+          "id": "7:standard-2",
+          "character": "飞",
+          "segmentIndices": [
+            41
+          ],
+          "logicalStrokeIds": [
+            "7:2"
+          ]
+        },
+        {
+          "id": "7:standard-3",
+          "character": "飞",
+          "segmentIndices": [
+            42
+          ],
+          "logicalStrokeIds": [
+            "7:3"
+          ]
+        },
+        {
+          "id": "8:standard-1",
+          "character": "女",
+          "segmentIndices": [
+            43
+          ],
+          "logicalStrokeIds": [
+            "8:1"
+          ]
+        },
+        {
+          "id": "8:standard-2",
+          "character": "女",
+          "segmentIndices": [
+            44
+          ],
+          "logicalStrokeIds": [
+            "8:2"
+          ]
+        },
+        {
+          "id": "8:standard-3",
+          "character": "女",
+          "segmentIndices": [
+            45
+          ],
+          "logicalStrokeIds": [
+            "8:3"
+          ]
+        },
+        {
+          "id": "9:standard-1",
+          "character": "水",
+          "segmentIndices": [
+            46
+          ],
+          "logicalStrokeIds": [
+            "9:1"
+          ]
+        },
+        {
+          "id": "9:standard-2",
+          "character": "水",
+          "segmentIndices": [
+            47
+          ],
+          "logicalStrokeIds": [
+            "9:2"
+          ]
+        },
+        {
+          "id": "9:standard-3",
+          "character": "水",
+          "segmentIndices": [
+            48
+          ],
+          "logicalStrokeIds": [
+            "9:3"
+          ]
+        },
+        {
+          "id": "9:standard-4",
+          "character": "水",
+          "segmentIndices": [
+            49
+          ],
+          "logicalStrokeIds": [
+            "9:4"
+          ]
+        },
+        {
+          "id": "10:standard-1",
+          "character": "火",
+          "segmentIndices": [
+            50
+          ],
+          "logicalStrokeIds": [
+            "10:1"
+          ]
+        },
+        {
+          "id": "10:standard-2",
+          "character": "火",
+          "segmentIndices": [
+            51
+          ],
+          "logicalStrokeIds": [
+            "10:2"
+          ]
+        },
+        {
+          "id": "10:standard-3",
+          "character": "火",
+          "segmentIndices": [
+            52
+          ],
+          "logicalStrokeIds": [
+            "10:3"
+          ]
+        },
+        {
+          "id": "10:standard-4",
+          "character": "火",
+          "segmentIndices": [
+            53
+          ],
+          "logicalStrokeIds": [
+            "10:4"
+          ]
+        }
+      ],
+      "prototypeCharacters": [],
+      "currentSegment": {
+        "logicalStrokeIds": [
+          4
+        ],
+        "visualActionId": "standard-4"
+      },
+      "lines": [
+        "永我心书圆回风飞女水火"
+      ],
+      "engines": [
+        "hanzi"
+      ],
+      "inkPoint": {
+        "x": 1180.6628020164378,
+        "y": 417.20019174380644
+      },
+      "tip": {
+        "x": 1180.6628020164378,
+        "y": 417.20019174380644
+      },
+      "layout": {
+        "scale": 0.8171969045571797,
+        "x": 248.06878761822867,
+        "y": 419.2846947549441,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 0.5814379,
+      "active": false,
+      "disposed": false,
+      "loadAborted": false,
+      "hasGlyphLease": true,
+      "particles": 0,
+      "eraseProgress": 0,
+      "renderCount": 611,
+      "reducedMotion": true,
+      "quality": "full",
+      "metrics": {
+        "loadMs": 28.600000023841858,
+        "planMs": 2.2999999821186066,
+        "estimatedSeconds": 25.59350240000003,
+        "started": 4894.0999999940395,
+        "frameIntervals": [
+          0.7000000178813934,
+          4.399999976158142,
+          5.200000017881393,
+          5.5999999940395355,
+          5.5,
+          5.5,
+          5.5,
+          5.4000000059604645,
+          5.5999999940395355,
+          5.699999988079071,
+          5.5,
+          5.600000023841858,
+          5.5999999940395355,
+          5.299999982118607,
+          5.700000017881393,
+          5.5999999940395355,
+          5.5,
+          5.5,
+          5.5999999940395355,
+          5.5999999940395355,
+          5.800000011920929,
+          5.4000000059604645,
+          5.5999999940395355,
+          5.5999999940395355,
+          5.5,
+          5.5999999940395355,
+          5.600000023841858,
+          5.5,
+          5.5,
+          5.5999999940395355,
+          5.5999999940395355,
+          5.9000000059604645,
+          5.0999999940395355,
+          5.5999999940395355,
+          5.5999999940395355,
+          5.600000023841858,
+          5.5,
+          5.5,
+          5.699999988079071,
+          5.5,
+          5.5,
+          5.699999988079071,
+          5.5,
+          5.5,
+          5.600000023841858,
+          5.699999988079071,
+          5.4000000059604645,
+          5.5999999940395355,
+          5.5,
+          5.4000000059604645,
+          5.699999988079071,
+          5.4000000059604645,
+          5.5,
+          5.699999988079071,
+          5.600000023841858,
+          5.5999999940395355,
+          5.5999999940395355,
+          5.300000011920929,
+          5.5999999940395355,
+          5.699999988079071,
+          5.5,
+          5.5,
+          5.5,
+          5.700000017881393,
+          5.399999976158142,
+          5.800000011920929,
+          5.4000000059604645,
+          5.5999999940395355,
+          5.5,
+          5.800000011920929,
+          5.5,
+          5.399999976158142,
+          5.4000000059604645,
+          5.700000017881393,
+          5.399999976158142,
+          5.600000023841858,
+          5.5,
+          5.699999988079071,
+          5.5,
+          5.5999999940395355,
+          5.4000000059604645,
+          5.699999988079071,
+          5.4000000059604645,
+          5.9000000059604645,
+          5.300000011920929,
+          5.5,
+          5.5999999940395355,
+          5.5999999940395355,
+          5.4000000059604645,
+          6.199999988079071,
+          5.0999999940395355,
+          5.5,
+          5.600000023841858,
+          5.5999999940395355,
+          5.5999999940395355,
+          5.4000000059604645,
+          5.9000000059604645,
+          5.299999982118607,
+          5.4000000059604645,
+          5.5999999940395355,
+          5.700000017881393,
+          5.5,
+          5.5,
+          5.699999988079071,
+          5.5,
+          0.09999999403953552
+        ],
+        "actualSeconds": 0.5773000000119209,
+        "eraseStarted": 4551.5999999940395,
+        "eraseMs": 197.7000000178814
+      },
+      "cache": {
+        "raw": {
+          "entries": 8,
+          "bytes": 5466500,
+          "budgetBytes": 2097152,
+          "pinned": 8,
+          "hits": 4,
+          "misses": 13
+        },
+        "parsed": {
+          "entries": 17,
+          "bytes": 340616,
+          "budgetBytes": 2097152,
+          "pinned": 11,
+          "hits": 2,
+          "misses": 17
+        }
+      },
+      "projectedTip": {
+        "x": 1180.6628020164378,
+        "y": 417.20019174380644
+      },
+      "projectedShadowTip": {
+        "x": 1181.9743404779763,
+        "y": 419.2271148207295
+      },
+      "shadowOpacity": 0.28,
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    },
+    {
+      "state": "written",
+      "phase": "written",
+      "strokeIndex": 11,
+      "strokeProgress": 1,
+      "moveKind": "stroke",
+      "name": "王明",
+      "strokeCount": 12,
+      "logicalStrokeCount": 12,
+      "logicalStrokes": [
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "5459a972173b25968839be83b874433b61c5aad806b1e0f8183acbe796f338d8",
+          "id": "0:1",
+          "character": "王",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "2cf7313742a6592c2dad2f3a20718ff95f40db1d529f162c975eb4a62e2c6271",
+          "id": "0:2",
+          "character": "王",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "f4dc2ec424cfd83650ef2516bfd516ec6a9733f2c1b4de05897d3e97e18ada7b",
+          "id": "0:3",
+          "character": "王",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "a6120030bf6866f77fa799987b9c19c7edbe50dcde96348269da0cdef8cb3d1c",
+          "id": "0:4",
+          "character": "王",
+          "characterPosition": 1
+        },
+        {
+          "originalNumber": 1,
+          "sourceStrokeHash": "7817ba4935d64679619ed5b5044138cde0d0b729ae337583f68fd11d4e734aba",
+          "id": "1:1",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 2,
+          "sourceStrokeHash": "943fd06524a27ca031faa7d54d5db3a36e6dd1cbef9865a0f71233d2d73167e4",
+          "id": "1:2",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 3,
+          "sourceStrokeHash": "aa803bcbb81779f7ee0374a79816b9746c9a455eee2380e984d7417494f2d78c",
+          "id": "1:3",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 4,
+          "sourceStrokeHash": "88ffef6d272167d81e7011e1411e2c252d53d46a5c3ee9d067e0b23fac363528",
+          "id": "1:4",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 5,
+          "sourceStrokeHash": "3b458a24d1e2d09de1b02646a7406f3cc4035fe7384354bfaedecfb4e11c9db7",
+          "id": "1:5",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 6,
+          "sourceStrokeHash": "aef8df4df423b3c8c43fd40901cf7c5a0520385841129c62c005f41dbe091e74",
+          "id": "1:6",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 7,
+          "sourceStrokeHash": "9a0b669ceffd420642bc54d7004f6702f3bcb1ad797b026f84db2c83346b6612",
+          "id": "1:7",
+          "character": "明",
+          "characterPosition": 2
+        },
+        {
+          "originalNumber": 8,
+          "sourceStrokeHash": "2411a75fe76237afcf165e77efbdcc6e3e96ba7513ca0247806e39d711bf5456",
+          "id": "1:8",
+          "character": "明",
+          "characterPosition": 2
+        }
+      ],
+      "visualActions": [
+        {
+          "id": "0:standard-1",
+          "character": "王",
+          "segmentIndices": [
+            0
+          ],
+          "logicalStrokeIds": [
+            "0:1"
+          ]
+        },
+        {
+          "id": "0:standard-2",
+          "character": "王",
+          "segmentIndices": [
+            1
+          ],
+          "logicalStrokeIds": [
+            "0:2"
+          ]
+        },
+        {
+          "id": "0:standard-3",
+          "character": "王",
+          "segmentIndices": [
+            2
+          ],
+          "logicalStrokeIds": [
+            "0:3"
+          ]
+        },
+        {
+          "id": "0:standard-4",
+          "character": "王",
+          "segmentIndices": [
+            3
+          ],
+          "logicalStrokeIds": [
+            "0:4"
+          ]
+        },
+        {
+          "id": "1:standard-1",
+          "character": "明",
+          "segmentIndices": [
+            4
+          ],
+          "logicalStrokeIds": [
+            "1:1"
+          ]
+        },
+        {
+          "id": "1:standard-2",
+          "character": "明",
+          "segmentIndices": [
+            5
+          ],
+          "logicalStrokeIds": [
+            "1:2"
+          ]
+        },
+        {
+          "id": "1:standard-3",
+          "character": "明",
+          "segmentIndices": [
+            6
+          ],
+          "logicalStrokeIds": [
+            "1:3"
+          ]
+        },
+        {
+          "id": "1:standard-4",
+          "character": "明",
+          "segmentIndices": [
+            7
+          ],
+          "logicalStrokeIds": [
+            "1:4"
+          ]
+        },
+        {
+          "id": "1:standard-5",
+          "character": "明",
+          "segmentIndices": [
+            8
+          ],
+          "logicalStrokeIds": [
+            "1:5"
+          ]
+        },
+        {
+          "id": "1:standard-6",
+          "character": "明",
+          "segmentIndices": [
+            9
+          ],
+          "logicalStrokeIds": [
+            "1:6"
+          ]
+        },
+        {
+          "id": "1:standard-7",
+          "character": "明",
+          "segmentIndices": [
+            10
+          ],
+          "logicalStrokeIds": [
+            "1:7"
+          ]
+        },
+        {
+          "id": "1:standard-8",
+          "character": "明",
+          "segmentIndices": [
+            11
+          ],
+          "logicalStrokeIds": [
+            "1:8"
+          ]
+        }
+      ],
+      "prototypeCharacters": [],
+      "currentSegment": {
+        "logicalStrokeIds": [
+          8
+        ],
+        "visualActionId": "standard-8"
+      },
+      "lines": [
+        "王明"
+      ],
+      "engines": [
+        "hanzi"
+      ],
+      "inkPoint": {
+        "x": 840.5273815155028,
+        "y": 383.449817276001
+      },
+      "tip": {
+        "x": 840.5273815155028,
+        "y": 383.449817276001
+      },
+      "layout": {
+        "scale": 1.65,
+        "x": 546.75,
+        "y": 447.6,
+        "width": 1440,
+        "height": 900
+      },
+      "duration": 0.453,
+      "active": false,
+      "disposed": false,
+      "loadAborted": false,
+      "hasGlyphLease": true,
+      "particles": 0,
+      "eraseProgress": 0,
+      "renderCount": 732,
+      "reducedMotion": true,
+      "quality": "full",
+      "metrics": {
+        "loadMs": 0.6000000238418579,
+        "planMs": 0.8999999761581421,
+        "estimatedSeconds": 5.6508776,
+        "started": 6019.0999999940395,
+        "frameIntervals": [
+          2.0999999940395355,
+          5.4000000059604645,
+          5.5,
+          5.5,
+          5.4000000059604645,
+          5.699999988079071,
+          5.700000017881393,
+          5.399999976158142,
+          5.5,
+          5.600000023841858,
+          5.5,
+          5.699999988079071,
+          5.4000000059604645,
+          5.699999988079071,
+          5.5999999940395355,
+          5.5,
+          5.4000000059604645,
+          5.700000017881393,
+          5.5,
+          5.699999988079071,
+          5.5999999940395355,
+          5.5,
+          5.5999999940395355,
+          5.600000023841858,
+          5.399999976158142,
+          5.800000011920929,
+          5.4000000059604645,
+          5.5999999940395355,
+          5.5999999940395355,
+          5.5,
+          5.5,
+          5.5999999940395355,
+          5.4000000059604645,
+          5.700000017881393,
+          5.5999999940395355,
+          5.5999999940395355,
+          5.300000011920929,
+          5.5999999940395355,
+          5.699999988079071,
+          5.5,
+          5.5,
+          5.5999999940395355,
+          5.5,
+          5.700000017881393,
+          5.5999999940395355,
+          5.300000011920929,
+          5.699999988079071,
+          5.5,
+          5.800000011920929,
+          5.5,
+          5.399999976158142,
+          5.5,
+          5.600000023841858,
+          5.699999988079071,
+          5.4000000059604645,
+          5.5,
+          5.699999988079071,
+          5.5,
+          5.5,
+          5.5,
+          5.700000017881393,
+          5.5999999940395355,
+          5.4000000059604645,
+          5.5,
+          5.799999982118607,
+          5.5999999940395355,
+          5.4000000059604645,
+          5.5999999940395355,
+          5.5,
+          5.600000023841858,
+          5.5999999940395355,
+          5.4000000059604645,
+          5.5999999940395355,
+          5.699999988079071,
+          5.5,
+          5.4000000059604645,
+          5.699999988079071,
+          5.700000017881393,
+          5.4000000059604645,
+          5.5999999940395355,
+          5.5,
+          5.5,
+          0.09999999403953552
+        ],
+        "actualSeconds": 0.4522000000178814,
+        "eraseStarted": 5701.700000017881,
+        "eraseMs": 197.89999997615814
+      },
+      "cache": {
+        "raw": {
+          "entries": 3,
+          "bytes": 1580884,
+          "budgetBytes": 2097152,
+          "pinned": 0,
+          "hits": 4,
+          "misses": 13
+        },
+        "parsed": {
+          "entries": 17,
+          "bytes": 340616,
+          "budgetBytes": 2097152,
+          "pinned": 2,
+          "hits": 4,
+          "misses": 17
+        }
+      },
+      "projectedTip": {
+        "x": 840.5273815155027,
+        "y": 383.449817276001
+      },
+      "projectedShadowTip": {
+        "x": 841.8389199770413,
+        "y": 385.4767403529241
+      },
+      "shadowOpacity": 0.28,
+      "calls": 14,
+      "triangles": 4262,
+      "geometries": 8,
+      "textures": 4,
+      "pixelRatio": 1
+    }
+  ],
+  "final": {
+    "state": "idle",
+    "phase": "home",
+    "strokeIndex": 0,
+    "strokeProgress": 0,
+    "name": "",
+    "strokeCount": 0,
+    "logicalStrokeCount": 0,
+    "logicalStrokes": [],
+    "visualActions": [],
+    "prototypeCharacters": [],
+    "currentSegment": null,
+    "lines": [],
+    "engines": [],
+    "inkPoint": null,
+    "tip": {
+      "x": 986.4000000000001,
+      "y": 454.5
+    },
+    "layout": null,
+    "duration": 0.2,
+    "active": false,
+    "disposed": false,
+    "loadAborted": false,
+    "hasGlyphLease": false,
+    "particles": 0,
+    "eraseProgress": 1,
+    "renderCount": 770,
+    "reducedMotion": true,
+    "quality": "full",
+    "metrics": {
+      "loadMs": 0.6000000238418579,
+      "planMs": 0.8999999761581421,
+      "estimatedSeconds": 5.6508776,
+      "started": 6019.0999999940395,
+      "frameIntervals": [
+        2.0999999940395355,
+        5.4000000059604645,
+        5.5,
+        5.5,
+        5.4000000059604645,
+        5.699999988079071,
+        5.700000017881393,
+        5.399999976158142,
+        5.5,
+        5.600000023841858,
+        5.5,
+        5.699999988079071,
+        5.4000000059604645,
+        5.699999988079071,
+        5.5999999940395355,
+        5.5,
+        5.4000000059604645,
+        5.700000017881393,
+        5.5,
+        5.699999988079071,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.600000023841858,
+        5.399999976158142,
+        5.800000011920929,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.700000017881393,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.300000011920929,
+        5.5999999940395355,
+        5.699999988079071,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.700000017881393,
+        5.5999999940395355,
+        5.300000011920929,
+        5.699999988079071,
+        5.5,
+        5.800000011920929,
+        5.5,
+        5.399999976158142,
+        5.5,
+        5.600000023841858,
+        5.699999988079071,
+        5.4000000059604645,
+        5.5,
+        5.699999988079071,
+        5.5,
+        5.5,
+        5.5,
+        5.700000017881393,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5,
+        5.799999982118607,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.600000023841858,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.699999988079071,
+        5.5,
+        5.4000000059604645,
+        5.699999988079071,
+        5.700000017881393,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        0.09999999403953552
+      ],
+      "actualSeconds": 0.4522000000178814,
+      "eraseStarted": 6840,
+      "eraseMs": 203.7000000178814
+    },
+    "cache": {
+      "raw": {
+        "entries": 3,
+        "bytes": 1580884,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 4,
+        "misses": 13
+      },
+      "parsed": {
+        "entries": 17,
+        "bytes": 340616,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 4,
+        "misses": 17
+      }
+    },
+    "projectedTip": {
+      "x": 986.4000000000001,
+      "y": 454.5
+    },
+    "projectedShadowTip": {
+      "x": 987.7115384615386,
+      "y": 456.5269230769231
+    },
+    "shadowOpacity": 0.28,
+    "calls": 14,
+    "triangles": 4262,
+    "geometries": 8,
+    "textures": 4,
+    "pixelRatio": 1
+  }
+}

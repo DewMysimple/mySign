@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-10-30T05:26:00.346Z",
+  "sources": [
+    {
+      "path": "baseline/nihao-ink-only.png",
+      "sha256": "a58e96b5e306ef16ab969c280a027d1513d4c0d7860d73ccdcccfdadd5adc42b"
+    },
+    {
+      "path": "visual/nihao-ink-only.png",
+      "sha256": "1347de0388a9ab7227779b3ef20a91c1cd9c8e9011fe0a9cb41fd3c3bcb40c9f"
+    }
+  ],
+  "crop": {
+    "x": 510,
+    "y": 280,
+    "width": 440,
+    "height": 220
+  },
+  "displayScale": 1.5,
+  "alterations": "Equal crop/enlargement only. Ink-only source captures temporarily hide the 3D layer; normal app and full captures retain it.",
+  "aestheticApproval": "pending-user"
+}

@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-10-30T05:26:00.527Z",
+  "browser": "156.0.8078.48",
+  "pass": true,
+  "videos": [
+    {
+      "path": "baseline/nihao-standard.webm",
+      "sha256": "d8788e003af7785f8dc529096d5be6ddad1d19ca2d8df99c0832ef846594124b",
+      "duration": 10.2,
+      "width": 1440,
+      "height": 900,
+      "decodedAndSeeked": true
+    },
+    {
+      "path": "visual/nihao-prototype-live.webm",
+      "sha256": "fb9dec9475e7393caede700d7f4be4de43ec02ab98960071f333ee085d1f81e0",
+      "duration": 17.16,
+      "width": 1440,
+      "height": 900,
+      "decodedAndSeeked": true
+    }
+  ]
+}

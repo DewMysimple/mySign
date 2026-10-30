@@ -17,6 +17,7 @@ import {
   writingLayout,
 } from '../handwriting/writingPlan.js';
 import { glyphLoader } from '../handwriting/GlyphLoader.js';
+import { motionRhythm } from '../handwriting/motionRhythm.js';
 
 const lerp = (a, b, p) => a + (b - a) * p;
 const clamp = (v, min = 0, max = 1) => Math.max(min, Math.min(max, v));
@@ -248,7 +249,9 @@ export class SignatureController {
           p: 1,
           duration,
           immediateRender: false,
-          ease: action.type === 'stroke' ? handwritingEase : 'sine.inOut',
+          ease: action.type === 'stroke'
+            ? action.rhythm ? motionRhythm(action.rhythm) : handwritingEase
+            : 'sine.inOut',
           onStart: () => {
             this.gestureReducedMotion = reduced;
             this.cursor.phase =
@@ -384,10 +387,11 @@ export class SignatureController {
       /* A lost context cannot render until restored. */
     }
     this.setState('idle');
-    this.onError(
-      `${error.message || '书写中断'}。原文已保留，可以修改或重试。`,
-      error
-    );
+    const detail = String(error.message || '书写中断').replace(/[。.]+$/u, '');
+    const recovery = detail.includes('原文已保留')
+      ? '可以修改或重试。'
+      : '原文已保留，可以修改或重试。';
+    this.onError(`${detail}。${recovery}`, error);
     if (import.meta.env.DEV)
       console.info(
         'Signature recovery',
@@ -533,7 +537,7 @@ export class SignatureController {
       }
     }
   }
-  inspect() {
+  inspect({ particleOrigins = false } = {}) {
     return {
       state: this.state,
       phase: this.cursor.phase,
@@ -542,6 +546,15 @@ export class SignatureController {
       moveKind: this.cursor.moveKind,
       name: this.model?.name ?? '',
       strokeCount: this.paths.length,
+      logicalStrokeCount: this.model?.logicalStrokes?.length || 0,
+      logicalStrokes: this.model?.logicalStrokes || [],
+      visualActions: this.model?.visualActions || [],
+      prototypeCharacters: this.model?.prototypeCharacters || [],
+      currentSegment: this.paths[this.cursor.index] ? {
+        logicalStrokeIds: this.paths[this.cursor.index].logicalStrokeIds || [],
+        visualActionId: this.paths[this.cursor.index].visualActionId,
+        role: this.paths[this.cursor.index].role,
+      } : null,
       lines: this.model?.lines ?? [],
       engines: [...new Set(this.paths.map((s) => s.engine))],
       inkPoint: this.lastInkPoint,
@@ -553,6 +566,7 @@ export class SignatureController {
       loadAborted: this.abortController?.signal.aborted ?? false,
       hasGlyphLease: Boolean(this.lease),
       particles: this.particles.particles.length,
+      ...(particleOrigins ? { particleOrigins: this.particles.particles.map(({ x, y, delay }) => ({ x, y, delay })) } : {}),
       eraseProgress: this.erasure.progress,
       renderCount: this.renderCount,
       reducedMotion: this.reducedMotion,

@@ -1,0 +1,969 @@
+{
+  "browser": "chromium",
+  "version": "156.0.4314.50",
+  "mixed": {
+    "state": "written",
+    "phase": "written",
+    "strokeIndex": 38,
+    "strokeProgress": 1,
+    "moveKind": "stroke",
+    "name": "你好 王明 Amy，2026！",
+    "strokeCount": 39,
+    "logicalStrokeCount": 25,
+    "logicalStrokes": [
+      {
+        "id": "0:1",
+        "name": "撇",
+        "component": "亻",
+        "group": "ni-1",
+        "entry": "pointed press",
+        "exit": "fine leftward release",
+        "originalNumber": 1,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "ea312248e48c489285e2191103229fe4b21949195c30890936f89d10aafa524d",
+        "structure": "亻",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "0:2",
+        "name": "竖",
+        "component": "亻",
+        "group": "ni-1",
+        "entry": "returning thread enters the vertical",
+        "exit": "lifted hanging tail",
+        "originalNumber": 2,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "811a113a0a65a56f7bb3ba162f2f70d68c84ef1dc713bdb070974648546ff7af",
+        "structure": "亻",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "0:3",
+        "name": "撇",
+        "component": "尔",
+        "group": "ni-2",
+        "entry": "light downstroke",
+        "exit": "turns inward to the shoulder",
+        "originalNumber": 3,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "d99422593e5468bcf9cbfa8a0c2d7eeb12e2ee9350bf2c258ad1734822b8a649",
+        "structure": "尔",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "0:4",
+        "name": "横钩",
+        "component": "尔",
+        "group": "ni-2",
+        "entry": "rising shoulder",
+        "exit": "small inward hook",
+        "originalNumber": 4,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "1cfadd154aa46989de99f60b554df8ee6e4386b1b842d0c64c2e16ef8136e178",
+        "structure": "尔",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "0:5",
+        "name": "竖钩",
+        "component": "尔",
+        "group": "ni-3",
+        "entry": "small press into a bowed stem",
+        "exit": "leftward pointed hook",
+        "originalNumber": 5,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "2d3649cd1d032559ac8b002fdf53ba7c4f5935bbfaef94037d0530f0b887a64d",
+        "structure": "尔",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "0:6",
+        "name": "撇",
+        "component": "尔",
+        "group": "ni-4",
+        "entry": "light touch",
+        "exit": "quick pointed release",
+        "originalNumber": 6,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "d96977aa34ab3c62384e811a2df908175ed506d42ce280c7d7136920512cca8b",
+        "structure": "尔",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "0:7",
+        "name": "点",
+        "component": "尔",
+        "group": "ni-5",
+        "entry": "fine oblique entry",
+        "exit": "outward lifted tail",
+        "originalNumber": 7,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "13eda4060114d5a4ba50d39330775b5894c12adfc55de072f4c2203703b77f45",
+        "structure": "尔",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "1:1",
+        "name": "撇点",
+        "component": "女",
+        "group": "hao-1",
+        "entry": "small pointed entry",
+        "exit": "oblique fine release toward the returning stroke",
+        "originalNumber": 1,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "f8a44e11e529771610cb678026e39c6225f1fa909fc074f7e2e95c92ff083ab6",
+        "structure": "女",
+        "omission": false,
+        "orderChanged": false,
+        "character": "好",
+        "characterPosition": 2
+      },
+      {
+        "id": "1:2",
+        "name": "撇",
+        "component": "女",
+        "group": "hao-1",
+        "entry": "returning thread settles into the falling stroke",
+        "exit": "leftward sharp lift",
+        "originalNumber": 2,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "c10adabdbcec61450648a5526de1d1df53039c5317939619cc1c88e4af1f8d82",
+        "structure": "女",
+        "omission": false,
+        "orderChanged": false,
+        "character": "好",
+        "characterPosition": 2
+      },
+      {
+        "id": "1:3",
+        "name": "提",
+        "component": "女",
+        "group": "hao-2",
+        "entry": "short restrained press",
+        "exit": "fast upward point",
+        "originalNumber": 3,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "8cf261c800cc5ef4338836534e85ab347c6d7aafa5cf68f046255bcd80de27fe",
+        "structure": "女",
+        "omission": false,
+        "orderChanged": false,
+        "character": "好",
+        "characterPosition": 2
+      },
+      {
+        "id": "1:4",
+        "name": "横撇",
+        "component": "子",
+        "group": "hao-3",
+        "entry": "rising rounded shoulder",
+        "exit": "fold continues directly into the next logical stroke",
+        "originalNumber": 4,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "c03ada3f2e8b9f426bf4f94f9f93a6c13d7ba3c5b35e8f2e1cfd37e8796d2655",
+        "structure": "子",
+        "omission": false,
+        "orderChanged": false,
+        "character": "好",
+        "characterPosition": 2
+      },
+      {
+        "id": "1:5",
+        "name": "竖钩",
+        "component": "子",
+        "group": "hao-3",
+        "entry": "rounded turn, no airborne gap",
+        "exit": "pressed then pointed leftward hook",
+        "originalNumber": 5,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "e5b8e9db9f791b51e11c6c60424c59ac133463c54b2aac985fe35eb9f2ad3923",
+        "structure": "子",
+        "omission": false,
+        "orderChanged": false,
+        "character": "好",
+        "characterPosition": 2
+      },
+      {
+        "id": "1:6",
+        "name": "横",
+        "component": "子",
+        "group": "hao-4",
+        "entry": "light rising touch",
+        "exit": "long outward lift",
+        "originalNumber": 6,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "2c7ad316cf1deca3ea1c68330e62b9a55b402caaa5827e8612874f4290fe13be",
+        "structure": "子",
+        "omission": false,
+        "orderChanged": false,
+        "character": "好",
+        "characterPosition": 2
+      },
+      {
+        "originalNumber": 1,
+        "sourceStrokeHash": "5459a972173b25968839be83b874433b61c5aad806b1e0f8183acbe796f338d8",
+        "id": "3:1",
+        "character": "王",
+        "characterPosition": 4
+      },
+      {
+        "originalNumber": 2,
+        "sourceStrokeHash": "2cf7313742a6592c2dad2f3a20718ff95f40db1d529f162c975eb4a62e2c6271",
+        "id": "3:2",
+        "character": "王",
+        "characterPosition": 4
+      },
+      {
+        "originalNumber": 3,
+        "sourceStrokeHash": "f4dc2ec424cfd83650ef2516bfd516ec6a9733f2c1b4de05897d3e97e18ada7b",
+        "id": "3:3",
+        "character": "王",
+        "characterPosition": 4
+      },
+      {
+        "originalNumber": 4,
+        "sourceStrokeHash": "a6120030bf6866f77fa799987b9c19c7edbe50dcde96348269da0cdef8cb3d1c",
+        "id": "3:4",
+        "character": "王",
+        "characterPosition": 4
+      },
+      {
+        "originalNumber": 1,
+        "sourceStrokeHash": "7817ba4935d64679619ed5b5044138cde0d0b729ae337583f68fd11d4e734aba",
+        "id": "4:1",
+        "character": "明",
+        "characterPosition": 5
+      },
+      {
+        "originalNumber": 2,
+        "sourceStrokeHash": "943fd06524a27ca031faa7d54d5db3a36e6dd1cbef9865a0f71233d2d73167e4",
+        "id": "4:2",
+        "character": "明",
+        "characterPosition": 5
+      },
+      {
+        "originalNumber": 3,
+        "sourceStrokeHash": "aa803bcbb81779f7ee0374a79816b9746c9a455eee2380e984d7417494f2d78c",
+        "id": "4:3",
+        "character": "明",
+        "characterPosition": 5
+      },
+      {
+        "originalNumber": 4,
+        "sourceStrokeHash": "88ffef6d272167d81e7011e1411e2c252d53d46a5c3ee9d067e0b23fac363528",
+        "id": "4:4",
+        "character": "明",
+        "characterPosition": 5
+      },
+      {
+        "originalNumber": 5,
+        "sourceStrokeHash": "3b458a24d1e2d09de1b02646a7406f3cc4035fe7384354bfaedecfb4e11c9db7",
+        "id": "4:5",
+        "character": "明",
+        "characterPosition": 5
+      },
+      {
+        "originalNumber": 6,
+        "sourceStrokeHash": "aef8df4df423b3c8c43fd40901cf7c5a0520385841129c62c005f41dbe091e74",
+        "id": "4:6",
+        "character": "明",
+        "characterPosition": 5
+      },
+      {
+        "originalNumber": 7,
+        "sourceStrokeHash": "9a0b669ceffd420642bc54d7004f6702f3bcb1ad797b026f84db2c83346b6612",
+        "id": "4:7",
+        "character": "明",
+        "characterPosition": 5
+      },
+      {
+        "originalNumber": 8,
+        "sourceStrokeHash": "2411a75fe76237afcf165e77efbdcc6e3e96ba7513ca0247806e39d711bf5456",
+        "id": "4:8",
+        "character": "明",
+        "characterPosition": 5
+      }
+    ],
+    "visualActions": [
+      {
+        "id": "0:ni-1",
+        "character": "你",
+        "segmentIndices": [
+          0,
+          1,
+          2
+        ],
+        "logicalStrokeIds": [
+          "0:1",
+          "0:2"
+        ]
+      },
+      {
+        "id": "0:ni-2",
+        "character": "你",
+        "segmentIndices": [
+          3,
+          4,
+          5
+        ],
+        "logicalStrokeIds": [
+          "0:3",
+          "0:4"
+        ]
+      },
+      {
+        "id": "0:ni-3",
+        "character": "你",
+        "segmentIndices": [
+          6
+        ],
+        "logicalStrokeIds": [
+          "0:5"
+        ]
+      },
+      {
+        "id": "0:ni-4",
+        "character": "你",
+        "segmentIndices": [
+          7
+        ],
+        "logicalStrokeIds": [
+          "0:6"
+        ]
+      },
+      {
+        "id": "0:ni-5",
+        "character": "你",
+        "segmentIndices": [
+          8
+        ],
+        "logicalStrokeIds": [
+          "0:7"
+        ]
+      },
+      {
+        "id": "1:hao-1",
+        "character": "好",
+        "segmentIndices": [
+          9,
+          10,
+          11
+        ],
+        "logicalStrokeIds": [
+          "1:1",
+          "1:2"
+        ]
+      },
+      {
+        "id": "1:hao-2",
+        "character": "好",
+        "segmentIndices": [
+          12
+        ],
+        "logicalStrokeIds": [
+          "1:3"
+        ]
+      },
+      {
+        "id": "1:hao-3",
+        "character": "好",
+        "segmentIndices": [
+          13,
+          14
+        ],
+        "logicalStrokeIds": [
+          "1:4",
+          "1:5"
+        ]
+      },
+      {
+        "id": "1:hao-4",
+        "character": "好",
+        "segmentIndices": [
+          15
+        ],
+        "logicalStrokeIds": [
+          "1:6"
+        ]
+      },
+      {
+        "id": "3:standard-1",
+        "character": "王",
+        "segmentIndices": [
+          16
+        ],
+        "logicalStrokeIds": [
+          "3:1"
+        ]
+      },
+      {
+        "id": "3:standard-2",
+        "character": "王",
+        "segmentIndices": [
+          17
+        ],
+        "logicalStrokeIds": [
+          "3:2"
+        ]
+      },
+      {
+        "id": "3:standard-3",
+        "character": "王",
+        "segmentIndices": [
+          18
+        ],
+        "logicalStrokeIds": [
+          "3:3"
+        ]
+      },
+      {
+        "id": "3:standard-4",
+        "character": "王",
+        "segmentIndices": [
+          19
+        ],
+        "logicalStrokeIds": [
+          "3:4"
+        ]
+      },
+      {
+        "id": "4:standard-1",
+        "character": "明",
+        "segmentIndices": [
+          20
+        ],
+        "logicalStrokeIds": [
+          "4:1"
+        ]
+      },
+      {
+        "id": "4:standard-2",
+        "character": "明",
+        "segmentIndices": [
+          21
+        ],
+        "logicalStrokeIds": [
+          "4:2"
+        ]
+      },
+      {
+        "id": "4:standard-3",
+        "character": "明",
+        "segmentIndices": [
+          22
+        ],
+        "logicalStrokeIds": [
+          "4:3"
+        ]
+      },
+      {
+        "id": "4:standard-4",
+        "character": "明",
+        "segmentIndices": [
+          23
+        ],
+        "logicalStrokeIds": [
+          "4:4"
+        ]
+      },
+      {
+        "id": "4:standard-5",
+        "character": "明",
+        "segmentIndices": [
+          24
+        ],
+        "logicalStrokeIds": [
+          "4:5"
+        ]
+      },
+      {
+        "id": "4:standard-6",
+        "character": "明",
+        "segmentIndices": [
+          25
+        ],
+        "logicalStrokeIds": [
+          "4:6"
+        ]
+      },
+      {
+        "id": "4:standard-7",
+        "character": "明",
+        "segmentIndices": [
+          26
+        ],
+        "logicalStrokeIds": [
+          "4:7"
+        ]
+      },
+      {
+        "id": "4:standard-8",
+        "character": "明",
+        "segmentIndices": [
+          27
+        ],
+        "logicalStrokeIds": [
+          "4:8"
+        ]
+      }
+    ],
+    "prototypeCharacters": [
+      "你",
+      "好"
+    ],
+    "currentSegment": {
+      "logicalStrokeIds": []
+    },
+    "lines": [
+      "你好 王明 Amy，2026！"
+    ],
+    "engines": [
+      "hanzi",
+      "latin",
+      "symbol"
+    ],
+    "inkPoint": {
+      "x": 1146.0028239171645,
+      "y": 417.5666518730291
+    },
+    "tip": {
+      "x": 1146.0028239171645,
+      "y": 417.5666518730291
+    },
+    "layout": {
+      "scale": 1.0164705882352942,
+      "x": 248.86588235294113,
+      "y": 421.4292400598541,
+      "width": 1440,
+      "height": 900
+    },
+    "duration": 0.4171463,
+    "active": false,
+    "disposed": false,
+    "loadAborted": false,
+    "hasGlyphLease": true,
+    "particles": 0,
+    "eraseProgress": 0,
+    "renderCount": 192,
+    "reducedMotion": true,
+    "quality": "full",
+    "metrics": {
+      "loadMs": 15.800000011920929,
+      "planMs": 3.300000011920929,
+      "estimatedSeconds": 16.43829328687683,
+      "started": 707.9000000059605,
+      "frameIntervals": [
+        1.7999999821186066,
+        5.600000023841858,
+        4.199999988079071,
+        5.800000011920929,
+        0.5999999940395355,
+        4.699999988079071,
+        5.200000017881393,
+        5.5,
+        5.699999988079071,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.600000023841858,
+        5.5999999940395355,
+        5.699999988079071,
+        5.200000017881393,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.800000011920929,
+        5.399999976158142,
+        5.5,
+        5.600000023841858,
+        5.5999999940395355,
+        5.799999982118607,
+        5.200000017881393,
+        5.799999982118607,
+        5.600000023841858,
+        5.5,
+        5.699999988079071,
+        5.300000011920929,
+        5.5,
+        5.5,
+        5.399999976158142,
+        5.700000017881393,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.700000017881393,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.699999988079071,
+        5.4000000059604645,
+        5.800000011920929,
+        5.5,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.800000011920929,
+        5.4000000059604645,
+        5.799999982118607,
+        5.0999999940395355,
+        5.800000011920929,
+        5.5,
+        5.5,
+        5.699999988079071,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.700000017881393,
+        5.4000000059604645,
+        5.5,
+        5.699999988079071,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.700000017881393,
+        5.699999988079071,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.9000000059604645,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.4000000059604645,
+        6.0999999940395355,
+        5.100000023841858,
+        5.399999976158142,
+        5.700000017881393,
+        5.5,
+        5.4000000059604645,
+        5.5,
+        5.699999988079071,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.600000023841858,
+        5.399999976158142,
+        5.700000017881393,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.600000023841858,
+        5.699999988079071,
+        6,
+        5.300000011920929,
+        5.399999976158142,
+        5.700000017881393,
+        37.29999998211861,
+        7.100000023841858,
+        5.5,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.600000023841858,
+        5.5,
+        5.699999988079071,
+        5.699999988079071,
+        5.300000011920929,
+        5.699999988079071,
+        5.300000011920929,
+        5.800000011920929,
+        5.299999982118607,
+        5.800000011920929,
+        5.5,
+        5.5999999940395355,
+        5.300000011920929,
+        5.5999999940395355,
+        5.799999982118607,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.700000017881393,
+        5.4000000059604645,
+        5.699999988079071,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.600000023841858,
+        5.799999982118607,
+        5.300000011920929,
+        5.699999988079071,
+        5.300000011920929,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.700000017881393,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.699999988079071,
+        13.300000011920929,
+        8.800000011920929,
+        5.699999988079071,
+        5.9000000059604645,
+        5.199999988079071,
+        5.5,
+        5.700000017881393,
+        5.199999988079071,
+        5.5999999940395355,
+        5.5,
+        0.20000001788139343
+      ],
+      "actualSeconds": 1.0732999999821187
+    },
+    "cache": {
+      "raw": {
+        "entries": 2,
+        "bytes": 1425680,
+        "budgetBytes": 2097152,
+        "pinned": 2,
+        "hits": 0,
+        "misses": 2
+      },
+      "parsed": {
+        "entries": 2,
+        "bytes": 44112,
+        "budgetBytes": 2097152,
+        "pinned": 2,
+        "hits": 0,
+        "misses": 2
+      }
+    },
+    "projectedTip": {
+      "x": 1146.0028239171645,
+      "y": 417.5666518730291
+    },
+    "projectedShadowTip": {
+      "x": 1147.314362378703,
+      "y": 419.5935749499522
+    },
+    "shadowOpacity": 0.28,
+    "calls": 14,
+    "triangles": 4262,
+    "geometries": 8,
+    "textures": 4,
+    "pixelRatio": 1
+  },
+  "errors": [],
+  "final": {
+    "state": "idle",
+    "phase": "home",
+    "strokeIndex": 0,
+    "strokeProgress": 0,
+    "name": "",
+    "strokeCount": 0,
+    "logicalStrokeCount": 0,
+    "logicalStrokes": [],
+    "visualActions": [],
+    "prototypeCharacters": [],
+    "currentSegment": null,
+    "lines": [],
+    "engines": [],
+    "inkPoint": null,
+    "tip": {
+      "x": 986.4000000000001,
+      "y": 454.5
+    },
+    "layout": null,
+    "duration": 0.2,
+    "active": false,
+    "disposed": false,
+    "loadAborted": false,
+    "hasGlyphLease": false,
+    "particles": 0,
+    "eraseProgress": 1,
+    "renderCount": 347,
+    "reducedMotion": true,
+    "quality": "full",
+    "metrics": {
+      "loadMs": 0.5,
+      "planMs": 1.4000000059604645,
+      "estimatedSeconds": 8.569249858693492,
+      "started": 2430.0999999940395,
+      "frameIntervals": [
+        1.5999999940395355,
+        5.199999988079071,
+        5.4000000059604645,
+        5.300000011920929,
+        5.5,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.699999988079071,
+        5.5,
+        5.5999999940395355,
+        5.9000000059604645,
+        5.200000017881393,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.699999988079071,
+        5.5,
+        5.5999999940395355,
+        5.600000023841858,
+        5.5,
+        5.5,
+        6,
+        5.199999988079071,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.600000023841858,
+        5.899999976158142,
+        5.300000011920929,
+        5.5,
+        5.5,
+        5.699999988079071,
+        5.4000000059604645,
+        5.700000017881393,
+        5.399999976158142,
+        5.5,
+        5.600000023841858,
+        5.5,
+        5.699999988079071,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.600000023841858,
+        5.5,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.700000017881393,
+        5.299999982118607,
+        5.600000023841858,
+        5.5,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.699999988079071,
+        5.600000023841858,
+        5.5,
+        5.5,
+        5.699999988079071,
+        5.5,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.700000017881393,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5,
+        0.19999998807907104
+      ],
+      "actualSeconds": 0.43990000000596047,
+      "eraseStarted": 3261.199999988079,
+      "eraseMs": 197.7000000178814
+    },
+    "cache": {
+      "raw": {
+        "entries": 2,
+        "bytes": 1425680,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 0,
+        "misses": 2
+      },
+      "parsed": {
+        "entries": 2,
+        "bytes": 44112,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 0,
+        "misses": 2
+      }
+    },
+    "projectedTip": {
+      "x": 986.4000000000001,
+      "y": 454.5
+    },
+    "projectedShadowTip": {
+      "x": 987.7115384615386,
+      "y": 456.5269230769231
+    },
+    "shadowOpacity": 0.28,
+    "calls": 14,
+    "triangles": 4262,
+    "geometries": 8,
+    "textures": 4,
+    "pixelRatio": 1
+  }
+}

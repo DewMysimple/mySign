@@ -1,0 +1,18 @@
+{
+  "scope": "Canonical Shakespeare output; binary blue-ink pixels in 1440x600 signing area. Input UI and gray pencil/shadow excluded. Not a full-page pixel equality claim.",
+  "sources": [
+    {
+      "path": "analysis/chinese/baseline/desktop-written.png",
+      "sha256": "93f1270f6e725bdada4959601937a58bdabe0370f785dc56f7ee391c8128819b"
+    },
+    {
+      "path": "analysis/xingshu/english/desktop-written.png",
+      "sha256": "9ea59e409c3c44a5296f7aaf0bedc810e28628cb085e5e340a2c0a77a943d953"
+    }
+  ],
+  "baselineInkPixels": 29777,
+  "currentInkPixels": 29777,
+  "differentInkPixels": 0,
+  "intersectionOverUnion": 1.0,
+  "pass": true
+}

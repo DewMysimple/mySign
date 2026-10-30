@@ -12,7 +12,7 @@ export default defineConfig({
   expect: { timeout: 20000 },
   workers: 1,
   fullyParallel: false,
-  reporter: [['list'], ['json', { outputFile: 'analysis/chinese/browser/chromium-results.json' }]],
+  reporter: [['list'], ['json', { outputFile: 'analysis/xingshu/browser/chromium-results.json' }]],
   use: {
     baseURL: 'http://127.0.0.1:5173',
     viewport: { width: 1440, height: 900 },

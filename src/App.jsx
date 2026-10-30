@@ -51,7 +51,7 @@ export default function App() {
       setReady(true);
       if (import.meta.env.DEV) {
         window.__signatureDebug = Object.freeze({
-          inspect: () => controller.inspect(),
+          inspect: (options) => controller.inspect(options),
           inject: (stage) => controller.inject(stage),
         });
       }

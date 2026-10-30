@@ -4,39 +4,32 @@ import { readFile } from 'node:fs/promises';
 import { GlyphCache } from '../src/handwriting/GlyphCache.js';
 import { SYMBOLS } from '../src/handwriting/symbols.js';
 import { buildSignature, parsePath } from '../src/handwriting/signature.js';
-import {
-  validateText,
-  buildWritingPlan,
-  writingLayout,
-} from '../src/handwriting/writingPlan.js';
+import { validateText, assertValidText, buildWritingPlan, writingLayout, WRITING_BUDGET } from '../src/handwriting/writingPlan.js';
 
 async function loadGlyphs(text) {
-  const m = JSON.parse(await readFile('public/glyphs/manifest.json', 'utf8'));
-  const glyphs = new Map();
+  const m = JSON.parse(await readFile('public/glyphs/manifest.json', 'utf8')), glyphs = new Map();
   for (const ch of text) {
     if (!Object.hasOwn(m.characters, ch)) continue;
-    const shard = JSON.parse(
-      await readFile(`public/glyphs/${m.shards[m.characters[ch]].file}`, 'utf8')
-    );
+    const shard = JSON.parse(await readFile(`public/glyphs/${m.shards[m.characters[ch]].file}`, 'utf8'));
     glyphs.set(ch, shard.glyphs[ch]);
   }
   return glyphs;
 }
 
-test('registered text preserves spaces, punctuation and explicit line breaks; all errors use grapheme positions', () => {
-  const result = validateText('  王明  Amy，2026！\r\n\n签名。 ');
-  assert.equal(result.text, '  王明  Amy，2026！\n\n签名。 ');
-  assert.deepEqual(result.issues, []);
-  const bad = validateText('王🙂\t👩‍👩‍👧‍👧É');
-  assert.deepEqual(
-    bad.issues.map((i) => i.position),
-    [2, 3, 4, 5]
-  );
+test('registered single-line text preserves spaces; every unsupported grapheme and newline is reported', () => {
+  const value = '  王明  Amy，2026！ ';
+  assert.equal(validateText(value).text, value);
+  assert.deepEqual(validateText(value).issues, []);
+  const bad = validateText('王🙂\t👩‍👩‍👧‍👧É\r\n签');
+  assert.deepEqual(bad.issues.map(i => i.position), [2, 3, 4, 5, 6]);
   assert.ok(bad.issues[0].codePoint.includes('1F642'));
-  assert.equal(validateText(' \n ').issues.length, 1);
+  assert.match(bad.issues.at(-1).reason, /单行/);
+  assert.equal(bad.text, '王🙂\t👩‍👩‍👧‍👧É\n签');
+  assert.throws(() => assertValidText('你\n好'), /第 2 个字符.*单行/);
+  assert.throws(() => assertValidText('你\u2028好'), /单行/);
 });
 
-test('all digits and whitelisted punctuation have finite, explicitly ordered pen routes', () => {
+test('all digits and whitelisted punctuation retain finite, explicitly ordered pen routes', () => {
   for (const [ch, g] of Object.entries(SYMBOLS)) {
     assert.ok(g.advance > 0, ch);
     assert.ok(g.strokes.length > 0, ch);
@@ -44,109 +37,65 @@ test('all digits and whitelisted punctuation have finite, explicitly ordered pen
       const p = parsePath(d);
       assert.equal(p[0].type, 'M');
       assert.ok(p.length > 1);
-      assert.ok(p.flatMap((x) => x.values).every(Number.isFinite));
+      assert.ok(p.flatMap(x => x.values).every(Number.isFinite));
     }
   }
 });
 
-test('canonical English geometry is byte-identical to frozen original engine', () => {
-  for (const name of [
-    'Shakespeare',
-    'Mary Jane',
-    'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
-    'Amy',
-  ]) {
-    const original = buildSignature(name),
-      plan = buildWritingPlan(name, new Map(), 1440, 900);
+test('canonical English geometry and bounds remain identical to the original engine', () => {
+  for (const name of ['Shakespeare', 'Mary Jane', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'Amy', 'Alexandria Montgomery Fitzgerald']) {
+    const original = buildSignature(name), plan = buildWritingPlan(name, new Map(), 1440, 900);
     assert.equal(plan.legacy, true);
-    assert.deepEqual(
-      plan.strokes.map((s) => s.d),
-      original.strokes.map((s) => s.d)
-    );
+    assert.deepEqual(plan.strokes.map(s => s.d), original.strokes.map(s => s.d));
     assert.deepEqual(plan.bounds, original.bounds);
   }
 });
 
-test('mixed text uses paired outline/median routes, stable lines, and a single coordinate mapping', async () => {
-  const text = '王明 Amy 2026，\n\n中文签名！';
-  const glyphs = await loadGlyphs(text);
+test('mixed text shares paired contours, original Latin and one fixed line', async () => {
+  const text = '王明 Amy 2026，中文签名！', glyphs = await loadGlyphs(text);
   const model = buildWritingPlan(text, glyphs, 1440, 900);
   assert.equal(model.name, text);
-  assert.equal(model.lines.length, 3);
-  assert.equal(model.lines[1], '');
-  assert.ok(model.strokes.some((s) => s.outline));
-  assert.ok(model.strokes.some((s) => s.engine === 'latin'));
-  assert.ok(model.strokes.some((s) => s.engine === 'symbol'));
-  const before = JSON.stringify(model.lines);
-  for (const [w, h] of [
-    [1440, 900],
-    [768, 900],
-    [880, 360],
-    [320, 568],
-  ]) {
-    const l = writingLayout(model, w, h);
-    assert.ok(Number.isFinite(l.scale));
-    assert.ok(l.scale > 0);
-    assert.equal(JSON.stringify(model.lines), before);
-  }
-  for (const s of model.strokes.filter((s) => s.outline)) {
-    assert.ok(s.sourceStrokeHash.length === 64);
-    assert.ok(s.maskWidth > 0);
-    assert.ok(s.length > 0);
+  assert.deepEqual(model.lines, [text]);
+  assert.ok(model.strokes.some(s => s.outline));
+  assert.ok(model.strokes.some(s => s.engine === 'latin'));
+  assert.ok(model.strokes.some(s => s.engine === 'symbol'));
+  for (const s of model.strokes.filter(s => s.outline)) {
+    assert.equal(s.sourceStrokeHash.length, 64);
+    assert.ok(s.maskWidth > 0 && s.length > 0);
     assert.equal(s.start.x, s.median[0][0] + s.offset.x);
     assert.equal(s.start.y, s.median[0][1] + s.offset.y);
   }
-  assert.ok(model.actions.some((a) => a.type === 'line-move'));
-  assert.ok(model.clearActions.some((a) => a.type === 'particles'));
-});
-
-test('automatic line breaks respect opening/closing punctuation; oversize tasks reject without truncation', async () => {
-  const text = '中文中文中文中文中文中文，（签名）《中文》！';
-  const g = await loadGlyphs(text);
-  const plan = buildWritingPlan(text, g, 390, 844);
-  assert.ok(plan.lines.length > 1);
-  assert.equal(plan.lines.join(''), text);
-  for (const line of plan.lines) {
-    assert.ok(!/^[，。！）》]/.test(line), line);
-    assert.ok(!/[（《]$/.test(line), line);
+  assert.ok(!model.actions.some(a => a.type === 'line-move'));
+  for (const [w,h] of [[1440,900],[1280,800],[1024,768]]) {
+    assert.ok(writingLayout(model,w,h).scale > 0);
+    assert.deepEqual(model.lines, [text]);
   }
-  assert.throws(
-    () => buildWritingPlan('王'.repeat(1000), g, 1440, 900),
-    /超过|字形/
-  );
 });
 
-test('byte LRU keeps active entries pinned, evicts in access order, and releases back to budget', () => {
+test('character, actual width, ink-segment and duration budgets refuse without truncation or wrapping', () => {
+  assertValidText('1'.repeat(WRITING_BUDGET.maxCharacters));
+  assert.throws(() => assertValidText('1'.repeat(WRITING_BUDGET.maxCharacters + 1)), /字符.*超过/);
+  const name = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  assert.throws(() => buildWritingPlan(name, new Map(), 700, 900), /单行可用宽度不足/);
+  assert.equal(buildWritingPlan(name, new Map(), 1440,900).name, name);
+  assert.throws(() => buildWritingPlan('Amy', new Map(),1440,900,{...WRITING_BUDGET,maxStrokes:1}), /墨迹动作/);
+  assert.throws(() => buildWritingPlan('Amy', new Map(),1440,900,{...WRITING_BUDGET,maxSeconds:0.1}), /安全时长/);
+});
+
+test('byte LRU keeps active entries pinned and releases back to its capacity', () => {
   const c = new GlyphCache(10);
-  c.set('a', { a: 1 }, 6, 1);
-  c.set('b', { b: 1 }, 6);
-  assert.ok(c.get('a'));
-  assert.equal(c.get('b'), undefined);
-  assert.equal(c.inspect().pinned, 1);
-  c.set('c', {}, 20, 1);
-  assert.ok(c.inspect().bytes > 10);
-  c.release('a');
-  assert.equal(c.get('a'), undefined);
-  assert.ok(c.get('c'));
-  c.release('c');
-  assert.ok(c.inspect().bytes <= 10);
-  assert.equal(c.inspect().pinned, 0);
+  c.set('a',{a:1},6,1); c.set('b',{b:1},6);
+  assert.ok(c.get('a')); assert.equal(c.get('b'),undefined);
+  c.set('c',{},20,1); assert.ok(c.inspect().bytes > 10);
+  c.release('a'); assert.equal(c.get('a'),undefined); assert.ok(c.get('c'));
+  c.release('c'); assert.ok(c.inspect().bytes <= 10); assert.equal(c.inspect().pinned,0);
 });
 
-test('long English wraps at the readable floor and leading/trailing blank lines retain real line-box space', async () => {
-  const text = 'Alexandria '.repeat(9).trim();
-  const plan = buildWritingPlan(text, new Map(), 700, 900);
-  assert.equal(plan.legacy, false);
-  assert.ok(plan.lines.length > 1);
-  assert.equal(plan.lines.join(''), text);
-  assert.ok(writingLayout(plan, 700, 900).scale >= 0.36);
-  const g = await loadGlyphs('王');
-  const plain = buildWritingPlan('王', g, 1440, 900),
-    blank = buildWritingPlan('\n王\n', g, 1440, 900);
-  assert.equal(blank.lines.length, 3);
-  assert.ok(
-    blank.bounds.maxY - blank.bounds.minY >
-      plain.bounds.maxY - plain.bounds.minY + 200
-  );
-  assert.ok(blank.strokes.every((s) => s.line === 1));
+test('leading and trailing spaces remain in the single-line plan, with no multi-line path', async () => {
+  const text = '  王明  Amy  ', glyphs = await loadGlyphs(text);
+  const plan = buildWritingPlan(text,glyphs,1440,900);
+  assert.equal(plan.name,text); assert.deepEqual(plan.lines,[text]);
+  assert.ok(plan.strokes.every(s => s.line === 0));
+  for (const invalid of ['\n王','王\n','王\n\n明'])
+    assert.throws(() => buildWritingPlan(invalid,glyphs,1440,900), /单行/);
 });

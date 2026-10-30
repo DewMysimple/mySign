@@ -1,5 +1,5 @@
 import { GLYPHS } from './glyphs.js';
-import { SYMBOLS, NO_LINE_START, NO_LINE_END } from './symbols.js';
+import { SYMBOLS } from './symbols.js';
 import {
   buildSignature,
   commandBounds,
@@ -7,16 +7,10 @@ import {
   signatureLayout,
 } from './signature.js';
 import manifest from './generated/manifest.json' with { type: 'json' };
+import limits from './signatureLimits.json' with { type: 'json' };
 
-// Calibrated and separately verified; see analysis/chinese/performance/budgets.json.
-export const WRITING_BUDGET = Object.freeze({
-  maxStrokes: 420,
-  maxSeconds: 95,
-  maxLines: 8,
-  minScale: 0.36,
-  rawBytes: 2 * 1024 ** 2,
-  parsedBytes: 2 * 1024 ** 2,
-});
+// Single-line calibration and boundary evidence is kept separate from 1.1.0.
+export const WRITING_BUDGET = Object.freeze(limits);
 export const normalizeText = (value) => String(value).replace(/\r\n?/g, '\n');
 const segments = (text) =>
   [...new Intl.Segmenter('zh', { granularity: 'grapheme' }).segment(text)].map(
@@ -38,15 +32,16 @@ export function validateText(value) {
       !Object.hasOwn(GLYPHS, character) &&
       !Object.hasOwn(SYMBOLS, character) &&
       !Object.hasOwn(manifest.characters, character) &&
-      character !== ' ' &&
-      character !== '\n'
+      character !== ' '
     ) {
       issues.push({
         position: index + 1,
         character,
         codePoint: codePoints(character),
         reason:
-          character === '\t' ? '制表符不支持，请使用空格' : '暂不支持此字符',
+          ['\n', '\u2028', '\u2029'].includes(character)
+            ? '目前只支持单行签名，请移除换行后重试'
+            : character === '\t' ? '制表符不支持，请使用空格' : '暂不支持此字符',
       });
     }
   }
@@ -82,11 +77,16 @@ export function assertValidText(value) {
       result.issues
         .map((i) =>
           i.character
-            ? `第 ${i.position} 个字符「${i.character}」：${i.reason}`
+            ? `第 ${i.position} 个字符「${i.character === '\n' ? '换行' : i.character}」：${i.reason}`
             : i.reason
         )
         .join('；'),
       result.issues
+    );
+  const characters = segments(result.text).length;
+  if (characters > WRITING_BUDGET.maxCharacters)
+    throw new PreflightError(
+      `共有 ${characters} 个字符（含空格），超过单行签名 ${WRITING_BUDGET.maxCharacters} 个字符的上限。请缩短内容，原文已保留。`
     );
   const strokes = [...result.text].reduce(
     (sum, ch) =>
@@ -99,11 +99,7 @@ export function assertValidText(value) {
   );
   if (strokes > WRITING_BUDGET.maxStrokes)
     throw new PreflightError(
-      `共有至少 ${strokes} 笔，超过当前 ${WRITING_BUDGET.maxStrokes} 笔的安全预算。请分段书写，原文已保留。`
-    );
-  if (result.text.split('\n').length > WRITING_BUDGET.maxLines)
-    throw new PreflightError(
-      `手动换行超过当前 ${WRITING_BUDGET.maxLines} 行的安全预算。原文已保留。`
+      `共有至少 ${strokes} 笔，超过当前 ${WRITING_BUDGET.maxStrokes} 笔的安全预算。请缩短签名，原文已保留。`
     );
   return result;
 }
@@ -162,7 +158,7 @@ function pathLength(d) {
   return length;
 }
 
-function tokensFor(text, glyphs, maxWidth) {
+function tokensFor(text, glyphs) {
   const tokens = [];
   const chunks = text.match(/[A-Za-z]+|[^A-Za-z]/gu) || [];
   let characterIndex = 0;
@@ -179,19 +175,12 @@ function tokensFor(text, glyphs, maxWidth) {
   for (const chunk of chunks) {
     if (/^[A-Za-z]+$/.test(chunk)) {
       const token = english(chunk);
-      if (token.advance > maxWidth) {
-        for (const ch of chunk) {
-          tokens.push(english(ch));
-          characterIndex++;
-        }
-      } else {
-        tokens.push(token);
-        characterIndex += chunk.length;
-      }
-    } else if (chunk === '\n' || chunk === ' ') {
+      tokens.push(token);
+      characterIndex += chunk.length;
+    } else if (chunk === ' ') {
       tokens.push({
         text: chunk,
-        advance: chunk === ' ' ? 26 : 0,
+        advance: 26,
         strokes: [],
         index: characterIndex++,
       });
@@ -211,11 +200,16 @@ function tokensFor(text, glyphs, maxWidth) {
         advance: g.advance + 5,
         engine: 'hanzi',
         glyph: g,
-        strokes: g.strokes.map((s) => ({
+        strokes: g.strokes.map((s, strokeIndex) => ({
           ...s,
-          d: s.median
-            .map(([x, y], i) => `${i ? 'L' : 'M'} ${x} ${y}`)
-            .join(' '),
+          style: g.style || 'standard',
+          prototypeVersion: g.style ? g.version : null,
+          logicalStrokeIds: s.logicalStrokeIds || [strokeIndex + 1],
+          logicalRecords: g.logicalStrokes || null,
+          visualActionId: s.visualActionId || `standard-${strokeIndex + 1}`,
+          d: s.d || s.median
+              .map(([x, y], i) => `${i ? 'L' : 'M'} ${x} ${y}`)
+              .join(' '),
           start: { x: s.median[0][0], y: s.median[0][1] },
           end: { x: s.median.at(-1)[0], y: s.median.at(-1)[1] },
           bounds: {
@@ -231,37 +225,6 @@ function tokensFor(text, glyphs, maxWidth) {
   return tokens;
 }
 
-function breakLines(tokens, maxWidth) {
-  const lines = [[]];
-  let width = 0;
-  for (const token of tokens) {
-    if (token.text === '\n') {
-      lines.push([]);
-      width = 0;
-      continue;
-    }
-    let line = lines.at(-1);
-    if (line.length && width + token.advance > maxWidth) {
-      const carry = [];
-      // Closing punctuation travels with its preceding glyph; opening punctuation
-      // travels with its following glyph. Never delete spaces to make a line fit.
-      if (NO_LINE_START.has(token.text[0])) {
-        while (line.length && line.at(-1).text === ' ')
-          carry.unshift(line.pop());
-        if (line.length) carry.unshift(line.pop());
-      }
-      while (line.length && NO_LINE_END.has(line.at(-1).text.at(-1)))
-        carry.unshift(line.pop());
-      line = carry;
-      lines.push(line);
-      width = carry.reduce((s, t) => s + t.advance, 0);
-    }
-    line.push(token);
-    width += token.advance;
-  }
-  return lines;
-}
-
 export function buildWritingPlan(
   text,
   glyphs,
@@ -274,9 +237,7 @@ export function buildWritingPlan(
   const original = /^[A-Za-z]+(?: [A-Za-z]+)*$/.test(text)
     ? buildSignature(text)
     : null;
-  const legacy =
-    original &&
-    signatureLayout(original, width, height).scale >= budget.minScale;
+  const legacy = Boolean(original);
   let model;
   if (legacy) {
     model = { ...original, legacy: true, lines: [text] };
@@ -287,14 +248,7 @@ export function buildWritingPlan(
       offset: { x: 0, y: 0 },
     }));
   } else {
-    const availableWidth = width * (width < 600 ? 0.84 : 0.66);
-    const maxWidth = availableWidth / budget.minScale - 8;
-    const tokens = tokensFor(text, glyphs, maxWidth);
-    const lines = breakLines(tokens, maxWidth);
-    if (lines.length > budget.maxLines)
-      throw new PreflightError(
-        `排版需要 ${lines.length} 行，超过当前可安全书写的 ${budget.maxLines} 行。请缩短文本，原文已保留。`
-      );
+    const lines = [tokensFor(text, glyphs)];
     const strokes = [],
       rowWidths = lines.map((row) => row.reduce((s, t) => s + t.advance, 0));
     const fullWidth = Math.max(...rowWidths, 1);
@@ -303,7 +257,7 @@ export function buildWritingPlan(
       for (const token of line) {
         const offset = {
           x,
-          y: row * 128 - (token.engine === 'hanzi' ? token.glyph.baseline : 0),
+          y: token.engine === 'hanzi' ? -token.glyph.baseline : 0,
         };
         for (const s of token.strokes) {
           const b = s.bounds;
@@ -337,18 +291,40 @@ export function buildWritingPlan(
         minX: Math.min(0, ...strokes.map((s) => s.bounds.minX)) - 4,
         maxX: Math.max(fullWidth, ...strokes.map((s) => s.bounds.maxX)) + 4,
         minY: Math.min(-88, ...strokes.map((s) => s.bounds.minY)) - 4,
-        maxY:
-          Math.max(
-            (lines.length - 1) * 128 + 20,
-            ...strokes.map((s) => s.bounds.maxY)
-          ) + 4,
+        maxY: Math.max(20, ...strokes.map((s) => s.bounds.maxY)) + 4,
       },
     };
   }
   if (model.strokes.length > budget.maxStrokes)
     throw new PreflightError(
-      `共有 ${model.strokes.length} 笔，超过当前 ${budget.maxStrokes} 笔的安全预算。请分段书写，原文已保留。`
+      `共有 ${model.strokes.length} 段墨迹动作（含牵丝），超过当前 ${budget.maxStrokes} 段的安全预算。请缩短签名，原文已保留。`
     );
+  const logical = new Map();
+  const visual = new Map();
+  for (const [index, s] of model.strokes.entries()) {
+    if (s.engine !== 'hanzi') continue;
+    const key = `${s.characterIndex}:${s.visualActionId}`;
+    if (!visual.has(key)) visual.set(key, {
+      id: key, character: s.character, segmentIndices: [], logicalStrokeIds: [],
+    });
+    const group = visual.get(key);
+    group.segmentIndices.push(index);
+    for (const id of s.logicalStrokeIds) {
+      const logicalKey = `${s.characterIndex}:${id}`;
+      group.logicalStrokeIds.push(logicalKey);
+      logical.set(logicalKey, {
+        ...(s.logicalRecords?.[id - 1] || {
+          originalNumber: id, sourceStrokeHash: s.sourceStrokeHash,
+        }),
+        id: logicalKey, character: s.character,
+        characterPosition: s.characterIndex + 1,
+      });
+    }
+  }
+  model.logicalStrokes = [...logical.values()];
+  model.visualActions = [...visual.values()];
+  model.prototypeCharacters = [...new Set(model.strokes
+    .filter(s => s.prototypeVersion).map(s => s.character))];
   model.actions = [{ type: 'approach', duration: 0.66 }];
   for (const [i, s] of model.strokes.entries()) {
     const previous = model.strokes[i - 1];
@@ -357,29 +333,23 @@ export function buildWritingPlan(
       Math.hypot(previous.end.x - s.start.x, previous.end.y - s.start.y) > 0.5
     ) {
       const kind =
-        s.line !== previous.line
-          ? 'line-move'
-          : s.characterIndex !== previous.characterIndex ||
-              s.character !== previous.character
-            ? 'character-move'
-            : 'lift';
+        s.characterIndex !== previous.characterIndex ||
+        s.character !== previous.character ? 'character-move' : 'lift';
       model.actions.push({
         type: kind,
         index: i,
-        duration:
-          kind === 'line-move'
-            ? 0.28
-            : kind === 'character-move'
-              ? 0.12
-              : 0.065,
+        duration: kind === 'character-move' ? 0.12 : 0.065,
       });
     }
     model.actions.push({
       type: 'stroke',
       index: i,
+      visualActionId: s.visualActionId,
+      rhythm: s.rhythm,
       duration:
-        s.engine === 'hanzi'
-          ? Math.max(
+        s.prototypeVersion
+          ? Math.max(0.035, Math.min(0.85, s.length * s.pace))
+          : s.engine === 'hanzi' ? Math.max(
               0.065,
               Math.min(0.6, s.length * 0.008 + (s.complexity || 0) * 0.012)
             )
@@ -399,12 +369,12 @@ export function buildWritingPlan(
     : model.actions.reduce((s, a) => s + a.duration, 0);
   if (model.estimatedSeconds > budget.maxSeconds)
     throw new PreflightError(
-      `预计书写约 ${Math.ceil(model.estimatedSeconds)} 秒，超过当前安全时长。请分段书写，原文已保留。`
+      `预计书写约 ${Math.ceil(model.estimatedSeconds)} 秒，超过当前 ${budget.maxSeconds} 秒的安全时长。请缩短签名，原文已保留。`
     );
   const layout = writingLayout(model, width, height);
-  if (!model.legacy && layout.scale < budget.minScale)
+  if (layout.scale < budget.minScale)
     throw new PreflightError(
-      '当前窗口无法清晰容纳这些内容，请减少行数或扩大窗口。原文已保留。'
+      '单行可用宽度不足，继续缩小将影响辨认。请缩短签名或扩大窗口，原文已保留。'
     );
   return model;
 }

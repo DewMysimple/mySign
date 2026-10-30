@@ -1,0 +1,2120 @@
+{
+  "fallback": {
+    "state": "writing",
+    "phase": "stroke",
+    "strokeIndex": 2,
+    "strokeProgress": 0.378877,
+    "moveKind": "stroke",
+    "name": "中文签名王明",
+    "strokeCount": 39,
+    "logicalStrokeCount": 39,
+    "logicalStrokes": [
+      {
+        "originalNumber": 1,
+        "sourceStrokeHash": "ef63d0d4bdeb38a431f532c7a4a0f153bb9f60c4bca256f01c3aa1f58c84dd3a",
+        "id": "0:1",
+        "character": "中",
+        "characterPosition": 1
+      },
+      {
+        "originalNumber": 2,
+        "sourceStrokeHash": "20f4ff5679ccf209e99a35610513a3f5ef31c1cadaee8028f307203988d9d105",
+        "id": "0:2",
+        "character": "中",
+        "characterPosition": 1
+      },
+      {
+        "originalNumber": 3,
+        "sourceStrokeHash": "1e0ca19fa109ba9049da1c05be63c284929a58245f4d9a3e6a93a7db3a6ca3c4",
+        "id": "0:3",
+        "character": "中",
+        "characterPosition": 1
+      },
+      {
+        "originalNumber": 4,
+        "sourceStrokeHash": "221ac17dda0c32f88fe070bd90a4edb17b0ed3525dbb7fc0e2ea14ee095c735d",
+        "id": "0:4",
+        "character": "中",
+        "characterPosition": 1
+      },
+      {
+        "originalNumber": 1,
+        "sourceStrokeHash": "5d7c989b91b3cb3cf0ed2292abad61bce37fd13f8a0ec44eb7a891e5dcf8c891",
+        "id": "1:1",
+        "character": "文",
+        "characterPosition": 2
+      },
+      {
+        "originalNumber": 2,
+        "sourceStrokeHash": "60a3f021e71d49039f28e65a385493d1757fb4a1ab3e297b3519ff20b7a23294",
+        "id": "1:2",
+        "character": "文",
+        "characterPosition": 2
+      },
+      {
+        "originalNumber": 3,
+        "sourceStrokeHash": "f7a348dfde37b7c5f570d65b9802853f1a920948a5fee513107a0a795297ec4a",
+        "id": "1:3",
+        "character": "文",
+        "characterPosition": 2
+      },
+      {
+        "originalNumber": 4,
+        "sourceStrokeHash": "47111a0f37bb85b75f4392ef3cd18c00db9f65147cf20d090acbd387076bc526",
+        "id": "1:4",
+        "character": "文",
+        "characterPosition": 2
+      },
+      {
+        "originalNumber": 1,
+        "sourceStrokeHash": "babf47399a3ad7c02d33ae11351463935c5127701d6eaec00b320fe137326158",
+        "id": "2:1",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 2,
+        "sourceStrokeHash": "69c3b8f425e68f4a70cbf75d1da6d1de0827eef1be61a5a0525a427f99e944d8",
+        "id": "2:2",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 3,
+        "sourceStrokeHash": "267e28169a8d8150b8dc298d0e25e420c0dd3cec9b15ab8084f7adf3b4ed40b4",
+        "id": "2:3",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 4,
+        "sourceStrokeHash": "e3160a6be14ea20510114aaf1d97a76d666dfe9c4bffdfd03028e85b70d79baa",
+        "id": "2:4",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 5,
+        "sourceStrokeHash": "da858681d2fd39b028a735fcbbbe18639486f39fda4d63160916ef4a28a6b20c",
+        "id": "2:5",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 6,
+        "sourceStrokeHash": "df61ac54d3327866318344f3df07f0f0b7450ee4d1bb66eb35b119caac2192ef",
+        "id": "2:6",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 7,
+        "sourceStrokeHash": "bb0f58fd59ed424a105fe1cb13a3c2174c1ffc92ee006fffb1f8e3c244e29956",
+        "id": "2:7",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 8,
+        "sourceStrokeHash": "41cc061d05e2a29b9f897ff1f5c8a16bc5734d4dc417d452481c7edd90d6c9c4",
+        "id": "2:8",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 9,
+        "sourceStrokeHash": "6864d1db4baf38822489cd594487180baf4560a0a37c78072d2120dfc5e8f3da",
+        "id": "2:9",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 10,
+        "sourceStrokeHash": "e075328999d9d99ac49f7ffc71e17d32fb0df926f904a15db837ba80f6fbec81",
+        "id": "2:10",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 11,
+        "sourceStrokeHash": "211d29b2d9028ad679909db170a61ecdae453770d45c1b49165ac855628abed8",
+        "id": "2:11",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 12,
+        "sourceStrokeHash": "d30fbdec8c555c0b9b10f7c5da8bcac963a224b83e8486e1477b09745445a02f",
+        "id": "2:12",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 13,
+        "sourceStrokeHash": "19681de25ac937e0423a004aa950f358e151cc253c369dd0b72d2472bc414dd5",
+        "id": "2:13",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 1,
+        "sourceStrokeHash": "7dd27df5031e5905371cf3d0315d8d64e0f0a558b651ca59a991d8c3bb8404ed",
+        "id": "3:1",
+        "character": "名",
+        "characterPosition": 4
+      },
+      {
+        "originalNumber": 2,
+        "sourceStrokeHash": "ab2fb8ce3e1069657dd630b92d9be9c51214b04277f360e71ee6320e18e75ab1",
+        "id": "3:2",
+        "character": "名",
+        "characterPosition": 4
+      },
+      {
+        "originalNumber": 3,
+        "sourceStrokeHash": "3c0e92e841c534fb10d818b30eb163a2d293c8eb4dd8c1e8abb2a80a057db8c1",
+        "id": "3:3",
+        "character": "名",
+        "characterPosition": 4
+      },
+      {
+        "originalNumber": 4,
+        "sourceStrokeHash": "74fe7ec8e458c8e590cfa1da67cf42696ceb90844d2f54df9143649debabba4f",
+        "id": "3:4",
+        "character": "名",
+        "characterPosition": 4
+      },
+      {
+        "originalNumber": 5,
+        "sourceStrokeHash": "e793b8c2c0f00d20001c7ee17b3ba339cd8b1a3b73488d21a04ea2e4e01ffb18",
+        "id": "3:5",
+        "character": "名",
+        "characterPosition": 4
+      },
+      {
+        "originalNumber": 6,
+        "sourceStrokeHash": "2c20ed6dace4066a20722c31748ce03a93fe341c967b052a1109541a1a47af9f",
+        "id": "3:6",
+        "character": "名",
+        "characterPosition": 4
+      },
+      {
+        "originalNumber": 1,
+        "sourceStrokeHash": "5459a972173b25968839be83b874433b61c5aad806b1e0f8183acbe796f338d8",
+        "id": "4:1",
+        "character": "王",
+        "characterPosition": 5
+      },
+      {
+        "originalNumber": 2,
+        "sourceStrokeHash": "2cf7313742a6592c2dad2f3a20718ff95f40db1d529f162c975eb4a62e2c6271",
+        "id": "4:2",
+        "character": "王",
+        "characterPosition": 5
+      },
+      {
+        "originalNumber": 3,
+        "sourceStrokeHash": "f4dc2ec424cfd83650ef2516bfd516ec6a9733f2c1b4de05897d3e97e18ada7b",
+        "id": "4:3",
+        "character": "王",
+        "characterPosition": 5
+      },
+      {
+        "originalNumber": 4,
+        "sourceStrokeHash": "a6120030bf6866f77fa799987b9c19c7edbe50dcde96348269da0cdef8cb3d1c",
+        "id": "4:4",
+        "character": "王",
+        "characterPosition": 5
+      },
+      {
+        "originalNumber": 1,
+        "sourceStrokeHash": "7817ba4935d64679619ed5b5044138cde0d0b729ae337583f68fd11d4e734aba",
+        "id": "5:1",
+        "character": "明",
+        "characterPosition": 6
+      },
+      {
+        "originalNumber": 2,
+        "sourceStrokeHash": "943fd06524a27ca031faa7d54d5db3a36e6dd1cbef9865a0f71233d2d73167e4",
+        "id": "5:2",
+        "character": "明",
+        "characterPosition": 6
+      },
+      {
+        "originalNumber": 3,
+        "sourceStrokeHash": "aa803bcbb81779f7ee0374a79816b9746c9a455eee2380e984d7417494f2d78c",
+        "id": "5:3",
+        "character": "明",
+        "characterPosition": 6
+      },
+      {
+        "originalNumber": 4,
+        "sourceStrokeHash": "88ffef6d272167d81e7011e1411e2c252d53d46a5c3ee9d067e0b23fac363528",
+        "id": "5:4",
+        "character": "明",
+        "characterPosition": 6
+      },
+      {
+        "originalNumber": 5,
+        "sourceStrokeHash": "3b458a24d1e2d09de1b02646a7406f3cc4035fe7384354bfaedecfb4e11c9db7",
+        "id": "5:5",
+        "character": "明",
+        "characterPosition": 6
+      },
+      {
+        "originalNumber": 6,
+        "sourceStrokeHash": "aef8df4df423b3c8c43fd40901cf7c5a0520385841129c62c005f41dbe091e74",
+        "id": "5:6",
+        "character": "明",
+        "characterPosition": 6
+      },
+      {
+        "originalNumber": 7,
+        "sourceStrokeHash": "9a0b669ceffd420642bc54d7004f6702f3bcb1ad797b026f84db2c83346b6612",
+        "id": "5:7",
+        "character": "明",
+        "characterPosition": 6
+      },
+      {
+        "originalNumber": 8,
+        "sourceStrokeHash": "2411a75fe76237afcf165e77efbdcc6e3e96ba7513ca0247806e39d711bf5456",
+        "id": "5:8",
+        "character": "明",
+        "characterPosition": 6
+      }
+    ],
+    "visualActions": [
+      {
+        "id": "0:standard-1",
+        "character": "中",
+        "segmentIndices": [
+          0
+        ],
+        "logicalStrokeIds": [
+          "0:1"
+        ]
+      },
+      {
+        "id": "0:standard-2",
+        "character": "中",
+        "segmentIndices": [
+          1
+        ],
+        "logicalStrokeIds": [
+          "0:2"
+        ]
+      },
+      {
+        "id": "0:standard-3",
+        "character": "中",
+        "segmentIndices": [
+          2
+        ],
+        "logicalStrokeIds": [
+          "0:3"
+        ]
+      },
+      {
+        "id": "0:standard-4",
+        "character": "中",
+        "segmentIndices": [
+          3
+        ],
+        "logicalStrokeIds": [
+          "0:4"
+        ]
+      },
+      {
+        "id": "1:standard-1",
+        "character": "文",
+        "segmentIndices": [
+          4
+        ],
+        "logicalStrokeIds": [
+          "1:1"
+        ]
+      },
+      {
+        "id": "1:standard-2",
+        "character": "文",
+        "segmentIndices": [
+          5
+        ],
+        "logicalStrokeIds": [
+          "1:2"
+        ]
+      },
+      {
+        "id": "1:standard-3",
+        "character": "文",
+        "segmentIndices": [
+          6
+        ],
+        "logicalStrokeIds": [
+          "1:3"
+        ]
+      },
+      {
+        "id": "1:standard-4",
+        "character": "文",
+        "segmentIndices": [
+          7
+        ],
+        "logicalStrokeIds": [
+          "1:4"
+        ]
+      },
+      {
+        "id": "2:standard-1",
+        "character": "签",
+        "segmentIndices": [
+          8
+        ],
+        "logicalStrokeIds": [
+          "2:1"
+        ]
+      },
+      {
+        "id": "2:standard-2",
+        "character": "签",
+        "segmentIndices": [
+          9
+        ],
+        "logicalStrokeIds": [
+          "2:2"
+        ]
+      },
+      {
+        "id": "2:standard-3",
+        "character": "签",
+        "segmentIndices": [
+          10
+        ],
+        "logicalStrokeIds": [
+          "2:3"
+        ]
+      },
+      {
+        "id": "2:standard-4",
+        "character": "签",
+        "segmentIndices": [
+          11
+        ],
+        "logicalStrokeIds": [
+          "2:4"
+        ]
+      },
+      {
+        "id": "2:standard-5",
+        "character": "签",
+        "segmentIndices": [
+          12
+        ],
+        "logicalStrokeIds": [
+          "2:5"
+        ]
+      },
+      {
+        "id": "2:standard-6",
+        "character": "签",
+        "segmentIndices": [
+          13
+        ],
+        "logicalStrokeIds": [
+          "2:6"
+        ]
+      },
+      {
+        "id": "2:standard-7",
+        "character": "签",
+        "segmentIndices": [
+          14
+        ],
+        "logicalStrokeIds": [
+          "2:7"
+        ]
+      },
+      {
+        "id": "2:standard-8",
+        "character": "签",
+        "segmentIndices": [
+          15
+        ],
+        "logicalStrokeIds": [
+          "2:8"
+        ]
+      },
+      {
+        "id": "2:standard-9",
+        "character": "签",
+        "segmentIndices": [
+          16
+        ],
+        "logicalStrokeIds": [
+          "2:9"
+        ]
+      },
+      {
+        "id": "2:standard-10",
+        "character": "签",
+        "segmentIndices": [
+          17
+        ],
+        "logicalStrokeIds": [
+          "2:10"
+        ]
+      },
+      {
+        "id": "2:standard-11",
+        "character": "签",
+        "segmentIndices": [
+          18
+        ],
+        "logicalStrokeIds": [
+          "2:11"
+        ]
+      },
+      {
+        "id": "2:standard-12",
+        "character": "签",
+        "segmentIndices": [
+          19
+        ],
+        "logicalStrokeIds": [
+          "2:12"
+        ]
+      },
+      {
+        "id": "2:standard-13",
+        "character": "签",
+        "segmentIndices": [
+          20
+        ],
+        "logicalStrokeIds": [
+          "2:13"
+        ]
+      },
+      {
+        "id": "3:standard-1",
+        "character": "名",
+        "segmentIndices": [
+          21
+        ],
+        "logicalStrokeIds": [
+          "3:1"
+        ]
+      },
+      {
+        "id": "3:standard-2",
+        "character": "名",
+        "segmentIndices": [
+          22
+        ],
+        "logicalStrokeIds": [
+          "3:2"
+        ]
+      },
+      {
+        "id": "3:standard-3",
+        "character": "名",
+        "segmentIndices": [
+          23
+        ],
+        "logicalStrokeIds": [
+          "3:3"
+        ]
+      },
+      {
+        "id": "3:standard-4",
+        "character": "名",
+        "segmentIndices": [
+          24
+        ],
+        "logicalStrokeIds": [
+          "3:4"
+        ]
+      },
+      {
+        "id": "3:standard-5",
+        "character": "名",
+        "segmentIndices": [
+          25
+        ],
+        "logicalStrokeIds": [
+          "3:5"
+        ]
+      },
+      {
+        "id": "3:standard-6",
+        "character": "名",
+        "segmentIndices": [
+          26
+        ],
+        "logicalStrokeIds": [
+          "3:6"
+        ]
+      },
+      {
+        "id": "4:standard-1",
+        "character": "王",
+        "segmentIndices": [
+          27
+        ],
+        "logicalStrokeIds": [
+          "4:1"
+        ]
+      },
+      {
+        "id": "4:standard-2",
+        "character": "王",
+        "segmentIndices": [
+          28
+        ],
+        "logicalStrokeIds": [
+          "4:2"
+        ]
+      },
+      {
+        "id": "4:standard-3",
+        "character": "王",
+        "segmentIndices": [
+          29
+        ],
+        "logicalStrokeIds": [
+          "4:3"
+        ]
+      },
+      {
+        "id": "4:standard-4",
+        "character": "王",
+        "segmentIndices": [
+          30
+        ],
+        "logicalStrokeIds": [
+          "4:4"
+        ]
+      },
+      {
+        "id": "5:standard-1",
+        "character": "明",
+        "segmentIndices": [
+          31
+        ],
+        "logicalStrokeIds": [
+          "5:1"
+        ]
+      },
+      {
+        "id": "5:standard-2",
+        "character": "明",
+        "segmentIndices": [
+          32
+        ],
+        "logicalStrokeIds": [
+          "5:2"
+        ]
+      },
+      {
+        "id": "5:standard-3",
+        "character": "明",
+        "segmentIndices": [
+          33
+        ],
+        "logicalStrokeIds": [
+          "5:3"
+        ]
+      },
+      {
+        "id": "5:standard-4",
+        "character": "明",
+        "segmentIndices": [
+          34
+        ],
+        "logicalStrokeIds": [
+          "5:4"
+        ]
+      },
+      {
+        "id": "5:standard-5",
+        "character": "明",
+        "segmentIndices": [
+          35
+        ],
+        "logicalStrokeIds": [
+          "5:5"
+        ]
+      },
+      {
+        "id": "5:standard-6",
+        "character": "明",
+        "segmentIndices": [
+          36
+        ],
+        "logicalStrokeIds": [
+          "5:6"
+        ]
+      },
+      {
+        "id": "5:standard-7",
+        "character": "明",
+        "segmentIndices": [
+          37
+        ],
+        "logicalStrokeIds": [
+          "5:7"
+        ]
+      },
+      {
+        "id": "5:standard-8",
+        "character": "明",
+        "segmentIndices": [
+          38
+        ],
+        "logicalStrokeIds": [
+          "5:8"
+        ]
+      }
+    ],
+    "prototypeCharacters": [],
+    "currentSegment": {
+      "logicalStrokeIds": [
+        3
+      ],
+      "visualActionId": "standard-3"
+    },
+    "lines": [
+      "中文签名王明"
+    ],
+    "engines": [
+      "hanzi"
+    ],
+    "inkPoint": {
+      "x": 321.1093398521686,
+      "y": 386.1487167884564
+    },
+    "tip": {
+      "x": 321.1093398521686,
+      "y": 386.1487167884564
+    },
+    "layout": {
+      "scale": 1.4896551724137932,
+      "x": 250.75862068965512,
+      "y": 442.148275862069,
+      "width": 1440,
+      "height": 900
+    },
+    "duration": 16.1659496,
+    "active": true,
+    "disposed": false,
+    "loadAborted": false,
+    "hasGlyphLease": true,
+    "particles": 0,
+    "eraseProgress": 0,
+    "renderCount": 43,
+    "reducedMotion": false,
+    "quality": "economy",
+    "metrics": {
+      "loadMs": 1177.2999999821186,
+      "planMs": 149.2999999821186,
+      "estimatedSeconds": 16.165949599999994,
+      "started": 2318.800000011921,
+      "frameIntervals": [
+        75.09999999403954,
+        221.60000002384186,
+        60,
+        34.29999998211861,
+        32.70000001788139,
+        23.5,
+        23.399999976158142,
+        26.5,
+        22.100000023841858,
+        24.399999976158142,
+        31.30000001192093,
+        21.19999998807907,
+        22.900000005960464,
+        23.30000001192093,
+        21.799999982118607,
+        32.400000005960464,
+        29.700000017881393,
+        34,
+        26.899999976158142,
+        44.20000001788139,
+        83.09999999403954,
+        55.80000001192093,
+        100.09999999403954,
+        63.69999998807907,
+        38.099999994039536,
+        36.20000001788139,
+        49.599999994039536,
+        79.80000001192093,
+        48.79999998211861,
+        28.30000001192093,
+        38.400000005960464,
+        32.599999994039536,
+        31.69999998807907,
+        35.20000001788139,
+        24.799999982118607,
+        32.400000005960464,
+        43,
+        62,
+        46.599999994039536,
+        40.80000001192093
+      ]
+    },
+    "cache": {
+      "raw": {
+        "entries": 6,
+        "bytes": 4604908,
+        "budgetBytes": 2097152,
+        "pinned": 6,
+        "hits": 0,
+        "misses": 6
+      },
+      "parsed": {
+        "entries": 6,
+        "bytes": 136236,
+        "budgetBytes": 2097152,
+        "pinned": 6,
+        "hits": 0,
+        "misses": 6
+      }
+    },
+    "projectedTip": {
+      "x": 321.1093398521686,
+      "y": 386.1487167884564
+    },
+    "projectedShadowTip": {
+      "x": 322.4208783137071,
+      "y": 388.1756398653795
+    },
+    "shadowOpacity": 0.42,
+    "calls": 14,
+    "triangles": 4262,
+    "geometries": 8,
+    "textures": 4,
+    "pixelRatio": 1
+  },
+  "reduced": {
+    "state": "written",
+    "phase": "written",
+    "strokeIndex": 38,
+    "strokeProgress": 1,
+    "moveKind": "stroke",
+    "name": "中文签名王明",
+    "strokeCount": 39,
+    "logicalStrokeCount": 39,
+    "logicalStrokes": [
+      {
+        "originalNumber": 1,
+        "sourceStrokeHash": "ef63d0d4bdeb38a431f532c7a4a0f153bb9f60c4bca256f01c3aa1f58c84dd3a",
+        "id": "0:1",
+        "character": "中",
+        "characterPosition": 1
+      },
+      {
+        "originalNumber": 2,
+        "sourceStrokeHash": "20f4ff5679ccf209e99a35610513a3f5ef31c1cadaee8028f307203988d9d105",
+        "id": "0:2",
+        "character": "中",
+        "characterPosition": 1
+      },
+      {
+        "originalNumber": 3,
+        "sourceStrokeHash": "1e0ca19fa109ba9049da1c05be63c284929a58245f4d9a3e6a93a7db3a6ca3c4",
+        "id": "0:3",
+        "character": "中",
+        "characterPosition": 1
+      },
+      {
+        "originalNumber": 4,
+        "sourceStrokeHash": "221ac17dda0c32f88fe070bd90a4edb17b0ed3525dbb7fc0e2ea14ee095c735d",
+        "id": "0:4",
+        "character": "中",
+        "characterPosition": 1
+      },
+      {
+        "originalNumber": 1,
+        "sourceStrokeHash": "5d7c989b91b3cb3cf0ed2292abad61bce37fd13f8a0ec44eb7a891e5dcf8c891",
+        "id": "1:1",
+        "character": "文",
+        "characterPosition": 2
+      },
+      {
+        "originalNumber": 2,
+        "sourceStrokeHash": "60a3f021e71d49039f28e65a385493d1757fb4a1ab3e297b3519ff20b7a23294",
+        "id": "1:2",
+        "character": "文",
+        "characterPosition": 2
+      },
+      {
+        "originalNumber": 3,
+        "sourceStrokeHash": "f7a348dfde37b7c5f570d65b9802853f1a920948a5fee513107a0a795297ec4a",
+        "id": "1:3",
+        "character": "文",
+        "characterPosition": 2
+      },
+      {
+        "originalNumber": 4,
+        "sourceStrokeHash": "47111a0f37bb85b75f4392ef3cd18c00db9f65147cf20d090acbd387076bc526",
+        "id": "1:4",
+        "character": "文",
+        "characterPosition": 2
+      },
+      {
+        "originalNumber": 1,
+        "sourceStrokeHash": "babf47399a3ad7c02d33ae11351463935c5127701d6eaec00b320fe137326158",
+        "id": "2:1",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 2,
+        "sourceStrokeHash": "69c3b8f425e68f4a70cbf75d1da6d1de0827eef1be61a5a0525a427f99e944d8",
+        "id": "2:2",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 3,
+        "sourceStrokeHash": "267e28169a8d8150b8dc298d0e25e420c0dd3cec9b15ab8084f7adf3b4ed40b4",
+        "id": "2:3",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 4,
+        "sourceStrokeHash": "e3160a6be14ea20510114aaf1d97a76d666dfe9c4bffdfd03028e85b70d79baa",
+        "id": "2:4",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 5,
+        "sourceStrokeHash": "da858681d2fd39b028a735fcbbbe18639486f39fda4d63160916ef4a28a6b20c",
+        "id": "2:5",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 6,
+        "sourceStrokeHash": "df61ac54d3327866318344f3df07f0f0b7450ee4d1bb66eb35b119caac2192ef",
+        "id": "2:6",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 7,
+        "sourceStrokeHash": "bb0f58fd59ed424a105fe1cb13a3c2174c1ffc92ee006fffb1f8e3c244e29956",
+        "id": "2:7",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 8,
+        "sourceStrokeHash": "41cc061d05e2a29b9f897ff1f5c8a16bc5734d4dc417d452481c7edd90d6c9c4",
+        "id": "2:8",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 9,
+        "sourceStrokeHash": "6864d1db4baf38822489cd594487180baf4560a0a37c78072d2120dfc5e8f3da",
+        "id": "2:9",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 10,
+        "sourceStrokeHash": "e075328999d9d99ac49f7ffc71e17d32fb0df926f904a15db837ba80f6fbec81",
+        "id": "2:10",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 11,
+        "sourceStrokeHash": "211d29b2d9028ad679909db170a61ecdae453770d45c1b49165ac855628abed8",
+        "id": "2:11",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 12,
+        "sourceStrokeHash": "d30fbdec8c555c0b9b10f7c5da8bcac963a224b83e8486e1477b09745445a02f",
+        "id": "2:12",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 13,
+        "sourceStrokeHash": "19681de25ac937e0423a004aa950f358e151cc253c369dd0b72d2472bc414dd5",
+        "id": "2:13",
+        "character": "签",
+        "characterPosition": 3
+      },
+      {
+        "originalNumber": 1,
+        "sourceStrokeHash": "7dd27df5031e5905371cf3d0315d8d64e0f0a558b651ca59a991d8c3bb8404ed",
+        "id": "3:1",
+        "character": "名",
+        "characterPosition": 4
+      },
+      {
+        "originalNumber": 2,
+        "sourceStrokeHash": "ab2fb8ce3e1069657dd630b92d9be9c51214b04277f360e71ee6320e18e75ab1",
+        "id": "3:2",
+        "character": "名",
+        "characterPosition": 4
+      },
+      {
+        "originalNumber": 3,
+        "sourceStrokeHash": "3c0e92e841c534fb10d818b30eb163a2d293c8eb4dd8c1e8abb2a80a057db8c1",
+        "id": "3:3",
+        "character": "名",
+        "characterPosition": 4
+      },
+      {
+        "originalNumber": 4,
+        "sourceStrokeHash": "74fe7ec8e458c8e590cfa1da67cf42696ceb90844d2f54df9143649debabba4f",
+        "id": "3:4",
+        "character": "名",
+        "characterPosition": 4
+      },
+      {
+        "originalNumber": 5,
+        "sourceStrokeHash": "e793b8c2c0f00d20001c7ee17b3ba339cd8b1a3b73488d21a04ea2e4e01ffb18",
+        "id": "3:5",
+        "character": "名",
+        "characterPosition": 4
+      },
+      {
+        "originalNumber": 6,
+        "sourceStrokeHash": "2c20ed6dace4066a20722c31748ce03a93fe341c967b052a1109541a1a47af9f",
+        "id": "3:6",
+        "character": "名",
+        "characterPosition": 4
+      },
+      {
+        "originalNumber": 1,
+        "sourceStrokeHash": "5459a972173b25968839be83b874433b61c5aad806b1e0f8183acbe796f338d8",
+        "id": "4:1",
+        "character": "王",
+        "characterPosition": 5
+      },
+      {
+        "originalNumber": 2,
+        "sourceStrokeHash": "2cf7313742a6592c2dad2f3a20718ff95f40db1d529f162c975eb4a62e2c6271",
+        "id": "4:2",
+        "character": "王",
+        "characterPosition": 5
+      },
+      {
+        "originalNumber": 3,
+        "sourceStrokeHash": "f4dc2ec424cfd83650ef2516bfd516ec6a9733f2c1b4de05897d3e97e18ada7b",
+        "id": "4:3",
+        "character": "王",
+        "characterPosition": 5
+      },
+      {
+        "originalNumber": 4,
+        "sourceStrokeHash": "a6120030bf6866f77fa799987b9c19c7edbe50dcde96348269da0cdef8cb3d1c",
+        "id": "4:4",
+        "character": "王",
+        "characterPosition": 5
+      },
+      {
+        "originalNumber": 1,
+        "sourceStrokeHash": "7817ba4935d64679619ed5b5044138cde0d0b729ae337583f68fd11d4e734aba",
+        "id": "5:1",
+        "character": "明",
+        "characterPosition": 6
+      },
+      {
+        "originalNumber": 2,
+        "sourceStrokeHash": "943fd06524a27ca031faa7d54d5db3a36e6dd1cbef9865a0f71233d2d73167e4",
+        "id": "5:2",
+        "character": "明",
+        "characterPosition": 6
+      },
+      {
+        "originalNumber": 3,
+        "sourceStrokeHash": "aa803bcbb81779f7ee0374a79816b9746c9a455eee2380e984d7417494f2d78c",
+        "id": "5:3",
+        "character": "明",
+        "characterPosition": 6
+      },
+      {
+        "originalNumber": 4,
+        "sourceStrokeHash": "88ffef6d272167d81e7011e1411e2c252d53d46a5c3ee9d067e0b23fac363528",
+        "id": "5:4",
+        "character": "明",
+        "characterPosition": 6
+      },
+      {
+        "originalNumber": 5,
+        "sourceStrokeHash": "3b458a24d1e2d09de1b02646a7406f3cc4035fe7384354bfaedecfb4e11c9db7",
+        "id": "5:5",
+        "character": "明",
+        "characterPosition": 6
+      },
+      {
+        "originalNumber": 6,
+        "sourceStrokeHash": "aef8df4df423b3c8c43fd40901cf7c5a0520385841129c62c005f41dbe091e74",
+        "id": "5:6",
+        "character": "明",
+        "characterPosition": 6
+      },
+      {
+        "originalNumber": 7,
+        "sourceStrokeHash": "9a0b669ceffd420642bc54d7004f6702f3bcb1ad797b026f84db2c83346b6612",
+        "id": "5:7",
+        "character": "明",
+        "characterPosition": 6
+      },
+      {
+        "originalNumber": 8,
+        "sourceStrokeHash": "2411a75fe76237afcf165e77efbdcc6e3e96ba7513ca0247806e39d711bf5456",
+        "id": "5:8",
+        "character": "明",
+        "characterPosition": 6
+      }
+    ],
+    "visualActions": [
+      {
+        "id": "0:standard-1",
+        "character": "中",
+        "segmentIndices": [
+          0
+        ],
+        "logicalStrokeIds": [
+          "0:1"
+        ]
+      },
+      {
+        "id": "0:standard-2",
+        "character": "中",
+        "segmentIndices": [
+          1
+        ],
+        "logicalStrokeIds": [
+          "0:2"
+        ]
+      },
+      {
+        "id": "0:standard-3",
+        "character": "中",
+        "segmentIndices": [
+          2
+        ],
+        "logicalStrokeIds": [
+          "0:3"
+        ]
+      },
+      {
+        "id": "0:standard-4",
+        "character": "中",
+        "segmentIndices": [
+          3
+        ],
+        "logicalStrokeIds": [
+          "0:4"
+        ]
+      },
+      {
+        "id": "1:standard-1",
+        "character": "文",
+        "segmentIndices": [
+          4
+        ],
+        "logicalStrokeIds": [
+          "1:1"
+        ]
+      },
+      {
+        "id": "1:standard-2",
+        "character": "文",
+        "segmentIndices": [
+          5
+        ],
+        "logicalStrokeIds": [
+          "1:2"
+        ]
+      },
+      {
+        "id": "1:standard-3",
+        "character": "文",
+        "segmentIndices": [
+          6
+        ],
+        "logicalStrokeIds": [
+          "1:3"
+        ]
+      },
+      {
+        "id": "1:standard-4",
+        "character": "文",
+        "segmentIndices": [
+          7
+        ],
+        "logicalStrokeIds": [
+          "1:4"
+        ]
+      },
+      {
+        "id": "2:standard-1",
+        "character": "签",
+        "segmentIndices": [
+          8
+        ],
+        "logicalStrokeIds": [
+          "2:1"
+        ]
+      },
+      {
+        "id": "2:standard-2",
+        "character": "签",
+        "segmentIndices": [
+          9
+        ],
+        "logicalStrokeIds": [
+          "2:2"
+        ]
+      },
+      {
+        "id": "2:standard-3",
+        "character": "签",
+        "segmentIndices": [
+          10
+        ],
+        "logicalStrokeIds": [
+          "2:3"
+        ]
+      },
+      {
+        "id": "2:standard-4",
+        "character": "签",
+        "segmentIndices": [
+          11
+        ],
+        "logicalStrokeIds": [
+          "2:4"
+        ]
+      },
+      {
+        "id": "2:standard-5",
+        "character": "签",
+        "segmentIndices": [
+          12
+        ],
+        "logicalStrokeIds": [
+          "2:5"
+        ]
+      },
+      {
+        "id": "2:standard-6",
+        "character": "签",
+        "segmentIndices": [
+          13
+        ],
+        "logicalStrokeIds": [
+          "2:6"
+        ]
+      },
+      {
+        "id": "2:standard-7",
+        "character": "签",
+        "segmentIndices": [
+          14
+        ],
+        "logicalStrokeIds": [
+          "2:7"
+        ]
+      },
+      {
+        "id": "2:standard-8",
+        "character": "签",
+        "segmentIndices": [
+          15
+        ],
+        "logicalStrokeIds": [
+          "2:8"
+        ]
+      },
+      {
+        "id": "2:standard-9",
+        "character": "签",
+        "segmentIndices": [
+          16
+        ],
+        "logicalStrokeIds": [
+          "2:9"
+        ]
+      },
+      {
+        "id": "2:standard-10",
+        "character": "签",
+        "segmentIndices": [
+          17
+        ],
+        "logicalStrokeIds": [
+          "2:10"
+        ]
+      },
+      {
+        "id": "2:standard-11",
+        "character": "签",
+        "segmentIndices": [
+          18
+        ],
+        "logicalStrokeIds": [
+          "2:11"
+        ]
+      },
+      {
+        "id": "2:standard-12",
+        "character": "签",
+        "segmentIndices": [
+          19
+        ],
+        "logicalStrokeIds": [
+          "2:12"
+        ]
+      },
+      {
+        "id": "2:standard-13",
+        "character": "签",
+        "segmentIndices": [
+          20
+        ],
+        "logicalStrokeIds": [
+          "2:13"
+        ]
+      },
+      {
+        "id": "3:standard-1",
+        "character": "名",
+        "segmentIndices": [
+          21
+        ],
+        "logicalStrokeIds": [
+          "3:1"
+        ]
+      },
+      {
+        "id": "3:standard-2",
+        "character": "名",
+        "segmentIndices": [
+          22
+        ],
+        "logicalStrokeIds": [
+          "3:2"
+        ]
+      },
+      {
+        "id": "3:standard-3",
+        "character": "名",
+        "segmentIndices": [
+          23
+        ],
+        "logicalStrokeIds": [
+          "3:3"
+        ]
+      },
+      {
+        "id": "3:standard-4",
+        "character": "名",
+        "segmentIndices": [
+          24
+        ],
+        "logicalStrokeIds": [
+          "3:4"
+        ]
+      },
+      {
+        "id": "3:standard-5",
+        "character": "名",
+        "segmentIndices": [
+          25
+        ],
+        "logicalStrokeIds": [
+          "3:5"
+        ]
+      },
+      {
+        "id": "3:standard-6",
+        "character": "名",
+        "segmentIndices": [
+          26
+        ],
+        "logicalStrokeIds": [
+          "3:6"
+        ]
+      },
+      {
+        "id": "4:standard-1",
+        "character": "王",
+        "segmentIndices": [
+          27
+        ],
+        "logicalStrokeIds": [
+          "4:1"
+        ]
+      },
+      {
+        "id": "4:standard-2",
+        "character": "王",
+        "segmentIndices": [
+          28
+        ],
+        "logicalStrokeIds": [
+          "4:2"
+        ]
+      },
+      {
+        "id": "4:standard-3",
+        "character": "王",
+        "segmentIndices": [
+          29
+        ],
+        "logicalStrokeIds": [
+          "4:3"
+        ]
+      },
+      {
+        "id": "4:standard-4",
+        "character": "王",
+        "segmentIndices": [
+          30
+        ],
+        "logicalStrokeIds": [
+          "4:4"
+        ]
+      },
+      {
+        "id": "5:standard-1",
+        "character": "明",
+        "segmentIndices": [
+          31
+        ],
+        "logicalStrokeIds": [
+          "5:1"
+        ]
+      },
+      {
+        "id": "5:standard-2",
+        "character": "明",
+        "segmentIndices": [
+          32
+        ],
+        "logicalStrokeIds": [
+          "5:2"
+        ]
+      },
+      {
+        "id": "5:standard-3",
+        "character": "明",
+        "segmentIndices": [
+          33
+        ],
+        "logicalStrokeIds": [
+          "5:3"
+        ]
+      },
+      {
+        "id": "5:standard-4",
+        "character": "明",
+        "segmentIndices": [
+          34
+        ],
+        "logicalStrokeIds": [
+          "5:4"
+        ]
+      },
+      {
+        "id": "5:standard-5",
+        "character": "明",
+        "segmentIndices": [
+          35
+        ],
+        "logicalStrokeIds": [
+          "5:5"
+        ]
+      },
+      {
+        "id": "5:standard-6",
+        "character": "明",
+        "segmentIndices": [
+          36
+        ],
+        "logicalStrokeIds": [
+          "5:6"
+        ]
+      },
+      {
+        "id": "5:standard-7",
+        "character": "明",
+        "segmentIndices": [
+          37
+        ],
+        "logicalStrokeIds": [
+          "5:7"
+        ]
+      },
+      {
+        "id": "5:standard-8",
+        "character": "明",
+        "segmentIndices": [
+          38
+        ],
+        "logicalStrokeIds": [
+          "5:8"
+        ]
+      }
+    ],
+    "prototypeCharacters": [],
+    "currentSegment": {
+      "logicalStrokeIds": [
+        8
+      ],
+      "visualActionId": "standard-8"
+    },
+    "lines": [
+      "中文签名王明"
+    ],
+    "engines": [
+      "hanzi"
+    ],
+    "inkPoint": {
+      "x": 1141.6422754748114,
+      "y": 384.2321234341326
+    },
+    "tip": {
+      "x": 1141.6422754748114,
+      "y": 384.2321234341326
+    },
+    "layout": {
+      "scale": 1.4896551724137932,
+      "x": 250.75862068965512,
+      "y": 442.148275862069,
+      "width": 1440,
+      "height": 900
+    },
+    "duration": 0.3804132,
+    "active": false,
+    "disposed": false,
+    "loadAborted": false,
+    "hasGlyphLease": true,
+    "particles": 0,
+    "eraseProgress": 0,
+    "renderCount": 255,
+    "reducedMotion": true,
+    "quality": "economy",
+    "metrics": {
+      "loadMs": 1177.2999999821186,
+      "planMs": 149.2999999821186,
+      "estimatedSeconds": 16.165949599999994,
+      "started": 2318.800000011921,
+      "frameIntervals": [
+        75.09999999403954,
+        221.60000002384186,
+        60,
+        34.29999998211861,
+        32.70000001788139,
+        23.5,
+        23.399999976158142,
+        26.5,
+        22.100000023841858,
+        24.399999976158142,
+        31.30000001192093,
+        21.19999998807907,
+        22.900000005960464,
+        23.30000001192093,
+        21.799999982118607,
+        32.400000005960464,
+        29.700000017881393,
+        34,
+        26.899999976158142,
+        44.20000001788139,
+        83.09999999403954,
+        55.80000001192093,
+        100.09999999403954,
+        63.69999998807907,
+        38.099999994039536,
+        36.20000001788139,
+        49.599999994039536,
+        79.80000001192093,
+        48.79999998211861,
+        28.30000001192093,
+        38.400000005960464,
+        32.599999994039536,
+        31.69999998807907,
+        35.20000001788139,
+        24.799999982118607,
+        32.400000005960464,
+        43,
+        62,
+        46.599999994039536,
+        40.80000001192093,
+        60.099999994039536,
+        45.099999994039536,
+        9.800000011920929,
+        6,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.799999982118607,
+        5.300000011920929,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.700000017881393,
+        5.399999976158142,
+        5.600000023841858,
+        5.699999988079071,
+        5.5,
+        5.5,
+        5.800000011920929,
+        5.399999976158142,
+        5.300000011920929,
+        5.800000011920929,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.800000011920929,
+        5.199999988079071,
+        5.800000011920929,
+        5.199999988079071,
+        5.700000017881393,
+        5.699999988079071,
+        5.4000000059604645,
+        5.699999988079071,
+        5.300000011920929,
+        5.699999988079071,
+        5.5,
+        5.700000017881393,
+        5.5,
+        5.5,
+        5.5,
+        5.699999988079071,
+        5.300000011920929,
+        5.5999999940395355,
+        5.800000011920929,
+        5.299999982118607,
+        5.5999999940395355,
+        5.700000017881393,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.800000011920929,
+        5.5,
+        5.399999976158142,
+        5.700000017881393,
+        5.5,
+        5.699999988079071,
+        5.300000011920929,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        6.300000011920929,
+        0.29999998211860657,
+        4.600000023841858,
+        5.5,
+        5.5999999940395355,
+        5.799999982118607,
+        5.300000011920929,
+        5.5,
+        5.5999999940395355,
+        5.700000017881393,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.699999988079071,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.700000017881393,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.700000017881393,
+        5.399999976158142,
+        5.5,
+        5.700000017881393,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.600000023841858,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5,
+        5.5999999940395355,
+        5.699999988079071,
+        5.5,
+        5.600000023841858,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.700000017881393,
+        5.399999976158142,
+        5.5,
+        5.600000023841858,
+        5.699999988079071,
+        5.4000000059604645,
+        5.5,
+        5.699999988079071,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.9000000059604645,
+        5.800000011920929,
+        5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        6,
+        5.0999999940395355,
+        5.9000000059604645,
+        5.300000011920929,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.699999988079071,
+        5.5,
+        5.600000023841858,
+        5.699999988079071,
+        5.4000000059604645,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        6,
+        5.199999988079071,
+        5.600000023841858,
+        5.399999976158142,
+        5.5,
+        5.700000017881393,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.5,
+        5.699999988079071,
+        5.600000023841858,
+        5.799999982118607,
+        5.0999999940395355,
+        5.800000011920929,
+        5.4000000059604645,
+        5.699999988079071,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.700000017881393,
+        5.5,
+        5.5,
+        5.799999982118607,
+        5.300000011920929,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.700000017881393,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5,
+        5.800000011920929,
+        5.299999982118607,
+        5.5,
+        5.700000017881393,
+        5.5,
+        5.699999988079071,
+        5.800000011920929,
+        5.0999999940395355,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.600000023841858,
+        5.399999976158142,
+        5.600000023841858,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.699999988079071,
+        5.5,
+        0.20000001788139343
+      ],
+      "actualSeconds": 3.1074000000059603
+    },
+    "cache": {
+      "raw": {
+        "entries": 6,
+        "bytes": 4604908,
+        "budgetBytes": 2097152,
+        "pinned": 6,
+        "hits": 0,
+        "misses": 6
+      },
+      "parsed": {
+        "entries": 6,
+        "bytes": 136236,
+        "budgetBytes": 2097152,
+        "pinned": 6,
+        "hits": 0,
+        "misses": 6
+      }
+    },
+    "projectedTip": {
+      "x": 1141.6422754748114,
+      "y": 384.2321234341326
+    },
+    "projectedShadowTip": {
+      "x": 1142.95381393635,
+      "y": 386.25904651105566
+    },
+    "shadowOpacity": 0.42,
+    "calls": 14,
+    "triangles": 4262,
+    "geometries": 8,
+    "textures": 4,
+    "pixelRatio": 1
+  },
+  "samples": [
+    {
+      "index": 2,
+      "p": 0.786878,
+      "dt": 3.3000000059601007,
+      "error": 0.000018299261501944666
+    },
+    {
+      "index": 2,
+      "p": 0.802599,
+      "dt": 5.600000000000364,
+      "error": 0.000008335427247364575
+    },
+    {
+      "index": 2,
+      "p": 0.815455,
+      "dt": 5.600000000000364,
+      "error": 0.00000773804680441426
+    },
+    {
+      "index": 2,
+      "p": 0.830593,
+      "dt": 5.599999999999454,
+      "error": 0.000008405936880442697
+    },
+    {
+      "index": 2,
+      "p": 0.842974,
+      "dt": 5.5,
+      "error": 0.000008442534314319887
+    },
+    {
+      "index": 2,
+      "p": 0.85756,
+      "dt": 5.5,
+      "error": 0.00000848577968751946
+    },
+    {
+      "index": 2,
+      "p": 0.871862,
+      "dt": 5.800000000000182,
+      "error": 0.000008528317816943194
+    },
+    {
+      "index": 2,
+      "p": 0.883577,
+      "dt": 5.399999999999636,
+      "error": 0.000008563259315435692
+    },
+    {
+      "index": 2,
+      "p": 0.895118,
+      "dt": 5.400000000000546,
+      "error": 0.000008597767034875288
+    },
+    {
+      "index": 2,
+      "p": 0.908756,
+      "dt": 5.599999999999454,
+      "error": 0.000008638652209200629
+    },
+    {
+      "index": 2,
+      "p": 0.922186,
+      "dt": 5.600000000000364,
+      "error": 0.000008679026166689435
+    },
+    {
+      "index": 2,
+      "p": 0.933236,
+      "dt": 5.600000000000364,
+      "error": 0.000008712327634850701
+    },
+    {
+      "index": 2,
+      "p": 0.946351,
+      "dt": 5.5,
+      "error": 0.000008751948427057176
+    },
+    {
+      "index": 2,
+      "p": 0.957179,
+      "dt": 5.599999999999454,
+      "error": 0.000021334676716216215
+    },
+    {
+      "index": 2,
+      "p": 0.970077,
+      "dt": 5.5,
+      "error": 0.000008831028841539285
+    },
+    {
+      "index": 2,
+      "p": 0.980766,
+      "dt": 5.5,
+      "error": 0.000008869008226306303
+    },
+    {
+      "index": 2,
+      "p": 0.993551,
+      "dt": 5.600000000000364,
+      "error": 0.00000891446452514585
+    },
+    {
+      "index": 3,
+      "p": 0.005286,
+      "dt": 5.5,
+      "error": 0.000045331473307746935
+    },
+    {
+      "index": 3,
+      "p": 0.013281,
+      "dt": 5.600000000000364,
+      "error": 0.000034039290012643793
+    },
+    {
+      "index": 3,
+      "p": 0.019953,
+      "dt": 5.599999999999454,
+      "error": 0.0000013555851914691668
+    },
+    {
+      "index": 3,
+      "p": 0.027979,
+      "dt": 5.699999999999818,
+      "error": 0.000059308913924029834
+    },
+    {
+      "index": 3,
+      "p": 0.034687,
+      "dt": 5.400000000000546,
+      "error": 0.000043432004156713595
+    },
+    {
+      "index": 3,
+      "p": 0.042769,
+      "dt": 5.5,
+      "error": 0.00004442300404764539
+    },
+    {
+      "index": 3,
+      "p": 0.050892,
+      "dt": 5.599999999999454,
+      "error": 0.00002521563742403693
+    },
+    {
+      "index": 3,
+      "p": 0.057698,
+      "dt": 5.5,
+      "error": 0.0000563235056173299
+    },
+    {
+      "index": 3,
+      "p": 0.065916,
+      "dt": 5.600000000000364,
+      "error": 0.0000011304838305190557
+    },
+    {
+      "index": 3,
+      "p": 0.072811,
+      "dt": 5.600000000000364,
+      "error": 0.000021206683669864827
+    },
+    {
+      "index": 3,
+      "p": 0.081148,
+      "dt": 5.5,
+      "error": 0.00005338089825108383
+    },
+    {
+      "index": 3,
+      "p": 0.088152,
+      "dt": 5.599999999999454,
+      "error": 0.000024950009762639702
+    },
+    {
+      "index": 3,
+      "p": 0.09663,
+      "dt": 5.5,
+      "error": 0.000023062837837412066
+    },
+    {
+      "index": 3,
+      "p": 0.10376,
+      "dt": 5.600000000000364,
+      "error": 0.0000739186187551242
+    },
+    {
+      "index": 3,
+      "p": 0.112399,
+      "dt": 5.5,
+      "error": 0.000007419834753562765
+    },
+    {
+      "index": 3,
+      "p": 0.119671,
+      "dt": 5.599999999999454,
+      "error": 0.0000633599646951966
+    },
+    {
+      "index": 3,
+      "p": 0.128488,
+      "dt": 5.700000000000728,
+      "error": 0.00004280927508396051
+    },
+    {
+      "index": 3,
+      "p": 0.137411,
+      "dt": 5.399999999999636,
+      "error": 0.00003992293525920098
+    },
+    {
+      "index": 3,
+      "p": 0.144929,
+      "dt": 5.600000000000364,
+      "error": 0.00003145646723651052
+    },
+    {
+      "index": 3,
+      "p": 0.154053,
+      "dt": 5.599999999999454,
+      "error": 0.000051404579134916196
+    },
+    {
+      "index": 3,
+      "p": 0.161745,
+      "dt": 5.5,
+      "error": 0.00001467135798580827
+    },
+    {
+      "index": 3,
+      "p": 0.171083,
+      "dt": 5.600000000000364,
+      "error": 0.000015315555735914774
+    },
+    {
+      "index": 3,
+      "p": 0.178957,
+      "dt": 5.5,
+      "error": 0.000009353905703325335
+    },
+    {
+      "index": 3,
+      "p": 0.188518,
+      "dt": 5.599999999999454,
+      "error": 0.00006848288555694118
+    },
+    {
+      "index": 3,
+      "p": 0.198203,
+      "dt": 5.600000000000364,
+      "error": 0.0000433109240353033
+    },
+    {
+      "index": 3,
+      "p": 0.206369,
+      "dt": 5.5,
+      "error": 0.00004893645916958979
+    },
+    {
+      "index": 3,
+      "p": 0.216285,
+      "dt": 5.5,
+      "error": 0.000015615840966610672
+    },
+    {
+      "index": 3,
+      "p": 0.224644,
+      "dt": 5.600000000000364,
+      "error": 0.00005981506767991929
+    },
+    {
+      "index": 3,
+      "p": 0.23479,
+      "dt": 5.599999999999454,
+      "error": 0.000019624463655173148
+    },
+    {
+      "index": 3,
+      "p": 0.243342,
+      "dt": 5.5,
+      "error": 0.000037837872024020766
+    },
+    {
+      "index": 3,
+      "p": 0.253718,
+      "dt": 5.600000000000364,
+      "error": 0.000006014962461867257
+    },
+    {
+      "index": 3,
+      "p": 0.262459,
+      "dt": 5.5,
+      "error": 0.000036214288242971594
+    },
+    {
+      "index": 3,
+      "p": 0.273059,
+      "dt": 5.599999999999454,
+      "error": 0.000010691643332539953
+    },
+    {
+      "index": 3,
+      "p": 0.283779,
+      "dt": 5.5,
+      "error": 0.000049696356404461
+    },
+    {
+      "index": 3,
+      "p": 0.292801,
+      "dt": 5.600000000000364,
+      "error": 0.000027213120028783047
+    }
+  ],
+  "errors": []
+}

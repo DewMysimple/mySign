@@ -1,0 +1,3111 @@
+{
+  "before": {
+    "state": "writing",
+    "phase": "stroke",
+    "strokeIndex": 3,
+    "strokeProgress": 0.104133,
+    "moveKind": "stroke",
+    "name": "你好",
+    "strokeCount": 16,
+    "logicalStrokeCount": 13,
+    "logicalStrokes": [
+      {
+        "id": "0:1",
+        "name": "撇",
+        "component": "亻",
+        "group": "ni-1",
+        "entry": "pointed press",
+        "exit": "fine leftward release",
+        "originalNumber": 1,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "ea312248e48c489285e2191103229fe4b21949195c30890936f89d10aafa524d",
+        "structure": "亻",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "0:2",
+        "name": "竖",
+        "component": "亻",
+        "group": "ni-1",
+        "entry": "returning thread enters the vertical",
+        "exit": "lifted hanging tail",
+        "originalNumber": 2,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "811a113a0a65a56f7bb3ba162f2f70d68c84ef1dc713bdb070974648546ff7af",
+        "structure": "亻",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "0:3",
+        "name": "撇",
+        "component": "尔",
+        "group": "ni-2",
+        "entry": "light downstroke",
+        "exit": "turns inward to the shoulder",
+        "originalNumber": 3,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "d99422593e5468bcf9cbfa8a0c2d7eeb12e2ee9350bf2c258ad1734822b8a649",
+        "structure": "尔",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "0:4",
+        "name": "横钩",
+        "component": "尔",
+        "group": "ni-2",
+        "entry": "rising shoulder",
+        "exit": "small inward hook",
+        "originalNumber": 4,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "1cfadd154aa46989de99f60b554df8ee6e4386b1b842d0c64c2e16ef8136e178",
+        "structure": "尔",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "0:5",
+        "name": "竖钩",
+        "component": "尔",
+        "group": "ni-3",
+        "entry": "small press into a bowed stem",
+        "exit": "leftward pointed hook",
+        "originalNumber": 5,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "2d3649cd1d032559ac8b002fdf53ba7c4f5935bbfaef94037d0530f0b887a64d",
+        "structure": "尔",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "0:6",
+        "name": "撇",
+        "component": "尔",
+        "group": "ni-4",
+        "entry": "light touch",
+        "exit": "quick pointed release",
+        "originalNumber": 6,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "d96977aa34ab3c62384e811a2df908175ed506d42ce280c7d7136920512cca8b",
+        "structure": "尔",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "0:7",
+        "name": "点",
+        "component": "尔",
+        "group": "ni-5",
+        "entry": "fine oblique entry",
+        "exit": "outward lifted tail",
+        "originalNumber": 7,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "13eda4060114d5a4ba50d39330775b5894c12adfc55de072f4c2203703b77f45",
+        "structure": "尔",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "1:1",
+        "name": "撇点",
+        "component": "女",
+        "group": "hao-1",
+        "entry": "small pointed entry",
+        "exit": "oblique fine release toward the returning stroke",
+        "originalNumber": 1,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "f8a44e11e529771610cb678026e39c6225f1fa909fc074f7e2e95c92ff083ab6",
+        "structure": "女",
+        "omission": false,
+        "orderChanged": false,
+        "character": "好",
+        "characterPosition": 2
+      },
+      {
+        "id": "1:2",
+        "name": "撇",
+        "component": "女",
+        "group": "hao-1",
+        "entry": "returning thread settles into the falling stroke",
+        "exit": "leftward sharp lift",
+        "originalNumber": 2,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "c10adabdbcec61450648a5526de1d1df53039c5317939619cc1c88e4af1f8d82",
+        "structure": "女",
+        "omission": false,
+        "orderChanged": false,
+        "character": "好",
+        "characterPosition": 2
+      },
+      {
+        "id": "1:3",
+        "name": "提",
+        "component": "女",
+        "group": "hao-2",
+        "entry": "short restrained press",
+        "exit": "fast upward point",
+        "originalNumber": 3,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "8cf261c800cc5ef4338836534e85ab347c6d7aafa5cf68f046255bcd80de27fe",
+        "structure": "女",
+        "omission": false,
+        "orderChanged": false,
+        "character": "好",
+        "characterPosition": 2
+      },
+      {
+        "id": "1:4",
+        "name": "横撇",
+        "component": "子",
+        "group": "hao-3",
+        "entry": "rising rounded shoulder",
+        "exit": "fold continues directly into the next logical stroke",
+        "originalNumber": 4,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "c03ada3f2e8b9f426bf4f94f9f93a6c13d7ba3c5b35e8f2e1cfd37e8796d2655",
+        "structure": "子",
+        "omission": false,
+        "orderChanged": false,
+        "character": "好",
+        "characterPosition": 2
+      },
+      {
+        "id": "1:5",
+        "name": "竖钩",
+        "component": "子",
+        "group": "hao-3",
+        "entry": "rounded turn, no airborne gap",
+        "exit": "pressed then pointed leftward hook",
+        "originalNumber": 5,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "e5b8e9db9f791b51e11c6c60424c59ac133463c54b2aac985fe35eb9f2ad3923",
+        "structure": "子",
+        "omission": false,
+        "orderChanged": false,
+        "character": "好",
+        "characterPosition": 2
+      },
+      {
+        "id": "1:6",
+        "name": "横",
+        "component": "子",
+        "group": "hao-4",
+        "entry": "light rising touch",
+        "exit": "long outward lift",
+        "originalNumber": 6,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "2c7ad316cf1deca3ea1c68330e62b9a55b402caaa5827e8612874f4290fe13be",
+        "structure": "子",
+        "omission": false,
+        "orderChanged": false,
+        "character": "好",
+        "characterPosition": 2
+      }
+    ],
+    "visualActions": [
+      {
+        "id": "0:ni-1",
+        "character": "你",
+        "segmentIndices": [
+          0,
+          1,
+          2
+        ],
+        "logicalStrokeIds": [
+          "0:1",
+          "0:2"
+        ]
+      },
+      {
+        "id": "0:ni-2",
+        "character": "你",
+        "segmentIndices": [
+          3,
+          4,
+          5
+        ],
+        "logicalStrokeIds": [
+          "0:3",
+          "0:4"
+        ]
+      },
+      {
+        "id": "0:ni-3",
+        "character": "你",
+        "segmentIndices": [
+          6
+        ],
+        "logicalStrokeIds": [
+          "0:5"
+        ]
+      },
+      {
+        "id": "0:ni-4",
+        "character": "你",
+        "segmentIndices": [
+          7
+        ],
+        "logicalStrokeIds": [
+          "0:6"
+        ]
+      },
+      {
+        "id": "0:ni-5",
+        "character": "你",
+        "segmentIndices": [
+          8
+        ],
+        "logicalStrokeIds": [
+          "0:7"
+        ]
+      },
+      {
+        "id": "1:hao-1",
+        "character": "好",
+        "segmentIndices": [
+          9,
+          10,
+          11
+        ],
+        "logicalStrokeIds": [
+          "1:1",
+          "1:2"
+        ]
+      },
+      {
+        "id": "1:hao-2",
+        "character": "好",
+        "segmentIndices": [
+          12
+        ],
+        "logicalStrokeIds": [
+          "1:3"
+        ]
+      },
+      {
+        "id": "1:hao-3",
+        "character": "好",
+        "segmentIndices": [
+          13,
+          14
+        ],
+        "logicalStrokeIds": [
+          "1:4",
+          "1:5"
+        ]
+      },
+      {
+        "id": "1:hao-4",
+        "character": "好",
+        "segmentIndices": [
+          15
+        ],
+        "logicalStrokeIds": [
+          "1:6"
+        ]
+      }
+    ],
+    "prototypeCharacters": [
+      "你",
+      "好"
+    ],
+    "currentSegment": {
+      "logicalStrokeIds": [
+        3
+      ],
+      "visualActionId": "ni-2",
+      "role": "logical-stroke"
+    },
+    "lines": [
+      "你好"
+    ],
+    "engines": [
+      "hanzi"
+    ],
+    "inkPoint": {
+      "x": 640.3776998519897,
+      "y": 323.4779389858246
+    },
+    "tip": {
+      "x": 640.3776998519897,
+      "y": 323.4779389858246
+    },
+    "layout": {
+      "scale": 1.65,
+      "x": 544.275,
+      "y": 447.6,
+      "width": 1440,
+      "height": 900
+    },
+    "duration": 5.1757898,
+    "active": true,
+    "disposed": false,
+    "loadAborted": false,
+    "hasGlyphLease": true,
+    "particles": 0,
+    "eraseProgress": 0,
+    "renderCount": 252,
+    "reducedMotion": false,
+    "quality": "full",
+    "metrics": {
+      "loadMs": 6.200000017881393,
+      "planMs": 3.2999999821186066,
+      "estimatedSeconds": 5.175789770000001,
+      "started": 335.69999998807907,
+      "frameIntervals": [
+        2.5999999940395355,
+        5.5999999940395355,
+        5.700000017881393,
+        5.399999976158142,
+        5.5,
+        5.800000011920929,
+        5.300000011920929,
+        5.699999988079071,
+        5.4000000059604645,
+        5.5,
+        5.699999988079071,
+        5.4000000059604645,
+        5.9000000059604645,
+        5.199999988079071,
+        5.800000011920929,
+        5.4000000059604645,
+        5.699999988079071,
+        5.4000000059604645,
+        5.699999988079071,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.600000023841858,
+        5.799999982118607,
+        5.4000000059604645,
+        5.800000011920929,
+        5.5,
+        5.5,
+        5.5,
+        5.699999988079071,
+        5.4000000059604645,
+        5.4000000059604645,
+        5.799999982118607,
+        5.4000000059604645,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.699999988079071,
+        5.5,
+        5.5,
+        5.600000023841858,
+        5.799999982118607,
+        5.4000000059604645,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.4000000059604645,
+        5.800000011920929,
+        5.399999976158142,
+        5.600000023841858,
+        5.799999982118607,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.800000011920929,
+        5.299999982118607,
+        6,
+        5.300000011920929,
+        5.4000000059604645,
+        5.5,
+        5.9000000059604645,
+        5.199999988079071,
+        5.5,
+        5.5,
+        6,
+        5.5999999940395355,
+        5.700000017881393,
+        5.199999988079071,
+        5.699999988079071,
+        5.300000011920929,
+        5.5,
+        5.5,
+        5.800000011920929,
+        5.399999976158142,
+        5.600000023841858,
+        5.799999982118607,
+        5.300000011920929,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.300000011920929,
+        5.5999999940395355,
+        5.700000017881393,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.5,
+        5.4000000059604645,
+        5.800000011920929,
+        5.699999988079071,
+        5.5,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.699999988079071,
+        5.5,
+        5.600000023841858,
+        5.699999988079071,
+        5.5,
+        5.4000000059604645,
+        5.5,
+        5.699999988079071,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.5,
+        5.9000000059604645,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        7.200000017881393,
+        4,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.800000011920929,
+        5.0999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.800000011920929,
+        5.199999988079071,
+        5.5,
+        5.800000011920929,
+        5.5,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.700000017881393,
+        5.399999976158142,
+        5.700000017881393,
+        5.4000000059604645,
+        5.899999976158142,
+        5.300000011920929,
+        5.699999988079071,
+        5.300000011920929,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.600000023841858,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5,
+        5.799999982118607,
+        5.4000000059604645,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.700000017881393,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.700000017881393,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.600000023841858,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.699999988079071,
+        5.5,
+        5.5,
+        5.5,
+        5.800000011920929,
+        5.399999976158142,
+        5.600000023841858,
+        5.5999999940395355,
+        5.299999982118607,
+        5.600000023841858,
+        5.799999982118607,
+        5.4000000059604645,
+        5.5,
+        5.699999988079071,
+        5.5,
+        5.5,
+        5.5,
+        5.700000017881393,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.700000017881393,
+        5.5,
+        5.399999976158142,
+        5.5,
+        5.700000017881393,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.600000023841858,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.699999988079071,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.600000023841858,
+        5.5,
+        5.5,
+        5.699999988079071,
+        5.5999999940395355,
+        5.5,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.700000017881393,
+        5.5,
+        5.699999988079071,
+        5.300000011920929,
+        5.5,
+        5.799999982118607,
+        5.300000011920929,
+        5.5999999940395355,
+        5.800000011920929,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.899999976158142,
+        5.300000011920929,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.600000023841858
+      ]
+    },
+    "cache": {
+      "raw": {
+        "entries": 0,
+        "bytes": 0,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 0,
+        "misses": 0
+      },
+      "parsed": {
+        "entries": 0,
+        "bytes": 0,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 0,
+        "misses": 0
+      }
+    },
+    "projectedTip": {
+      "x": 640.3776998519897,
+      "y": 323.4779389858246
+    },
+    "projectedShadowTip": {
+      "x": 641.6892383135282,
+      "y": 325.5048620627477
+    },
+    "shadowOpacity": 0.42,
+    "calls": 14,
+    "triangles": 4262,
+    "geometries": 8,
+    "textures": 4,
+    "pixelRatio": 1
+  },
+  "done": {
+    "state": "written",
+    "phase": "written",
+    "strokeIndex": 15,
+    "strokeProgress": 1,
+    "moveKind": "stroke",
+    "name": "你好",
+    "strokeCount": 16,
+    "logicalStrokeCount": 13,
+    "logicalStrokes": [
+      {
+        "id": "0:1",
+        "name": "撇",
+        "component": "亻",
+        "group": "ni-1",
+        "entry": "pointed press",
+        "exit": "fine leftward release",
+        "originalNumber": 1,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "ea312248e48c489285e2191103229fe4b21949195c30890936f89d10aafa524d",
+        "structure": "亻",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "0:2",
+        "name": "竖",
+        "component": "亻",
+        "group": "ni-1",
+        "entry": "returning thread enters the vertical",
+        "exit": "lifted hanging tail",
+        "originalNumber": 2,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "811a113a0a65a56f7bb3ba162f2f70d68c84ef1dc713bdb070974648546ff7af",
+        "structure": "亻",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "0:3",
+        "name": "撇",
+        "component": "尔",
+        "group": "ni-2",
+        "entry": "light downstroke",
+        "exit": "turns inward to the shoulder",
+        "originalNumber": 3,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "d99422593e5468bcf9cbfa8a0c2d7eeb12e2ee9350bf2c258ad1734822b8a649",
+        "structure": "尔",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "0:4",
+        "name": "横钩",
+        "component": "尔",
+        "group": "ni-2",
+        "entry": "rising shoulder",
+        "exit": "small inward hook",
+        "originalNumber": 4,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "1cfadd154aa46989de99f60b554df8ee6e4386b1b842d0c64c2e16ef8136e178",
+        "structure": "尔",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "0:5",
+        "name": "竖钩",
+        "component": "尔",
+        "group": "ni-3",
+        "entry": "small press into a bowed stem",
+        "exit": "leftward pointed hook",
+        "originalNumber": 5,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "2d3649cd1d032559ac8b002fdf53ba7c4f5935bbfaef94037d0530f0b887a64d",
+        "structure": "尔",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "0:6",
+        "name": "撇",
+        "component": "尔",
+        "group": "ni-4",
+        "entry": "light touch",
+        "exit": "quick pointed release",
+        "originalNumber": 6,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "d96977aa34ab3c62384e811a2df908175ed506d42ce280c7d7136920512cca8b",
+        "structure": "尔",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "0:7",
+        "name": "点",
+        "component": "尔",
+        "group": "ni-5",
+        "entry": "fine oblique entry",
+        "exit": "outward lifted tail",
+        "originalNumber": 7,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "13eda4060114d5a4ba50d39330775b5894c12adfc55de072f4c2203703b77f45",
+        "structure": "尔",
+        "omission": false,
+        "orderChanged": false,
+        "character": "你",
+        "characterPosition": 1
+      },
+      {
+        "id": "1:1",
+        "name": "撇点",
+        "component": "女",
+        "group": "hao-1",
+        "entry": "small pointed entry",
+        "exit": "oblique fine release toward the returning stroke",
+        "originalNumber": 1,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "f8a44e11e529771610cb678026e39c6225f1fa909fc074f7e2e95c92ff083ab6",
+        "structure": "女",
+        "omission": false,
+        "orderChanged": false,
+        "character": "好",
+        "characterPosition": 2
+      },
+      {
+        "id": "1:2",
+        "name": "撇",
+        "component": "女",
+        "group": "hao-1",
+        "entry": "returning thread settles into the falling stroke",
+        "exit": "leftward sharp lift",
+        "originalNumber": 2,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "c10adabdbcec61450648a5526de1d1df53039c5317939619cc1c88e4af1f8d82",
+        "structure": "女",
+        "omission": false,
+        "orderChanged": false,
+        "character": "好",
+        "characterPosition": 2
+      },
+      {
+        "id": "1:3",
+        "name": "提",
+        "component": "女",
+        "group": "hao-2",
+        "entry": "short restrained press",
+        "exit": "fast upward point",
+        "originalNumber": 3,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "8cf261c800cc5ef4338836534e85ab347c6d7aafa5cf68f046255bcd80de27fe",
+        "structure": "女",
+        "omission": false,
+        "orderChanged": false,
+        "character": "好",
+        "characterPosition": 2
+      },
+      {
+        "id": "1:4",
+        "name": "横撇",
+        "component": "子",
+        "group": "hao-3",
+        "entry": "rising rounded shoulder",
+        "exit": "fold continues directly into the next logical stroke",
+        "originalNumber": 4,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "c03ada3f2e8b9f426bf4f94f9f93a6c13d7ba3c5b35e8f2e1cfd37e8796d2655",
+        "structure": "子",
+        "omission": false,
+        "orderChanged": false,
+        "character": "好",
+        "characterPosition": 2
+      },
+      {
+        "id": "1:5",
+        "name": "竖钩",
+        "component": "子",
+        "group": "hao-3",
+        "entry": "rounded turn, no airborne gap",
+        "exit": "pressed then pointed leftward hook",
+        "originalNumber": 5,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "e5b8e9db9f791b51e11c6c60424c59ac133463c54b2aac985fe35eb9f2ad3923",
+        "structure": "子",
+        "omission": false,
+        "orderChanged": false,
+        "character": "好",
+        "characterPosition": 2
+      },
+      {
+        "id": "1:6",
+        "name": "横",
+        "component": "子",
+        "group": "hao-4",
+        "entry": "light rising touch",
+        "exit": "long outward lift",
+        "originalNumber": 6,
+        "source": "Hanzi Writer Data",
+        "version": "npm:2.0.1",
+        "sourceStrokeHash": "2c7ad316cf1deca3ea1c68330e62b9a55b402caaa5827e8612874f4290fe13be",
+        "structure": "子",
+        "omission": false,
+        "orderChanged": false,
+        "character": "好",
+        "characterPosition": 2
+      }
+    ],
+    "visualActions": [
+      {
+        "id": "0:ni-1",
+        "character": "你",
+        "segmentIndices": [
+          0,
+          1,
+          2
+        ],
+        "logicalStrokeIds": [
+          "0:1",
+          "0:2"
+        ]
+      },
+      {
+        "id": "0:ni-2",
+        "character": "你",
+        "segmentIndices": [
+          3,
+          4,
+          5
+        ],
+        "logicalStrokeIds": [
+          "0:3",
+          "0:4"
+        ]
+      },
+      {
+        "id": "0:ni-3",
+        "character": "你",
+        "segmentIndices": [
+          6
+        ],
+        "logicalStrokeIds": [
+          "0:5"
+        ]
+      },
+      {
+        "id": "0:ni-4",
+        "character": "你",
+        "segmentIndices": [
+          7
+        ],
+        "logicalStrokeIds": [
+          "0:6"
+        ]
+      },
+      {
+        "id": "0:ni-5",
+        "character": "你",
+        "segmentIndices": [
+          8
+        ],
+        "logicalStrokeIds": [
+          "0:7"
+        ]
+      },
+      {
+        "id": "1:hao-1",
+        "character": "好",
+        "segmentIndices": [
+          9,
+          10,
+          11
+        ],
+        "logicalStrokeIds": [
+          "1:1",
+          "1:2"
+        ]
+      },
+      {
+        "id": "1:hao-2",
+        "character": "好",
+        "segmentIndices": [
+          12
+        ],
+        "logicalStrokeIds": [
+          "1:3"
+        ]
+      },
+      {
+        "id": "1:hao-3",
+        "character": "好",
+        "segmentIndices": [
+          13,
+          14
+        ],
+        "logicalStrokeIds": [
+          "1:4",
+          "1:5"
+        ]
+      },
+      {
+        "id": "1:hao-4",
+        "character": "好",
+        "segmentIndices": [
+          15
+        ],
+        "logicalStrokeIds": [
+          "1:6"
+        ]
+      }
+    ],
+    "prototypeCharacters": [
+      "你",
+      "好"
+    ],
+    "currentSegment": {
+      "logicalStrokeIds": [
+        6
+      ],
+      "visualActionId": "hao-4",
+      "role": "logical-stroke"
+    },
+    "lines": [
+      "你好"
+    ],
+    "engines": [
+      "hanzi"
+    ],
+    "inkPoint": {
+      "x": 671.2249999999999,
+      "y": 320.05499999999995
+    },
+    "tip": {
+      "x": 671.2249999999999,
+      "y": 320.05499999999995
+    },
+    "layout": {
+      "scale": 1.65,
+      "x": 336.275,
+      "y": 390.17999999999995,
+      "width": 1024,
+      "height": 768
+    },
+    "duration": 0.2700785,
+    "active": false,
+    "disposed": false,
+    "loadAborted": false,
+    "hasGlyphLease": true,
+    "particles": 0,
+    "eraseProgress": 0,
+    "renderCount": 333,
+    "reducedMotion": true,
+    "quality": "full",
+    "metrics": {
+      "loadMs": 6.200000017881393,
+      "planMs": 3.2999999821186066,
+      "estimatedSeconds": 5.175789770000001,
+      "started": 335.69999998807907,
+      "frameIntervals": [
+        2.5999999940395355,
+        5.5999999940395355,
+        5.700000017881393,
+        5.399999976158142,
+        5.5,
+        5.800000011920929,
+        5.300000011920929,
+        5.699999988079071,
+        5.4000000059604645,
+        5.5,
+        5.699999988079071,
+        5.4000000059604645,
+        5.9000000059604645,
+        5.199999988079071,
+        5.800000011920929,
+        5.4000000059604645,
+        5.699999988079071,
+        5.4000000059604645,
+        5.699999988079071,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.600000023841858,
+        5.799999982118607,
+        5.4000000059604645,
+        5.800000011920929,
+        5.5,
+        5.5,
+        5.5,
+        5.699999988079071,
+        5.4000000059604645,
+        5.4000000059604645,
+        5.799999982118607,
+        5.4000000059604645,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.699999988079071,
+        5.5,
+        5.5,
+        5.600000023841858,
+        5.799999982118607,
+        5.4000000059604645,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.4000000059604645,
+        5.800000011920929,
+        5.399999976158142,
+        5.600000023841858,
+        5.799999982118607,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.800000011920929,
+        5.299999982118607,
+        6,
+        5.300000011920929,
+        5.4000000059604645,
+        5.5,
+        5.9000000059604645,
+        5.199999988079071,
+        5.5,
+        5.5,
+        6,
+        5.5999999940395355,
+        5.700000017881393,
+        5.199999988079071,
+        5.699999988079071,
+        5.300000011920929,
+        5.5,
+        5.5,
+        5.800000011920929,
+        5.399999976158142,
+        5.600000023841858,
+        5.799999982118607,
+        5.300000011920929,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.300000011920929,
+        5.5999999940395355,
+        5.700000017881393,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.5,
+        5.4000000059604645,
+        5.800000011920929,
+        5.699999988079071,
+        5.5,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.699999988079071,
+        5.5,
+        5.600000023841858,
+        5.699999988079071,
+        5.5,
+        5.4000000059604645,
+        5.5,
+        5.699999988079071,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.5,
+        5.9000000059604645,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        7.200000017881393,
+        4,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.800000011920929,
+        5.0999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.800000011920929,
+        5.199999988079071,
+        5.5,
+        5.800000011920929,
+        5.5,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.700000017881393,
+        5.399999976158142,
+        5.700000017881393,
+        5.4000000059604645,
+        5.899999976158142,
+        5.300000011920929,
+        5.699999988079071,
+        5.300000011920929,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.600000023841858,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5,
+        5.799999982118607,
+        5.4000000059604645,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.700000017881393,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.700000017881393,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.600000023841858,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.699999988079071,
+        5.5,
+        5.5,
+        5.5,
+        5.800000011920929,
+        5.399999976158142,
+        5.600000023841858,
+        5.5999999940395355,
+        5.299999982118607,
+        5.600000023841858,
+        5.799999982118607,
+        5.4000000059604645,
+        5.5,
+        5.699999988079071,
+        5.5,
+        5.5,
+        5.5,
+        5.700000017881393,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.700000017881393,
+        5.5,
+        5.399999976158142,
+        5.5,
+        5.700000017881393,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.600000023841858,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.699999988079071,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.600000023841858,
+        5.5,
+        5.5,
+        5.699999988079071,
+        5.5999999940395355,
+        5.5,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.700000017881393,
+        5.5,
+        5.699999988079071,
+        5.300000011920929,
+        5.5,
+        5.799999982118607,
+        5.300000011920929,
+        5.5999999940395355,
+        5.800000011920929,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.899999976158142,
+        5.300000011920929,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.600000023841858,
+        5.899999976158142,
+        5.300000011920929,
+        0.19999998807907104,
+        5.300000011920929,
+        9.099999994039536,
+        0.20000001788139343,
+        0.29999998211860657,
+        7,
+        5.5,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.600000023841858,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.699999988079071,
+        5.4000000059604645,
+        5.5,
+        5.800000011920929,
+        5.4000000059604645,
+        5.5,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.699999988079071,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.600000023841858,
+        5.399999976158142,
+        5.800000011920929,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.700000017881393,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.4000000059604645,
+        5.799999982118607,
+        5.4000000059604645,
+        5.700000017881393,
+        5.5,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.799999982118607,
+        5.5,
+        5.5,
+        5.5,
+        5.600000023841858,
+        5.699999988079071,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.699999988079071,
+        5.5999999940395355,
+        5.600000023841858,
+        5.399999976158142,
+        5.600000023841858,
+        5.399999976158142,
+        5.9000000059604645,
+        5.4000000059604645,
+        5.5,
+        5.5999999940395355,
+        5.700000017881393,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.299999982118607,
+        5.700000017881393,
+        5.699999988079071,
+        5.5999999940395355,
+        0.20000001788139343
+      ],
+      "actualSeconds": 1.8147000000178815
+    },
+    "cache": {
+      "raw": {
+        "entries": 0,
+        "bytes": 0,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 0,
+        "misses": 0
+      },
+      "parsed": {
+        "entries": 0,
+        "bytes": 0,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 0,
+        "misses": 0
+      }
+    },
+    "projectedTip": {
+      "x": 671.2249999999999,
+      "y": 320.05499999999995
+    },
+    "projectedShadowTip": {
+      "x": 672.5365384615384,
+      "y": 322.08192307692303
+    },
+    "shadowOpacity": 0.28,
+    "calls": 14,
+    "triangles": 4262,
+    "geometries": 8,
+    "textures": 4,
+    "pixelRatio": 1
+  },
+  "samples": [
+    {
+      "now": 1744.1,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.236225,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 429.668377494812,
+        "y": 273.6487688827515
+      },
+      "shadow": {
+        "x": 430.97991595635045,
+        "y": 275.6756919596745
+      },
+      "opacity": 0.28,
+      "error": 0.000015889470308244897
+    },
+    {
+      "now": 1749.8,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.291314,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 428.2777950286865,
+        "y": 276.7113906669616
+      },
+      "shadow": {
+        "x": 429.589333490225,
+        "y": 278.7383137438847
+      },
+      "opacity": 0.28,
+      "error": 0.00008860252263036561
+    },
+    {
+      "now": 1755.2,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.328103,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 427.2802318572998,
+        "y": 278.72404649734494
+      },
+      "shadow": {
+        "x": 428.59177031883826,
+        "y": 280.750969574268
+      },
+      "opacity": 0.28,
+      "error": 0.000014373561154165593
+    },
+    {
+      "now": 1760.8,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.374064,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 425.9642488479614,
+        "y": 281.20268772125246
+      },
+      "shadow": {
+        "x": 427.2757873094999,
+        "y": 283.2296107981755
+      },
+      "opacity": 0.28,
+      "error": 0.00006165973340568904
+    },
+    {
+      "now": 1766.4,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.413468,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 424.7791170120239,
+        "y": 283.296545677185
+      },
+      "shadow": {
+        "x": 426.0906554735624,
+        "y": 285.3234687541081
+      },
+      "opacity": 0.28,
+      "error": 0.000046793539851022315
+    },
+    {
+      "now": 1771.9,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.461558,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 423.26681003570553,
+        "y": 285.8134842681884
+      },
+      "shadow": {
+        "x": 424.578348497244,
+        "y": 287.8404073451115
+      },
+      "opacity": 0.28,
+      "error": 0.000043241398387729417
+    },
+    {
+      "now": 1777.5,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.501897,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 421.94581680297847,
+        "y": 287.8923776435852
+      },
+      "shadow": {
+        "x": 423.25735526451695,
+        "y": 289.91930072050826
+      },
+      "opacity": 0.28,
+      "error": 0.00007044849047890775
+    },
+    {
+      "now": 1783.1,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.550099,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 420.3082290649414,
+        "y": 290.33791425704953
+      },
+      "shadow": {
+        "x": 421.61976752647985,
+        "y": 292.3648373339726
+      },
+      "opacity": 0.28,
+      "error": 0.0000646544121578453
+    },
+    {
+      "now": 1788.6,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.589689,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 418.9172060012817,
+        "y": 292.3149540710449
+      },
+      "shadow": {
+        "x": 420.2287444628202,
+        "y": 294.341877147968
+      },
+      "opacity": 0.28,
+      "error": 0.00005893482560051752
+    },
+    {
+      "now": 1794.1,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.635985,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 417.24000225067135,
+        "y": 294.59045150756833
+      },
+      "shadow": {
+        "x": 418.5515407122098,
+        "y": 296.6173745844914
+      },
+      "opacity": 0.28,
+      "error": 0.000006707759558205629
+    },
+    {
+      "now": 1799.7,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.680391,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 415.5816434860229,
+        "y": 296.73559816360466
+      },
+      "shadow": {
+        "x": 416.8931819475614,
+        "y": 298.76252124052775
+      },
+      "opacity": 0.28,
+      "error": 0.00003606293367494553
+    },
+    {
+      "now": 1805.3,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.715519,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 414.236146736145,
+        "y": 298.4060324478149
+      },
+      "shadow": {
+        "x": 415.54768519768345,
+        "y": 300.43295552473796
+      },
+      "opacity": 0.28,
+      "error": 0.000014186041057836448
+    },
+    {
+      "now": 1810.8,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.754901,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 412.69289722442625,
+        "y": 300.2501660156249
+      },
+      "shadow": {
+        "x": 414.0044356859647,
+        "y": 302.277089092548
+      },
+      "opacity": 0.28,
+      "error": 0.000012635107922566825
+    },
+    {
+      "now": 1816.3,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.785001,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 411.48890151977537,
+        "y": 301.63880355834954
+      },
+      "shadow": {
+        "x": 412.80043998131384,
+        "y": 303.6657266352726
+      },
+      "opacity": 0.28,
+      "error": 0.000006393463446170561
+    },
+    {
+      "now": 1821.9,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.81734,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 410.1717855453491,
+        "y": 303.10999019622795
+      },
+      "shadow": {
+        "x": 411.4833240068876,
+        "y": 305.13691327315104
+      },
+      "opacity": 0.28,
+      "error": 0.00001249185518169738
+    },
+    {
+      "now": 1827.5,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.840868,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 409.198348236084,
+        "y": 304.16655567169187
+      },
+      "shadow": {
+        "x": 410.50988669762245,
+        "y": 306.19347874861495
+      },
+      "opacity": 0.28,
+      "error": 0.00001243986885272706
+    },
+    {
+      "now": 1833.1,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.866101,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 408.1400077819824,
+        "y": 305.2862902450561
+      },
+      "shadow": {
+        "x": 409.45154624352085,
+        "y": 307.31321332197916
+      },
+      "opacity": 0.28,
+      "error": 0.000015703738462542674
+    },
+    {
+      "now": 1838.6,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.885191,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 407.3294971466064,
+        "y": 306.1240361022949
+      },
+      "shadow": {
+        "x": 408.6410356081449,
+        "y": 308.150959179218
+      },
+      "opacity": 0.28,
+      "error": 0.000018969984305302942
+    },
+    {
+      "now": 1844.2,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.906322,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 406.42246417999263,
+        "y": 307.04168746948244
+      },
+      "shadow": {
+        "x": 407.7340026415311,
+        "y": 309.06861054640547
+      },
+      "opacity": 0.28,
+      "error": 0.000018537335720177673
+    },
+    {
+      "now": 1849.7,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.926113,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 405.56346263885496,
+        "y": 307.89167564392085
+      },
+      "shadow": {
+        "x": 406.87500110039343,
+        "y": 309.91859872084393
+      },
+      "opacity": 0.28,
+      "error": 0.00001884750362461669
+    },
+    {
+      "now": 1855.2,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.942039,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 404.86554355621337,
+        "y": 308.5688614654541
+      },
+      "shadow": {
+        "x": 406.17708201775184,
+        "y": 310.59578454237715
+      },
+      "opacity": 0.28,
+      "error": 0.000018800390905011146
+    },
+    {
+      "now": 1860.8,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.961019,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 404.02604160308834,
+        "y": 309.3678221511841
+      },
+      "shadow": {
+        "x": 405.3375800646268,
+        "y": 311.3947452281071
+      },
+      "opacity": 0.28,
+      "error": 0.000012192889338388295
+    },
+    {
+      "now": 1866.4,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.977157,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 403.30546321868894,
+        "y": 310.0399788665771
+      },
+      "shadow": {
+        "x": 404.6170016802274,
+        "y": 312.06690194350017
+      },
+      "opacity": 0.28,
+      "error": 0.00001216223696414224
+    },
+    {
+      "now": 1871.9,
+      "phase": "stroke",
+      "index": 3,
+      "p": 0.997456,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 402.3903358459472,
+        "y": 310.8759371566772
+      },
+      "shadow": {
+        "x": 403.7018743074857,
+        "y": 312.9028602336003
+      },
+      "opacity": 0.28,
+      "error": 0.000012124586103528828
+    },
+    {
+      "now": 1877.5,
+      "phase": "stroke",
+      "index": 4,
+      "p": 0.078905,
+      "segment": {
+        "logicalStrokeIds": [],
+        "visualActionId": "ni-2",
+        "role": "connection"
+      },
+      "tip": {
+        "x": 403.7308727264404,
+        "y": 309.82996490478513
+      },
+      "shadow": {
+        "x": 405.04241118797887,
+        "y": 311.8568879817082
+      },
+      "opacity": 0.28,
+      "error": 0.00002824120040879319
+    },
+    {
+      "now": 1883,
+      "phase": "stroke",
+      "index": 4,
+      "p": 0.961384,
+      "segment": {
+        "logicalStrokeIds": [],
+        "visualActionId": "ni-2",
+        "role": "connection"
+      },
+      "tip": {
+        "x": 416.4954616546631,
+        "y": 293.485373096466
+      },
+      "shadow": {
+        "x": 417.80700011620155,
+        "y": 295.5122961733891
+      },
+      "opacity": 0.28,
+      "error": 0.000012996069123855003
+    },
+    {
+      "now": 1888.5,
+      "phase": "stroke",
+      "index": 5,
+      "p": 0.29817,
+      "segment": {
+        "logicalStrokeIds": [
+          4
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 444.16794509887694,
+        "y": 287.8403776931762
+      },
+      "shadow": {
+        "x": 445.4794835604154,
+        "y": 289.8673007700993
+      },
+      "opacity": 0.28,
+      "error": 0.00008347984964605846
+    },
+    {
+      "now": 1894.2,
+      "phase": "stroke",
+      "index": 5,
+      "p": 0.610671,
+      "segment": {
+        "logicalStrokeIds": [
+          4
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 472.52806282043457,
+        "y": 282.47509878158564
+      },
+      "shadow": {
+        "x": 473.83960128197305,
+        "y": 284.5020218585087
+      },
+      "opacity": 0.28,
+      "error": 0.00003967780018981357
+    },
+    {
+      "now": 1899.7,
+      "phase": "stroke",
+      "index": 5,
+      "p": 0.728513,
+      "segment": {
+        "logicalStrokeIds": [
+          4
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 478.9544548034668,
+        "y": 288.12491872787473
+      },
+      "shadow": {
+        "x": 480.26599326500525,
+        "y": 290.1518418047978
+      },
+      "opacity": 0.28,
+      "error": 0.00006056498879478193
+    },
+    {
+      "now": 1905.3,
+      "phase": "stroke",
+      "index": 5,
+      "p": 0.889803,
+      "segment": {
+        "logicalStrokeIds": [
+          4
+        ],
+        "visualActionId": "ni-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 470.38246612548824,
+        "y": 300.29303615570063
+      },
+      "shadow": {
+        "x": 471.6940045870267,
+        "y": 302.3199592326237
+      },
+      "opacity": 0.28,
+      "error": 0.000018885809449733342
+    },
+    {
+      "now": 1910.8,
+      "phase": "stroke",
+      "index": 6,
+      "p": 0.004845,
+      "segment": {
+        "logicalStrokeIds": [
+          5
+        ],
+        "visualActionId": "ni-3",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 441.94967498779295,
+        "y": 309.78739059448236
+      },
+      "shadow": {
+        "x": 443.2612134493314,
+        "y": 311.81431367140544
+      },
+      "opacity": 0.28,
+      "error": 0.00000691196752921608
+    },
+    {
+      "now": 1916.4,
+      "phase": "stroke",
+      "index": 6,
+      "p": 0.14561,
+      "segment": {
+        "logicalStrokeIds": [
+          5
+        ],
+        "visualActionId": "ni-3",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 443.12385482788085,
+        "y": 323.19209850311273
+      },
+      "shadow": {
+        "x": 444.4353932894193,
+        "y": 325.2190215800358
+      },
+      "opacity": 0.28,
+      "error": 0.00004266733043979872
+    },
+    {
+      "now": 1921.9,
+      "phase": "stroke",
+      "index": 6,
+      "p": 0.436899,
+      "segment": {
+        "logicalStrokeIds": [
+          5
+        ],
+        "visualActionId": "ni-3",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 441.95375366210936,
+        "y": 351.0098091888427
+      },
+      "shadow": {
+        "x": 443.26529212364784,
+        "y": 353.0367322657658
+      },
+      "opacity": 0.28,
+      "error": 0.00004735370008851763
+    },
+    {
+      "now": 1927.5,
+      "phase": "stroke",
+      "index": 6,
+      "p": 0.690889,
+      "segment": {
+        "logicalStrokeIds": [
+          5
+        ],
+        "visualActionId": "ni-3",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 437.9338298797607,
+        "y": 374.9512245941162
+      },
+      "shadow": {
+        "x": 439.2453683412992,
+        "y": 376.97814767103927
+      },
+      "opacity": 0.28,
+      "error": 0.000020794167680253683
+    },
+    {
+      "now": 1933,
+      "phase": "stroke",
+      "index": 6,
+      "p": 0.852083,
+      "segment": {
+        "logicalStrokeIds": [
+          5
+        ],
+        "visualActionId": "ni-3",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 429.37938327789306,
+        "y": 385.43676612854006
+      },
+      "shadow": {
+        "x": 430.69092173943153,
+        "y": 387.4636892054631
+      },
+      "opacity": 0.28,
+      "error": 0.000009422456102682661
+    },
+    {
+      "now": 1938.6,
+      "phase": "lift",
+      "index": 7,
+      "p": 0.656598,
+      "segment": {
+        "logicalStrokeIds": [
+          6
+        ],
+        "visualActionId": "ni-4",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 414.9582266,
+        "y": 347.21178569999995
+      },
+      "shadow": {
+        "x": 416.26976506153846,
+        "y": 349.23870877692303
+      },
+      "opacity": 0.28,
+      "error": null
+    },
+    {
+      "now": 1944.2,
+      "phase": "stroke",
+      "index": 7,
+      "p": 0.421097,
+      "segment": {
+        "logicalStrokeIds": [
+          6
+        ],
+        "visualActionId": "ni-4",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 407.7588405609131,
+        "y": 345.37890975952143
+      },
+      "shadow": {
+        "x": 409.07037902245156,
+        "y": 347.4058328364445
+      },
+      "opacity": 0.28,
+      "error": 0.000029994084733099417
+    },
+    {
+      "now": 1949.7,
+      "phase": "stroke",
+      "index": 7,
+      "p": 0.987725,
+      "segment": {
+        "logicalStrokeIds": [
+          6
+        ],
+        "visualActionId": "ni-4",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 394.37852916717526,
+        "y": 361.8327854919433
+      },
+      "shadow": {
+        "x": 395.69006762871373,
+        "y": 363.8597085688664
+      },
+      "opacity": 0.28,
+      "error": 0.000009373645167138644
+    },
+    {
+      "now": 1955.3,
+      "phase": "stroke",
+      "index": 8,
+      "p": 0.176776,
+      "segment": {
+        "logicalStrokeIds": [
+          7
+        ],
+        "visualActionId": "ni-5",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 465.4151569366455,
+        "y": 332.7809548187256
+      },
+      "shadow": {
+        "x": 466.72669539818395,
+        "y": 334.80787789564863
+      },
+      "opacity": 0.28,
+      "error": 0.000004555471823301817
+    },
+    {
+      "now": 1960.8,
+      "phase": "stroke",
+      "index": 8,
+      "p": 0.848893,
+      "segment": {
+        "logicalStrokeIds": [
+          7
+        ],
+        "visualActionId": "ni-5",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 480.7417198181152,
+        "y": 357.0504769134521
+      },
+      "shadow": {
+        "x": 482.0532582796537,
+        "y": 359.07739999037517
+      },
+      "opacity": 0.28,
+      "error": 0.00000950823774480844
+    },
+    {
+      "now": 1966.4,
+      "phase": "lift",
+      "index": 9,
+      "p": 0.923059,
+      "segment": {
+        "logicalStrokeIds": [
+          1
+        ],
+        "visualActionId": "hao-1",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 553.4390834,
+        "y": 270.49325369999997
+      },
+      "shadow": {
+        "x": 554.7506218615384,
+        "y": 272.52017677692305
+      },
+      "opacity": 0.28,
+      "error": null
+    },
+    {
+      "now": 1971.9,
+      "phase": "stroke",
+      "index": 9,
+      "p": 0.233582,
+      "segment": {
+        "logicalStrokeIds": [
+          1
+        ],
+        "visualActionId": "hao-1",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 553.4075041770934,
+        "y": 290.90387752532956
+      },
+      "shadow": {
+        "x": 554.7190426386319,
+        "y": 292.93080060225265
+      },
+      "opacity": 0.28,
+      "error": 0.00008310585335209789
+    },
+    {
+      "now": 1977.4,
+      "phase": "stroke",
+      "index": 9,
+      "p": 0.431915,
+      "segment": {
+        "logicalStrokeIds": [
+          1
+        ],
+        "visualActionId": "hao-1",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 546.3098209381103,
+        "y": 313.8879626083374
+      },
+      "shadow": {
+        "x": 547.6213593996488,
+        "y": 315.91488568526046
+      },
+      "opacity": 0.28,
+      "error": 0.00002023222192417892
+    },
+    {
+      "now": 1983,
+      "phase": "stroke",
+      "index": 9,
+      "p": 0.560471,
+      "segment": {
+        "logicalStrokeIds": [
+          1
+        ],
+        "visualActionId": "hao-1",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 539.5725401878357,
+        "y": 327.92767227172845
+      },
+      "shadow": {
+        "x": 540.8840786493741,
+        "y": 329.95459534865154
+      },
+      "opacity": 0.28,
+      "error": 0.00009819344849927328
+    },
+    {
+      "now": 1988.6,
+      "phase": "stroke",
+      "index": 9,
+      "p": 0.642387,
+      "segment": {
+        "logicalStrokeIds": [
+          1
+        ],
+        "visualActionId": "hao-1",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 543.7135653495789,
+        "y": 334.7698876190185
+      },
+      "shadow": {
+        "x": 545.0251038111173,
+        "y": 336.7968106959416
+      },
+      "opacity": 0.28,
+      "error": 0.00004135740629673888
+    },
+    {
+      "now": 1994.2,
+      "phase": "stroke",
+      "index": 9,
+      "p": 0.832157,
+      "segment": {
+        "logicalStrokeIds": [
+          1
+        ],
+        "visualActionId": "hao-1",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 562.5190517425536,
+        "y": 348.0262400436401
+      },
+      "shadow": {
+        "x": 563.8305902040921,
+        "y": 350.05316312056317
+      },
+      "opacity": 0.28,
+      "error": 0.00006912700977812052
+    },
+    {
+      "now": 1999.7,
+      "phase": "stroke",
+      "index": 10,
+      "p": 0.071727,
+      "segment": {
+        "logicalStrokeIds": [],
+        "visualActionId": "hao-1",
+        "role": "connection"
+      },
+      "tip": {
+        "x": 580.4154878616332,
+        "y": 358.5907303619384
+      },
+      "shadow": {
+        "x": 581.7270263231717,
+        "y": 360.6176534388615
+      },
+      "opacity": 0.28,
+      "error": 0.000016668838162760856
+    },
+    {
+      "now": 2005.3,
+      "phase": "stroke",
+      "index": 10,
+      "p": 0.351538,
+      "segment": {
+        "logicalStrokeIds": [],
+        "visualActionId": "hao-1",
+        "role": "connection"
+      },
+      "tip": {
+        "x": 585.7642726898193,
+        "y": 340.65061843872064
+      },
+      "shadow": {
+        "x": 587.0758111513578,
+        "y": 342.6775415156437
+      },
+      "opacity": 0.28,
+      "error": 0.00003393313234475067
+    },
+    {
+      "now": 2010.9,
+      "phase": "stroke",
+      "index": 10,
+      "p": 0.687311,
+      "segment": {
+        "logicalStrokeIds": [],
+        "visualActionId": "hao-1",
+        "role": "connection"
+      },
+      "tip": {
+        "x": 585.8038635253906,
+        "y": 318.0780388641357
+      },
+      "shadow": {
+        "x": 587.1154019869291,
+        "y": 320.1049619410588
+      },
+      "opacity": 0.28,
+      "error": 0.00004929869618909036
+    },
+    {
+      "now": 2016.4,
+      "phase": "stroke",
+      "index": 10,
+      "p": 0.967122,
+      "segment": {
+        "logicalStrokeIds": [],
+        "visualActionId": "hao-1",
+        "role": "connection"
+      },
+      "tip": {
+        "x": 581.3562328338622,
+        "y": 299.81245754241945
+      },
+      "shadow": {
+        "x": 582.6677712954007,
+        "y": 301.8393806193425
+      },
+      "opacity": 0.28,
+      "error": 0.000015658768924702825
+    },
+    {
+      "now": 2021.9,
+      "phase": "stroke",
+      "index": 11,
+      "p": 0.109488,
+      "segment": {
+        "logicalStrokeIds": [
+          2
+        ],
+        "visualActionId": "hao-1",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 579.4738176345825,
+        "y": 309.47600772857663
+      },
+      "shadow": {
+        "x": 580.785356096121,
+        "y": 311.5029308054997
+      },
+      "opacity": 0.28,
+      "error": 0.000007090715407040161
+    },
+    {
+      "now": 2027.5,
+      "phase": "stroke",
+      "index": 11,
+      "p": 0.298107,
+      "segment": {
+        "logicalStrokeIds": [
+          2
+        ],
+        "visualActionId": "hao-1",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 573.9580463409424,
+        "y": 328.91556747436516
+      },
+      "shadow": {
+        "x": 575.2695848024808,
+        "y": 330.94249055128824
+      },
+      "opacity": 0.28,
+      "error": 0.000013279068492875508
+    },
+    {
+      "now": 2033,
+      "phase": "stroke",
+      "index": 11,
+      "p": 0.621438,
+      "segment": {
+        "logicalStrokeIds": [
+          2
+        ],
+        "visualActionId": "hao-1",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 556.2080459594727,
+        "y": 358.5568924713134
+      },
+      "shadow": {
+        "x": 557.5195844210111,
+        "y": 360.5838155482365
+      },
+      "opacity": 0.28,
+      "error": 0.0000556796214131433
+    },
+    {
+      "now": 2038.5,
+      "phase": "stroke",
+      "index": 11,
+      "p": 0.828594,
+      "segment": {
+        "logicalStrokeIds": [
+          2
+        ],
+        "visualActionId": "hao-1",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 539.632332420349,
+        "y": 373.277155380249
+      },
+      "shadow": {
+        "x": 540.9438708818875,
+        "y": 375.30407845717207
+      },
+      "opacity": 0.28,
+      "error": 0.00005993221533139561
+    },
+    {
+      "now": 2044.1,
+      "phase": "stroke",
+      "index": 11,
+      "p": 0.97455,
+      "segment": {
+        "logicalStrokeIds": [
+          2
+        ],
+        "visualActionId": "hao-1",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 525.3825316905975,
+        "y": 379.65018470764153
+      },
+      "shadow": {
+        "x": 526.694070152136,
+        "y": 381.6771077845646
+      },
+      "opacity": 0.28,
+      "error": 0.000023340915113547084
+    },
+    {
+      "now": 2049.7,
+      "phase": "stroke",
+      "index": 12,
+      "p": 0.056489,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "hao-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 526.3857297897339,
+        "y": 320.4000885772705
+      },
+      "shadow": {
+        "x": 527.6972682512724,
+        "y": 322.42701165419356
+      },
+      "opacity": 0.28,
+      "error": 0.0000808938975914965
+    },
+    {
+      "now": 2055.3,
+      "phase": "stroke",
+      "index": 12,
+      "p": 0.317854,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "hao-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 542.977641582489,
+        "y": 316.3769547271728
+      },
+      "shadow": {
+        "x": 544.2891800440275,
+        "y": 318.4038778040959
+      },
+      "opacity": 0.28,
+      "error": 0.00005545212836657634
+    },
+    {
+      "now": 2060.8,
+      "phase": "stroke",
+      "index": 12,
+      "p": 0.79581,
+      "segment": {
+        "logicalStrokeIds": [
+          3
+        ],
+        "visualActionId": "hao-2",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 572.6674417495727,
+        "y": 306.6520041275024
+      },
+      "shadow": {
+        "x": 573.9789802111112,
+        "y": 308.67892720442546
+      },
+      "opacity": 0.28,
+      "error": 0.000014311492432755333
+    },
+    {
+      "now": 2066.4,
+      "phase": "lift",
+      "index": 13,
+      "p": 0.099938,
+      "segment": {
+        "logicalStrokeIds": [
+          4
+        ],
+        "visualActionId": "hao-3",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 586.9090792999999,
+        "y": 300.5863299
+      },
+      "shadow": {
+        "x": 588.2206177615384,
+        "y": 302.61325297692304
+      },
+      "opacity": 0.28,
+      "error": null
+    },
+    {
+      "now": 2071.9,
+      "phase": "stroke",
+      "index": 13,
+      "p": 0.199594,
+      "segment": {
+        "logicalStrokeIds": [
+          4
+        ],
+        "visualActionId": "hao-3",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 618.1733810424805,
+        "y": 278.0743822860718
+      },
+      "shadow": {
+        "x": 619.484919504019,
+        "y": 280.1013053629948
+      },
+      "opacity": 0.28,
+      "error": 0.000016763343001816574
+    },
+    {
+      "now": 2077.6,
+      "phase": "stroke",
+      "index": 13,
+      "p": 0.466103,
+      "segment": {
+        "logicalStrokeIds": [
+          4
+        ],
+        "visualActionId": "hao-3",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 642.0850498199463,
+        "y": 274.0488188552856
+      },
+      "shadow": {
+        "x": 643.3965882814848,
+        "y": 276.0757419322087
+      },
+      "opacity": 0.28,
+      "error": 0.00003132703144946204
+    },
+    {
+      "now": 2083.1,
+      "phase": "stroke",
+      "index": 13,
+      "p": 0.658425,
+      "segment": {
+        "logicalStrokeIds": [
+          4
+        ],
+        "visualActionId": "hao-3",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 644.1602893829345,
+        "y": 286.08150289535524
+      },
+      "shadow": {
+        "x": 645.471827844473,
+        "y": 288.10842597227827
+      },
+      "opacity": 0.28,
+      "error": 0.00003645206036659188
+    },
+    {
+      "now": 2088.6,
+      "phase": "stroke",
+      "index": 13,
+      "p": 0.80965,
+      "segment": {
+        "logicalStrokeIds": [
+          4
+        ],
+        "visualActionId": "hao-3",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 634.7648490905761,
+        "y": 296.1874570655823
+      },
+      "shadow": {
+        "x": 636.0763875521146,
+        "y": 298.2143801425053
+      },
+      "opacity": 0.28,
+      "error": 0.00004616687009883038
+    },
+    {
+      "now": 2094.2,
+      "phase": "stroke",
+      "index": 14,
+      "p": 0.043214,
+      "segment": {
+        "logicalStrokeIds": [
+          5
+        ],
+        "visualActionId": "hao-3",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 621.3778846740722,
+        "y": 312.2714102554321
+      },
+      "shadow": {
+        "x": 622.6894231356107,
+        "y": 314.2983333323552
+      },
+      "opacity": 0.28,
+      "error": 0.00003241515702621105
+    },
+    {
+      "now": 2099.8,
+      "phase": "stroke",
+      "index": 14,
+      "p": 0.240405,
+      "segment": {
+        "logicalStrokeIds": [
+          5
+        ],
+        "visualActionId": "hao-3",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 627.7172523498534,
+        "y": 332.65033653259275
+      },
+      "shadow": {
+        "x": 629.0287908113919,
+        "y": 334.67725960951583
+      },
+      "opacity": 0.28,
+      "error": 0.00007990745445939384
+    },
+    {
+      "now": 2105.3,
+      "phase": "stroke",
+      "index": 14,
+      "p": 0.473998,
+      "segment": {
+        "logicalStrokeIds": [
+          5
+        ],
+        "visualActionId": "hao-3",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 629.7189876556397,
+        "y": 357.72139366149895
+      },
+      "shadow": {
+        "x": 631.0305261171782,
+        "y": 359.74831673842203
+      },
+      "opacity": 0.28,
+      "error": 0.00005249266930146366
+    },
+    {
+      "now": 2110.9,
+      "phase": "stroke",
+      "index": 14,
+      "p": 0.720366,
+      "segment": {
+        "logicalStrokeIds": [
+          5
+        ],
+        "visualActionId": "hao-3",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 623.7454292297364,
+        "y": 383.5383068847656
+      },
+      "shadow": {
+        "x": 625.0569676912748,
+        "y": 385.56522996168866
+      },
+      "opacity": 0.28,
+      "error": 0.000050610635779164116
+    },
+    {
+      "now": 2116.5,
+      "phase": "stroke",
+      "index": 14,
+      "p": 0.816568,
+      "segment": {
+        "logicalStrokeIds": [
+          5
+        ],
+        "visualActionId": "hao-3",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 616.0233657836914,
+        "y": 390.0372086334228
+      },
+      "shadow": {
+        "x": 617.3349042452298,
+        "y": 392.06413171034586
+      },
+      "opacity": 0.28,
+      "error": 0.000035997215269074126
+    },
+    {
+      "now": 2122,
+      "phase": "lift",
+      "index": 15,
+      "p": 0.119389,
+      "segment": {
+        "logicalStrokeIds": [
+          6
+        ],
+        "visualActionId": "hao-4",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 597.24605705,
+        "y": 375.82325265
+      },
+      "shadow": {
+        "x": 598.5575955115385,
+        "y": 377.85017572692306
+      },
+      "opacity": 0.28,
+      "error": null
+    },
+    {
+      "now": 2127.6,
+      "phase": "stroke",
+      "index": 15,
+      "p": 0.074393,
+      "segment": {
+        "logicalStrokeIds": [
+          6
+        ],
+        "visualActionId": "hao-4",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 593.3986320495605,
+        "y": 329.92490718841555
+      },
+      "shadow": {
+        "x": 594.710170511099,
+        "y": 331.9518302653386
+      },
+      "opacity": 0.28,
+      "error": 0.00004810256522128232
+    },
+    {
+      "now": 2133,
+      "phase": "stroke",
+      "index": 15,
+      "p": 0.330185,
+      "segment": {
+        "logicalStrokeIds": [
+          6
+        ],
+        "visualActionId": "hao-4",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 614.827200126648,
+        "y": 325.20381649017327
+      },
+      "shadow": {
+        "x": 616.1387385881865,
+        "y": 327.23073956709635
+      },
+      "opacity": 0.28,
+      "error": 0.00005975207922057229
+    },
+    {
+      "now": 2138.7,
+      "phase": "stroke",
+      "index": 15,
+      "p": 0.631941,
+      "segment": {
+        "logicalStrokeIds": [
+          6
+        ],
+        "visualActionId": "hao-4",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 640.1213191986084,
+        "y": 319.701835899353
+      },
+      "shadow": {
+        "x": 641.4328576601469,
+        "y": 321.7287589762761
+      },
+      "opacity": 0.28,
+      "error": 0.00002679763428885479
+    },
+    {
+      "now": 2144.3,
+      "phase": "stroke",
+      "index": 15,
+      "p": 0.9076,
+      "segment": {
+        "logicalStrokeIds": [
+          6
+        ],
+        "visualActionId": "hao-4",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 663.6247806549072,
+        "y": 317.8161351013183
+      },
+      "shadow": {
+        "x": 664.9363191164457,
+        "y": 319.8430581782414
+      },
+      "opacity": 0.28,
+      "error": 0.000017224261022938052
+    },
+    {
+      "now": 2149.8,
+      "phase": "written",
+      "index": 15,
+      "p": 1,
+      "segment": {
+        "logicalStrokeIds": [
+          6
+        ],
+        "visualActionId": "hao-4",
+        "role": "logical-stroke"
+      },
+      "tip": {
+        "x": 671.2249999999999,
+        "y": 320.05499999999995
+      },
+      "shadow": {
+        "x": 672.5365384615384,
+        "y": 322.08192307692303
+      },
+      "opacity": 0.28,
+      "error": null
+    }
+  ],
+  "errors": []
+}

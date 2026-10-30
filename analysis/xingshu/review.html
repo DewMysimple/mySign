@@ -1,0 +1,11 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Shakespread · 你好硬笔行书原型审查</title><style>
+  body{margin:0;padding:44px;background:#f3f3f1;color:#303934;font:16px/1.75 'Segoe UI','Microsoft YaHei',sans-serif}main{max-width:1200px;margin:auto}h1{font-size:30px;font-weight:500}h2{font-size:21px;font-weight:500;margin-top:38px}img,video{width:100%;height:auto;display:block}a{color:#3775be}.grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.note{color:#6b746d}figure{margin:0}figcaption{padding:8px 0} @media(max-width:800px){body{padding:20px}.grid{grid-template-columns:1fr}}
+  </style><main><h1>「你好」硬笔行书 · 实验原型</h1><p class="note">功能测试与审美验收分开。本页是交付材料，不是产品新增 UI；原型尚待用户审美确认，没有合并 main，也没有扩展其他 3498 字。</p>
+  <img src="visual/comparison.png" alt="同一裁切下的标准字形与新原型对比">
+  <h2>实时网页录制</h2><p>新录制依次展示「你好」「你」「好」和各自清除；全部为正常速度的真实浏览器交互。原版录制单独保留。</p>
+  <div class="grid"><figure><video controls preload="metadata" src="baseline/nihao-standard.webm"></video><figcaption>1.1.0 标准字形</figcaption></figure><figure><video controls preload="metadata" src="visual/nihao-prototype-live.webm"></video><figcaption>0.1.0 硬笔行书原型</figcaption></figure></div>
+  <h2>完整场景</h2><div class="grid"><img src="baseline/nihao-full.png" alt="原版完整场景"><img src="visual/nihao-full.png" alt="新原型完整场景"></div>
+  <h2>逐段轮廓与中线</h2><img src="artwork/strokes.png" alt="13 个逻辑笔画及 3 个牵丝段"><img src="artwork/overlay.png" alt="新原型中线和完整轮廓叠加"><img src="artwork/basic-strokes.png" alt="从两个字提炼的八类笔势研究">
+  <h2>实际书写关键帧</h2><div class="grid"><img src="visual/keyframe-1.png" alt="实际动画关键帧 1"><img src="visual/keyframe-2.png" alt="实际动画关键帧 2"><img src="visual/keyframe-3.png" alt="实际动画关键帧 3"><img src="visual/keyframe-4.png" alt="实际动画关键帧 4"><img src="visual/keyframe-5.png" alt="实际动画关键帧 5"><img src="visual/keyframe-6.png" alt="实际动画关键帧 6"><img src="visual/keyframe-7.png" alt="实际动画关键帧 7"><img src="visual/nihao-particles.png" alt="完整轮廓粒子清除"></div>
+  <p><a href="acceptance.md">验收报告</a> · <a href="visual-spec.md">视觉规范</a> · <a href="engineering-audit.md">工程审计</a> · <a href="../../data/xingshu/README.md">数据说明</a></p>
+  <p class="note">Codex 的视觉检查不等于人类书法专家认证；正式视觉取舍留给用户。原始截图、SVG、完整轨迹、视频与 JSON 报告均随分支保存。</p></main></html>

@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useRef } from 'react';
 
 export function SignatureInput({
   inputRef,
@@ -11,12 +11,6 @@ export function SignatureInput({
   onSubmit,
 }) {
   const composing = useRef(false);
-  useEffect(() => {
-    const input = inputRef.current;
-    if (!input) return;
-    input.style.height = 'auto';
-    input.style.height = `${Math.min(164, Math.max(input.scrollHeight, parseFloat(getComputedStyle(input).minHeight)))}px`;
-  }, [name, inputRef]);
   const busy =
     state === 'preflighting' || state === 'writing' || state === 'erasing';
   const written = state === 'written';
@@ -46,6 +40,7 @@ export function SignatureInput({
         className="name-input"
         name="signature"
         rows={1}
+        wrap="off"
         inputMode="text"
         placeholder="Your name · 你的名字"
         autoComplete="off"
@@ -66,17 +61,14 @@ export function SignatureInput({
         onKeyDown={(event) => {
           if (
             event.key !== 'Enter' ||
-            event.shiftKey ||
             composing.current ||
             event.nativeEvent.isComposing ||
             event.keyCode === 229
           )
             return;
-          const mobile =
-            navigator.maxTouchPoints > 0 &&
-            window.matchMedia('(pointer: coarse)').matches;
-          if (mobile) return;
           event.preventDefault();
+          // A single-line desktop signature has no Shift+Enter newline gesture.
+          if (event.shiftKey) return;
           event.currentTarget.form.requestSubmit();
         }}
       />

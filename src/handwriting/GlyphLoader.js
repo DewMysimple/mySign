@@ -1,5 +1,6 @@
 import manifest from './generated/manifest.json' with { type: 'json' };
 import { GlyphCache } from './GlyphCache.js';
+import { getPrototypeGlyph } from './xingshuRegistry.js';
 
 export { manifest as GLYPH_MANIFEST };
 const abort = () => new DOMException('Writing task cancelled', 'AbortError');
@@ -33,6 +34,11 @@ export class GlyphLoader {
       for (const ch of unique) {
         if (signal?.aborted) throw abort();
         if (!this.has(ch)) throw new Error(`Unsupported glyph ${ch}`);
+        const prototype = getPrototypeGlyph(ch);
+        if (prototype) {
+          glyphs.set(ch, prototype);
+          continue;
+        }
         let glyph = this.parsed.get(ch);
         if (glyph) {
           this.parsed.pin(ch);

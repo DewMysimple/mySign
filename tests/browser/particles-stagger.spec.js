@@ -47,9 +47,9 @@ test('mixed Latin particles start with their own stroke instead of erupting ahea
   const later = await sample();
   expect(later.right).toBeGreaterThan(0);
   await expect(page.locator('main')).toHaveAttribute('data-state', 'idle');
-  await mkdir('analysis/chinese/browser', { recursive: true });
+  await mkdir('analysis/xingshu/browser', { recursive: true });
   await writeFile(
-    'analysis/chinese/browser/particle-order.json',
+    'analysis/xingshu/browser/particle-order.json',
     JSON.stringify({ threshold, early, later }, null, 2)
   );
 });

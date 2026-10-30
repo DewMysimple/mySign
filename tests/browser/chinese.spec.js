@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
-const OUT = path.resolve('analysis/chinese/browser');
+const OUT = path.resolve('analysis/xingshu/browser');
 const inspect = (page) =>
   page.evaluate(() => window.__signatureDebug.inspect());
 const waitState = (page, state) =>
@@ -130,7 +130,7 @@ test('Chinese full contours, mixed original Latin, digits, punctuation, synchron
   );
 });
 
-test('IME Enter is consumed, Shift+Enter is retained, unsupported graphemes report every position without rewriting', async ({
+test('IME Enter is consumed, Shift+Enter cannot insert a newline, all invalid graphemes preserve the input', async ({
   page,
 }) => {
   const errors = await launch(page),
@@ -154,7 +154,7 @@ test('IME Enter is consumed, Shift+Enter is retained, unsupported graphemes repo
   await input.press('End');
   await input.press('Shift+Enter');
   await input.press('A');
-  await expect(input).toHaveValue('王明\nA');
+  await expect(input).toHaveValue('王明A');
   const invalid = '王🙂\tÉ';
   await input.fill(invalid);
   await input.press('Enter');
@@ -166,29 +166,34 @@ test('IME Enter is consumed, Shift+Enter is retained, unsupported graphemes repo
   await expect(input).toBeEditable();
   await expect(page.locator('[data-stroke]')).toHaveCount(0);
   await page.emulateMedia({ reducedMotion: 'reduce' });
-  await sign(page, '王明\n\n  Amy，2026！ ');
+  const pasted = '王明\n\n  Amy，2026！ ';
+  await sign(page, pasted);
+  await waitState(page, 'idle');
+  await expect(input).toHaveValue(pasted);
+  await expect(page.locator('#signature-status')).toContainText('单行');
+  await sign(page, '  王明 Amy，2026！ ');
   await waitState(page, 'written');
   const d = await inspect(page);
-  expect(d.name).toBe('王明\n\n  Amy，2026！ ');
-  expect(d.lines).toEqual(['王明', '', '  Amy，2026！ ']);
-  await page.screenshot({ path: path.join(OUT, 'manual-newlines.png') });
+  expect(d.name).toBe('  王明 Amy，2026！ ');
+  expect(d.lines).toEqual(['  王明 Amy，2026！ ']);
+  await page.screenshot({ path: path.join(OUT, 'single-line-spaces.png') });
   await erase(page);
   expect(errors).toEqual([]);
 });
 
-test('fixed mixed wrapping survives resize and live motion changes without restarting a completed stroke', async ({
+test('single-line mixed layout survives desktop resize and live motion changes without restarting a stroke', async ({
   page,
 }) => {
   const errors = await launch(page);
   await page.setViewportSize({ width: 700, height: 700 });
-  await sign(page, '中文签名中文签名中文签名中文签名，（王明）《中文》！');
+  await sign(page, '王明 Amy！');
   await waitState(page, 'writing');
   await page.waitForFunction(() => {
     const d = window.__signatureDebug.inspect();
     return d.phase === 'stroke' && d.strokeIndex > 0 && d.strokeProgress > 0.1;
   });
   const before = await inspect(page);
-  expect(before.lines.length).toBeGreaterThan(1);
+  expect(before.lines).toEqual(['王明 Amy！']);
   await page.emulateMedia({ reducedMotion: 'reduce' });
   const changed = await inspect(page);
   expect(changed.strokeIndex).toBeGreaterThanOrEqual(before.strokeIndex);
@@ -200,7 +205,7 @@ test('fixed mixed wrapping survives resize and live motion changes without resta
   expect(done.reducedMotion).toBe(true);
   if (samples.length)
     expect(Math.max(...samples.map((s) => s.error))).toBeLessThan(0.2);
-  await page.screenshot({ path: path.join(OUT, 'fixed-wrap-resize.png') });
+  await page.screenshot({ path: path.join(OUT, 'single-line-resize.png') });
   await erase(page);
   await page.emulateMedia({ reducedMotion: 'no-preference' });
   await sign(page, '永');

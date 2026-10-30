@@ -1,16 +1,21 @@
 """Compare original English ink, excluding the intentionally changed input UI."""
 import hashlib
 import json
+import argparse
 from pathlib import Path
 
 import numpy as np
 from PIL import Image, ImageDraw
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'analysis/chinese/visual'
+parser = argparse.ArgumentParser()
+parser.add_argument('--current', default='analysis/verification/desktop-written.png')
+parser.add_argument('--out', default='analysis/chinese/visual')
+args = parser.parse_args()
+OUT = ROOT / args.out
 OUT.mkdir(parents=True, exist_ok=True)
 paths = [ROOT / 'analysis/chinese/baseline/desktop-written.png',
-         ROOT / 'analysis/verification/desktop-written.png']
+         ROOT / args.current]
 images = [Image.open(p).convert('RGB') for p in paths]
 assert images[0].size == images[1].size == (1440, 900)
 arrays = [np.asarray(im).astype(np.int16) for im in images]

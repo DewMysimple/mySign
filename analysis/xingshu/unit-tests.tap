@@ -1,0 +1,124 @@
+TAP version 13
+# Subtest: verified shard parsing, cache hits, concurrent leases, and capacity pressure preserve active glyphs
+ok 1 - verified shard parsing, cache hits, concurrent leases, and capacity pressure preserve active glyphs
+  ---
+  duration_ms: 16.8995
+  type: 'test'
+  ...
+# Subtest: failed HTTP and tampered local shards never enter either verified cache
+ok 2 - failed HTTP and tampered local shards never enter either verified cache
+  ---
+  duration_ms: 2.629
+  type: 'test'
+  ...
+# Subtest: cancelling an in-flight request releases all pins without poisoning a retry
+ok 3 - cancelling an in-flight request releases all pins without poisoning a retry
+  ---
+  duration_ms: 2.6374
+  type: 'test'
+  ...
+# Subtest: all 52 English letters have finite, ordered, nonempty pen gestures
+ok 4 - all 52 English letters have finite, ordered, nonempty pen gestures
+  ---
+  duration_ms: 2.7187
+  type: 'test'
+  ...
+# Subtest: names are normalized; unsupported or empty content cannot start signing
+ok 5 - names are normalized; unsupported or empty content cannot start signing
+  ---
+  duration_ms: 0.2519
+  type: 'test'
+  ...
+# Subtest: spaces create a real pen lift and do not draw a line between words
+ok 6 - spaces create a real pen lift and do not draw a line between words
+  ---
+  duration_ms: 0.1368
+  type: 'test'
+  ...
+# Subtest: dots and crossbars remain separate gestures, after their main stroke
+ok 7 - dots and crossbars remain separate gestures, after their main stroke
+  ---
+  duration_ms: 0.1716
+  type: 'test'
+  ...
+# Subtest: short, long, all-capital and descending names fit and centre on every viewport
+ok 8 - short, long, all-capital and descending names fit and centre on every viewport
+  ---
+  duration_ms: 4.6981
+  type: 'test'
+  ...
+# Subtest: registered single-line text preserves spaces; every unsupported grapheme and newline is reported
+ok 9 - registered single-line text preserves spaces; every unsupported grapheme and newline is reported
+  ---
+  duration_ms: 8.8366
+  type: 'test'
+  ...
+# Subtest: all digits and whitelisted punctuation retain finite, explicitly ordered pen routes
+ok 10 - all digits and whitelisted punctuation retain finite, explicitly ordered pen routes
+  ---
+  duration_ms: 0.8881
+  type: 'test'
+  ...
+# Subtest: canonical English geometry and bounds remain identical to the original engine
+ok 11 - canonical English geometry and bounds remain identical to the original engine
+  ---
+  duration_ms: 5.2131
+  type: 'test'
+  ...
+# Subtest: mixed text shares paired contours, original Latin and one fixed line
+ok 12 - mixed text shares paired contours, original Latin and one fixed line
+  ---
+  duration_ms: 10.7364
+  type: 'test'
+  ...
+# Subtest: character, actual width, ink-segment and duration budgets refuse without truncation or wrapping
+ok 13 - character, actual width, ink-segment and duration budgets refuse without truncation or wrapping
+  ---
+  duration_ms: 1.6604
+  type: 'test'
+  ...
+# Subtest: byte LRU keeps active entries pinned and releases back to its capacity
+ok 14 - byte LRU keeps active entries pinned and releases back to its capacity
+  ---
+  duration_ms: 0.2181
+  type: 'test'
+  ...
+# Subtest: leading and trailing spaces remain in the single-line plan, with no multi-line path
+ok 15 - leading and trailing spaces remain in the single-line plan, with no multi-line path
+  ---
+  duration_ms: 3.77
+  type: 'test'
+  ...
+# Subtest: only two experimental glyphs are overlaid and source files are fingerprinted independently
+ok 16 - only two experimental glyphs are overlaid and source files are fingerprinted independently
+  ---
+  duration_ms: 3.2585
+  type: 'test'
+  ...
+# Subtest: 7 and 6 original logical strokes survive continuous grouping, with no omission or order change
+ok 17 - 7 and 6 original logical strokes survive continuous grouping, with no omission or order change
+  ---
+  duration_ms: 0.2572
+  type: 'test'
+  ...
+# Subtest: two-glyph loading uses immutable local prototype data without touching qualified shard caches
+ok 18 - two-glyph loading uses immutable local prototype data without touching qualified shard caches
+  ---
+  duration_ms: 8.759
+  type: 'test'
+  ...
+# Subtest: authored press/turn/release rhythm stays monotone and reaches exact endpoints
+ok 19 - authored press/turn/release rhythm stays monotone and reaches exact endpoints
+  ---
+  duration_ms: 3.0154
+  type: 'test'
+  ...
+1..19
+# tests 19
+# suites 0
+# pass 19
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 102.2191

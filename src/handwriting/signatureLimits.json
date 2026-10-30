@@ -1,0 +1,10 @@
+{
+  "scope": "desktop-single-line",
+  "calibrationEvidence": "analysis/xingshu/performance/calibration.json",
+  "maxCharacters": 32,
+  "minScale": 0.5,
+  "maxStrokes": 140,
+  "maxSeconds": 40,
+  "rawBytes": 2097152,
+  "parsedBytes": 2097152
+}

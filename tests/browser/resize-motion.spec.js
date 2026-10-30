@@ -31,7 +31,7 @@ test('first frames after four mixed resize/motion changes share the SVG and Thre
     await page.waitForFunction(
       () => !window.__signatureDebug.inspect().reducedMotion
     );
-    await page.getByRole('textbox').fill('中文签名中文签名，王明 Amy！');
+    await page.getByRole('textbox').fill('你好王明 Amy！');
     await page.getByRole('button', { name: 'Write signature' }).click();
     await page.waitForFunction(() => {
       const d = window.__signatureDebug.inspect();
@@ -95,10 +95,10 @@ test('first frames after four mixed resize/motion changes share the SVG and Thre
     await page.getByRole('button', { name: 'Erase signature' }).click();
     await expect(page.locator('main')).toHaveAttribute('data-state', 'idle');
   }
-  await mkdir('analysis/chinese/browser', { recursive: true });
+  await mkdir('analysis/xingshu/browser', { recursive: true });
   const maxError = Math.max(...samples.map((s) => s.error));
   await writeFile(
-    'analysis/chinese/browser/resize-motion.json',
+    'analysis/xingshu/browser/resize-motion.json',
     JSON.stringify({ samples, maxError, errors }, null, 2)
   );
   expect(samples.length).toBeGreaterThan(10);

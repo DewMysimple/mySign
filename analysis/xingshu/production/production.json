@@ -1,0 +1,278 @@
+{
+  "generatedAt": "2026-10-30T05:19:07.156Z",
+  "browser": "156.0.8078.48",
+  "version": "1.2.0-prototype.0",
+  "scope": "Experimental desktop production preview; not merged to main or published online.",
+  "pass": true,
+  "cases": [
+    {
+      "config": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1,
+        "reduced": false
+      },
+      "partial": [
+        {
+          "length": 46.3917350769043,
+          "offset": 0
+        },
+        {
+          "length": 24.197269439697266,
+          "offset": 0
+        },
+        {
+          "length": 54.49140930175781,
+          "offset": 25.2024
+        },
+        {
+          "length": 37.00673294067383,
+          "offset": 37.0067
+        },
+        {
+          "length": 14.263327598571777,
+          "offset": 14.2633
+        },
+        {
+          "length": 56.19586944580078,
+          "offset": 56.1959
+        },
+        {
+          "length": 57.972686767578125,
+          "offset": 57.9727
+        },
+        {
+          "length": 22.804033279418945,
+          "offset": 22.804
+        },
+        {
+          "length": 25.969486236572266,
+          "offset": 25.9695
+        },
+        {
+          "length": 73.54884338378906,
+          "offset": 73.5488
+        },
+        {
+          "length": 40.83905029296875,
+          "offset": 40.8391
+        },
+        {
+          "length": 65.05180358886719,
+          "offset": 65.0518
+        },
+        {
+          "length": 39.61707305908203,
+          "offset": 39.6171
+        },
+        {
+          "length": 55.35163879394531,
+          "offset": 55.3516
+        },
+        {
+          "length": 65.64057922363281,
+          "offset": 65.6406
+        },
+        {
+          "length": 51.99892044067383,
+          "offset": 51.9989
+        }
+      ],
+      "completeContours": 16,
+      "pixelRatio": 1,
+      "particlePixels": 1412,
+      "mixedOutlines": 28,
+      "debugApiIncluded": false,
+      "distributedFiles": [
+        {
+          "path": "experiments/xingshu-v0.1.0/artwork.json",
+          "sha256": "ace0fcd0319a6c63f1b63ab11ad6e0636493aa46b86e9e81605660fdb94edf76"
+        },
+        {
+          "path": "experiments/xingshu-v0.1.0/ni.json",
+          "sha256": "bbfab2be6acc27af25a85523f8734ac54a54409b8ce336be279dbbb86b9b4fe2"
+        },
+        {
+          "path": "experiments/xingshu-v0.1.0/hao.json",
+          "sha256": "b2cedba671ae62dcdc252c4b2eab5d7d1a34e6a3e80ac3b9e9cec6bdbbccb235"
+        },
+        {
+          "path": "experiments/xingshu-v0.1.0/manifest.json",
+          "sha256": "c8c7d9ed88456f05854b256f072948a99dc90cb32c0366dc2e49ada7317abd38"
+        },
+        {
+          "path": "experiments/xingshu-v0.1.0/provenance.json",
+          "sha256": "f997332beade21f865adeeed30f79c20f28f766db229bd1259500c30a69069bb"
+        },
+        {
+          "path": "experiments/xingshu-v0.1.0/ARPHICPL.TXT",
+          "sha256": "5590533436c70f10f2f524ee61456238c290175c6662fbe1c700b5f038a6d328"
+        }
+      ],
+      "formalManifestUnchanged": true,
+      "errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:4173/",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-COvscr08.js",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-CQQEwrio.css",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/favicon.svg",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-002.json",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-033.json",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "config": {
+        "width": 1280,
+        "height": 800,
+        "dpr": 2,
+        "reduced": true
+      },
+      "partial": null,
+      "completeContours": 16,
+      "pixelRatio": 1.25,
+      "particlePixels": 0,
+      "mixedOutlines": 28,
+      "debugApiIncluded": false,
+      "distributedFiles": [
+        {
+          "path": "experiments/xingshu-v0.1.0/artwork.json",
+          "sha256": "ace0fcd0319a6c63f1b63ab11ad6e0636493aa46b86e9e81605660fdb94edf76"
+        },
+        {
+          "path": "experiments/xingshu-v0.1.0/ni.json",
+          "sha256": "bbfab2be6acc27af25a85523f8734ac54a54409b8ce336be279dbbb86b9b4fe2"
+        },
+        {
+          "path": "experiments/xingshu-v0.1.0/hao.json",
+          "sha256": "b2cedba671ae62dcdc252c4b2eab5d7d1a34e6a3e80ac3b9e9cec6bdbbccb235"
+        },
+        {
+          "path": "experiments/xingshu-v0.1.0/manifest.json",
+          "sha256": "c8c7d9ed88456f05854b256f072948a99dc90cb32c0366dc2e49ada7317abd38"
+        },
+        {
+          "path": "experiments/xingshu-v0.1.0/provenance.json",
+          "sha256": "f997332beade21f865adeeed30f79c20f28f766db229bd1259500c30a69069bb"
+        },
+        {
+          "path": "experiments/xingshu-v0.1.0/ARPHICPL.TXT",
+          "sha256": "5590533436c70f10f2f524ee61456238c290175c6662fbe1c700b5f038a6d328"
+        }
+      ],
+      "formalManifestUnchanged": true,
+      "errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:4173/",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-COvscr08.js",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-CQQEwrio.css",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/favicon.svg",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-002.json",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-033.json",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "config": {
+        "width": 1024,
+        "height": 768,
+        "dpr": 3,
+        "reduced": true
+      },
+      "partial": null,
+      "completeContours": 16,
+      "pixelRatio": 1.25,
+      "particlePixels": 0,
+      "mixedOutlines": 28,
+      "debugApiIncluded": false,
+      "distributedFiles": [
+        {
+          "path": "experiments/xingshu-v0.1.0/artwork.json",
+          "sha256": "ace0fcd0319a6c63f1b63ab11ad6e0636493aa46b86e9e81605660fdb94edf76"
+        },
+        {
+          "path": "experiments/xingshu-v0.1.0/ni.json",
+          "sha256": "bbfab2be6acc27af25a85523f8734ac54a54409b8ce336be279dbbb86b9b4fe2"
+        },
+        {
+          "path": "experiments/xingshu-v0.1.0/hao.json",
+          "sha256": "b2cedba671ae62dcdc252c4b2eab5d7d1a34e6a3e80ac3b9e9cec6bdbbccb235"
+        },
+        {
+          "path": "experiments/xingshu-v0.1.0/manifest.json",
+          "sha256": "c8c7d9ed88456f05854b256f072948a99dc90cb32c0366dc2e49ada7317abd38"
+        },
+        {
+          "path": "experiments/xingshu-v0.1.0/provenance.json",
+          "sha256": "f997332beade21f865adeeed30f79c20f28f766db229bd1259500c30a69069bb"
+        },
+        {
+          "path": "experiments/xingshu-v0.1.0/ARPHICPL.TXT",
+          "sha256": "5590533436c70f10f2f524ee61456238c290175c6662fbe1c700b5f038a6d328"
+        }
+      ],
+      "formalManifestUnchanged": true,
+      "errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:4173/",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-COvscr08.js",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-CQQEwrio.css",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/favicon.svg",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-002.json",
+          "method": "GET"
+        },
+        {
+          "url": "http://127.0.0.1:4173/glyphs/shard-033.json",
+          "method": "GET"
+        }
+      ]
+    }
+  ]
+}
