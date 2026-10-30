@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
-const OUT = path.resolve('analysis', 'xingshu', 'english');
+const OUT = path.resolve('analysis', 'xingshu-v2', 'english');
 const inspect = (page) => page.evaluate(() => window.__signatureDebug.inspect());
 const state = (page) => page.locator('main');
 const waitForState = (page, value) => expect(state(page)).toHaveAttribute('data-state', value);

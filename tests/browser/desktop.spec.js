@@ -4,7 +4,7 @@ test('desktop prototype/mixed writing, IME, rejected newlines, erase, English an
   page,
   browserName,
 }, testInfo) => {
-  const out = 'analysis/xingshu/browser';
+  const out = 'analysis/xingshu-v2/browser';
   await mkdir(out, { recursive: true });
   const errors = [];
   page.on('pageerror', (e) => errors.push(e.message));

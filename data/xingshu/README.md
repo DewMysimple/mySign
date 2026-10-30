@@ -1,6 +1,38 @@
 # 两字硬笔行书实验数据
 
-仅包含「你」「好」，版本 `0.1.0-experimental`，不属于现有 3500 字的正式合格 manifest。产品功能分支默认对这两字选择实验数据，其他 3498 字继续读取原合格标准字形。没有运行时模式开关或在线字体。
+当前仅包含「你」「好」，版本 `0.2.0-experimental`，不属于现有 3500 字的正式合格 manifest。第二轮默认选 B；其他 3498 字继续原标准字形。没有运行时模式开关或在线字体，用户审美确认前不合 main。
+
+## 第二轮当前入口
+
+| 文件 | 用途 |
+| --- | --- |
+| `v0.2.0/designs.mjs` | 当前手工制定的 A/B 完整三次曲线、逐笔压力、节奏、部件位置与推荐选择；主要编辑入口 |
+| `v0.2.0/artwork.json` | 最终选定 B 的完整可编辑曲线 / 压力快照，不要把它误作生成器输入 |
+| `v0.2.0/ni.json` / `hao.json` | 最终运行时完整闭合轮廓、中线、原逻辑映射与来源 |
+| `v0.2.0/manifest.json` | 仅两字的实验文件哈希和字节长度 |
+| `v0.2.0/candidates/a` / `b` | 两个内部候选完整源快照、独立字形和实验 manifest |
+| `../../scripts/build-xingshu-v2.mjs` | 只构建 A、B 和最终两字，不写正式字库 |
+| `../../scripts/xingshu-connection-audit.mjs` | 独立六条件连墨规则和已审查取舍，未审查的连续组不能进入生成 |
+| `../../analysis/xingshu-v2/review.html` | 同尺度五版对比、真实录制、逐笔 / 中线与清除材料 |
+
+十三个逻辑笔画和原始 HWD 来源哈希完整保留。三条旧牵丝全部删除；最终 12 连续组、13 墨迹段、0 独立牵丝。好 4→5 在 (69.4,35.6) 同点、同向、同宽接触；其他笔真实抬落。A 为十三笔全部独立，B 只保留这处自然接触。旧 v0.1.0 原样留档。
+
+100 em、两字 advance 100 / baseline 88。逐笔主体主要为 3.8–5.6 单位；长竖、点、提与收笔各有独立压力序列。轮廓仍按弧长与连续压力法向生成，不是统一增加描边；详细规则见第二轮 visual-spec，全部十三笔前后数据见 redesign-audit.json。
+
+```powershell
+npm run glyphs:xingshu
+node scripts/render-xingshu-round2.mjs  # 需要 dev：同尺度实际渲染器与 A/B 图集
+npm run test:xingshu:masks
+node scripts/capture-xingshu-round2.mjs final
+```
+
+A/B 真实 App 录制分别用独立研究服务 `node scripts/serve-xingshu-study.mjs a 5174` / `b 5175`，再执行 capture 脚本指定标签与地址。研究服务只在开发服务器替换两字 JSON 导入，不修改产品或增加 UI；最终版本直接运行正常 dev / build。
+
+可编辑数据、designs.mjs、连带审查 JSON、来源和原 Arphic 许可随独立 `public/experiments/xingshu-v0.2.0` 分发。字体许可、正式 manifest、英文、3D 与粒子代码未改。当前验证见 `analysis/xingshu-v2/acceptance.md`，旧报告仅证明当时版本。
+
+## 上一轮 0.1.0 历史资料
+
+以下是冻结版本的结构说明，其 9 组 / 3 牵丝 / 16 段不再代表当前版本。历史脚本 `scripts/build-xingshu.mjs` / `render-xingshu-artwork.mjs` 对应旧数据，不应作为本轮构建入口。
 
 ## 可编辑数据与生成物
 
@@ -13,7 +45,7 @@
 | `v0.1.0/stroke-studies.json` | 从实际两字提取的八类笔势研究，捺势为女字斜点末段；不是额外字形或逻辑笔画 |
 | `../../scripts/build-xingshu.mjs` | 只生成两字及其图集、独立 public/experiments 的源码 / 许可副本 |
 
-构建：`npm run glyphs:xingshu`；接着 `node scripts/render-xingshu-artwork.mjs` 与 `npm run test:xingshu:masks`。后一个命令需要本地开发服务。不要为修改本原型运行正式 3500 字构建。
+历史构建器为 `node scripts/build-xingshu.mjs`，只用于恢复冻结的 v0.1.0。当前使用上方第二轮命令；不要为两字原型运行正式 3500 字构建。
 
 ## 坐标与数据契约
 

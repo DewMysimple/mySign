@@ -1,0 +1,320 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Administrator\\.codex\\worktrees\\63af\\Shakespread\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.desktop.config.js"
+    ],
+    "configFile": "C:\\Users\\Administrator\\.codex\\worktrees\\63af\\Shakespread\\playwright.desktop.config.js",
+    "rootDir": "C:/Users/Administrator/.codex/worktrees/63af/Shakespread/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Administrator/.codex/worktrees/63af/Shakespread/test-results/desktop",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "Edge",
+        "name": "Edge",
+        "testDir": "C:/Users/Administrator/.codex/worktrees/63af/Shakespread/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "desktop.spec.js"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "C:/Users/Administrator/.codex/worktrees/63af/Shakespread/test-results/desktop",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "Firefox",
+        "name": "Firefox",
+        "testDir": "C:/Users/Administrator/.codex/worktrees/63af/Shakespread/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "desktop.spec.js"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "C:/Users/Administrator/.codex/worktrees/63af/Shakespread/test-results/desktop",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "WebKit",
+        "name": "WebKit",
+        "testDir": "C:/Users/Administrator/.codex/worktrees/63af/Shakespread/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "desktop.spec.js"
+        ],
+        "timeout": 90000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Administrator\\.codex\\worktrees\\63af\\Shakespread\\test-results\\desktop",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "Edge",
+        "testDir": "C:\\Users\\Administrator\\.codex\\worktrees\\63af\\Shakespread\\tests\\browser",
+        "snapshotDir": "C:\\Users\\Administrator\\.codex\\worktrees\\63af\\Shakespread\\tests\\browser",
+        "testIgnore": [],
+        "testMatch": "desktop.spec.js",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "http://127.0.0.1:5173",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "browserName": "chromium",
+          "channel": "msedge",
+          "launchOptions": {
+            "args": [
+              "--enable-unsafe-swiftshader"
+            ]
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "Edge"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Administrator\\.codex\\worktrees\\63af\\Shakespread\\test-results\\desktop",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "Firefox",
+        "testDir": "C:\\Users\\Administrator\\.codex\\worktrees\\63af\\Shakespread\\tests\\browser",
+        "snapshotDir": "C:\\Users\\Administrator\\.codex\\worktrees\\63af\\Shakespread\\tests\\browser",
+        "testIgnore": [],
+        "testMatch": "desktop.spec.js",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "http://127.0.0.1:5173",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "browserName": "firefox"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "Firefox"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Administrator\\.codex\\worktrees\\63af\\Shakespread\\test-results\\desktop",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "WebKit",
+        "testDir": "C:\\Users\\Administrator\\.codex\\worktrees\\63af\\Shakespread\\tests\\browser",
+        "snapshotDir": "C:\\Users\\Administrator\\.codex\\worktrees\\63af\\Shakespread\\tests\\browser",
+        "testIgnore": [],
+        "testMatch": "desktop.spec.js",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "http://127.0.0.1:5173",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "browserName": "webkit"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "WebKit"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "analysis/xingshu-v2/browser/desktop-browsers.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run dev -- --port 5173 --strictPort",
+      "url": "http://127.0.0.1:5173",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "desktop.spec.js",
+      "file": "desktop.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "desktop prototype/mixed writing, IME, rejected newlines, erase, English and live reduced motion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Edge",
+              "projectName": "Edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3520,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-30T09:15:40.373Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "92d768488867b588a7cc-8adeaef1f1d10b3e5189",
+          "file": "desktop.spec.js",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "desktop prototype/mixed writing, IME, rejected newlines, erase, English and live reduced motion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Firefox",
+              "projectName": "Firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4858,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-30T09:15:44.491Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "92d768488867b588a7cc-acd50b27044cd44eb412",
+          "file": "desktop.spec.js",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "desktop prototype/mixed writing, IME, rejected newlines, erase, English and live reduced motion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "WebKit",
+              "projectName": "WebKit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4567,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-30T09:15:50.147Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "92d768488867b588a7cc-0fb3996a77c9c143732f",
+          "file": "desktop.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-30T09:15:40.102Z",
+    "duration": 14750.414999999999,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

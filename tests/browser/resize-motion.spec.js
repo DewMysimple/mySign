@@ -95,10 +95,10 @@ test('first frames after four mixed resize/motion changes share the SVG and Thre
     await page.getByRole('button', { name: 'Erase signature' }).click();
     await expect(page.locator('main')).toHaveAttribute('data-state', 'idle');
   }
-  await mkdir('analysis/xingshu/browser', { recursive: true });
+  await mkdir('analysis/xingshu-v2/browser', { recursive: true });
   const maxError = Math.max(...samples.map((s) => s.error));
   await writeFile(
-    'analysis/xingshu/browser/resize-motion.json',
+    'analysis/xingshu-v2/browser/resize-motion.json',
     JSON.stringify({ samples, maxError, errors }, null, 2)
   );
   expect(samples.length).toBeGreaterThan(10);

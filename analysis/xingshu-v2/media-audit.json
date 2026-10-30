@@ -1,0 +1,250 @@
+{
+  "generatedAt": "2026-10-30T09:21:55.425Z",
+  "browser": "156.0.8078.48",
+  "pass": true,
+  "bindings": [
+    {
+      "label": "prototype-1.2",
+      "name": "nihao",
+      "validSvg": true,
+      "outlines": true,
+      "routes": true,
+      "count": 16,
+      "svgSHA256": "d5eba22a6ef4631c9976547274123a0db87eaa7c54aa276748fd11b148244479",
+      "data": [
+        {
+          "file": "data/xingshu/v0.1.0/ni.json",
+          "sha256": "bbfab2be6acc27af25a85523f8734ac54a54409b8ce336be279dbbb86b9b4fe2"
+        },
+        {
+          "file": "data/xingshu/v0.1.0/hao.json",
+          "sha256": "b2cedba671ae62dcdc252c4b2eab5d7d1a34e6a3e80ac3b9e9cec6bdbbccb235"
+        }
+      ]
+    },
+    {
+      "label": "prototype-1.2",
+      "name": "ni",
+      "validSvg": true,
+      "outlines": true,
+      "routes": true,
+      "count": 9,
+      "svgSHA256": "58049d1dfa76cd7a4dc59d9d1c4a43b2d0f39256a4266d62585fd40b27a17ace",
+      "data": [
+        {
+          "file": "data/xingshu/v0.1.0/ni.json",
+          "sha256": "bbfab2be6acc27af25a85523f8734ac54a54409b8ce336be279dbbb86b9b4fe2"
+        }
+      ]
+    },
+    {
+      "label": "prototype-1.2",
+      "name": "hao",
+      "validSvg": true,
+      "outlines": true,
+      "routes": true,
+      "count": 7,
+      "svgSHA256": "768260abf1e05fc4a1f80089979bcffc2c014e6a1f4708cd8286dfff211d31c3",
+      "data": [
+        {
+          "file": "data/xingshu/v0.1.0/hao.json",
+          "sha256": "b2cedba671ae62dcdc252c4b2eab5d7d1a34e6a3e80ac3b9e9cec6bdbbccb235"
+        }
+      ]
+    },
+    {
+      "label": "a",
+      "name": "nihao",
+      "validSvg": true,
+      "outlines": true,
+      "routes": true,
+      "count": 13,
+      "svgSHA256": "ea2ae419207b73fc42d9ed50bd891563bd51541c2fdcaff4c04ebd119206b685",
+      "data": [
+        {
+          "file": "data/xingshu/v0.2.0/candidates/a/ni.json",
+          "sha256": "fc10d2e1ba2cd16b2fc99faa2f4ef114640f3afe105cef5696a2a645c51ef4d9"
+        },
+        {
+          "file": "data/xingshu/v0.2.0/candidates/a/hao.json",
+          "sha256": "3e1557a5cee0f82d97612c3c348142b9f5ee80432db9ab7acb16f98f09902fb3"
+        }
+      ]
+    },
+    {
+      "label": "a",
+      "name": "ni",
+      "validSvg": true,
+      "outlines": true,
+      "routes": true,
+      "count": 7,
+      "svgSHA256": "09ce64674c20dfa74c1a4b4540c8dcc6cbfc26c5933ba55df585a93662cca634",
+      "data": [
+        {
+          "file": "data/xingshu/v0.2.0/candidates/a/ni.json",
+          "sha256": "fc10d2e1ba2cd16b2fc99faa2f4ef114640f3afe105cef5696a2a645c51ef4d9"
+        }
+      ]
+    },
+    {
+      "label": "a",
+      "name": "hao",
+      "validSvg": true,
+      "outlines": true,
+      "routes": true,
+      "count": 6,
+      "svgSHA256": "2b2b9049a1de19e40cba658805a8986d257fcfa82ecac34461dbf91150f4ccf3",
+      "data": [
+        {
+          "file": "data/xingshu/v0.2.0/candidates/a/hao.json",
+          "sha256": "3e1557a5cee0f82d97612c3c348142b9f5ee80432db9ab7acb16f98f09902fb3"
+        }
+      ]
+    },
+    {
+      "label": "b",
+      "name": "nihao",
+      "validSvg": true,
+      "outlines": true,
+      "routes": true,
+      "count": 13,
+      "svgSHA256": "9434e97911d8ae27e4499e1d7217319d5140d2151ce3d638b94b39cc8b266c8d",
+      "data": [
+        {
+          "file": "data/xingshu/v0.2.0/candidates/b/ni.json",
+          "sha256": "92a85649cc1120c56d406115af09491e5a34c7a4286734f9656b66466c4ac778"
+        },
+        {
+          "file": "data/xingshu/v0.2.0/candidates/b/hao.json",
+          "sha256": "015b8c8576e4c9ef9d2563c3fa37954d2d65800c525249be8a9fefb19208a0a7"
+        }
+      ]
+    },
+    {
+      "label": "b",
+      "name": "ni",
+      "validSvg": true,
+      "outlines": true,
+      "routes": true,
+      "count": 7,
+      "svgSHA256": "ce60edcca9c8d2500cbb0c53ad51a6e720adaff740285b2d275333bfcb5ea698",
+      "data": [
+        {
+          "file": "data/xingshu/v0.2.0/candidates/b/ni.json",
+          "sha256": "92a85649cc1120c56d406115af09491e5a34c7a4286734f9656b66466c4ac778"
+        }
+      ]
+    },
+    {
+      "label": "b",
+      "name": "hao",
+      "validSvg": true,
+      "outlines": true,
+      "routes": true,
+      "count": 6,
+      "svgSHA256": "c6664166e8e25aca16a7e585feaa1bba12e61d27a3549c60bc6e0d55fd8d4ebe",
+      "data": [
+        {
+          "file": "data/xingshu/v0.2.0/candidates/b/hao.json",
+          "sha256": "015b8c8576e4c9ef9d2563c3fa37954d2d65800c525249be8a9fefb19208a0a7"
+        }
+      ]
+    },
+    {
+      "label": "final",
+      "name": "nihao",
+      "validSvg": true,
+      "outlines": true,
+      "routes": true,
+      "count": 13,
+      "svgSHA256": "9434e97911d8ae27e4499e1d7217319d5140d2151ce3d638b94b39cc8b266c8d",
+      "data": [
+        {
+          "file": "data/xingshu/v0.2.0/ni.json",
+          "sha256": "e48ca1d8b4772ff48f76298e8fb30e5b91bad2670d3616c800163af9335154b2"
+        },
+        {
+          "file": "data/xingshu/v0.2.0/hao.json",
+          "sha256": "d2109e8977397579c69abc06488b35f77b31a8c3c12120db673528d1c3bfb166"
+        }
+      ]
+    },
+    {
+      "label": "final",
+      "name": "ni",
+      "validSvg": true,
+      "outlines": true,
+      "routes": true,
+      "count": 7,
+      "svgSHA256": "ce60edcca9c8d2500cbb0c53ad51a6e720adaff740285b2d275333bfcb5ea698",
+      "data": [
+        {
+          "file": "data/xingshu/v0.2.0/ni.json",
+          "sha256": "e48ca1d8b4772ff48f76298e8fb30e5b91bad2670d3616c800163af9335154b2"
+        }
+      ]
+    },
+    {
+      "label": "final",
+      "name": "hao",
+      "validSvg": true,
+      "outlines": true,
+      "routes": true,
+      "count": 6,
+      "svgSHA256": "c6664166e8e25aca16a7e585feaa1bba12e61d27a3549c60bc6e0d55fd8d4ebe",
+      "data": [
+        {
+          "file": "data/xingshu/v0.2.0/hao.json",
+          "sha256": "d2109e8977397579c69abc06488b35f77b31a8c3c12120db673528d1c3bfb166"
+        }
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "label": "standard",
+      "path": "../xingshu/baseline/nihao-standard.webm",
+      "seconds": 10.2,
+      "width": 1440,
+      "height": 900,
+      "sha256": "d8788e003af7785f8dc529096d5be6ddad1d19ca2d8df99c0832ef846594124b",
+      "decodedAndSeeked": true
+    },
+    {
+      "label": "prototype-1.2",
+      "path": "prototype-1.2/live.webm",
+      "seconds": 17.64,
+      "width": 1440,
+      "height": 900,
+      "sha256": "c9a5ac7d2b15c28e57a3ef5009daef97feed6816febe96cfcad889d8bd4df5cf",
+      "decodedAndSeeked": true
+    },
+    {
+      "label": "a",
+      "path": "a/live.webm",
+      "seconds": 18.12,
+      "width": 1440,
+      "height": 900,
+      "sha256": "18053d7b7933d5aaf114e5e5eb5e95ed1295aba8f0bd25bd65ec4f171a344b55",
+      "decodedAndSeeked": true
+    },
+    {
+      "label": "b",
+      "path": "b/live.webm",
+      "seconds": 18.04,
+      "width": 1440,
+      "height": 900,
+      "sha256": "fcf732fbb0eb6be8689f7cbc509de7ec624d8eeae784706de9307d0ad94d99ba",
+      "decodedAndSeeked": true
+    },
+    {
+      "label": "final",
+      "path": "final/live.webm",
+      "seconds": 17.96,
+      "width": 1440,
+      "height": 900,
+      "sha256": "088c44e8f33c08a63f5f20bdb7e75b2a86d83e1a06761ebc78b8c812f422d767",
+      "decodedAndSeeked": true
+    }
+  ]
+}

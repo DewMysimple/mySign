@@ -1,0 +1,667 @@
+{
+  "old": {
+    "state": "preflighting",
+    "phase": "home",
+    "strokeIndex": 0,
+    "strokeProgress": 0,
+    "name": "",
+    "strokeCount": 0,
+    "logicalStrokeCount": 0,
+    "logicalStrokes": [],
+    "visualActions": [],
+    "prototypeCharacters": [],
+    "currentSegment": null,
+    "lines": [],
+    "engines": [],
+    "inkPoint": null,
+    "tip": {
+      "x": 986.4000000000001,
+      "y": 454.5
+    },
+    "layout": null,
+    "duration": 0,
+    "active": false,
+    "disposed": true,
+    "loadAborted": true,
+    "hasGlyphLease": false,
+    "particles": 0,
+    "eraseProgress": 0,
+    "renderCount": 2,
+    "reducedMotion": false,
+    "quality": "full",
+    "metrics": {},
+    "cache": {
+      "raw": {
+        "entries": 0,
+        "bytes": 0,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 0,
+        "misses": 1
+      },
+      "parsed": {
+        "entries": 0,
+        "bytes": 0,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 0,
+        "misses": 1
+      }
+    },
+    "projectedTip": {
+      "x": 986.4000000000001,
+      "y": 454.5
+    },
+    "projectedShadowTip": {
+      "x": 987.7115384615386,
+      "y": 456.5269230769231
+    },
+    "shadowOpacity": 0.42,
+    "calls": 14,
+    "triangles": 4262,
+    "geometries": 1,
+    "textures": 1,
+    "pixelRatio": 1
+  },
+  "cancelled": {
+    "state": "writing",
+    "phase": "stroke",
+    "strokeIndex": 0,
+    "strokeProgress": 0.047556,
+    "moveKind": "stroke",
+    "name": "",
+    "strokeCount": 0,
+    "logicalStrokeCount": 0,
+    "logicalStrokes": [],
+    "visualActions": [],
+    "prototypeCharacters": [],
+    "currentSegment": null,
+    "lines": [],
+    "engines": [],
+    "inkPoint": {
+      "x": 594.1416023254394,
+      "y": 340.23474912643434
+    },
+    "tip": {
+      "x": 594.1416023254394,
+      "y": 340.23474912643434
+    },
+    "layout": {
+      "scale": 1.65,
+      "x": 546.75,
+      "y": 447.6,
+      "width": 1440,
+      "height": 900
+    },
+    "duration": 0,
+    "active": false,
+    "disposed": true,
+    "loadAborted": true,
+    "hasGlyphLease": false,
+    "particles": 0,
+    "eraseProgress": 0,
+    "renderCount": 125,
+    "reducedMotion": false,
+    "quality": "full",
+    "metrics": {
+      "loadMs": 7.799999982118607,
+      "planMs": 1.5,
+      "estimatedSeconds": 6.792824000000001,
+      "started": 463.39999997615814,
+      "frameIntervals": [
+        1.199999988079071,
+        7.700000017881393,
+        5.199999988079071,
+        5.5,
+        5.5999999940395355,
+        5.700000017881393,
+        5.299999982118607,
+        5.5,
+        5.700000017881393,
+        5.5,
+        5.399999976158142,
+        5.800000011920929,
+        5.5,
+        5.699999988079071,
+        5.5,
+        5.5,
+        5.4000000059604645,
+        5.800000011920929,
+        5.299999982118607,
+        5.700000017881393,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.699999988079071,
+        5.600000023841858,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.699999988079071,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.600000023841858,
+        5.5,
+        5.399999976158142,
+        5.700000017881393,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.9000000059604645,
+        5.299999982118607,
+        5.5,
+        5.700000017881393,
+        5.399999976158142,
+        5.700000017881393,
+        5.5999999940395355,
+        5.300000011920929,
+        5.699999988079071,
+        5.699999988079071,
+        5.600000023841858,
+        5.399999976158142,
+        6.100000023841858,
+        5,
+        5.699999988079071,
+        5.300000011920929,
+        5.5999999940395355,
+        5.5,
+        5.699999988079071,
+        5.5,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.600000023841858,
+        5.5,
+        5.5,
+        5.5,
+        5.699999988079071,
+        5.5,
+        5.800000011920929,
+        5.5,
+        5.399999976158142,
+        5.600000023841858,
+        5.5,
+        5.5,
+        5.799999982118607,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.700000017881393,
+        5.399999976158142,
+        5.700000017881393,
+        5.5,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.600000023841858,
+        5.299999982118607,
+        5.700000017881393,
+        5.5,
+        5.5999999940395355,
+        5.699999988079071,
+        5.4000000059604645,
+        5.699999988079071,
+        5.4000000059604645,
+        5.800000011920929,
+        5.4000000059604645,
+        5.5,
+        5.699999988079071,
+        5.5,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.700000017881393,
+        5.199999988079071,
+        5.9000000059604645,
+        5.5,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.799999982118607,
+        5.4000000059604645,
+        5.700000017881393,
+        5.299999982118607,
+        5.9000000059604645,
+        6,
+        5,
+        5.5,
+        5.5
+      ]
+    },
+    "cache": {
+      "raw": {
+        "entries": 2,
+        "bytes": 1528248,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 0,
+        "misses": 3
+      },
+      "parsed": {
+        "entries": 2,
+        "bytes": 48548,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 0,
+        "misses": 3
+      }
+    },
+    "projectedTip": {
+      "x": 594.1416023254394,
+      "y": 340.23474912643434
+    },
+    "projectedShadowTip": {
+      "x": 595.4531407869779,
+      "y": 342.2616722033574
+    },
+    "shadowOpacity": 0.42,
+    "calls": 14,
+    "triangles": 4262,
+    "geometries": 1,
+    "textures": 1,
+    "pixelRatio": 1
+  },
+  "reused": {
+    "state": "written",
+    "phase": "written",
+    "strokeIndex": 12,
+    "strokeProgress": 1,
+    "moveKind": "stroke",
+    "name": "李华",
+    "strokeCount": 13,
+    "logicalStrokeCount": 13,
+    "logicalStrokes": [
+      {
+        "originalNumber": 1,
+        "sourceStrokeHash": "b96c69fafaca89a1121f5dfe2b376fe45929ecf3bca50a927e59de11aaecf1df",
+        "id": "0:1",
+        "character": "李",
+        "characterPosition": 1
+      },
+      {
+        "originalNumber": 2,
+        "sourceStrokeHash": "00ec604d941f2b417777bef98483fcb498f58edf807f3e78788e8598f679305d",
+        "id": "0:2",
+        "character": "李",
+        "characterPosition": 1
+      },
+      {
+        "originalNumber": 3,
+        "sourceStrokeHash": "d491b4f3824c04acb1f46da6afe20fd4b004c19043b54a0243f310d7dbd37113",
+        "id": "0:3",
+        "character": "李",
+        "characterPosition": 1
+      },
+      {
+        "originalNumber": 4,
+        "sourceStrokeHash": "5cb6543d42febe3c9b362e8dbbb907a3fca30e9a12647ed523c303ba51518a88",
+        "id": "0:4",
+        "character": "李",
+        "characterPosition": 1
+      },
+      {
+        "originalNumber": 5,
+        "sourceStrokeHash": "12e2110438232ec7fca35008486282ab82ce2af377a1efd870701f2952449aea",
+        "id": "0:5",
+        "character": "李",
+        "characterPosition": 1
+      },
+      {
+        "originalNumber": 6,
+        "sourceStrokeHash": "3ce3dddf053fb63a17477123eb91003daa9898a65d3768e4c93ce25e21c67265",
+        "id": "0:6",
+        "character": "李",
+        "characterPosition": 1
+      },
+      {
+        "originalNumber": 7,
+        "sourceStrokeHash": "f5952ea892ef970053137b33716787dfb301999e7fc8276b23b159421ba56ac8",
+        "id": "0:7",
+        "character": "李",
+        "characterPosition": 1
+      },
+      {
+        "originalNumber": 1,
+        "sourceStrokeHash": "f72ad2f9e64226eccf0cdf4649fcb3c41da3ca98f4666cb03fc3194c2e5db1ee",
+        "id": "1:1",
+        "character": "华",
+        "characterPosition": 2
+      },
+      {
+        "originalNumber": 2,
+        "sourceStrokeHash": "9a2a76e5351e6d199181dca3deeada3d57b4ecd9bbc3c87f9cb142dba5c552f2",
+        "id": "1:2",
+        "character": "华",
+        "characterPosition": 2
+      },
+      {
+        "originalNumber": 3,
+        "sourceStrokeHash": "ff0a881f34dde6d49576c6dbb532dc431adea54c7e2ef8a2905f91e52a54de79",
+        "id": "1:3",
+        "character": "华",
+        "characterPosition": 2
+      },
+      {
+        "originalNumber": 4,
+        "sourceStrokeHash": "20a0ac1d956472a2a4b538d432f1631218a44bbe12b019ec8801e8f9af1e9aa7",
+        "id": "1:4",
+        "character": "华",
+        "characterPosition": 2
+      },
+      {
+        "originalNumber": 5,
+        "sourceStrokeHash": "fb69c4db5b418e882e4af3ad85b2588d80b03eb35ff9395fb8ba23a360d383c1",
+        "id": "1:5",
+        "character": "华",
+        "characterPosition": 2
+      },
+      {
+        "originalNumber": 6,
+        "sourceStrokeHash": "79e45819635d7c4dc408e734dbc37b11b13c4385706b73d92b817194646b888d",
+        "id": "1:6",
+        "character": "华",
+        "characterPosition": 2
+      }
+    ],
+    "visualActions": [
+      {
+        "id": "0:standard-1",
+        "character": "李",
+        "segmentIndices": [
+          0
+        ],
+        "logicalStrokeIds": [
+          "0:1"
+        ]
+      },
+      {
+        "id": "0:standard-2",
+        "character": "李",
+        "segmentIndices": [
+          1
+        ],
+        "logicalStrokeIds": [
+          "0:2"
+        ]
+      },
+      {
+        "id": "0:standard-3",
+        "character": "李",
+        "segmentIndices": [
+          2
+        ],
+        "logicalStrokeIds": [
+          "0:3"
+        ]
+      },
+      {
+        "id": "0:standard-4",
+        "character": "李",
+        "segmentIndices": [
+          3
+        ],
+        "logicalStrokeIds": [
+          "0:4"
+        ]
+      },
+      {
+        "id": "0:standard-5",
+        "character": "李",
+        "segmentIndices": [
+          4
+        ],
+        "logicalStrokeIds": [
+          "0:5"
+        ]
+      },
+      {
+        "id": "0:standard-6",
+        "character": "李",
+        "segmentIndices": [
+          5
+        ],
+        "logicalStrokeIds": [
+          "0:6"
+        ]
+      },
+      {
+        "id": "0:standard-7",
+        "character": "李",
+        "segmentIndices": [
+          6
+        ],
+        "logicalStrokeIds": [
+          "0:7"
+        ]
+      },
+      {
+        "id": "1:standard-1",
+        "character": "华",
+        "segmentIndices": [
+          7
+        ],
+        "logicalStrokeIds": [
+          "1:1"
+        ]
+      },
+      {
+        "id": "1:standard-2",
+        "character": "华",
+        "segmentIndices": [
+          8
+        ],
+        "logicalStrokeIds": [
+          "1:2"
+        ]
+      },
+      {
+        "id": "1:standard-3",
+        "character": "华",
+        "segmentIndices": [
+          9
+        ],
+        "logicalStrokeIds": [
+          "1:3"
+        ]
+      },
+      {
+        "id": "1:standard-4",
+        "character": "华",
+        "segmentIndices": [
+          10
+        ],
+        "logicalStrokeIds": [
+          "1:4"
+        ]
+      },
+      {
+        "id": "1:standard-5",
+        "character": "华",
+        "segmentIndices": [
+          11
+        ],
+        "logicalStrokeIds": [
+          "1:5"
+        ]
+      },
+      {
+        "id": "1:standard-6",
+        "character": "华",
+        "segmentIndices": [
+          12
+        ],
+        "logicalStrokeIds": [
+          "1:6"
+        ]
+      }
+    ],
+    "prototypeCharacters": [],
+    "currentSegment": {
+      "logicalStrokeIds": [
+        6
+      ],
+      "visualActionId": "standard-6"
+    },
+    "lines": [
+      "李华"
+    ],
+    "engines": [
+      "hanzi"
+    ],
+    "inkPoint": {
+      "x": 801.6943044662476,
+      "y": 454.6705833435059
+    },
+    "tip": {
+      "x": 801.6943044662476,
+      "y": 454.6705833435059
+    },
+    "layout": {
+      "scale": 1.65,
+      "x": 546.75,
+      "y": 447.6,
+      "width": 1440,
+      "height": 900
+    },
+    "duration": 0.4559999,
+    "active": false,
+    "disposed": false,
+    "loadAborted": false,
+    "hasGlyphLease": true,
+    "particles": 0,
+    "eraseProgress": 0,
+    "renderCount": 87,
+    "reducedMotion": true,
+    "quality": "full",
+    "metrics": {
+      "loadMs": 0.5999999940395355,
+      "planMs": 1,
+      "estimatedSeconds": 6.792824000000001,
+      "started": 1243.199999988079,
+      "frameIntervals": [
+        6.699999988079071,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.700000017881393,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.700000017881393,
+        5.399999976158142,
+        5.600000023841858,
+        5.799999982118607,
+        5.300000011920929,
+        5.5,
+        6,
+        5.299999982118607,
+        5.5,
+        5.700000017881393,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.800000011920929,
+        5.4000000059604645,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.4000000059604645,
+        5.5,
+        5.700000017881393,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.4000000059604645,
+        5.5999999940395355,
+        5.799999982118607,
+        5.4000000059604645,
+        5.700000017881393,
+        5.399999976158142,
+        5.600000023841858,
+        5.5,
+        5.5,
+        5.699999988079071,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.700000017881393,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.600000023841858,
+        5.5,
+        5.5999999940395355,
+        5.699999988079071,
+        5.300000011920929,
+        5.699999988079071,
+        5.5999999940395355,
+        5.5,
+        5.5,
+        5.600000023841858,
+        5.5,
+        5.5,
+        5.5999999940395355,
+        5.5999999940395355,
+        5.5,
+        5.5999999940395355,
+        5.700000017881393,
+        0.09999999403953552
+      ],
+      "actualSeconds": 0.4574000000059605
+    },
+    "cache": {
+      "raw": {
+        "entries": 2,
+        "bytes": 1528248,
+        "budgetBytes": 2097152,
+        "pinned": 0,
+        "hits": 0,
+        "misses": 3
+      },
+      "parsed": {
+        "entries": 2,
+        "bytes": 48548,
+        "budgetBytes": 2097152,
+        "pinned": 2,
+        "hits": 2,
+        "misses": 3
+      }
+    },
+    "projectedTip": {
+      "x": 801.6943044662476,
+      "y": 454.67058334350594
+    },
+    "projectedShadowTip": {
+      "x": 803.005842927786,
+      "y": 456.69750642042897
+    },
+    "shadowOpacity": 0.28,
+    "calls": 14,
+    "triangles": 4262,
+    "geometries": 8,
+    "textures": 4,
+    "pixelRatio": 1
+  },
+  "errors": []
+}

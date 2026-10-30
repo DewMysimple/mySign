@@ -1,0 +1,133 @@
+{
+  "generatedAt": "2026-10-30T09:21:55.759Z",
+  "pass": true,
+  "title": "你好 · 第二轮硬笔行书审查",
+  "images": [
+    {
+      "src": "before-after.png",
+      "width": 1480
+    },
+    {
+      "src": "a/normalized.png",
+      "width": 1000
+    },
+    {
+      "src": "b/normalized.png",
+      "width": 1000
+    },
+    {
+      "src": "connections.png",
+      "width": 1120
+    },
+    {
+      "src": "final/artwork/strokes.png",
+      "width": 1200
+    },
+    {
+      "src": "final/artwork/overlay.png",
+      "width": 1080
+    },
+    {
+      "src": "final/ni-full.png",
+      "width": 1440
+    },
+    {
+      "src": "final/hao-full.png",
+      "width": 1440
+    },
+    {
+      "src": "comparison.png",
+      "width": 1080
+    },
+    {
+      "src": "a/artwork/strokes.png",
+      "width": 1200
+    },
+    {
+      "src": "a/artwork/overlay.png",
+      "width": 1080
+    },
+    {
+      "src": "b/artwork/strokes.png",
+      "width": 1200
+    },
+    {
+      "src": "b/artwork/overlay.png",
+      "width": 1080
+    },
+    {
+      "src": "final/keyframes.png",
+      "width": 1520
+    },
+    {
+      "src": "final/frame-01.png",
+      "width": 1440
+    },
+    {
+      "src": "final/frame-02.png",
+      "width": 1440
+    },
+    {
+      "src": "final/frame-03.png",
+      "width": 1440
+    },
+    {
+      "src": "final/frame-04.png",
+      "width": 1440
+    },
+    {
+      "src": "final/frame-05.png",
+      "width": 1440
+    },
+    {
+      "src": "final/frame-06.png",
+      "width": 1440
+    },
+    {
+      "src": "final/frame-07.png",
+      "width": 1440
+    },
+    {
+      "src": "final/frame-08.png",
+      "width": 1440
+    },
+    {
+      "src": "final/frame-09.png",
+      "width": 1440
+    },
+    {
+      "src": "final/frame-10.png",
+      "width": 1440
+    },
+    {
+      "src": "final/frame-11.png",
+      "width": 1440
+    },
+    {
+      "src": "final/particles.png",
+      "width": 1440
+    }
+  ],
+  "videos": [
+    {
+      "src": "a/live.webm",
+      "controls": true
+    },
+    {
+      "src": "b/live.webm",
+      "controls": true
+    },
+    {
+      "src": "final/live.webm",
+      "controls": true
+    },
+    {
+      "src": "../xingshu/baseline/nihao-standard.webm",
+      "controls": true
+    },
+    {
+      "src": "prototype-1.2/live.webm",
+      "controls": true
+    }
+  ]
+}

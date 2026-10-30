@@ -1,5 +1,5 @@
-import ni from '../../data/xingshu/v0.1.0/ni.json' with { type: 'json' };
-import hao from '../../data/xingshu/v0.1.0/hao.json' with { type: 'json' };
+import ni from '../../data/xingshu/v0.2.0/ni.json' with { type: 'json' };
+import hao from '../../data/xingshu/v0.2.0/hao.json' with { type: 'json' };
 const glyphs = { '你': ni, '好': hao };
 
 // An explicit two-character experimental overlay. Never mutate the qualified

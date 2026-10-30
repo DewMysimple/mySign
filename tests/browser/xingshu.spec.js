@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { mkdir, writeFile } from 'node:fs/promises';
-const OUT='analysis/xingshu/browser';
+const OUT='analysis/xingshu-v2/browser';
 const inspect=page=>page.evaluate(()=>window.__signatureDebug.inspect());
 const state=(page,value)=>expect(page.locator('main')).toHaveAttribute('data-state',value);
 async function launch(page){
@@ -29,7 +29,7 @@ async function sample(page){
   }));
 }
 
-for(const [text,logical,segments]of[['你',7,9],['好',6,7]])test(`${text} independent experimental contours retain ${logical} logical strokes`,async({page})=>{
+for(const [text,logical,segments]of[['你',7,7],['好',6,6]])test(`${text} independent experimental contours retain ${logical} logical strokes`,async({page})=>{
   const errors=await launch(page),initial=await inspect(page);
   await sign(page,text);await state(page,'writing');const samples=await sample(page);await state(page,'written');
   const written=await inspect(page);expect(written.logicalStrokeCount).toBe(logical);expect(written.strokeCount).toBe(segments);
@@ -45,7 +45,7 @@ for(const [text,logical,segments]of[['你',7,9],['好',6,7]])test(`${text} indep
 
 test('你好 continuous groups use real curve endpoints, preserve logical order, lift between groups and move the same shadow',async({page})=>{
   const errors=await launch(page);await sign(page,'你好');await state(page,'writing');const samples=await sample(page);
-  const done=await inspect(page);expect(done.logicalStrokeCount).toBe(13);expect(done.visualActions.length).toBe(9);expect(done.strokeCount).toBe(16);
+  const done=await inspect(page);expect(done.logicalStrokeCount).toBe(13);expect(done.visualActions.length).toBe(12);expect(done.strokeCount).toBe(13);
   expect(done.logicalStrokes.filter(s=>s.character==='你').map(s=>s.originalNumber)).toEqual([1,2,3,4,5,6,7]);
   expect(done.logicalStrokes.filter(s=>s.character==='好').map(s=>s.originalNumber)).toEqual([1,2,3,4,5,6]);
   const contacts=await page.evaluate(()=>{
@@ -59,9 +59,9 @@ test('你好 continuous groups use real curve endpoints, preserve logical order,
       results.push({id:group.id,a,b,gap:Math.hypot(s1.x-s2.x,s1.y-s2.y)});
     }return results;
   });
-  expect(contacts.length).toBe(7);expect(Math.max(...contacts.map(c=>c.gap))).toBeLessThan(.002);
+  expect(contacts.length).toBe(1);expect(Math.max(...contacts.map(c=>c.gap))).toBeLessThan(.002);
   for(const c of contacts)expect(samples.some(s=>s.phase==='lift'&&s.index===c.b)).toBe(false);
-  const threads=samples.filter(s=>s.phase==='stroke'&&s.segment.role==='connection');expect(new Set(threads.map(s=>s.index)).size).toBe(3);
+  const threads=samples.filter(s=>s.phase==='stroke'&&s.segment.role==='connection');expect(new Set(threads.map(s=>s.index)).size).toBe(0);
   const contact=samples.filter(s=>s.phase==='stroke');
   const lifted=samples.filter(s=>s.phase==='lift');expect(lifted.length).toBeGreaterThan(10);
   expect(lifted.some(s=>s.opacity<.41)).toBe(true);
@@ -103,11 +103,11 @@ test('prototype particles originate throughout actual filled ink, clear complete
   await writeFile(`${OUT}/prototype-particles.json`,JSON.stringify({particleCheck,final,errors},null,2));
 });
 
-test('a fault during a real connecting thread cancels every contour and restores the pen/shadow before retry',async({page})=>{
+test('a fault during the retained same-point 子 fold cancels every contour and restores the pen/shadow before retry',async({page})=>{
   const errors=await launch(page),initial=await inspect(page);await sign(page,'你好');
   await page.evaluate(()=>new Promise(resolve=>{
     function frame(){const d=window.__signatureDebug.inspect();
-      if(d.phase==='stroke'&&d.currentSegment?.role==='connection'){window.__signatureDebug.inject('stroke');resolve();}
+      if(d.phase==='stroke'&&d.currentSegment?.visualActionId==='hao-4-5'&&d.currentSegment?.logicalStrokeIds.includes(5)){window.__signatureDebug.inject('stroke');resolve();}
       else requestAnimationFrame(frame);
     }requestAnimationFrame(frame);
   }));
@@ -115,7 +115,7 @@ test('a fault during a real connecting thread cancels every contour and restores
   const recovered=await inspect(page);expect(recovered.active).toBe(false);expect(recovered.strokeCount).toBe(0);expect(recovered.particles).toBe(0);expect(recovered.hasGlyphLease).toBe(false);
   expect(Math.hypot(recovered.projectedShadowTip.x-initial.projectedShadowTip.x,recovered.projectedShadowTip.y-initial.projectedShadowTip.y)).toBeLessThan(.01);
   await page.emulateMedia({reducedMotion:'reduce'});await sign(page,'你好');await state(page,'written');await erase(page);expect(errors).toEqual([]);
-  await writeFile(`${OUT}/thread-fault.json`,JSON.stringify({initial,recovered,after:await inspect(page),errors},null,2));
+  await writeFile(`${OUT}/contact-fault.json`,JSON.stringify({initial,recovered,after:await inspect(page),errors},null,2));
 });
 
 test('live reduced-motion and desktop resize keep the prototype group order and current contact progress',async({page})=>{
@@ -128,4 +128,36 @@ test('live reduced-motion and desktop resize keep the prototype group order and 
   const actual=samples.filter(s=>s.error!==null);expect(Math.max(...actual.map(s=>s.error))).toBeLessThan(.2);
   await erase(page);expect((await inspect(page)).particles).toBe(0);expect(errors).toEqual([]);
   await writeFile(`${OUT}/prototype-motion-resize.json`,JSON.stringify({before,done,samples,errors},null,2));
+});
+
+test('removed threads execute clean airborne moves: unchanged ink, interpolated tip, lifted shadow, no hidden connector route',async({page})=>{
+  const errors=await launch(page);await sign(page,'你好');
+  const frames=await page.evaluate(()=>new Promise(resolve=>{
+    const frames=[];
+    function frame(now){
+      const d=window.__signatureDebug.inspect();
+      if(d.phase==='lift'){
+        const endpoint=(i,end)=>{
+          const r=document.querySelector(`[data-route="${i}"]`),v=document.querySelector(`[data-outline="${i}"]`);
+          const p=r.getPointAtLength(end?r.getTotalLength():0);return new DOMPoint(p.x,p.y).matrixTransform(v.getScreenCTM());
+        };
+        const a=endpoint(d.strokeIndex-1,true),b=endpoint(d.strokeIndex,false),p=d.strokeProgress;
+        const ink=[...document.querySelectorAll('[data-outline]')].map((v,i)=>({opacity:v.style.opacity,mask:v.getAttribute('mask'),dash:document.querySelector(`[data-route="${i}"]`).style.strokeDashoffset}));
+        frames.push({now,index:d.strokeIndex,p,tip:d.projectedTip,shadow:d.projectedShadowTip,opacity:d.shadowOpacity,
+          interpolationError:Math.hypot(a.x+(b.x-a.x)*p-d.projectedTip.x,a.y+(b.y-a.y)*p-d.projectedTip.y),ink});
+      }
+      if(d.state==='written')resolve(frames);else requestAnimationFrame(frame);
+    }requestAnimationFrame(frame);
+  }));
+  for(const index of [1,3,8]){
+    const samples=frames.filter(s=>s.index===index);expect(samples.length).toBeGreaterThan(1);
+    expect(samples.some(s=>s.opacity<.41)).toBe(true);
+    expect(samples.every(s=>s.ink[index].opacity==='0')).toBe(true);
+    const fingerprints=new Set(samples.map(s=>JSON.stringify(s.ink)));expect(fingerprints.size).toBe(1);
+  }
+  expect(new Set(frames.map(s=>s.index)).size).toBe(11);
+  expect(Math.max(...frames.map(s=>s.interpolationError))).toBeLessThan(.002);
+  expect((await inspect(page)).strokeCount).toBe(13);expect(await page.locator('[data-route]').count()).toBe(13);
+  await erase(page);expect(errors).toEqual([]);
+  await writeFile(`${OUT}/clean-lifts.json`,JSON.stringify({frames,errors},null,2));
 });

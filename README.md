@@ -1,10 +1,12 @@
 # Shakespread
 
-可输入中英文、数字和常用标点，观看真实 3D 白色铅笔逐笔书写，再用橡皮擦清除的极简网页。React / Vite / Three.js / GSAP 实现，当前功能分支版本 **1.2.0-prototype.0**：输入「你好」即可体验两字独立硬笔行书原型；英文保留原有单线与连笔机制。
+可输入中英文、数字和常用标点，观看真实 3D 白色铅笔逐笔书写，再用橡皮擦清除的极简网页。React / Vite / Three.js / GSAP 实现，当前功能分支版本 **1.2.0-prototype.1**：输入「你好」即可体验两字独立硬笔行书原型；英文保留原有单线与连笔机制。
 
-当前任务依据 [prompt_03](prompt/prompt_03.txt)，以**桌面单行签名**替代前一版多行产品范围。原 3500 个合格标准字形保持原样；本分支仅对「你」「好」覆盖为实验字形，其他 3498 字没有行书化。实验数据未冒充正式 qualified 字库，用户审美待确认，**未合并 main**。手机端完全不计入本轮优化和验收。
+当前任务依据 [prompt_04](prompt/prompt_04.txt)，继续采用**桌面单行签名**，完成第二轮「你好」美术重构。原 3500 个合格标准字形保持原样；本分支仅对「你」「好」覆盖为实验字形，其他 3498 字没有行书化。实验数据未冒充正式 qualified 字库，用户审美待确认，**未合并 main**。手机端完全不计入本轮优化和验收。
 
-审计、风格规范、原型对照和新一轮结果入口为 [analysis/xingshu](analysis/xingshu/acceptance.md)，可编辑数据说明为 [data/xingshu](data/xingshu/README.md)。原始视频与中文扩展要求仍保留在 prompt_01 / prompt_02。
+审计、风格规范、原型对照和新一轮结果入口为 [第二轮审查](analysis/xingshu-v2/acceptance.md)，可编辑数据说明为 [data/xingshu](data/xingshu/README.md)。原始视频与中文扩展要求仍保留在 prompt_01 / prompt_02。
+
+[打开五版对比与真实录制](analysis/xingshu-v2/review.html)。当前推荐 B：全部主笔与压力重新设计，增强力度并取消女旁回绕。A/B 仅用于内部审查，生产网页没有模式开关。用户最终审美待确认。
 
 ## 启动与操作
 
@@ -31,7 +33,7 @@ npm run dev
 
 暖灰白全屏纸面、蓝色笔迹和实时 Three.js 铅笔，保留原视频的大面积留白。铅笔以石墨端为旋转参考点，真实几何、正交相机与实时投影由同一动作进度驱动。柔影是实时阴影贴图的面积光近似。
 
-中文每段通过中线遮罩揭示完整闭合轮廓，完成时释放遮罩以保全轮廓边缘；不是普通字体整段淡入。新「你」「好」重新制作了曲线、部件比例、起收笔和压力轮廓，保留全部 13 个逻辑笔画，形成 9 组连续动作、3 段细牵丝、16 段墨迹；没有用 CSS 倾斜、滤镜、随机扰动代替字形设计。
+中文每段通过中线遮罩揭示完整闭合轮廓，完成时释放遮罩以保全轮廓边缘；不是普通字体整段淡入。新「你」「好」重新制作了曲线、部件比例、起收笔和压力轮廓，保留全部 13 个逻辑笔画，形成 12 组连续动作、0 段独立牵丝、13 段墨迹；三条旧返回线全部删除，只保留子部 4→5 自然同点接触；没有用 CSS 倾斜、滤镜、随机扰动代替字形设计。
 
 轮廓、中线、SVG 与 3D 共用局部、排版和视口三层坐标。SignatureController 仍是唯一 GSAP 时钟，逐段节奏曲线只改变这个共享进度。连带段实际接触点连续，不插入抬笔；跨组正常抬笔。窗口 resize 与逐帧尺寸检查保证 SVG viewBox 和相机在同一帧更新。
 
@@ -41,13 +43,13 @@ npm run dev
 
 ## 数据来源、许可与可复验管线
 
-两字原型独立放在 `data/xingshu/v0.1.0`，每字保存完整轮廓、中线、逻辑编号、实际动作、连接关系、压力、节奏、度量与来源。HWD 仅作逻辑顺序 / 结构参考，没有复用标准轮廓；保守沿用 Arphic Public License。新数据、可编辑源码、修改说明及许可原文随 `public/experiments/xingshu-v0.1.0` 分发。Long Cang 仅用于合法字体视觉研究，其字模与字体文件没有进入产品。
+两字原型独立放在 `data/xingshu/v0.2.0`，每字保存完整轮廓、中线、逻辑编号、实际动作、连接关系、压力、节奏、度量与来源。HWD 仅作逻辑顺序 / 结构参考，没有复用标准轮廓；保守沿用 Arphic Public License。新数据、可编辑源码、修改说明及许可原文随 `public/experiments/xingshu-v0.2.0` 分发。Long Cang 仅用于合法字体视觉研究，其字模与字体文件没有进入产品。
 
 ```powershell
 npm run glyphs:xingshu                 # 只构建两字，不重建正式字库
-node scripts/render-xingshu-artwork.mjs
+node scripts/render-xingshu-round2.mjs
 npm run test:xingshu:masks             # 先启动 dev，测试实际产品渲染器
-node scripts/capture-xingshu-prototype.mjs # 实际浏览器截图、轨迹与 webm
+node scripts/capture-xingshu-round2.mjs final # 实际浏览器截图、轨迹与 webm
 ```
 
 以下为现有 1.1.0 正式字库的来源与维护流程。**本次原型不执行全量重建**；只有另行开展已授权的正式字库维护才使用这些命令。原型构建器不写入这些目录。
@@ -84,26 +86,26 @@ npm run test:desktop                   # Edge、Firefox、WebKit 关键回归
 npm run build
 npm run preview                       # 另开终端，默认 4173
 npm run test:production                # 当前实验生产构建，三个桌面 DPR 场景
-python scripts/verify-visual-regression.py --current analysis/xingshu/english/desktop-written.png --out analysis/xingshu/english
-node scripts/calibrate-xingshu.mjs     # 正常速度，含 140 段 / 32 字符 / 可读宽度边界
-node scripts/verify-xingshu-acceptance.mjs # 聚合本轮证据和实际源码指纹，不代替执行测试
+python scripts/verify-visual-regression.py --current analysis/xingshu-v2/english/desktop-written.png --out analysis/xingshu-v2/english
+node scripts/calibrate-xingshu-v2.mjs     # 正常速度，含 140 段 / 32 字符 / 可读宽度边界
+node scripts/verify-xingshu-v2-acceptance.mjs # 聚合本轮证据和实际源码指纹，不代替执行测试
 ```
 
 端到端优先使用本机 Chrome；可设 `CHROME_PATH` 或安装 Playwright Chromium。生产包不暴露开发诊断 / 故障注入入口。生产预览验证真实构建的混排、完整显现、清除、无效输入恢复、DPR 及本地数据许可。
 
 当前上限为 **32 个可见字符（含空格）、140 段墨迹动作（含牵丝）、正常预计 40 秒、最小 scale 0.5**，并受实际单行宽度约束；配置在 [signatureLimits.json](src/handwriting/signatureLimits.json)。多个约束同时生效，32 字符不表示任意 32 个汉字都能在当前窗口容纳。
 
-[单行校准](analysis/xingshu/performance/calibration.json) 包含 137 段原型长签名、140 段标准字形、32 字符、18 字最低宽度、原英文及超限拒绝的实际正常速度测量；最小 scale 对应中文约 44px em，原型长签名另有截图供目视判断。旧版多行 / 420 笔预算仅作为历史证据保留，不再作为当前产品要求。超限不会截断、换行或删除原文。
+[本轮校准](analysis/xingshu-v2/performance/calibration.json) 包含 98 段 / 15 字原型长签名、140 段标准字形、32 字符、18 字最低宽度、原英文及超限拒绝的实际正常速度测量；最小 scale 对应中文约 44px em，原型长签名另有截图供目视判断。旧版多行 / 420 笔预算仅作为历史证据保留，不再作为当前产品要求。超限不会截断、换行或删除原文。
 
-这是一组保守的产品边界：32 字符覆盖原有 31 字符长英文姓名的回归范围，并验证了 32 个数字的正常速度执行；137 段原型和 140 段标准字形均实测接近 40 秒，0.5 scale 有实际截图复核。不声称第 33 个字符本身会造成性能故障，也不把这些数值当作所有设备的物理极限。
+这是一组保守的产品边界：32 字符覆盖原有 31 字符长英文姓名的回归范围，并验证了 32 个数字的正常速度执行；新版原型 15 字约 37.67 秒、16 字超过 40 秒拒绝；140 段标准字形实测约 39.82 秒，0.5 scale 有实际截图复核。不声称第 33 个字符本身会造成性能故障，也不把这些数值当作所有设备的物理极限。
 
 两层 LRU 各有 2 MiB 的保守计费预算。活动任务持有的内容可暂超预算且受保护，释放后必须回到预算以内。持续慢帧只降低场景 DPR 和粒子规模，不改变笔顺、完整轮廓或笔尖同步。测试中的数学投影误差与抗锯齿视觉、所有设备的实际帧率是不同指标。
 
-本轮新结果见 [硬笔行书原型验收](analysis/xingshu/acceptance.md) / [JSON](analysis/xingshu/acceptance.json)，功能验收与用户审美验收分别记录。已重跑模型、完整 Chromium、Edge / Firefox / WebKit、生产预览、同步 / 显现和英文墨迹差异检查；不把旧 17 项通过当作新版本自动通过。
+本轮新结果见 [第二轮硬笔行书验收](analysis/xingshu-v2/acceptance.md) / [JSON](analysis/xingshu-v2/acceptance.json)，功能验收与用户审美验收分别记录。已重跑模型、完整 Chromium、Edge / Firefox / WebKit、生产预览、同步 / 显现和英文墨迹差异检查；不把旧 17 项通过当作新版本自动通过。
 
-旧版 [1.1.0 桌面验收](analysis/chinese/acceptance.md) 与全字库失败 / 修复记录原样保留。原英文 557 帧视频分析在 [视频逐帧分析](analysis/视频逐帧分析.md)，冻结基线在 [baseline/](analysis/chinese/baseline/)；`analysis/app/` 保留早期迭代记录。
+上一轮 [1.2.0 原型记录](analysis/xingshu/acceptance.md) 与 v0.1.0 数据原样冻结保留。旧版 [1.1.0 桌面验收](analysis/chinese/acceptance.md) 与全字库失败 / 修复记录原样保留。原英文 557 帧视频分析在 [视频逐帧分析](analysis/视频逐帧分析.md)，冻结基线在 [baseline/](analysis/chinese/baseline/)；`analysis/app/` 保留早期迭代记录。
 
-Three.js 与两字实验数据包含在生产 JS 中，Vite 的大 chunk 提示仍需保留；本轮实测包体见构建输出和验收报告。3500 字标准字库仍为独立本地分片，不全部并入 JS。没有配置公网部署、账户或签名持久化，GitHub 用于源码管理。
+Three.js 与两字实验数据包含在生产 JS 中，Vite 的大 chunk 提示仍需保留；本轮实测 JS 1108.31 kB / gzip 348.64 kB，完整输出见验收报告。3500 字标准字库仍为独立本地分片，不全部并入 JS。没有配置公网部署、账户或签名持久化，GitHub 用于源码管理。
 
 ## 工程入口与记忆
 
@@ -117,7 +119,7 @@ Three.js 与两字实验数据包含在生产 JS 中，Vite 的大 chunk 提示�
 | `handwriting/inkRenderer.js` | 完整轮廓、动态遮罩；只消费协调层给定的进度 |
 | `animation/SignatureController.js` | 唯一 GSAP 时钟、3D / 墨迹同步、动态切换、恢复与清除 |
 | `scene/` | 程序化铅笔、柔影、完整墨迹粒子及资源释放 |
-| `scripts/build-xingshu.mjs` | 两字独立矢量生成、来源 / 许可副本与原型图集 |
+| `scripts/build-xingshu-v2.mjs` | 两字独立矢量生成、来源 / 许可副本与原型图集 |
 | `scripts/build_glyphs.py` 等 | 现有正式字库维护工具，本次不重建 |
 
-工程记忆为用户指定的 standard 模式，入口 [wiki_memory/README.md](wiki_memory/README.md)，协议 [wiki_memory/AGENTS.md](wiki_memory/AGENTS.md)。按照根目录 [AGENTS.md](AGENTS.md) 的持续授权，本任务所有源码、文档、记忆和必要证据提交并推送 [mySign](https://github.com/DewMysimple/mySign) 的 `feature/chinese-xingshu-prototype`，核对实际远程 SHA。本次 prompt_03 明确要求用户视觉确认前不合 main，因此保留主分支稳定版本。
+工程记忆为用户指定的 standard 模式，入口 [wiki_memory/README.md](wiki_memory/README.md)，协议 [wiki_memory/AGENTS.md](wiki_memory/AGENTS.md)。按照根目录 [AGENTS.md](AGENTS.md) 的持续授权，本任务所有源码、文档、记忆和必要证据提交并推送 [mySign](https://github.com/DewMysimple/mySign) 的 `feature/chinese-xingshu-prototype`，核对实际远程 SHA。本次 prompt_04 明确要求用户视觉确认前不合 main，因此保留主分支稳定版本。

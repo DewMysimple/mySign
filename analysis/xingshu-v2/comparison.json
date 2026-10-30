@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-10-30T09:08:36.042Z",
+  "browser": "156.0.8078.48",
+  "uniform": {
+    "canvas": [
+      1000,
+      410
+    ],
+    "emScale": 3.5,
+    "glyphOrigins": [
+      140,
+      525
+    ],
+    "advance": 110,
+    "background": "#f3f3f1",
+    "ink": "#3775be",
+    "dpr": 1
+  },
+  "scope": "Actual createStrokeVisual/setStrokeProgress in Chromium. Common placement isolates structure and stroke weight; unmodified-app full scenes/recordings are separate.",
+  "variants": [
+    {
+      "id": "standard",
+      "label": "1.1.0 标准字形",
+      "segments": 13,
+      "image": "standard/normalized.png",
+      "sha256": "9613013a111dda29f2aa248d4d818c76661889cd626f84417b59c79aed8f64be"
+    },
+    {
+      "id": "prototype-1.2",
+      "label": "1.2.0 原型",
+      "segments": 16,
+      "image": "prototype-1.2/normalized.png",
+      "sha256": "3e71c08de981513c614e79817df85c97ae7e06683b1976fa1ffccd3048fa4cf9"
+    },
+    {
+      "id": "a",
+      "label": "A · 克制型",
+      "segments": 13,
+      "image": "a/normalized.png",
+      "sha256": "4785bf20dd39abe33aca4fbf03f0971566f2837b8fa95ad01885fd02da5a64dd"
+    },
+    {
+      "id": "b",
+      "label": "B · 自然连带型",
+      "segments": 13,
+      "image": "b/normalized.png",
+      "sha256": "5d67bce5c8c8f03e1f372a06d2180799a058df7f723025a5602644be0a0ed30f"
+    },
+    {
+      "id": "final",
+      "label": "最终推荐",
+      "segments": 13,
+      "image": "final/normalized.png",
+      "sha256": "5d67bce5c8c8f03e1f372a06d2180799a058df7f723025a5602644be0a0ed30f"
+    }
+  ]
+}

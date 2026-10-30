@@ -1,0 +1,31 @@
+{
+  "ni-thread-1-2": {
+    "decision": "B: delete; airborne move",
+    "reason": "Long reverse ascent doubles the left-falling stroke and leaves a thin wedge in 亻.",
+    "allowInk": false
+  },
+  "hao-thread-1-2": {
+    "decision": "B: delete; airborne move",
+    "reason": "A 39-unit return runs outside 女, encloses a false loop and reverses the principal diagonal.",
+    "allowInk": false
+  },
+  "ni-thread-3-4": {
+    "decision": "B: delete after C redraw trial was rejected",
+    "reason": "Even a shortened return creates a doubled triangular wedge under 尔. The same-scale browser comparison favors a clean lift.",
+    "allowInk": false
+  },
+  "hao-4-5": {
+    "decision": "A: retain and redraw the direct fold; zero added thread segments",
+    "reason": "The terminal downward tangent of 横撇 meets the downward entry of 竖钩 at the same point, inside 子. This avoids the detached upper fold in A without adding a return or enclosing a new region.",
+    "allowInk": true,
+    "conditions": {
+      "directionContinuous": true,
+      "exitLeadsToEntry": true,
+      "staysInComponent": true,
+      "noExtraLoop": true,
+      "recognizable": true,
+      "betterThanLift": true
+    },
+    "judgmentScope": "Codex comparison of actual A/B browser outlines and normal-speed movement; user aesthetic approval remains pending"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "shakespread.xingshu.experimental-manifest/1",
+  "version": "0.2.0-b-experimental",
+  "status": "experimental-not-qualified-library",
+  "sourceSHA256": "ee2e0237204058ec07123da0b11d270c3cd289bca1a738e9db9bc01133dcb55c",
+  "files": [
+    {
+      "character": "你",
+      "file": "ni.json",
+      "bytes": 74746,
+      "sha256": "92a85649cc1120c56d406115af09491e5a34c7a4286734f9656b66466c4ac778"
+    },
+    {
+      "character": "好",
+      "file": "hao.json",
+      "bytes": 88897,
+      "sha256": "015b8c8576e4c9ef9d2563c3fa37954d2d65800c525249be8a9fefb19208a0a7"
+    }
+  ]
+}

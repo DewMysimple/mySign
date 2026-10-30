@@ -1,0 +1,814 @@
+{
+  "schema": "shakespread.xingshu.authoring/1",
+  "version": "0.2.0-experimental",
+  "author": "Shakespread / Codex, independently authored vector artwork, 2026-10-30",
+  "license": "Arphic Public License",
+  "notice": "Round two: redrawn principal pen routes, distinct pressure envelopes and component proportions. HWD 2.0.1 supplies original logical order/structure only. No font outline copied; no qualified glyph changed. Experimental, user aesthetic approval pending.",
+  "coordinateSystem": "100-unit em; x right, y down; shared baseline 88",
+  "candidate": "B",
+  "intent": "Natural limited continuity: only the tangent-continuous 子 fold remains in contact. All three old return threads removed; 尔 uses an airborne move after visual comparison.",
+  "glyphs": {
+    "你": {
+      "advance": 100,
+      "baseline": 88,
+      "components": [
+        {
+          "name": "亻",
+          "logicalStrokes": [
+            1,
+            2
+          ],
+          "intent": "compact left shoulder, decisive hanging vertical; no return thread"
+        },
+        {
+          "name": "尔",
+          "logicalStrokes": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "intent": "open rising shoulder, left-biased central hook, outward balanced short strokes"
+        }
+      ],
+      "logicalStrokes": [
+        {
+          "id": 1,
+          "name": "撇",
+          "component": "亻",
+          "path": "M 31 12 C 30.5 19 25.6 28 21 34.5 C 16.7 40.7 12 45.8 8.5 48",
+          "width": [
+            [
+              0,
+              1.5
+            ],
+            [
+              0.08,
+              4.7
+            ],
+            [
+              0.3,
+              5.2
+            ],
+            [
+              0.64,
+              4.1
+            ],
+            [
+              0.84,
+              2.1
+            ],
+            [
+              1,
+              0.6
+            ]
+          ],
+          "group": "ni-1",
+          "pace": 0.0064,
+          "rhythm": [
+            [
+              0,
+              0
+            ],
+            [
+              0.18,
+              0.1
+            ],
+            [
+              0.64,
+              0.68
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "entry": "short oblique landing, light press",
+          "exit": "leftward release, clean airborne return"
+        },
+        {
+          "id": 2,
+          "name": "竖",
+          "component": "亻",
+          "path": "M 23.5 34 C 24.8 43 22.8 59 21.9 71 C 21.4 78 21.5 82 22.6 84",
+          "width": [
+            [
+              0,
+              2.4
+            ],
+            [
+              0.12,
+              4.6
+            ],
+            [
+              0.4,
+              4.9
+            ],
+            [
+              0.72,
+              4.6
+            ],
+            [
+              0.92,
+              3.8
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "group": "ni-2",
+          "pace": 0.0068,
+          "rhythm": [
+            [
+              0,
+              0
+            ],
+            [
+              0.18,
+              0.11
+            ],
+            [
+              0.75,
+              0.8
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "entry": "separate short down press",
+          "exit": "softly rounded hanging end, not a needle"
+        },
+        {
+          "id": 3,
+          "name": "撇",
+          "component": "尔",
+          "path": "M 61 11 C 60 18.5 53 27 47 33 C 44.8 35.2 42 37.5 40 38.7",
+          "width": [
+            [
+              0,
+              1.5
+            ],
+            [
+              0.12,
+              4.5
+            ],
+            [
+              0.4,
+              5
+            ],
+            [
+              0.73,
+              3.1
+            ],
+            [
+              0.9,
+              1.5
+            ],
+            [
+              1,
+              0.55
+            ]
+          ],
+          "group": "ni-3",
+          "pace": 0.0061,
+          "rhythm": [
+            [
+              0,
+              0
+            ],
+            [
+              0.22,
+              0.13
+            ],
+            [
+              0.7,
+              0.78
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "entry": "light angled landing",
+          "exit": "short falling point, lift before the shoulder"
+        },
+        {
+          "id": 4,
+          "name": "横钩",
+          "component": "尔",
+          "path": "M 49 30.4 C 58 30.1 72 23.5 81.8 24 C 87.2 24.3 87.4 26 83.8 30.8 C 82.3 33 80.4 35.3 77.8 36.4",
+          "width": [
+            [
+              0,
+              2.1
+            ],
+            [
+              0.16,
+              3.8
+            ],
+            [
+              0.45,
+              4.6
+            ],
+            [
+              0.65,
+              5.2
+            ],
+            [
+              0.78,
+              4.2
+            ],
+            [
+              0.9,
+              2.1
+            ],
+            [
+              1,
+              0.6
+            ]
+          ],
+          "group": "ni-4",
+          "pace": 0.0065,
+          "rhythm": [
+            [
+              0,
+              0
+            ],
+            [
+              0.38,
+              0.45
+            ],
+            [
+              0.61,
+              0.61
+            ],
+            [
+              0.76,
+              0.69
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "entry": "fresh rising shoulder after an airborne return; no doubled wedge",
+          "exit": "short inward hook, no extended looping"
+        },
+        {
+          "id": 5,
+          "name": "竖钩",
+          "component": "尔",
+          "path": "M 63.3 40 C 65 50.5 64.6 66.5 62.5 77 C 61.3 84 59.7 87.5 55.8 85.4 C 53.5 84.3 50.6 82.1 48.6 80.3",
+          "width": [
+            [
+              0,
+              2
+            ],
+            [
+              0.12,
+              4.6
+            ],
+            [
+              0.46,
+              5.1
+            ],
+            [
+              0.69,
+              5.2
+            ],
+            [
+              0.81,
+              5.6
+            ],
+            [
+              0.9,
+              3.4
+            ],
+            [
+              1,
+              0.65
+            ]
+          ],
+          "group": "ni-5",
+          "pace": 0.0069,
+          "rhythm": [
+            [
+              0,
+              0
+            ],
+            [
+              0.19,
+              0.12
+            ],
+            [
+              0.64,
+              0.64
+            ],
+            [
+              0.82,
+              0.79
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "entry": "slight press into a supple stem",
+          "exit": "weighted turn and short leftward hook"
+        },
+        {
+          "id": 6,
+          "name": "撇",
+          "component": "尔",
+          "path": "M 47.2 53 C 46.5 59.5 42.3 66 36.5 70",
+          "width": [
+            [
+              0,
+              1.8
+            ],
+            [
+              0.16,
+              3.9
+            ],
+            [
+              0.44,
+              4.5
+            ],
+            [
+              0.72,
+              3.2
+            ],
+            [
+              1,
+              0.6
+            ]
+          ],
+          "group": "ni-6",
+          "pace": 0.0056,
+          "rhythm": [
+            [
+              0,
+              0
+            ],
+            [
+              0.25,
+              0.17
+            ],
+            [
+              0.71,
+              0.8
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "entry": "compact touch rather than the long-pie entry",
+          "exit": "quick leftward point"
+        },
+        {
+          "id": 7,
+          "name": "点",
+          "component": "尔",
+          "path": "M 77 51.5 C 81 54 86 60.5 87.8 64.1 C 88.8 66.2 89.3 67.5 90.6 67.8",
+          "width": [
+            [
+              0,
+              1.2
+            ],
+            [
+              0.15,
+              3
+            ],
+            [
+              0.46,
+              4.4
+            ],
+            [
+              0.7,
+              4.8
+            ],
+            [
+              0.88,
+              3.7
+            ],
+            [
+              1,
+              1.5
+            ]
+          ],
+          "group": "ni-7",
+          "pace": 0.006,
+          "rhythm": [
+            [
+              0,
+              0
+            ],
+            [
+              0.24,
+              0.19
+            ],
+            [
+              0.72,
+              0.78
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "entry": "angled soft entry",
+          "exit": "full oblique dot, small rounded release"
+        }
+      ],
+      "connections": [],
+      "omittedLogicalStrokes": [],
+      "orderChanges": []
+    },
+    "好": {
+      "advance": 100,
+      "baseline": 88,
+      "components": [
+        {
+          "name": "女",
+          "logicalStrokes": [
+            1,
+            2,
+            3
+          ],
+          "intent": "clear three-stroke waist; rising tie crosses above a compact diagonal dot; no return loop"
+        },
+        {
+          "name": "子",
+          "logicalStrokes": [
+            4,
+            5,
+            6
+          ],
+          "intent": "slightly forward upper fold, weighted curved hook, lower rising crossbar answers 女"
+        }
+      ],
+      "logicalStrokes": [
+        {
+          "id": 1,
+          "name": "撇点",
+          "component": "女",
+          "path": "M 29.5 12 C 28 24 23.4 37.8 19.8 45.3 C 17.9 49.3 17.2 51.2 20.2 53 C 27.7 57.2 36 62.9 41.2 68",
+          "width": [
+            [
+              0,
+              1.9
+            ],
+            [
+              0.1,
+              4.7
+            ],
+            [
+              0.35,
+              4.9
+            ],
+            [
+              0.51,
+              4.1
+            ],
+            [
+              0.6,
+              5.4
+            ],
+            [
+              0.79,
+              4.5
+            ],
+            [
+              0.93,
+              2.8
+            ],
+            [
+              1,
+              1.4
+            ]
+          ],
+          "group": "hao-1",
+          "pace": 0.0068,
+          "rhythm": [
+            [
+              0,
+              0
+            ],
+            [
+              0.36,
+              0.37
+            ],
+            [
+              0.54,
+              0.51
+            ],
+            [
+              0.66,
+              0.6
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "entry": "small down press into the left-falling waist",
+          "exit": "short oblique dot ends cleanly, then lifts"
+        },
+        {
+          "id": 2,
+          "name": "撇",
+          "component": "女",
+          "path": "M 43.5 29 C 44.6 39.5 40.7 52.8 33 63 C 25.5 72.7 16.5 79 9.5 81",
+          "width": [
+            [
+              0,
+              2.6
+            ],
+            [
+              0.13,
+              5
+            ],
+            [
+              0.37,
+              5.5
+            ],
+            [
+              0.6,
+              4.7
+            ],
+            [
+              0.81,
+              3
+            ],
+            [
+              1,
+              0.6
+            ]
+          ],
+          "group": "hao-2",
+          "pace": 0.0064,
+          "rhythm": [
+            [
+              0,
+              0
+            ],
+            [
+              0.19,
+              0.11
+            ],
+            [
+              0.67,
+              0.75
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "entry": "fresh landing above the waist, no visible backtrack",
+          "exit": "long leftward release balances the first oblique dot"
+        },
+        {
+          "id": 3,
+          "name": "提",
+          "component": "女",
+          "path": "M 8.5 47 C 17.5 47.2 32 41.8 47.4 36.4",
+          "width": [
+            [
+              0,
+              2
+            ],
+            [
+              0.1,
+              4.2
+            ],
+            [
+              0.31,
+              4
+            ],
+            [
+              0.6,
+              3.1
+            ],
+            [
+              0.83,
+              1.9
+            ],
+            [
+              1,
+              0.6
+            ]
+          ],
+          "group": "hao-3",
+          "pace": 0.0058,
+          "rhythm": [
+            [
+              0,
+              0
+            ],
+            [
+              0.2,
+              0.12
+            ],
+            [
+              0.68,
+              0.74
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "entry": "brief lateral press",
+          "exit": "upward directional release toward 子, with an airborne gap"
+        },
+        {
+          "id": 4,
+          "name": "横撇",
+          "component": "子",
+          "path": "M 55 22.5 C 64 22.3 74.5 17.5 82 18 C 86 18.3 86.8 19.8 83.3 23.8 C 79.6 28.2 70.7 31.7 69.4 35.6",
+          "width": [
+            [
+              0,
+              2
+            ],
+            [
+              0.12,
+              4
+            ],
+            [
+              0.4,
+              4.5
+            ],
+            [
+              0.59,
+              4.9
+            ],
+            [
+              0.75,
+              3.6
+            ],
+            [
+              0.92,
+              1.9
+            ],
+            [
+              1,
+              1.9
+            ]
+          ],
+          "group": "hao-4-5",
+          "pace": 0.0064,
+          "rhythm": [
+            [
+              0,
+              0
+            ],
+            [
+              0.34,
+              0.39
+            ],
+            [
+              0.57,
+              0.57
+            ],
+            [
+              0.73,
+              0.67
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "entry": "soft rising shoulder differs from long crossbar",
+          "exit": "rounded folded entry into the same-point 子 stem"
+        },
+        {
+          "id": 5,
+          "name": "竖钩",
+          "component": "子",
+          "path": "M 69.4 35.6 C 68.7 37.7 72.4 43.3 73 51 C 74.4 65.2 72.2 82.5 66.4 85.8 C 62.6 88 57.2 84.2 54.2 81.5",
+          "width": [
+            [
+              0,
+              1.9
+            ],
+            [
+              0.12,
+              3.8
+            ],
+            [
+              0.38,
+              5
+            ],
+            [
+              0.65,
+              5.4
+            ],
+            [
+              0.79,
+              5.6
+            ],
+            [
+              0.9,
+              3.7
+            ],
+            [
+              1,
+              0.7
+            ]
+          ],
+          "group": "hao-4-5",
+          "pace": 0.007,
+          "rhythm": [
+            [
+              0,
+              0
+            ],
+            [
+              0.19,
+              0.12
+            ],
+            [
+              0.62,
+              0.6
+            ],
+            [
+              0.81,
+              0.77
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "entry": "same-point tangent continuation; no extra connector segment",
+          "exit": "rounded pressure turn then short leftward release"
+        },
+        {
+          "id": 6,
+          "name": "横",
+          "component": "子",
+          "path": "M 48.2 53.5 C 58.8 52.5 74.5 46.8 88 46 C 92 45.8 95.4 46.2 97 47",
+          "width": [
+            [
+              0,
+              2.1
+            ],
+            [
+              0.12,
+              4.2
+            ],
+            [
+              0.42,
+              4.7
+            ],
+            [
+              0.68,
+              4.4
+            ],
+            [
+              0.87,
+              3.8
+            ],
+            [
+              1,
+              1.8
+            ]
+          ],
+          "group": "hao-6",
+          "pace": 0.0061,
+          "rhythm": [
+            [
+              0,
+              0
+            ],
+            [
+              0.18,
+              0.1
+            ],
+            [
+              0.73,
+              0.79
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "entry": "light lower press answering the left rising tie",
+          "exit": "full, restrained exit; no long needle tail"
+        }
+      ],
+      "connections": [],
+      "omittedLogicalStrokes": [],
+      "orderChanges": []
+    }
+  },
+  "recommendedFrom": "B"
+}

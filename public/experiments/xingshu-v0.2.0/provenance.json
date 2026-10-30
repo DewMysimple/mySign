@@ -1,0 +1,45 @@
+{
+  "status": "experimental-not-qualified-library",
+  "version": "0.2.0-experimental",
+  "author": "Shakespread / Codex, independently authored vector artwork, 2026-10-30",
+  "license": "Arphic Public License",
+  "licenseFile": "ARPHICPL.TXT",
+  "source": "artwork.json",
+  "sourceSHA256": "1d7756fc999aa530c25f06c6a2a6907b6a607f6dcf8aa636a1bdb44b65dc4fe1",
+  "coordinateSystem": "100-unit em; x right, y down; shared baseline 88",
+  "authoringSource": "designs.mjs",
+  "authoringSHA256": "83aa8d10cecb40b7ccf70badb9136e827742d35608591cf88482f89cb5f1496a",
+  "modifications": "Round two: redrawn principal pen routes, distinct pressure envelopes and component proportions. HWD 2.0.1 supplies original logical order/structure only. No font outline copied; no qualified glyph changed. Experimental, user aesthetic approval pending.",
+  "structuralReferences": [
+    {
+      "character": "你",
+      "source": "Hanzi Writer Data",
+      "version": "npm:2.0.1",
+      "logicalStrokeHashes": [
+        "ea312248e48c489285e2191103229fe4b21949195c30890936f89d10aafa524d",
+        "811a113a0a65a56f7bb3ba162f2f70d68c84ef1dc713bdb070974648546ff7af",
+        "d99422593e5468bcf9cbfa8a0c2d7eeb12e2ee9350bf2c258ad1734822b8a649",
+        "1cfadd154aa46989de99f60b554df8ee6e4386b1b842d0c64c2e16ef8136e178",
+        "2d3649cd1d032559ac8b002fdf53ba7c4f5935bbfaef94037d0530f0b887a64d",
+        "d96977aa34ab3c62384e811a2df908175ed506d42ce280c7d7136920512cca8b",
+        "13eda4060114d5a4ba50d39330775b5894c12adfc55de072f4c2203703b77f45"
+      ]
+    },
+    {
+      "character": "好",
+      "source": "Hanzi Writer Data",
+      "version": "npm:2.0.1",
+      "logicalStrokeHashes": [
+        "f8a44e11e529771610cb678026e39c6225f1fa909fc074f7e2e95c92ff083ab6",
+        "c10adabdbcec61450648a5526de1d1df53039c5317939619cc1c88e4af1f8d82",
+        "8cf261c800cc5ef4338836534e85ab347c6d7aafa5cf68f046255bcd80de27fe",
+        "c03ada3f2e8b9f426bf4f94f9f93a6c13d7ba3c5b35e8f2e1cfd37e8796d2655",
+        "e5b8e9db9f791b51e11c6c60424c59ac133463c54b2aac985fe35eb9f2ad3923",
+        "2c7ad316cf1deca3ea1c68330e62b9a55b402caaa5827e8612874f4290fe13be"
+      ]
+    }
+  ],
+  "externalFontOutlinesUsed": false,
+  "visualApproval": "pending-user-aesthetic-review; no human calligraphy expert certification",
+  "qualifiedLibrary": "Unchanged 3500-glyph dataset. Only two separate prototypes are overlaid in this feature build."
+}

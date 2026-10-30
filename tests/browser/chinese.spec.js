@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
-const OUT = path.resolve('analysis/xingshu/browser');
+const OUT = path.resolve('analysis/xingshu-v2/browser');
 const inspect = (page) =>
   page.evaluate(() => window.__signatureDebug.inspect());
 const waitState = (page, state) =>

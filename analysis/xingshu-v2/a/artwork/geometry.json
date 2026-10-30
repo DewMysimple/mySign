@@ -1,0 +1,204 @@
+{
+  "version": "0.2.0-a-experimental",
+  "sourceSHA256": "51e0d96603f0dd6f298b9f43ca32c6b0181a513e354d7742461fd565e03f9805",
+  "logicalStrokes": 13,
+  "segments": 13,
+  "checks": "Build continuity and retained logical order only; browser shape/mask/synchrony tests are separate.",
+  "geometries": [
+    {
+      "character": "你",
+      "segmentId": "4f60-1",
+      "logicalStrokeIds": [
+        1
+      ],
+      "role": "logical-stroke",
+      "length": 43.4432,
+      "bounds": [
+        8.3259,
+        11.9282,
+        32.5728,
+        48.2744
+      ]
+    },
+    {
+      "character": "你",
+      "segmentId": "4f60-2",
+      "logicalStrokeIds": [
+        2
+      ],
+      "role": "logical-stroke",
+      "length": 50.2378,
+      "bounds": [
+        19.5483,
+        33.8331,
+        26.2315,
+        84.4589
+      ]
+    },
+    {
+      "character": "你",
+      "segmentId": "4f60-3",
+      "logicalStrokeIds": [
+        3
+      ],
+      "role": "logical-stroke",
+      "length": 36.7474,
+      "bounds": [
+        39.8816,
+        10.9031,
+        62.2053,
+        40.2482
+      ]
+    },
+    {
+      "character": "你",
+      "segmentId": "4f60-4",
+      "logicalStrokeIds": [
+        4
+      ],
+      "role": "logical-stroke",
+      "length": 52.3454,
+      "bounds": [
+        48.983,
+        21.5229,
+        88.3183,
+        36.6807
+      ]
+    },
+    {
+      "character": "你",
+      "segmentId": "4f60-5",
+      "logicalStrokeIds": [
+        5
+      ],
+      "role": "logical-stroke",
+      "length": 58.6913,
+      "bounds": [
+        48.3764,
+        39.8303,
+        66.2753,
+        88.5691
+      ]
+    },
+    {
+      "character": "你",
+      "segmentId": "4f60-6",
+      "logicalStrokeIds": [
+        6
+      ],
+      "role": "logical-stroke",
+      "length": 20.6863,
+      "bounds": [
+        36.3285,
+        52.8981,
+        48.5301,
+        70.2462
+      ]
+    },
+    {
+      "character": "你",
+      "segmentId": "4f60-7",
+      "logicalStrokeIds": [
+        7
+      ],
+      "role": "logical-stroke",
+      "length": 21.5428,
+      "bounds": [
+        76.6771,
+        50.9943,
+        90.8059,
+        68.5212
+      ]
+    },
+    {
+      "character": "好",
+      "segmentId": "597d-1",
+      "logicalStrokeIds": [
+        1
+      ],
+      "role": "logical-stroke",
+      "length": 69.5604,
+      "bounds": [
+        15.7854,
+        11.8897,
+        41.485,
+        69.0047
+      ]
+    },
+    {
+      "character": "好",
+      "segmentId": "597d-2",
+      "logicalStrokeIds": [
+        2
+      ],
+      "role": "logical-stroke",
+      "length": 65.9419,
+      "bounds": [
+        9.4039,
+        28.8801,
+        45.3582,
+        81.2842
+      ]
+    },
+    {
+      "character": "好",
+      "segmentId": "597d-3",
+      "logicalStrokeIds": [
+        3
+      ],
+      "role": "logical-stroke",
+      "length": 40.4825,
+      "bounds": [
+        8.4832,
+        36.1169,
+        47.4993,
+        48.8833
+      ]
+    },
+    {
+      "character": "好",
+      "segmentId": "597d-4",
+      "logicalStrokeIds": [
+        4
+      ],
+      "role": "logical-stroke",
+      "length": 56.4742,
+      "bounds": [
+        54.9735,
+        15.7041,
+        87.9073,
+        37.0317
+      ]
+    },
+    {
+      "character": "好",
+      "segmentId": "597d-5",
+      "logicalStrokeIds": [
+        5
+      ],
+      "role": "logical-stroke",
+      "length": 63.0447,
+      "bounds": [
+        53.9662,
+        38.4246,
+        75.5089,
+        88.8469
+      ]
+    },
+    {
+      "character": "好",
+      "segmentId": "597d-6",
+      "logicalStrokeIds": [
+        6
+      ],
+      "role": "logical-stroke",
+      "length": 49.6747,
+      "bounds": [
+        48.0984,
+        44.0401,
+        97.3814,
+        54.8021
+      ]
+    }
+  ]
+}
