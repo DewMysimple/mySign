@@ -1,0 +1,1696 @@
+{
+  "schema": "shakespread.xingshu.round2-acceptance/1",
+  "generatedAt": "2026-10-30T10:24:03.258Z",
+  "version": "1.2.0-prototype.1",
+  "branch": "feature/chinese-xingshu-prototype",
+  "sourceRevision": "87b79069d45e45d755d0f8035b4d25d60de8cae0",
+  "conclusion": "REDESIGN_AND_FUNCTIONAL_DELIVERY_COMPLETE_USER_AESTHETIC_REVIEW_PENDING",
+  "mainMerged": false,
+  "expandedCharacters": false,
+  "originalPrototypeRevision": "fed0c9600fabfe34ea8717cd4210dff13dce00ce",
+  "stableMainBaseline": "b110742bb492233b061f899f0708faf965181b52",
+  "protectedMain": [
+    "public/glyphs",
+    "data/glyphs",
+    "src/handwriting/generated/manifest.json",
+    "src/handwriting/glyphs.js",
+    "src/handwriting/signature.js",
+    "src/handwriting/inkRenderer.js",
+    "src/scene"
+  ],
+  "protectedPrevious": [
+    "analysis/xingshu",
+    "data/xingshu/v0.1.0",
+    "public/experiments/xingshu-v0.1.0",
+    "src/animation/SignatureController.js",
+    "src/handwriting/motionRhythm.js",
+    "src/handwriting/writingPlan.js",
+    "src/handwriting/GlyphLoader.js",
+    "src/components",
+    "src/App.jsx"
+  ],
+  "dependenciesUnchanged": true,
+  "prototypes": {
+    "characters": [
+      "你",
+      "好"
+    ],
+    "logicalStrokes": 13,
+    "visualActions": 12,
+    "inkSegments": 13,
+    "independentThreads": 0,
+    "retainedDirectContacts": 1,
+    "recommended": "B",
+    "status": "experimental-not-qualified-library"
+  },
+  "tests": {
+    "node": 23,
+    "chromium": 21,
+    "otherDesktop": 3,
+    "productionCases": 3,
+    "normalPerformanceCases": 9
+  },
+  "metrics": {
+    "normalNihaoSeconds": 5.513099999994039,
+    "maxP95FrameMs": 5.9000000059604645,
+    "maxSyncErrorCssPx": 0.0010620170554029623,
+    "maxPeakHeap": 35671943,
+    "maxEraseMs": 1314.300000011921,
+    "particles": {
+      "count": 3001,
+      "outside": 0,
+      "offCenterline": 2224
+    },
+    "inkAreaIncrease": 0.7283957518166573
+  },
+  "environment": {
+    "browser": "156.0.8078.48",
+    "node": "v24.16.0",
+    "os": "win32",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "dpr": 2
+    },
+    "rendering": "Desktop headless, SwiftShader allowed; normal speed, no time scaling"
+  },
+  "limits": {
+    "scope": "desktop-single-line",
+    "calibrationEvidence": "analysis/xingshu/performance/calibration.json",
+    "maxCharacters": 32,
+    "minScale": 0.5,
+    "maxStrokes": 140,
+    "maxSeconds": 40,
+    "rawBytes": 2097152,
+    "parsedBytes": 2097152
+  },
+  "artworkSHA256": "1d7756fc999aa530c25f06c6a2a6907b6a607f6dcf8aa636a1bdb44b65dc4fe1",
+  "gates": [
+    {
+      "id": "baseline",
+      "label": "真实浏览器冻结旧原型，三条牵丝与十三主体逐笔审查",
+      "pass": true,
+      "evidence": [
+        "prototype-1.2/capture.json",
+        "connection-review.md",
+        "redesign-audit.json"
+      ]
+    },
+    {
+      "id": "redesign",
+      "label": "十三中线和压力独立重画，主笔加按，女旁回绕删除",
+      "pass": true,
+      "evidence": [
+        "redesign-audit.json",
+        "final/artwork/strokes.png",
+        "visual-spec.md"
+      ]
+    },
+    {
+      "id": "logic",
+      "label": "保留13原逻辑笔画；12组、13段、零独立牵丝",
+      "pass": true,
+      "evidence": [
+        "browser/connections-shadow.json",
+        "unit-tests.tap"
+      ]
+    },
+    {
+      "id": "AB",
+      "label": "A/B各有全字、分解、中线叠图与真实正常速度录制",
+      "pass": true,
+      "evidence": [
+        "a/artwork/strokes.png",
+        "a/artwork/overlay.png",
+        "a/live.webm",
+        "b/artwork/strokes.png",
+        "b/artwork/overlay.png",
+        "b/live.webm",
+        "visual-review.md"
+      ]
+    },
+    {
+      "id": "comparison",
+      "label": "五版相同尺度蓝墨、纸色、画布与字距；5段实际视频解码",
+      "pass": true,
+      "evidence": [
+        "comparison.json",
+        "comparison.png",
+        "before-after.png",
+        "media-audit.json"
+      ]
+    },
+    {
+      "id": "contours",
+      "label": "13段×22进度，完整轮廓精确显现，中线采样均在轮廓内",
+      "pass": true,
+      "evidence": [
+        "quality/masks.json"
+      ]
+    },
+    {
+      "id": "synchrony",
+      "label": "真实中线端点与3D笔尖同步，唯一接触点连续、接触阴影一致",
+      "pass": true,
+      "evidence": [
+        "browser/connections-shadow.json"
+      ]
+    },
+    {
+      "id": "lifts",
+      "label": "11次真实抬笔；删除三线的位置墨迹不变，阴影抬起",
+      "pass": true,
+      "evidence": [
+        "browser/clean-lifts.json"
+      ]
+    },
+    {
+      "id": "particles",
+      "label": "粒子从完整区域采样、清除、归位并再次写英文",
+      "pass": true,
+      "evidence": [
+        "browser/prototype-particles.json",
+        "final/particles.png"
+      ]
+    },
+    {
+      "id": "models",
+      "label": "23项模型、来源、曲线压力、六条件连带、预算和缓存",
+      "pass": true,
+      "evidence": [
+        "unit-tests.tap"
+      ]
+    },
+    {
+      "id": "chromium",
+      "label": "Chromium完整交互21项通过",
+      "pass": true,
+      "evidence": [
+        "browser/chromium-results.json"
+      ]
+    },
+    {
+      "id": "desktop",
+      "label": "Edge、Firefox、WebKit关键回归3项通过",
+      "pass": true,
+      "evidence": [
+        "browser/desktop-browsers.json"
+      ]
+    },
+    {
+      "id": "recovery",
+      "label": "7类故障、自然接触处中断、卸载与恢复",
+      "pass": true,
+      "evidence": [
+        "browser/faults.json",
+        "browser/contact-fault.json",
+        "browser/unmount.json"
+      ]
+    },
+    {
+      "id": "performance",
+      "label": "正常速度9场景、13预算门禁与拒绝恢复",
+      "pass": true,
+      "evidence": [
+        "performance/calibration.json"
+      ]
+    },
+    {
+      "id": "english",
+      "label": "英文冻结签名蓝色墨迹像素差异0",
+      "pass": true,
+      "evidence": [
+        "english/english-ink-diff.json"
+      ]
+    },
+    {
+      "id": "production",
+      "label": "真实生产构建、三个桌面DPR、源码许可与本地加载",
+      "pass": true,
+      "evidence": [
+        "build-output.txt",
+        "production/production.json"
+      ]
+    },
+    {
+      "id": "protection",
+      "label": "原正式3500字/manifest/英文/渲染/3D/粒子/GSAP和旧证据保留",
+      "pass": true,
+      "evidence": [
+        "engineering-audit.md"
+      ]
+    },
+    {
+      "id": "review",
+      "label": "完整画面、单字、11关键帧、最终录制和可用审查页",
+      "pass": true,
+      "evidence": [
+        "final/capture.json",
+        "final/keyframes.png",
+        "final/live.webm",
+        "review-page-smoke.json",
+        "review.html"
+      ]
+    }
+  ],
+  "fingerprints": [
+    {
+      "path": ".gitattributes",
+      "sha256": "adc77554266a0a23b49e2f77e8e28aa5f294cb35d5453894ee22d03f9be2dda5"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "41d7015d36bbdc7bde1975a4f96a09d8adfea967a73eacc9c9bbecd03bc7ed7f"
+    },
+    {
+      "path": "README.md",
+      "sha256": "f31781b93a930589a1eb4e11e748b0e41e97f302a3ca395ca30e5e9a4348e4f9"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/artwork/geometry.json",
+      "sha256": "8bb1d94b65d214f64a4468b5205307fa14418fe89f74e95ee02eec93430e0853"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/artwork/nihao.png",
+      "sha256": "31c6f47c5ec7aae326064aba3cc4f617fa45459c5d964d9fc219ba32b0825a4d"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/artwork/nihao.svg",
+      "sha256": "69f8185a8eb50c268c9bbda47ca2898d36e72bc365c652d6cc51504d3226b04d"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/artwork/overlay.png",
+      "sha256": "3320b088c4e766a3d0adb89fe0dbd67814d6ff113f5b4f8aeb41b75dea9a05c2"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/artwork/overlay.svg",
+      "sha256": "ec27b8341be5da4814a1bd962f41869d0cc513b71ce8114a455e686837e1c056"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/artwork/strokes.png",
+      "sha256": "ef505d8e94e09aec01050209ee7a35e113ce10d5c503b289caf325c85412541c"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/artwork/strokes.svg",
+      "sha256": "410156e312b107dfae40d7794062084e2157c09a80772dc8c1f2d658083b217e"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/capture.json",
+      "sha256": "e42a224e8a54922a9642d3251df94027ad060d1ae6aceaf96bf5e035bc018cf1"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/frame-01.png",
+      "sha256": "871c8e87407cb314f101e05e2de10359e51ae23ec2325dd9d9d40f9f2a8cc5e7"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/frame-02.png",
+      "sha256": "a1f12e1ef7629b582c5a41dae9bd3ecc113ae8e058ef99997c24bd9bc4ddf831"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/frame-03.png",
+      "sha256": "f7aa9aafcf800679556a01edd26052f8c39cf2c87d86d8253fda2648b0d51f03"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/frame-04.png",
+      "sha256": "8c24ae17695aec3fa96a4691f553d5ee7ce87b37eb95741fe741bcb9e24ef16a"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/frame-05.png",
+      "sha256": "14978d25cb020d01a8e9ed936c072fa58fdb85d57f2a8a44266988e37ce618fc"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/frame-06.png",
+      "sha256": "0e2501b1601393819e46f015c039237a4edab640ac6a581b36ce8d442f2ed824"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/frame-07.png",
+      "sha256": "8b6cf9bb5b1961846a38cd309b9dee93a6cb260cdb1744a622234f56a9e8ed79"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/frame-08.png",
+      "sha256": "3af55f64e7a2127fa3d5a41c6e1a868db74ada474911e31f794286875419d466"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/frame-09.png",
+      "sha256": "ec637226c93430c1fc573428b19dd4c027953a1f9e4d17b2211fe832925fa99f"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/frame-10.png",
+      "sha256": "3d964be02168c066fc0e86c8151e12d7184bf013da47d33633b80657f4c021be"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/frame-11.png",
+      "sha256": "e55b3224eef9f4c08574f132031517cc92edf03a66f063e0e7df411f171799db"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/hao-full.png",
+      "sha256": "f1aab157700da43aa679f260f1bce06bb1c1cd0e7af191174a8c65aec6f29790"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/hao-ink-only.png",
+      "sha256": "8cfcb3bab347bad73f18a1c3170a2042c3c52ad3210b6470b44277dc19a94b08"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/hao.svg",
+      "sha256": "2b2b9049a1de19e40cba658805a8986d257fcfa82ecac34461dbf91150f4ccf3"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/live.webm",
+      "sha256": "18053d7b7933d5aaf114e5e5eb5e95ed1295aba8f0bd25bd65ec4f171a344b55"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/ni-full.png",
+      "sha256": "3bcab9cf2f33d8be15295671083f054ef8960f4d79637d2fc1f09a5c1635e820"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/ni-ink-only.png",
+      "sha256": "bf2d89acbb256561e047afffa5423182d33547872d771c9d1263e0e3c85a3e0f"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/ni.svg",
+      "sha256": "09ce64674c20dfa74c1a4b4540c8dcc6cbfc26c5933ba55df585a93662cca634"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/nihao-full.png",
+      "sha256": "7119d96a62cdeee61638a8eb2785d494335fa5b846870651f6a4773276ce92f3"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/nihao-ink-only.png",
+      "sha256": "20c681e59c69b1cb92efaede31029300677993426fb2b763616ea49796a388c6"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/nihao.svg",
+      "sha256": "ea2ae419207b73fc42d9ed50bd891563bd51541c2fdcaff4c04ebd119206b685"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/normalized.png",
+      "sha256": "4785bf20dd39abe33aca4fbf03f0971566f2837b8fa95ad01885fd02da5a64dd"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/normalized.svg",
+      "sha256": "c152c91425ac684d1bd7b6fed2bd455f1621297e98bb002dfa0ba47335953050"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/particles.png",
+      "sha256": "46ebcf648c53f2a54db954a2b9b45660d5e8d06af998ea98d1f701cbc686d9ca"
+    },
+    {
+      "path": "analysis/xingshu-v2/a/video-frame.png",
+      "sha256": "03488127bf76e913a75a5b5aec2065c8bee212ae9c115fd2baf19ebbff8c10c5"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/artwork/geometry.json",
+      "sha256": "0c72d7a778210c50ea9737a91df004c395205431912a106d3f01152f95839e41"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/artwork/nihao.png",
+      "sha256": "2ac10320c20200291bb81ede83e4b3633d31ae728e8d4686f595096406598b77"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/artwork/nihao.svg",
+      "sha256": "53c6454edca6ae023394ac09484ec3490c03201e4f456d5bd63de6a12969785b"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/artwork/overlay.png",
+      "sha256": "ba39e7b2530a54524317ab7deb200b0fc8c90411524f9e23ef07f1b0ef76117a"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/artwork/overlay.svg",
+      "sha256": "900a614cd9527fadc4bc8159835071347e90f8c82f13f985e2bfdf29da414fd6"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/artwork/strokes.png",
+      "sha256": "856f1e4eb4976b85dcef3f29294740eaf29b86b885d756f6e2e28128b6fbf860"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/artwork/strokes.svg",
+      "sha256": "0f59aa04d5a074d4d286c9076056a1452b2ab6b9adacbe63b56084dbae2d7902"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/capture.json",
+      "sha256": "edb71756420e57f4977d2ae426e8ce17df8ab4fe6f08d1223d561a4655b017ef"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/frame-01.png",
+      "sha256": "17853cbe85b9f69b0c027a7136d641d958990b57aa6704c2feeb77339756b55e"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/frame-02.png",
+      "sha256": "0fa274958432b87b3e4fdfe2685ff8fe77ad0952cd9db3847456d08ab392a08a"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/frame-03.png",
+      "sha256": "43d0d820bf3531e5d965f078e2cd2ed4a8d9cc65210f16e6f33361f3d9e7f72f"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/frame-04.png",
+      "sha256": "f9a989eb27d5127dcaaf849abd7dc71095d559e7a8e42635ae08727820bd7e3f"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/frame-05.png",
+      "sha256": "5a2ec586d8e23e212822e3324197ad6f2c914058c7216f1c530875e835bff861"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/frame-06.png",
+      "sha256": "74fe66e5e39fed0cf769a03b358a633647ac254b5b3f6992357dcf940d0edfa5"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/frame-07.png",
+      "sha256": "212e721415ba31570799c791dc4cfa2d98fd7a1c85027d114635a94de4f9c22b"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/frame-08.png",
+      "sha256": "7ca0d37b095101664f7aa832b2234440c84d4fb2690e21200b3c78232597c0b5"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/frame-09.png",
+      "sha256": "53925314332fcaef9e72434bbbebd5467a0090928893f68f6639f233f16c2796"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/frame-10.png",
+      "sha256": "e97415f368711ba9be81fcfe5e484262781df72ad293e21a86436891ee8dd9e0"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/frame-11.png",
+      "sha256": "d70af88fbdb621772d78214280dd60ed7237333436c0dbbf9db6364520320eda"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/hao-full.png",
+      "sha256": "c16fade539ceffd8009e6adde9a9d4d0fc7c0e507a83abed4dbf12e935ac1e25"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/hao-ink-only.png",
+      "sha256": "e25ba3681cfbccae4c886ba9d1f636b18618deef519f1967d21fd2586a4d7788"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/hao.svg",
+      "sha256": "c6664166e8e25aca16a7e585feaa1bba12e61d27a3549c60bc6e0d55fd8d4ebe"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/live.webm",
+      "sha256": "fcf732fbb0eb6be8689f7cbc509de7ec624d8eeae784706de9307d0ad94d99ba"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/ni-full.png",
+      "sha256": "14422a2f86d28eb49f137190c4584ffe41dd7690f9964a36ff4acde06d8349fe"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/ni-ink-only.png",
+      "sha256": "7d4004a11c8b38e0f085f786449b7ede1c5132672f05ff89f06cd4cc952521d2"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/ni.svg",
+      "sha256": "ce60edcca9c8d2500cbb0c53ad51a6e720adaff740285b2d275333bfcb5ea698"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/nihao-full.png",
+      "sha256": "ebfdaedb89f66566a5cf50ff542372f55fedeecead37e5459100de806cbaf77d"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/nihao-ink-only.png",
+      "sha256": "5ac0fa14aef283d81264cc3825cfe6a36b77e3c78c8348c59de27fcc2421fff5"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/nihao.svg",
+      "sha256": "9434e97911d8ae27e4499e1d7217319d5140d2151ce3d638b94b39cc8b266c8d"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/normalized.png",
+      "sha256": "5d67bce5c8c8f03e1f372a06d2180799a058df7f723025a5602644be0a0ed30f"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/normalized.svg",
+      "sha256": "2f640053b07b036f6203e9940e9a931d88b42afe68448981f40cb70645b40a4e"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/particles.png",
+      "sha256": "7266333a53a256cb4cdb641c5347da456777216b9ff205267e74d5c2bc6f1851"
+    },
+    {
+      "path": "analysis/xingshu-v2/b/video-frame.png",
+      "sha256": "4c249ed6370670da4dc2bd1e14119d2041b0a4ef629e0befdf2042be79436e2e"
+    },
+    {
+      "path": "analysis/xingshu-v2/before-after.png",
+      "sha256": "92ad401d3c6d9664102766fcbc004b34d7c0ee94749ca6a947f94a82b64f5ef9"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/adaptive-quality.json",
+      "sha256": "55134712df094a0da7216725122389275f52b7a2e7a5b5766f504e30c23a82c9"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/cache-cycles.json",
+      "sha256": "2edd2e09f842caff7c12d5b2c2fc981d58b589a1502e29a04260ce7440b42590"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/chromium-results.json",
+      "sha256": "dccb5814910ee6ca6372340b2b6fa52a3e3a84e3aca16e448286c4d0d51ef719"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/clean-lifts.json",
+      "sha256": "eaf5569ba33a5d4531f8fe137880c6969457e8e0ea4e36510c9340aab0eeac0f"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/connections-shadow.json",
+      "sha256": "63cfc322886926d231db25ede56b1f08df0a7a1c8a919060ce39a8504828ef9d"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/contact-fault.json",
+      "sha256": "5a2761d46b73ef556b82ca048b8f82c6420776a248bba54f446f6f934194e000"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/desktop-browsers.json",
+      "sha256": "05d2045116d803fcac8b8a6af4848a6334a4d252a6c00e5ced796aac1f6372cc"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/edge-result.json",
+      "sha256": "0ca5f599acbe0593f5b99d6e0ed216d839e64c2f110fa6795f145a9fc38406cd"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/edge-written.png",
+      "sha256": "5475cbe27d8682ff586bf8c400329290b67a51d0586741601c3eb1fc59e97300"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/fault-erase.json",
+      "sha256": "291f9009891f56f9ff28b91877e41b2a7219e2faf650f13377fdaf2d4a64404d"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/fault-lift.json",
+      "sha256": "c2ee382f4fdb53a46407a5db70034fd11afdfaac2aaa08231f8cc9377bbc33b1"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/fault-loading.json",
+      "sha256": "4db74f773d717637dd4fa60185168ae377defcc63a2ba241a30d2f2d9337ed44"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/fault-particle-draw.json",
+      "sha256": "5239d7a771192233834b9c32aad8932e69a69abb8915fe7a7fa5ec528bcb8d15"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/fault-particles.json",
+      "sha256": "6cc7b4d12f498f0b806236e74e5d9be6b3b8a6748b33ed0a48da883cf7b2777e"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/fault-preflight.json",
+      "sha256": "dd067970a89bebb584c9ee348916ad12434f5f040cfcd8dd2d6baf617fde59fe"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/fault-stroke.json",
+      "sha256": "f886ce13f3740f0762bc1f750d64611158cf4a3876bfadcaacc6554142838af7"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/faults.json",
+      "sha256": "1a7a139c773c76bb508325719d68be1730e6dca44c1fed70de2693cf08df75d0"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/firefox-result.json",
+      "sha256": "c50ebfc8a915e0831b39d1539a8a470db464644d695223eec35a16222559ac7d"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/firefox-written.png",
+      "sha256": "c2571e089ff677c7cc7c8a3c37424f6b2465c79c64d5b84edf5b4a824f5b4d24"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/hao-test.json",
+      "sha256": "ffc86bd776e0381831c8cc5da27f73f3546b058749f0ae3db799d5b3be50539d"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/mixed-particles.png",
+      "sha256": "d606977133d3cdfa4915215ef200c2597b8a1d87ba2329114950add3ec2e27c5"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/mixed-writing.png",
+      "sha256": "7431e109c512ac0bbe2bc5320c3252049400eae4dad10db6d89f2b71131ca665"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/mixed-written.png",
+      "sha256": "0b28c55a32dbc04b32db0a3443525aad748f66b8848674451e50eec903e26af2"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/motion-during-erase.json",
+      "sha256": "01f311994f97f0a115d713b6ea36408050294dcdd28effc2051eacaffffa0197"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/ni-test.json",
+      "sha256": "6228225a0d4a6edbd5e2ae7c6005b5938666e51788ff57ace1bad5362628ed66"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/particle-order.json",
+      "sha256": "8803579c4a02cfa65dd0684de7cbdcb725de0958f0449526de738516cf6e0e85"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/prototype-motion-resize.json",
+      "sha256": "c4c18606f11789f294fb3d1b47f9d0a06bd86e73dfc5980568982dedcc189aaa"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/prototype-particles.json",
+      "sha256": "1ff74fee01714badc2371f90f2786efcfc1043255d78da3343c7dba084d0db1a"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/prototype-particles.png",
+      "sha256": "f68a1a3a63c2ec64a2960c5938c32d11395ba9d92f6bff683bdcbc04030993d2"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/resize-motion.json",
+      "sha256": "18ba7ec10d801bb089da74c13b856b5a69a7e15d019aa3c84cb4e6daa9a0935f"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/single-line-resize.png",
+      "sha256": "f6bf1a8cbc8a62666285b6e9d1ee9727470d0330b949fcbf95fbe18e5f05ed10"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/single-line-spaces.png",
+      "sha256": "f3d2cb04255b2c55b903a59c8a64159835e689e30847714b58a2eac4bc25cc63"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/synchronization.json",
+      "sha256": "6699c062240a2ee14ab7d3371dcc10c229cedc12b0103607674f34cd55b00fe1"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/unmount.json",
+      "sha256": "3521c079e58f0d2bc9e10e13ea7f71aef9ab07f26a8dd885184d31447f5a2995"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/webkit-result.json",
+      "sha256": "e91318db70e7900416d960d16d50a24e411a3335265c26da9f7d46d3fd6537e5"
+    },
+    {
+      "path": "analysis/xingshu-v2/browser/webkit-written.png",
+      "sha256": "042cbbcfac8c4db60327c5b6cc7e1aed4c9746f298c5f93b1d69ccef414eb5e7"
+    },
+    {
+      "path": "analysis/xingshu-v2/build-output.txt",
+      "sha256": "c1afba5527760b5ecd69d80051705e00662b1b4696678d2d215610eb3f651634"
+    },
+    {
+      "path": "analysis/xingshu-v2/comparison.json",
+      "sha256": "bfef1a533a362bad08530309a498278aa7a9fcc8e9ce12e0f89fbf3771f6161d"
+    },
+    {
+      "path": "analysis/xingshu-v2/comparison.png",
+      "sha256": "a6e14a14d2875a4e20f0e66d914fe5bd8350aa43bea0e4d4fcd9e7bb24294cf3"
+    },
+    {
+      "path": "analysis/xingshu-v2/connection-review.md",
+      "sha256": "6543a43e0c11dab9bc547c776ff2f894a848ab8e09cfd071d2781cd82feed92f"
+    },
+    {
+      "path": "analysis/xingshu-v2/connections.png",
+      "sha256": "ce78502452f76710e5a0f6f934a84677cc9d8b0f224e7a32e04254d9e27c632e"
+    },
+    {
+      "path": "analysis/xingshu-v2/connections.svg",
+      "sha256": "83d697d282a1f8a7106fd748375e33105c65945c21965247ac208b530bd3b0e8"
+    },
+    {
+      "path": "analysis/xingshu-v2/engineering-audit.md",
+      "sha256": "ae50f863b75589a67e98196904dedfb34611fa05822e298b39c7c477a0c25f4f"
+    },
+    {
+      "path": "analysis/xingshu-v2/english/desktop-amy.png",
+      "sha256": "37482f91108d3e16ba2130da42d531fd9c3c3fc92423e36c64c1418a77a6979e"
+    },
+    {
+      "path": "analysis/xingshu-v2/english/desktop-initial.png",
+      "sha256": "00a67a0858e1e614abad9b2faa716dd4b8036ca532a30098c66bba119bde33b7"
+    },
+    {
+      "path": "analysis/xingshu-v2/english/desktop-particles.png",
+      "sha256": "d3050ddb09c0556310262510f13a51dcfeeff1d8c3286fc9fd344b384a7052cb"
+    },
+    {
+      "path": "analysis/xingshu-v2/english/desktop-writing.png",
+      "sha256": "772ff729eb874454966f6c984bc5cf52b5161cddc824fc17ca454b4deeb0f466"
+    },
+    {
+      "path": "analysis/xingshu-v2/english/desktop-written.png",
+      "sha256": "e086bea264dad28057c40927a80258f42c13e822c135c78c30defed15f4aa604"
+    },
+    {
+      "path": "analysis/xingshu-v2/english/english-ink-diff.json",
+      "sha256": "ff13455e2260615d26753eebaebbc187df33739c26d693e2c11639ac66078985"
+    },
+    {
+      "path": "analysis/xingshu-v2/english/english-ink-diff.png",
+      "sha256": "27745158ad3e01ff789320cb3c66ed3916c4a5c75be6b20e85b7622d248cbcb8"
+    },
+    {
+      "path": "analysis/xingshu-v2/english/long-name.png",
+      "sha256": "8d639986932750653605eea6cb13f4ad8c869baf28f5531a50019af37b57136c"
+    },
+    {
+      "path": "analysis/xingshu-v2/english/mobile-initial.png",
+      "sha256": "673399a0f86d95ff8b0e6d24ac6c3101f6402f62738b687b14b871dfd1a6dd0b"
+    },
+    {
+      "path": "analysis/xingshu-v2/english/mobile-written.png",
+      "sha256": "74fa4c1e6a14e3f74fb05660dbcf76d367567bf0c3e2c7236897218f83c69658"
+    },
+    {
+      "path": "analysis/xingshu-v2/english/responsive.json",
+      "sha256": "21d262d82946a9bf0c9ce930c3ef16bf6ec57781578158f2fcfdb1cf85b44af5"
+    },
+    {
+      "path": "analysis/xingshu-v2/english/synchronization.json",
+      "sha256": "1c2b08398fa70f36d124789a2591da6f94b65ddceb66b687c89c2631e95041ca"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/artwork/geometry.json",
+      "sha256": "b6cb692a6ed14bd47e228ba11125c1bb5e1a40aa9a6d41bcea297bfdfdad968a"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/artwork/nihao.png",
+      "sha256": "2ac10320c20200291bb81ede83e4b3633d31ae728e8d4686f595096406598b77"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/artwork/nihao.svg",
+      "sha256": "53c6454edca6ae023394ac09484ec3490c03201e4f456d5bd63de6a12969785b"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/artwork/overlay.png",
+      "sha256": "ba39e7b2530a54524317ab7deb200b0fc8c90411524f9e23ef07f1b0ef76117a"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/artwork/overlay.svg",
+      "sha256": "900a614cd9527fadc4bc8159835071347e90f8c82f13f985e2bfdf29da414fd6"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/artwork/strokes.png",
+      "sha256": "856f1e4eb4976b85dcef3f29294740eaf29b86b885d756f6e2e28128b6fbf860"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/artwork/strokes.svg",
+      "sha256": "0f59aa04d5a074d4d286c9076056a1452b2ab6b9adacbe63b56084dbae2d7902"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/capture.json",
+      "sha256": "2a8c3fba1bc0692813639517c402e47189cec3bc8b928a974725a94efc2f6522"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/frame-01.png",
+      "sha256": "0d807812fa797f617db5e058ebca66d9c2ef554ebaea3b0514fcb36f0b66a207"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/frame-02.png",
+      "sha256": "c9c45c91edaf21857da5e6f1c53fa36109a9bf101b8e98dfd1e12b40e811e294"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/frame-03.png",
+      "sha256": "ab8268347b3e75f781d2637f82b60cde1033f99d5f326cfd76fbc711623f43db"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/frame-04.png",
+      "sha256": "22fc6880948b83e3d9027a704b1bdbe0f900e3d5716092f96243403a98aaede7"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/frame-05.png",
+      "sha256": "d94172db46295344711daf533364c6bbcc1f45067d826f3b9b564abe6b36caa8"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/frame-06.png",
+      "sha256": "84e31c6225de1327c8d43f141757d10f08beca94dcc97ded731597074ac10076"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/frame-07.png",
+      "sha256": "bb9c6d00330c2e42b4b74e589c36a89148a7cf1eec3b97b0389fc49a9d214dbe"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/frame-08.png",
+      "sha256": "7c0dbd9ccbbedb02d3159effdadaf777b2d2333dc971b959f2144be868981ee9"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/frame-09.png",
+      "sha256": "7e7c59241c518f7595cf024c53f7a992a30ca7cd24e5fdc9281d2be73f8f7d76"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/frame-10.png",
+      "sha256": "c19d1a0d09b81644e6e4b8a31f2ae7a6d3563f9a15efaf4c00e54192cd371408"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/frame-11.png",
+      "sha256": "4cd27ada98b7eaee7f957662cfa1d352af4073c44bdd5ba1cb3fcd767a3027c9"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/hao-full.png",
+      "sha256": "714a8c2e0b00a1135ba27031addf746b5f2d6250a96a3fe44a6a02a642d65989"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/hao-ink-only.png",
+      "sha256": "7a59d3a001cc21129faab299847be3e3dad35e5475d45f44d496322a1537f597"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/hao.svg",
+      "sha256": "c6664166e8e25aca16a7e585feaa1bba12e61d27a3549c60bc6e0d55fd8d4ebe"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/keyframes.png",
+      "sha256": "4912c5acf2318737c92031bffcabdd67843b6e60e755901072dbc5db8bbdf703"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/live.webm",
+      "sha256": "088c44e8f33c08a63f5f20bdb7e75b2a86d83e1a06761ebc78b8c812f422d767"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/ni-full.png",
+      "sha256": "f68f7b3cce98e7764d546d063ea41b68e4298db8b02425ed8911406947efcf5b"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/ni-ink-only.png",
+      "sha256": "5ecd334f8286f19225bc58acd4c860ebc5297bd107322e49a05925a2365abf8d"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/ni.svg",
+      "sha256": "ce60edcca9c8d2500cbb0c53ad51a6e720adaff740285b2d275333bfcb5ea698"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/nihao-full.png",
+      "sha256": "4237aba7f0219a6f416e4b7f4922570a2ab9a2263c6a9f14e19f11adcd29637a"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/nihao-ink-only.png",
+      "sha256": "5ac0fa14aef283d81264cc3825cfe6a36b77e3c78c8348c59de27fcc2421fff5"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/nihao.svg",
+      "sha256": "9434e97911d8ae27e4499e1d7217319d5140d2151ce3d638b94b39cc8b266c8d"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/normalized.png",
+      "sha256": "5d67bce5c8c8f03e1f372a06d2180799a058df7f723025a5602644be0a0ed30f"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/normalized.svg",
+      "sha256": "ab3057928132485eef0c60f3888cbe7b56c722aabe5488adf9efd040412f044a"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/particles.png",
+      "sha256": "8557504ded59e1f736648e7a4de0a55dccd1d7776a3f69e3a5f17abe9fb0ef76"
+    },
+    {
+      "path": "analysis/xingshu-v2/final/video-frame.png",
+      "sha256": "4601f03c105697aac8c5059d3fbe503646e1e42b9df823b25ecd56d834ee1784"
+    },
+    {
+      "path": "analysis/xingshu-v2/media-audit.json",
+      "sha256": "8d68cef8ac1b6b8663dc766a78ff956aa69c91c91a91c53f6d694e871acccaaa"
+    },
+    {
+      "path": "analysis/xingshu-v2/performance/140-segment-boundary.png",
+      "sha256": "06a0cbe632b66e953d8f6b1092bc1e361d7ed5c50e4656b11510ed915afccd2f"
+    },
+    {
+      "path": "analysis/xingshu-v2/performance/32-character-boundary.png",
+      "sha256": "4f5ad4c9f7bb61b9a0fbd6be7b71f80164cba690281895812c394a5a2a0cf412"
+    },
+    {
+      "path": "analysis/xingshu-v2/performance/calibration.json",
+      "sha256": "477eb8a7e8d35bac4f798fb93feba584ba4080b523718bf0c4a6f21948f51088"
+    },
+    {
+      "path": "analysis/xingshu-v2/performance/english.png",
+      "sha256": "be76fc5e5ede034231a43946dc4ba52042bb9cc8089049d9c3a304ca7cc4005c"
+    },
+    {
+      "path": "analysis/xingshu-v2/performance/hao.png",
+      "sha256": "101ab0ef933e252a28a593ec743a07239c388e0a1b2b46960dd0a926ce10ca89"
+    },
+    {
+      "path": "analysis/xingshu-v2/performance/mixed.png",
+      "sha256": "4e3f659d6ed5b94533afbee8e0b83db7f72df61bc5708093acc958758fb369b2"
+    },
+    {
+      "path": "analysis/xingshu-v2/performance/near-duration-floor.png",
+      "sha256": "d609046e5b0696d13b0306003271bffdb877f535948d90bc378b2ae42d2933a7"
+    },
+    {
+      "path": "analysis/xingshu-v2/performance/ni.png",
+      "sha256": "65ed76f904bbd9ee8b792a0858bda1f0ee78ecc35c798253dcd05519b5f1d287"
+    },
+    {
+      "path": "analysis/xingshu-v2/performance/nihao.png",
+      "sha256": "f1aebc3373a1cd2632119b993fef95f111440f0f665d89ca516beece5b0dc4ac"
+    },
+    {
+      "path": "analysis/xingshu-v2/performance/readability-floor.png",
+      "sha256": "f04a94176ed1a99b7164402f72bb9df8fc9447dd7769fc418ac49e25ddbc73f5"
+    },
+    {
+      "path": "analysis/xingshu-v2/production/desktop-dpr-1.png",
+      "sha256": "cbffc0616cb241f3e1c8a386fe65231d7c89ce07fbc9b1ccd23feef9b1c6246d"
+    },
+    {
+      "path": "analysis/xingshu-v2/production/desktop-dpr-2.png",
+      "sha256": "a1e15e0404234fbae87c5b11d4e37897ee4cefa9f55bbff31e7a9e4bcba33ee0"
+    },
+    {
+      "path": "analysis/xingshu-v2/production/desktop-dpr-3.png",
+      "sha256": "ffcea277f846d94396fd36b7f845bd1ead41265d585512f05037587b1edc36c6"
+    },
+    {
+      "path": "analysis/xingshu-v2/production/particles.png",
+      "sha256": "b0026a50f2d7196749f4ce64ede0078237be2e917942206ee6ecd778ee53a0ad"
+    },
+    {
+      "path": "analysis/xingshu-v2/production/production.json",
+      "sha256": "87c0d0455f294668b7e0f76074e515e3f47718513db175f44264f6c9dee4c043"
+    },
+    {
+      "path": "analysis/xingshu-v2/production/writing.png",
+      "sha256": "d4fdc2002a0b7530e23a1e5b3359ea004811189fcf63f4e3c775a3037d333666"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/capture.json",
+      "sha256": "a7e6042a9ad88cba5ee4c3ee456f0b024cfe9972363db1f4b532fd726482d45a"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/frame-01.png",
+      "sha256": "7c177986ea402de9653093bfe3f01bc2c4072fa8ada20926069a717323f43074"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/frame-02.png",
+      "sha256": "6ba5b4f94384e2e201ecce80ef772a62578a2124dbc389d4f2d3d6bc3b773d84"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/frame-03.png",
+      "sha256": "fc2a200bb47ad018ec34e6096ec927abc8ac8cd24a931fd4b66f7e42b6f55f9b"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/frame-04.png",
+      "sha256": "b63a427637907730fbbb348dc56591a42cc0eb3edb06439032a94a975e5c13bc"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/frame-05.png",
+      "sha256": "4f6d9951dd2217924903b018ab04efb0c3ab7af69d85bff5682d0f0e8c4c4477"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/frame-06.png",
+      "sha256": "4735042f277a2e30a2766bcc424587db47f8e7dcb82049f87dfbf0e21b642783"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/frame-07.png",
+      "sha256": "00984e205977224992d4d6552e034274673e25e66166c58fe94fd81d2dd2b83c"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/frame-08.png",
+      "sha256": "6518c027709f079943c06831741d8315f9b6ce91bfa1f3c917965e1845f1c7db"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/frame-09.png",
+      "sha256": "226ad7ca2cb581573c25a97cd26af5d3809fb9703445304c0d289dc66f37e6e4"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/frame-10.png",
+      "sha256": "39d0c9b67c4707786cc405a3444895c70124a570f69aad40e54e9351d7a68e52"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/frame-11.png",
+      "sha256": "934594bb820c06b3c2a41c010196b928352ae77179cffb056864da31cd520120"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/hao-full.png",
+      "sha256": "c283d494413c2c96b8b573c065ab83c1e06fe9e7a4fcf3b900d2c2e6e57b9c94"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/hao-ink-only.png",
+      "sha256": "626d39ce5028015cf57d1068728cd51314e7634c0344b7ca6b50ef4878291f52"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/hao.svg",
+      "sha256": "768260abf1e05fc4a1f80089979bcffc2c014e6a1f4708cd8286dfff211d31c3"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/live.webm",
+      "sha256": "c9a5ac7d2b15c28e57a3ef5009daef97feed6816febe96cfcad889d8bd4df5cf"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/ni-full.png",
+      "sha256": "3a79a08a548ca393bb8842159fb3a5026c230ca6cdbc0a02c223f9ffc10de6f6"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/ni-ink-only.png",
+      "sha256": "45ab6072e3ab5421429e4d58211885b9deae23f43742c455f90980676f12a2fb"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/ni.svg",
+      "sha256": "58049d1dfa76cd7a4dc59d9d1c4a43b2d0f39256a4266d62585fd40b27a17ace"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/nihao-full.png",
+      "sha256": "934594bb820c06b3c2a41c010196b928352ae77179cffb056864da31cd520120"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/nihao-ink-only.png",
+      "sha256": "697c6903c3e1d737bc16a6f31661a0547c066d9bf090d1c8cb0e8b2f9f2a8619"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/nihao.svg",
+      "sha256": "d5eba22a6ef4631c9976547274123a0db87eaa7c54aa276748fd11b148244479"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/normalized.png",
+      "sha256": "3e71c08de981513c614e79817df85c97ae7e06683b1976fa1ffccd3048fa4cf9"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/normalized.svg",
+      "sha256": "0c19b7f1f06b74e8546200a0e2381492585b6bd96d155f00f99177b316d2eee8"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/particles.png",
+      "sha256": "ab577ad7aaa9758ff6ee485030f49d0c61407c1ad2e4d7a9895653f15565ffa0"
+    },
+    {
+      "path": "analysis/xingshu-v2/prototype-1.2/video-frame.png",
+      "sha256": "b4046faa38e5db8780b58cb878ca83cd3e50e12817a3d77d6485c9575089b399"
+    },
+    {
+      "path": "analysis/xingshu-v2/quality/masks-complete.png",
+      "sha256": "1ec7eb03e0986f80e79f604362f30f4e7458963d949825a1564675fff8628ff2"
+    },
+    {
+      "path": "analysis/xingshu-v2/quality/masks-partial.png",
+      "sha256": "70cac9938149ab1222b7f45c59a342e649fdc7844277e50cae078a8f4c0b15fa"
+    },
+    {
+      "path": "analysis/xingshu-v2/quality/masks-reference.png",
+      "sha256": "1ec7eb03e0986f80e79f604362f30f4e7458963d949825a1564675fff8628ff2"
+    },
+    {
+      "path": "analysis/xingshu-v2/quality/masks.json",
+      "sha256": "a580c11d02d9bd28fa2c83a2bfc4e580b30e34ee509c274b746666204dbe7f62"
+    },
+    {
+      "path": "analysis/xingshu-v2/redesign-audit.json",
+      "sha256": "3f2b6e5d2dd14a14ee5626660dc50f41a6f1419fa4d7dd4b9a673b9c26c26651"
+    },
+    {
+      "path": "analysis/xingshu-v2/rejected-shoulder/artwork.json",
+      "sha256": "17389d418baf639d61e3f317c3771948a5eb158fa06d0f9f0e144f34c6d132f3"
+    },
+    {
+      "path": "analysis/xingshu-v2/rejected-shoulder/normalized.png",
+      "sha256": "208b82ce28e02a72c12683678b58cd0407ebfa3ff4dc28a4b63ecbd029848f34"
+    },
+    {
+      "path": "analysis/xingshu-v2/requirements-audit.md",
+      "sha256": "92e90070b601e8c735eaae483f49c5fc090de844081bdaf6d1a8d37d6aeb6395"
+    },
+    {
+      "path": "analysis/xingshu-v2/review-page-smoke.json",
+      "sha256": "79773e6a0bb34c12ea1e6f9111bfa1e6f3ba0d6743ef6cc11975a903c9536599"
+    },
+    {
+      "path": "analysis/xingshu-v2/review.html",
+      "sha256": "18a593f8319dc6bbb7af239ffc3a9aa1412e8460edb88abb746005577b36bba9"
+    },
+    {
+      "path": "analysis/xingshu-v2/standard/normalized.png",
+      "sha256": "9613013a111dda29f2aa248d4d818c76661889cd626f84417b59c79aed8f64be"
+    },
+    {
+      "path": "analysis/xingshu-v2/standard/normalized.svg",
+      "sha256": "da55f0e167450f5e3ade47975bccd675cd03e76b23df5470561564defefac44f"
+    },
+    {
+      "path": "analysis/xingshu-v2/standard/video-frame.png",
+      "sha256": "5a7af128481ac5b5f248768c365b4a745edfd2788550890d23f1501203b5730c"
+    },
+    {
+      "path": "analysis/xingshu-v2/unit-tests.tap",
+      "sha256": "159d5a72c28684b045b55dabcce2268fdb504f775d8b77fb725ecd383c0d2d5c"
+    },
+    {
+      "path": "analysis/xingshu-v2/visual-review.md",
+      "sha256": "0cec45cc2eb19748ff1d3a766724e2d4512f16d27bfe8b160fc610cd57664ed4"
+    },
+    {
+      "path": "analysis/xingshu-v2/visual-spec.md",
+      "sha256": "5b2de02d03b620378dc13558dcb429c064b5a4ddf28e28d2e4b2be6fef31a30b"
+    },
+    {
+      "path": "data/xingshu/v0.2.0/artwork.json",
+      "sha256": "1d7756fc999aa530c25f06c6a2a6907b6a607f6dcf8aa636a1bdb44b65dc4fe1"
+    },
+    {
+      "path": "data/xingshu/v0.2.0/candidates/a/artwork.json",
+      "sha256": "51e0d96603f0dd6f298b9f43ca32c6b0181a513e354d7742461fd565e03f9805"
+    },
+    {
+      "path": "data/xingshu/v0.2.0/candidates/a/hao.json",
+      "sha256": "3e1557a5cee0f82d97612c3c348142b9f5ee80432db9ab7acb16f98f09902fb3"
+    },
+    {
+      "path": "data/xingshu/v0.2.0/candidates/a/manifest.json",
+      "sha256": "7bc804554d81eecf468dada02495209a143917c4e12586d6c5d5bae99bc088a2"
+    },
+    {
+      "path": "data/xingshu/v0.2.0/candidates/a/ni.json",
+      "sha256": "fc10d2e1ba2cd16b2fc99faa2f4ef114640f3afe105cef5696a2a645c51ef4d9"
+    },
+    {
+      "path": "data/xingshu/v0.2.0/candidates/b/artwork.json",
+      "sha256": "ee2e0237204058ec07123da0b11d270c3cd289bca1a738e9db9bc01133dcb55c"
+    },
+    {
+      "path": "data/xingshu/v0.2.0/candidates/b/hao.json",
+      "sha256": "015b8c8576e4c9ef9d2563c3fa37954d2d65800c525249be8a9fefb19208a0a7"
+    },
+    {
+      "path": "data/xingshu/v0.2.0/candidates/b/manifest.json",
+      "sha256": "bbc74509cad79d88e1078f9cabc4faa51be7fd284cc2eccb3b2970f89356cdce"
+    },
+    {
+      "path": "data/xingshu/v0.2.0/candidates/b/ni.json",
+      "sha256": "92a85649cc1120c56d406115af09491e5a34c7a4286734f9656b66466c4ac778"
+    },
+    {
+      "path": "data/xingshu/v0.2.0/designs.mjs",
+      "sha256": "83aa8d10cecb40b7ccf70badb9136e827742d35608591cf88482f89cb5f1496a"
+    },
+    {
+      "path": "data/xingshu/v0.2.0/hao.json",
+      "sha256": "d2109e8977397579c69abc06488b35f77b31a8c3c12120db673528d1c3bfb166"
+    },
+    {
+      "path": "data/xingshu/v0.2.0/manifest.json",
+      "sha256": "e8b56291fc1a471fc53a56a2cb9a7aedcb467f1c0c5b2db9ec60a5459c750d4b"
+    },
+    {
+      "path": "data/xingshu/v0.2.0/ni.json",
+      "sha256": "e48ca1d8b4772ff48f76298e8fb30e5b91bad2670d3616c800163af9335154b2"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "6895bb04944a22d67966987c7881220df6001156f74aebfd7669e7d13576fce0"
+    },
+    {
+      "path": "package.json",
+      "sha256": "b6f2e11854bde316076076191b51821a91387475510accc07529b3567612758c"
+    },
+    {
+      "path": "playwright.config.js",
+      "sha256": "b8e8565a957b8f92b78de2c534c744506a150f8b6c2d3c6c7e02e6ebf025392b"
+    },
+    {
+      "path": "playwright.desktop.config.js",
+      "sha256": "d88f0d11c3d74723e055ec38b6a55414abbb8ec14a798e43242ba33049b6893d"
+    },
+    {
+      "path": "prompt/prompt_04.txt",
+      "sha256": "91c27c5da53a93a96b5b2696b10e3d3c58aaf8aa051f38729b434d11b1d86535"
+    },
+    {
+      "path": "public/experiments/xingshu-v0.2.0/ARPHICPL.TXT",
+      "sha256": "5590533436c70f10f2f524ee61456238c290175c6662fbe1c700b5f038a6d328"
+    },
+    {
+      "path": "public/experiments/xingshu-v0.2.0/artwork.json",
+      "sha256": "1d7756fc999aa530c25f06c6a2a6907b6a607f6dcf8aa636a1bdb44b65dc4fe1"
+    },
+    {
+      "path": "public/experiments/xingshu-v0.2.0/connection-review.json",
+      "sha256": "fc05333e8e793c049986545551c4968d967eada9aa8c161096969a7a8ae93778"
+    },
+    {
+      "path": "public/experiments/xingshu-v0.2.0/designs.mjs",
+      "sha256": "83aa8d10cecb40b7ccf70badb9136e827742d35608591cf88482f89cb5f1496a"
+    },
+    {
+      "path": "public/experiments/xingshu-v0.2.0/hao.json",
+      "sha256": "d2109e8977397579c69abc06488b35f77b31a8c3c12120db673528d1c3bfb166"
+    },
+    {
+      "path": "public/experiments/xingshu-v0.2.0/manifest.json",
+      "sha256": "e8b56291fc1a471fc53a56a2cb9a7aedcb467f1c0c5b2db9ec60a5459c750d4b"
+    },
+    {
+      "path": "public/experiments/xingshu-v0.2.0/ni.json",
+      "sha256": "e48ca1d8b4772ff48f76298e8fb30e5b91bad2670d3616c800163af9335154b2"
+    },
+    {
+      "path": "public/experiments/xingshu-v0.2.0/provenance.json",
+      "sha256": "38228b8f63ebe7063cd514f4eb8e2950738ebb0fba4c44c871c39ff73611d334"
+    },
+    {
+      "path": "scripts/audit-xingshu-redesign.mjs",
+      "sha256": "07b84f8c2a100f646e03ded708370f36f2430629bddeff220281a20eabe21ecf"
+    },
+    {
+      "path": "scripts/build-xingshu-v2.mjs",
+      "sha256": "77a862991a28f082dabde3f6a7cea11e8d1f130ffd0d964e348b12d1059db4aa"
+    },
+    {
+      "path": "scripts/calibrate-xingshu-v2.mjs",
+      "sha256": "acb6318b11184dc1bf3dfd1340aaf38aa3dea35bbfe63dccd7ecc9e6d339e6c7"
+    },
+    {
+      "path": "scripts/capture-xingshu-round2.mjs",
+      "sha256": "c01b20e2b2962d4011f34a80256e8e3071bfee196dd43f15dd0a70c8f394bec3"
+    },
+    {
+      "path": "scripts/render-xingshu-round2.mjs",
+      "sha256": "a039741c221cba29e49862fc6eda0974b3df499d07da4602127e17943f5ade49"
+    },
+    {
+      "path": "scripts/review-xingshu-round2.mjs",
+      "sha256": "9e0e984df9e3ce53cfd18ec099468fc55d9547752287cbb73148b6273ef5f6a2"
+    },
+    {
+      "path": "scripts/serve-xingshu-study.mjs",
+      "sha256": "6e7f87d3562f08fdafc3796552fbd9a42353b8fb7866da762fb327fe61c43973"
+    },
+    {
+      "path": "scripts/verify-xingshu-v2-acceptance.mjs",
+      "sha256": "3bca227b7440a4a42c42523d1d6bd596de6ec8a5834572d68ba88162c169b763"
+    },
+    {
+      "path": "scripts/verify-xingshu-v2-masks.mjs",
+      "sha256": "7f86070ecb4e05560a7817c469136c527bd5c78ac808fc52f26b0290de026198"
+    },
+    {
+      "path": "scripts/verify-xingshu-v2-production.mjs",
+      "sha256": "b11a0a9f26042205cc6781798b3064f88ad8f616e35f94eb9ffd07eec830d076"
+    },
+    {
+      "path": "scripts/xingshu-connection-audit.mjs",
+      "sha256": "7f4bef14b5917ed8ad0a65049cd11d8f6481fab2dd8aa08e4f60f12b5bc9ee7f"
+    },
+    {
+      "path": "src/App.jsx",
+      "sha256": "85c33a1d57c5e1eefa8386b1aab9d254556b7af3be66731d43c242b5c6bcc0b7"
+    },
+    {
+      "path": "src/animation/SignatureController.js",
+      "sha256": "d969bdf59577fd9477abef147dfd5b524ccabc6aec3033ee0ad7b383b29692a5"
+    },
+    {
+      "path": "src/components/SignatureInput.jsx",
+      "sha256": "a9a531605285ff2bc652de2be19e33c67e67417176375ec69aac987b2ff84700"
+    },
+    {
+      "path": "src/handwriting/GlyphCache.js",
+      "sha256": "0d4abad2e5f9839ab38da7a300e6f30de590ea3a7ca9b8b7e4b0b5fe62527ef0"
+    },
+    {
+      "path": "src/handwriting/GlyphLoader.js",
+      "sha256": "3750094a9dfd20419e9cbba6541503a68831e28ade851936e6eb658121149800"
+    },
+    {
+      "path": "src/handwriting/generated/manifest.json",
+      "sha256": "12cd2478eca9b88904c87e7752e7c9f2a45bf200e20177e0f3e8be598d3865a0"
+    },
+    {
+      "path": "src/handwriting/glyphs.js",
+      "sha256": "67f923ed009f13c554db047ffd54a25cf438bc1210ae0be97081e43e7fd3f89b"
+    },
+    {
+      "path": "src/handwriting/inkRenderer.js",
+      "sha256": "7120f54d02ec3775e17d33896b607d9e14fbf62fcdff7ed13a7b2037c30846fe"
+    },
+    {
+      "path": "src/handwriting/motionRhythm.js",
+      "sha256": "4f75f4a22da624542383ea2ab4b50858f03a312f6c2608a629abb992be1904c0"
+    },
+    {
+      "path": "src/handwriting/signature.js",
+      "sha256": "07812dd35c49fae74b0e0989a54820af9bb2c3b724eea3eeaacc2087fd1d1e8e"
+    },
+    {
+      "path": "src/handwriting/signatureLimits.json",
+      "sha256": "a6433c35a77b7aa400b23396a6c739f3593c0bc74789b822509c653721a738fe"
+    },
+    {
+      "path": "src/handwriting/symbols.js",
+      "sha256": "774b92a696af32d8b41850dac969eadf21e47659644f00f299ab538bb7edb568"
+    },
+    {
+      "path": "src/handwriting/writingPlan.js",
+      "sha256": "fdac744c0de0efe029d2f943759d0746280a866e1762e857648ed8962d2650e2"
+    },
+    {
+      "path": "src/handwriting/xingshuRegistry.js",
+      "sha256": "0c8a5da413c3003d0057e0180aa14e57eeac95d1c1a0a45d61e5f6186784e951"
+    },
+    {
+      "path": "src/main.jsx",
+      "sha256": "1d98bca1d5bc2c088f8f02e4f9898101ce3d1a2ccf0039afe522df217d5f1c8f"
+    },
+    {
+      "path": "src/scene/InkParticles.js",
+      "sha256": "f72d4ff6af8ef5d00b83c77a93872ad99c65bf1e2b332f530dfc135e7b06fdb9"
+    },
+    {
+      "path": "src/scene/PencilScene.js",
+      "sha256": "ab0c1b43b2c7467aa9376635e813cf2193988f69de6cdbf1bc86dfd28ded0359"
+    },
+    {
+      "path": "src/scene/softPaperShadow.js",
+      "sha256": "cff1d838f054e1edbced13b606468b562e2c5748ffec6242c36e52a779ea592f"
+    },
+    {
+      "path": "src/styles.css",
+      "sha256": "6f8fa055facd948bb892e2aec3b544af6b9960857f9163325c172d5aa5a59d52"
+    },
+    {
+      "path": "tests/browser/chinese.spec.js",
+      "sha256": "1e0c46df3433a0d4ec3c2bc0a39856ede50907c56ed563f3180526e3ef1916f4"
+    },
+    {
+      "path": "tests/browser/desktop.spec.js",
+      "sha256": "b993258449ac98773e8fea8ae77ef6b2354e2c9a18712657495895dd3343135b"
+    },
+    {
+      "path": "tests/browser/particles-stagger.spec.js",
+      "sha256": "b380b5ddf39cbccbafbff41df80d985effb69a09555b91f18aa8a406fd80e16b"
+    },
+    {
+      "path": "tests/browser/resize-motion.spec.js",
+      "sha256": "d014abab15150a3bc9c88d372591d873170918059f1a196b5bf0c349bed7717e"
+    },
+    {
+      "path": "tests/browser/signature.spec.js",
+      "sha256": "05a0bd78ae9d89f07d5c0ecb40411f7dce30d8dae11f87c5d455d9f11c2e8bfe"
+    },
+    {
+      "path": "tests/browser/xingshu.spec.js",
+      "sha256": "755b4068e36689bd4af7c00a897dd875a18e84da8f43986a5d346c5436a37c66"
+    },
+    {
+      "path": "tests/fixtures/lifecycle.html",
+      "sha256": "c775f5383e0b34e1e46ace9d76f82b44f103616b88f18d313d81ed987b78286d"
+    },
+    {
+      "path": "tests/fixtures/lifecycle.jsx",
+      "sha256": "938de65a2760434e1c9c56a832e884884ce699616f7aeb50eb9e97c6f6c0dfd2"
+    },
+    {
+      "path": "tests/fixtures/masks.html",
+      "sha256": "a4d4a86014eee960c48b02f3301450de159a070303ae08cb558e05744150ba41"
+    },
+    {
+      "path": "tests/fixtures/sources.html",
+      "sha256": "39782be349f6d3e5251a4f8596531cededc984cf2f52bf69129aaa3300a70fc1"
+    },
+    {
+      "path": "tests/glyph-loader.test.js",
+      "sha256": "0b5b27af2e4c64cc1f532ed6719fd2591d6eec8afb56f9e7feff78c17f02e441"
+    },
+    {
+      "path": "tests/handwriting.test.js",
+      "sha256": "5fa95a022447f286efdc14192c0f9dd98a7b181d7aff477f0e31439071c43c00"
+    },
+    {
+      "path": "tests/test_glyph_pipeline.py",
+      "sha256": "51b595ca72681576dac975638cc06c80be295fb0a9f3bf5068fa5f3f57b50215"
+    },
+    {
+      "path": "tests/writing-plan.test.js",
+      "sha256": "0edcf30c18cf4538fa551c48282150dd1c8ee9bb94033032f84e3cd279fa92e3"
+    },
+    {
+      "path": "tests/xingshu.test.js",
+      "sha256": "cd76380ee009eb66f97a5d2d530c7ba4e65880be9363bd7746a1f167369431e3"
+    }
+  ],
+  "changedFiles": [
+    ".gitattributes",
+    "AGENTS.md",
+    "README.md",
+    "analysis/xingshu-v2/a/artwork/geometry.json",
+    "analysis/xingshu-v2/a/artwork/nihao.png",
+    "analysis/xingshu-v2/a/artwork/nihao.svg",
+    "analysis/xingshu-v2/a/artwork/overlay.png",
+    "analysis/xingshu-v2/a/artwork/overlay.svg",
+    "analysis/xingshu-v2/a/artwork/strokes.png",
+    "analysis/xingshu-v2/a/artwork/strokes.svg",
+    "analysis/xingshu-v2/a/capture.json",
+    "analysis/xingshu-v2/a/frame-01.png",
+    "analysis/xingshu-v2/a/frame-02.png",
+    "analysis/xingshu-v2/a/frame-03.png",
+    "analysis/xingshu-v2/a/frame-04.png",
+    "analysis/xingshu-v2/a/frame-05.png",
+    "analysis/xingshu-v2/a/frame-06.png",
+    "analysis/xingshu-v2/a/frame-07.png",
+    "analysis/xingshu-v2/a/frame-08.png",
+    "analysis/xingshu-v2/a/frame-09.png",
+    "analysis/xingshu-v2/a/frame-10.png",
+    "analysis/xingshu-v2/a/frame-11.png",
+    "analysis/xingshu-v2/a/hao-full.png",
+    "analysis/xingshu-v2/a/hao-ink-only.png",
+    "analysis/xingshu-v2/a/hao.svg",
+    "analysis/xingshu-v2/a/live.webm",
+    "analysis/xingshu-v2/a/ni-full.png",
+    "analysis/xingshu-v2/a/ni-ink-only.png",
+    "analysis/xingshu-v2/a/ni.svg",
+    "analysis/xingshu-v2/a/nihao-full.png",
+    "analysis/xingshu-v2/a/nihao-ink-only.png",
+    "analysis/xingshu-v2/a/nihao.svg",
+    "analysis/xingshu-v2/a/normalized.png",
+    "analysis/xingshu-v2/a/normalized.svg",
+    "analysis/xingshu-v2/a/particles.png",
+    "analysis/xingshu-v2/a/video-frame.png",
+    "analysis/xingshu-v2/acceptance.json",
+    "analysis/xingshu-v2/acceptance.md",
+    "analysis/xingshu-v2/b/artwork/geometry.json",
+    "analysis/xingshu-v2/b/artwork/nihao.png",
+    "analysis/xingshu-v2/b/artwork/nihao.svg",
+    "analysis/xingshu-v2/b/artwork/overlay.png",
+    "analysis/xingshu-v2/b/artwork/overlay.svg",
+    "analysis/xingshu-v2/b/artwork/strokes.png",
+    "analysis/xingshu-v2/b/artwork/strokes.svg",
+    "analysis/xingshu-v2/b/capture.json",
+    "analysis/xingshu-v2/b/frame-01.png",
+    "analysis/xingshu-v2/b/frame-02.png",
+    "analysis/xingshu-v2/b/frame-03.png",
+    "analysis/xingshu-v2/b/frame-04.png",
+    "analysis/xingshu-v2/b/frame-05.png",
+    "analysis/xingshu-v2/b/frame-06.png",
+    "analysis/xingshu-v2/b/frame-07.png",
+    "analysis/xingshu-v2/b/frame-08.png",
+    "analysis/xingshu-v2/b/frame-09.png",
+    "analysis/xingshu-v2/b/frame-10.png",
+    "analysis/xingshu-v2/b/frame-11.png",
+    "analysis/xingshu-v2/b/hao-full.png",
+    "analysis/xingshu-v2/b/hao-ink-only.png",
+    "analysis/xingshu-v2/b/hao.svg",
+    "analysis/xingshu-v2/b/live.webm",
+    "analysis/xingshu-v2/b/ni-full.png",
+    "analysis/xingshu-v2/b/ni-ink-only.png",
+    "analysis/xingshu-v2/b/ni.svg",
+    "analysis/xingshu-v2/b/nihao-full.png",
+    "analysis/xingshu-v2/b/nihao-ink-only.png",
+    "analysis/xingshu-v2/b/nihao.svg",
+    "analysis/xingshu-v2/b/normalized.png",
+    "analysis/xingshu-v2/b/normalized.svg",
+    "analysis/xingshu-v2/b/particles.png",
+    "analysis/xingshu-v2/b/video-frame.png",
+    "analysis/xingshu-v2/before-after.png",
+    "analysis/xingshu-v2/browser/adaptive-quality.json",
+    "analysis/xingshu-v2/browser/cache-cycles.json",
+    "analysis/xingshu-v2/browser/chromium-results.json",
+    "analysis/xingshu-v2/browser/clean-lifts.json",
+    "analysis/xingshu-v2/browser/connections-shadow.json",
+    "analysis/xingshu-v2/browser/contact-fault.json",
+    "analysis/xingshu-v2/browser/desktop-browsers.json",
+    "analysis/xingshu-v2/browser/edge-result.json",
+    "analysis/xingshu-v2/browser/edge-written.png",
+    "analysis/xingshu-v2/browser/fault-erase.json",
+    "analysis/xingshu-v2/browser/fault-lift.json",
+    "analysis/xingshu-v2/browser/fault-loading.json",
+    "analysis/xingshu-v2/browser/fault-particle-draw.json",
+    "analysis/xingshu-v2/browser/fault-particles.json",
+    "analysis/xingshu-v2/browser/fault-preflight.json",
+    "analysis/xingshu-v2/browser/fault-stroke.json",
+    "analysis/xingshu-v2/browser/faults.json",
+    "analysis/xingshu-v2/browser/firefox-result.json",
+    "analysis/xingshu-v2/browser/firefox-written.png",
+    "analysis/xingshu-v2/browser/hao-test.json",
+    "analysis/xingshu-v2/browser/mixed-particles.png",
+    "analysis/xingshu-v2/browser/mixed-writing.png",
+    "analysis/xingshu-v2/browser/mixed-written.png",
+    "analysis/xingshu-v2/browser/motion-during-erase.json",
+    "analysis/xingshu-v2/browser/ni-test.json",
+    "analysis/xingshu-v2/browser/particle-order.json",
+    "analysis/xingshu-v2/browser/prototype-motion-resize.json",
+    "analysis/xingshu-v2/browser/prototype-particles.json",
+    "analysis/xingshu-v2/browser/prototype-particles.png",
+    "analysis/xingshu-v2/browser/resize-motion.json",
+    "analysis/xingshu-v2/browser/single-line-resize.png",
+    "analysis/xingshu-v2/browser/single-line-spaces.png",
+    "analysis/xingshu-v2/browser/synchronization.json",
+    "analysis/xingshu-v2/browser/unmount.json",
+    "analysis/xingshu-v2/browser/webkit-result.json",
+    "analysis/xingshu-v2/browser/webkit-written.png",
+    "analysis/xingshu-v2/build-output.txt",
+    "analysis/xingshu-v2/changed-files.json",
+    "analysis/xingshu-v2/changed-files.md",
+    "analysis/xingshu-v2/comparison.json",
+    "analysis/xingshu-v2/comparison.png",
+    "analysis/xingshu-v2/connection-review.md",
+    "analysis/xingshu-v2/connections.png",
+    "analysis/xingshu-v2/connections.svg",
+    "analysis/xingshu-v2/engineering-audit.md",
+    "analysis/xingshu-v2/english/desktop-amy.png",
+    "analysis/xingshu-v2/english/desktop-initial.png",
+    "analysis/xingshu-v2/english/desktop-particles.png",
+    "analysis/xingshu-v2/english/desktop-writing.png",
+    "analysis/xingshu-v2/english/desktop-written.png",
+    "analysis/xingshu-v2/english/english-ink-diff.json",
+    "analysis/xingshu-v2/english/english-ink-diff.png",
+    "analysis/xingshu-v2/english/long-name.png",
+    "analysis/xingshu-v2/english/mobile-initial.png",
+    "analysis/xingshu-v2/english/mobile-written.png",
+    "analysis/xingshu-v2/english/responsive.json",
+    "analysis/xingshu-v2/english/synchronization.json",
+    "analysis/xingshu-v2/final/artwork/geometry.json",
+    "analysis/xingshu-v2/final/artwork/nihao.png",
+    "analysis/xingshu-v2/final/artwork/nihao.svg",
+    "analysis/xingshu-v2/final/artwork/overlay.png",
+    "analysis/xingshu-v2/final/artwork/overlay.svg",
+    "analysis/xingshu-v2/final/artwork/strokes.png",
+    "analysis/xingshu-v2/final/artwork/strokes.svg",
+    "analysis/xingshu-v2/final/capture.json",
+    "analysis/xingshu-v2/final/frame-01.png",
+    "analysis/xingshu-v2/final/frame-02.png",
+    "analysis/xingshu-v2/final/frame-03.png",
+    "analysis/xingshu-v2/final/frame-04.png",
+    "analysis/xingshu-v2/final/frame-05.png",
+    "analysis/xingshu-v2/final/frame-06.png",
+    "analysis/xingshu-v2/final/frame-07.png",
+    "analysis/xingshu-v2/final/frame-08.png",
+    "analysis/xingshu-v2/final/frame-09.png",
+    "analysis/xingshu-v2/final/frame-10.png",
+    "analysis/xingshu-v2/final/frame-11.png",
+    "analysis/xingshu-v2/final/hao-full.png",
+    "analysis/xingshu-v2/final/hao-ink-only.png",
+    "analysis/xingshu-v2/final/hao.svg",
+    "analysis/xingshu-v2/final/keyframes.png",
+    "analysis/xingshu-v2/final/live.webm",
+    "analysis/xingshu-v2/final/ni-full.png",
+    "analysis/xingshu-v2/final/ni-ink-only.png",
+    "analysis/xingshu-v2/final/ni.svg",
+    "analysis/xingshu-v2/final/nihao-full.png",
+    "analysis/xingshu-v2/final/nihao-ink-only.png",
+    "analysis/xingshu-v2/final/nihao.svg",
+    "analysis/xingshu-v2/final/normalized.png",
+    "analysis/xingshu-v2/final/normalized.svg",
+    "analysis/xingshu-v2/final/particles.png",
+    "analysis/xingshu-v2/final/video-frame.png",
+    "analysis/xingshu-v2/media-audit.json",
+    "analysis/xingshu-v2/performance/140-segment-boundary.png",
+    "analysis/xingshu-v2/performance/32-character-boundary.png",
+    "analysis/xingshu-v2/performance/calibration.json",
+    "analysis/xingshu-v2/performance/english.png",
+    "analysis/xingshu-v2/performance/hao.png",
+    "analysis/xingshu-v2/performance/mixed.png",
+    "analysis/xingshu-v2/performance/near-duration-floor.png",
+    "analysis/xingshu-v2/performance/ni.png",
+    "analysis/xingshu-v2/performance/nihao.png",
+    "analysis/xingshu-v2/performance/readability-floor.png",
+    "analysis/xingshu-v2/production/desktop-dpr-1.png",
+    "analysis/xingshu-v2/production/desktop-dpr-2.png",
+    "analysis/xingshu-v2/production/desktop-dpr-3.png",
+    "analysis/xingshu-v2/production/particles.png",
+    "analysis/xingshu-v2/production/production.json",
+    "analysis/xingshu-v2/production/writing.png",
+    "analysis/xingshu-v2/prototype-1.2/capture.json",
+    "analysis/xingshu-v2/prototype-1.2/frame-01.png",
+    "analysis/xingshu-v2/prototype-1.2/frame-02.png",
+    "analysis/xingshu-v2/prototype-1.2/frame-03.png",
+    "analysis/xingshu-v2/prototype-1.2/frame-04.png",
+    "analysis/xingshu-v2/prototype-1.2/frame-05.png",
+    "analysis/xingshu-v2/prototype-1.2/frame-06.png",
+    "analysis/xingshu-v2/prototype-1.2/frame-07.png",
+    "analysis/xingshu-v2/prototype-1.2/frame-08.png",
+    "analysis/xingshu-v2/prototype-1.2/frame-09.png",
+    "analysis/xingshu-v2/prototype-1.2/frame-10.png",
+    "analysis/xingshu-v2/prototype-1.2/frame-11.png",
+    "analysis/xingshu-v2/prototype-1.2/hao-full.png",
+    "analysis/xingshu-v2/prototype-1.2/hao-ink-only.png",
+    "analysis/xingshu-v2/prototype-1.2/hao.svg",
+    "analysis/xingshu-v2/prototype-1.2/live.webm",
+    "analysis/xingshu-v2/prototype-1.2/ni-full.png",
+    "analysis/xingshu-v2/prototype-1.2/ni-ink-only.png",
+    "analysis/xingshu-v2/prototype-1.2/ni.svg",
+    "analysis/xingshu-v2/prototype-1.2/nihao-full.png",
+    "analysis/xingshu-v2/prototype-1.2/nihao-ink-only.png",
+    "analysis/xingshu-v2/prototype-1.2/nihao.svg",
+    "analysis/xingshu-v2/prototype-1.2/normalized.png",
+    "analysis/xingshu-v2/prototype-1.2/normalized.svg",
+    "analysis/xingshu-v2/prototype-1.2/particles.png",
+    "analysis/xingshu-v2/prototype-1.2/video-frame.png",
+    "analysis/xingshu-v2/quality/masks-complete.png",
+    "analysis/xingshu-v2/quality/masks-partial.png",
+    "analysis/xingshu-v2/quality/masks-reference.png",
+    "analysis/xingshu-v2/quality/masks.json",
+    "analysis/xingshu-v2/redesign-audit.json",
+    "analysis/xingshu-v2/rejected-shoulder/artwork.json",
+    "analysis/xingshu-v2/rejected-shoulder/normalized.png",
+    "analysis/xingshu-v2/requirements-audit.md",
+    "analysis/xingshu-v2/review-page-smoke.json",
+    "analysis/xingshu-v2/review.html",
+    "analysis/xingshu-v2/standard/normalized.png",
+    "analysis/xingshu-v2/standard/normalized.svg",
+    "analysis/xingshu-v2/standard/video-frame.png",
+    "analysis/xingshu-v2/unit-tests.tap",
+    "analysis/xingshu-v2/visual-review.md",
+    "analysis/xingshu-v2/visual-spec.md",
+    "data/xingshu/README.md",
+    "data/xingshu/v0.2.0/artwork.json",
+    "data/xingshu/v0.2.0/candidates/a/artwork.json",
+    "data/xingshu/v0.2.0/candidates/a/hao.json",
+    "data/xingshu/v0.2.0/candidates/a/manifest.json",
+    "data/xingshu/v0.2.0/candidates/a/ni.json",
+    "data/xingshu/v0.2.0/candidates/b/artwork.json",
+    "data/xingshu/v0.2.0/candidates/b/hao.json",
+    "data/xingshu/v0.2.0/candidates/b/manifest.json",
+    "data/xingshu/v0.2.0/candidates/b/ni.json",
+    "data/xingshu/v0.2.0/designs.mjs",
+    "data/xingshu/v0.2.0/hao.json",
+    "data/xingshu/v0.2.0/manifest.json",
+    "data/xingshu/v0.2.0/ni.json",
+    "package-lock.json",
+    "package.json",
+    "playwright.config.js",
+    "playwright.desktop.config.js",
+    "prompt/prompt_04.txt",
+    "public/experiments/xingshu-v0.2.0/ARPHICPL.TXT",
+    "public/experiments/xingshu-v0.2.0/artwork.json",
+    "public/experiments/xingshu-v0.2.0/connection-review.json",
+    "public/experiments/xingshu-v0.2.0/designs.mjs",
+    "public/experiments/xingshu-v0.2.0/hao.json",
+    "public/experiments/xingshu-v0.2.0/manifest.json",
+    "public/experiments/xingshu-v0.2.0/ni.json",
+    "public/experiments/xingshu-v0.2.0/provenance.json",
+    "scripts/audit-xingshu-redesign.mjs",
+    "scripts/build-xingshu-v2.mjs",
+    "scripts/calibrate-xingshu-v2.mjs",
+    "scripts/capture-xingshu-round2.mjs",
+    "scripts/render-xingshu-round2.mjs",
+    "scripts/review-xingshu-round2.mjs",
+    "scripts/serve-xingshu-study.mjs",
+    "scripts/verify-xingshu-v2-acceptance.mjs",
+    "scripts/verify-xingshu-v2-masks.mjs",
+    "scripts/verify-xingshu-v2-production.mjs",
+    "scripts/xingshu-connection-audit.mjs",
+    "src/handwriting/xingshuRegistry.js",
+    "tests/browser/chinese.spec.js",
+    "tests/browser/desktop.spec.js",
+    "tests/browser/particles-stagger.spec.js",
+    "tests/browser/resize-motion.spec.js",
+    "tests/browser/signature.spec.js",
+    "tests/browser/xingshu.spec.js",
+    "tests/xingshu.test.js",
+    "wiki_memory/当前状态/已知问题.md",
+    "wiki_memory/当前状态/当前待办.md",
+    "wiki_memory/当前状态/当前约束.md",
+    "wiki_memory/当前状态/系统架构.md",
+    "wiki_memory/当前状态/项目概览.md",
+    "wiki_memory/日志/MOC_工作日志.md",
+    "wiki_memory/日志/UI修改/2026-10-30-硬笔行书第二轮重画.md"
+  ],
+  "limitations": [
+    "User aesthetic approval remains pending; no main merge or expansion.",
+    "Desktop headless measurements with SwiftShader allowed; not a guarantee for every GPU.",
+    "No mobile-specific development, online deployment or human calligraphy certification."
+  ]
+}
